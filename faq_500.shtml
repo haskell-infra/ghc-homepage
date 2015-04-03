@@ -1,0 +1,120 @@
+<html>
+
+<head>
+<title>GHC 5.00.2 Mini-FAQ</title>
+</head>
+
+<body bgcolor="white">
+
+<h2>GHC 5.00.2 Mini-FAQ</h2>
+
+This page lists known problems for the 5.00.2 release, with workarounds.
+
+<ul>
+
+  <li>The interactive system complains about missing symbols like
+  <tt>CC_LIST</tt> when loading previously compiled .o files.
+  <p>
+  This probably means the .o files in question were compiled for
+  profiling
+  (with <tt>-prof</tt>).  Workaround: recompile them without
+  profiling.  We really ought to detect this situation and give a
+  proper
+  error message.
+  <p>
+  </li>
+
+  <li>Not really a bug, but ... if the interactive system complains
+  about
+  missing symbols in a library, and you know those symbols should be
+  supplied by a shared object (<tt>.so</tt>) file, remember that you
+  can specify names of <tt>.so</tt>'s on the ghci command line.  These
+  extra libraries are then also searched by the runtime linker.
+  You can also use the <tt>-L</tt> and <tt>-l</tt> flags on the ghci
+  command line, and they work in the usual way.
+  </p>
+  </li>
+
+  <li>Linking a program causes the following error on Linux:
+  <pre>
+  /usr/bin/ld: cannot open -lgmp: No such file or directory
+  </pre>
+   The problem is that your system doesn't have the GMP library
+  installed.  If this is a RedHat distribution, install the
+  RedHat-supplied gmp-devel package, and the gmp package if you don't
+  already have it.  There have been reports that installing the RedHat
+  packages also works for SuSE (SuSE don't supply a shared gmp library).
+  </li>
+
+  <p><li><p>The <tt>-funbox-strict-fields</tt> flag sometimes gives wrong
+  code.  
+  <p>
+  Workaround: don't use it.  Use of the usual <tt>-O</tt>
+  optimisation bundle is still safe, though, since it doesn't
+  include <tt>-funbox-strict-fields</tt>.  This will be fixed properly
+  in 5.02.
+  </p>
+  </li>
+
+  <li>When I try to start ghci (probably one I compiled myself) it says
+  <pre>
+   ghc-5.00.2: not built for interactive use
+  </pre>
+  To get ghci, you need to build GHC 5.00.2 with itself; the above
+  message appears if you build it with 4.08.X, for example.  It'll
+  still work fine for batch-mode compilation, though.</li>
+  <p>
+
+  <p><li><p>When I use a foreign function that takes or returns a float, it
+  gives the wrong answer, or crashes.
+  <p>You should use <a href="docs/5.00/set/sec-ffi.html"><tt>-#include</tt></a>.
+  </li>
+
+  <p><li><p>My program that uses a really large heap crashes on Windows.
+  <p>For utterly horrible reasons, programs that use more than 128Mb of heap
+  won't work when compiled dynamically on Windows (they should be fine
+  statically compiled).
+  </li>
+  
+  <p><li><p>GHC doesn't like filenames containing <tt>+</tt>.
+  <p>Indeed not. You could change <tt>+</tt> to <tt>p</tt> or <tt>plus</tt>.
+  </li>
+  
+  <p><li><p>My programs crashes on startup under Windows.
+  <p>Use <tt>cygcheck</tt> to make sure it's not loading any DLLs it
+  shouldn't be. My favourite is having a copy of <tt>gmp.dll</tt> in my
+  Windows system directory. You'll need to remove such DLLs, or copy the
+  ones you need into the same directory as the program, to make sure they're
+  used in preference to DLLs in the system directories.
+  </li>
+
+  <p><li><p>I get screenfuls of errors from GCC when I compile my
+  Haskell module.<p>If you're using the C back-end
+  (which happens by default with <tt>-O</tt>, and is mandatory for
+  <tt>-prof</tt>), then you can't use top-bit-set characters in identifiers,
+  because they are not valid in C. GHC should be mangling them, and will in
+  the next release. In the meantime, use the native backend
+  (<tt>-fasm</tt>). D&eacute;sol&eacute.
+  </li>
+
+  <p><li><p>When I open a FIFO (named pipe) and try to read from it, I
+  get EOF immediately.  <p>This is a consequence of the fact that GHC
+  opens the FIFO in non-blocking mode.  The behaviour varies from OS to
+  OS: on Linux and Solaris you can wait for a writer by doing an explicit
+  <tt>threadWaitRead</tt> on
+  the file descriptor (gotten from <tt>Posix.handleToFd</tt>) before
+  the first read, but
+  this doesn't work on FreeBSD.  A workaround for all systems is to open
+  the FIFO for writing yourself, before (or at the same time as) opening
+  it for reading.
+  </li>
+
+  <p><li><p>When I <tt>foreign import</tt> a function that returns
+  <tt>char</tt> or <tt>short</tt>, I get garbage back.
+  <p>This is a known bug, GHC currently doesn't mask out the more
+  significant bits of the result.  It doesn't manifest with gcc 2.95,
+  but apparently shows up with g++ and gcc 3.0.
+  </li>
+</ul>
+</body>
+</html>

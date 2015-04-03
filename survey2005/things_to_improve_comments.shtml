@@ -1,0 +1,1752 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--Rendered using the Haskell Html Library v0.2-->
+<HTML
+><HEAD
+><TITLE
+>Comments on &quot;Improvements I would like to see&quot;</TITLE
+></HEAD
+><BODY BGCOLOR="#e0e0e0"
+><H1
+>Comments on &quot;Improvements I would like to see&quot;</H1
+></BODY
+><TABLE ALIGN="center" WIDTH="800" CELLSPACING="10" CELLPADDING="5"
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Ability to find why a given thunk is being forced (especially a lazy field of an
+algebraic datatype).
+
+Ability to get at unexported names in GHCi (possibly after compiling with non-
+default options).
+
+Anything that helps debugging in the rare cases I don't prove my programs
+correct.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In my particular organization and line of work, distributed computing / networking support (a la Erlang) would probably turn me into a significant Haskell advocate.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'd like to be able to unwrap existential types like I can in Hugs, without getting the &quot;my brain just exploded&quot; error message.
+
+Better support for .NET.
+
+The runtime libraries can be rather large.  I'd like to see a new linking model where only functions that were actually used were linked in.  So semantically, modules would work the same - but in implementation, granularity of linking would be at the function level.
+
+I'd like to see the Chameleon extensions included in GHC.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Implicit explicit arguments. First class instances. rank-n.
+Writing exists instead of forall in constructors</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am most interested in the easy installation of libraries.  I had some trouble getting wxHaskell to compile and work.  I'm not sure that this is a GHC issue though.  Is cabal the thing that helps with this?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Coming back to the domain specific languages: I would like to have, as an alternative to Template Haskell, a Haskell parser that is simple enough for the user to modify for a DSL whose syntax is similar - but not identical - to Haskell.  This would do for syntax what Mark Jones' THIH does for types.
+
+I would also like to be able to graft in my own type system, with a very limited form of dependent types to support sized lists.  Thus we could have a new append operator (+++) with a type something like
+   (+++) :: [a]^m -&gt; [a]^n -&gt; [a]^(m+n)
+ </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm not really qualified to say. I'd love to see something like H/Direct bundled, but that is mainly because I don't have the expertise (yet) to build it for myself.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Exact location of error messages (and then it won't be necessary to show large code fragments in the messages anymore)
+2. Type error messages show terms that have the types that do not match
+3. Recursive modules without boot files (I know it's hard...)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>SUPPORT FOR FILES &gt;4GB AND UNICODE FILENAMES ON WIN32 AND OTHER PLATFORMS (please please please :)
+x86-64 platforms
+option to optimise for space (may be using bytecode?)
+imperative sub-language (extension of do-notation) which is compiled to operations on IORef's/MVar's or to usual functional code
+more flexible ways to create class tree
+generics for autocreating class instances
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>FFI is currently the main problem for me. A lot more documentation, real-world examples, would help. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Type inference: ways to anchor the inference engine to assert &quot;The type of this object is correct &quot; rather than random expect/found choices.
+
+Easy-to-use monadic support for large programs which need a great deal of context to work correctly.  The monadic notation is bizarre and very difficult
+to teach - I use lambda notation for monadic functions because the &quot;implicit argument&quot; of monadic functions is non-intuitive.  The implicit state is as disruptive as the omission of &quot;this&quot; from C++.
+
+Since a computer without I/O is a room heater, the rest is I/O centric:
+
+Printf() - x ++ y ++ (z a q) ++ &quot;\n&quot; gets really old really fast.
+
+Packaged data structure I/O: a package to take a datum and (in ASCII, not UNICODE) dump the structure, constructors, etc., and the datum contents such that the output file can be interpreted by a non-Haskell program.  This can be written manually but goes stale almost instantly and requires (for large programs) huge amounts of code.
+
+Stable, predictable, controllable assignments of numeric equivalents of types so that type encoding can be transferred to other programs (Haskell or other languages).  The inability to reliably (over program version changes) transfer data causes users to construct huge, unstable, self-inconsistent, incomprehensible programs instead of a coherent structure of simple, unifunctional, consistent, debuggable, and comprehensible small programs.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Some kind of support for associated classes, like &quot;traits classes&quot; in the C++ Standard Library.  (I know there has been recent work on this, and so I remain hopeful.)
+
+Better support for packages (but I expect that Cabal will address most of my wishes here).
+
+The Haddock docs for some of the included libraries could be a bit less parsimonious.   :)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>integration with Java (in any form) would be very nice</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>faster compilation
+debugging facility (cf. HsDebug)
+smaller code for executables</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Effeciency improvements. Dynamic linking.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Regular Windows builds to detect problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Ffi interface with external libs using gmp is dificult, because GHC reassigns the gmp allocater. It would be better if GHC could a use a private version of gmp. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Associated types (not subsumed by GADTs; I need the open-world assumption).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haven't heard of most of the features above, maybe because I'm so new to Haskell.  Does the ghc documentation explain all of these?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>This is probably a stupid comment, but if there was some sort of object system like O'Haskell it would be cool (maybe there is already and I haven't found it yet).  Also, the build process is very long and (especially) chews up an awful lot of memory; my current machine (soon to be upgraded, thank God) has only 256 meg of RAM and many of the link steps require more than that, leading to huge delays due to swapping.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would love to see more flexable ways of writing instance declarations.  It is especially a pain that only the instance head is checked and not the context as well.  It would also be nice to declare two type classes disjoint.  Then, with these things one could do things like:
+
+disjoint classes A B.
+
+instance A x =&gt; C x where some_op = ...
+instance B x =&gt; C x where some_op = ...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Actually, I think it should get more stable wrt to the libraries. The compiler and language itself has not changed much over the last year(s), but the libraries change around a bit which can be annoying because new releases always seem to happen one has no time to port one's software. 
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Non-flat modules, ex:
+
+import Graphics.UI.WX
+WX reexports Graphics.UI.WX.Events, why not allow access to it like this
+
+f = Events.somefunction
+
+instead of taking thousends of functions into the namespace.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>parallel Haskell is a big wish and up to now a disappontment. GpH  installation and integration with ghc is at leat clumsy. I always have the feeling that GpH
+is lurking in there for not to be used: tell them it exists but make sure they won't use it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Library to solve the halting problem :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Better code optimization, especially of list code.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Improvement of error messages: Make the type check report the error closer to what the programmer 
+expects (or for example track all the points that the bidirectional type checking passes through and give all of those or sth similar) </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Shared libraries in the context of using them with different tools.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>subtyping</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Better module system.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- simpler compiler errors, which are now too cryptic for students
+- dll under win32 to reduce the executable's size
+- simpler build model for packages</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- Global bindings of some sort. I'm using a lot of global IORefs.
+- A fast and pure (from the outside) Map library based on hash tables internally.
+- A functionally pure read-only I/O. Functionally pure per program run, that is.
+- Resizable arrays.
+- IORefs, and anything else that can, should derive Ord.
+- Compiler could use the profiler output and spend more time optimizing the bottlenecks.
+- Customizable compiler warnings issued when it finds some inefficient code.
+- A debugger of some kind.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Template Haskell is neat, but I would like a more versatile and comprehensive pre-processing system like OCaml's CamlP4. I would particularly like to be able to arbitrarily extend the language, and build new languages on top of Haskell as I can with CamplP4. I would also like to write meta-compilers that allow users to provide their own parser libraries, and leverage my code output mechanisms without having to recompile my entire compiler.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- GHCi should get more similiar to a Lisp REPL - e.g. need better interactive debugging capabilities.
+- The library documentation could be better
+- The make-system seems too C-like (needs e.g. automatic handling of mutually recursive modules)
+- integration of a learner-mode (as in DrScheme) would help with getting acquainted:
+  e.g.: The meaning of a &quot;forall&quot; in a type signature is hard to grasp in the beginning.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- A magic cure-all for space-leaks
+- Either a profiling tutorial making clear what I'm doing wrong or better (time)profiling. (Mysterious &quot;50% spent in main while main is hardly more than a call to another top-level function&quot; stuff, and perhaps something like per-type profiling for typeclasses.)
+- The possibility of using GMP from c-libraries, easier adding of new GMP functions (GMPs factorial, and show are rather fast..) etc. Which I'm planning to look at myself Real Soon Now(TM)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Allocate GMP limps on the C heap.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>documentation
+documentation
+documentation
+documentation
+documentation
+... you get it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- formally specified semantics for Haskell, an especially for unsafePerformIO
+  and of course a GHC respecting that semantics
+- a GUI frontend for GHCi or a all-in-one IDE for Haskell </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>kj</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think Haskell the language is already very powerful even without all of the various extentions I don't get much use out of -- I think some focus should be placed on making extentions that allow the core language to perform better.  It would be very useful to me if idiomatic Haskell compiled with GHC would perform as well or better than python/perl/etc.  I would really like to see some kind of compiler flag that specifies I would like eager evaluation as much as it's feasible.
+
+Also, it'd be nice to have readline 5 support.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>What I appreciate about Haskell and GHC's extensions to it is the consistency and the solid theoretical base behind it.  (I also like Scheme best of List dialects and Eiffel is my favorite imperative language, so that should tell you how I think.)  Frankly, I'm happy to wait for people to do the theoretic work to put a solid foundation under any new improvements.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Nothing I can think of.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>it works fine for me</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>TH documentation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Shared library support (go Wolfgang!)
+A more sane build system, so I can build it without getting a hernia :)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Better documentation (esp. examples) for Template Haskell. I have many ideas for TH, but figuring out how to use it for anything complicated takes more time than I have available.
+
+Better support for runtime loading of code - perhaps adopt hs-plugins as standard? I haven't been able to try it yet (the Windows factor again), but people seem to like it, and I'm defninitely interested in plugins and other kinds of runtime code loading.
+ 
+Not strictly a GHC issue, but GHC is the leader... Need better documentation for libraries - especially libraries that have no documentation at all, or one line descriptions of the whole module. 
+
+Faster generated code - how about the speceval work that's already been done?
+
+Anything to improve error messages (perhaps make them user-configurable somehow?) arising from complex class constraints. For examples of the kinds of error messages I'd like to see improved, see the errors resulting from any trivial mistake using http://homepages.cwi.nl/~ralf/OOHaskell/
+
+.Net interop (like Hugs.NET)
+
+Make all datatypes instances of Data and Typeable? Not sure if there are reasons not to do this...
+
+CVS snapshot builds for Windows
+
+Some better way of handling record scoping issues, so I can have more than one record type with the same names, without having to declare them in separate modules and qualify them.
+
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As I read the various Haskell discussion forums, I am constantly worried that Haskell will lose it's focus.  Having served on language standards committees, I have seen this far too often.  I suppose this is not so much a GHC concern as a Haskell concern.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A seperation between experimental features and the core, compilable language. I want to compile Haskell programs to run properly - not learn the intricacies of functional language design!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Given my inerest in Linear Algebra, I would like to see more support for matrices and vectors (e.g. natural numbers as type parameter)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Produce faster programs, preferably without requiring me to deviate from the obvious, &quot;pretty&quot;, functional way of writing them.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Integration with the CLR (.NET)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. x86_64 FFI dynamic export support so that gtk2hs will work on this platform.
+
+2. Support in the threading model / ghc rts (whatever is necessary) to allow GUI toolkits like gtk2hs/wxHaskell to use Haskell threads.
+
+3. some more detailed low-level debugging tool to investigate memory allocations</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Simple tracing without modifying source code
+More advanced tracing
+Speed
+speed
+speed
+...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- A standard GUI library
+- A &quot;:e&quot; feature similar to the one in Hugs (jump to error location in your editor)
+- A &quot;:f&quot; feature for jumping to the definition of a function or type. (also similar to Hugs)
+- A possibility to find out in which module a function is defined. Now you sometimes need to google for a function's location, while it cannot be that hard for GHC to search in the used packages.
+- Improved support for cyclic imports.
+- Better support for browsing modules, documentation, etc.
+- A way to partially specify an instance declaration, while deriving the rest. For example, when one alternative of a datatype contains a function, you could define show only for that alternative while deriving it for the others.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I find error messages cryptic. I often find the supposedly notorious error messages from C++ template metaprogramming more readable. Maybe if I were more expert in Haskell this wouldn't be an issue but it scares off beginners!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- completing Template Haskell (and making other implementations port it, at least Hugs);
+- new backend with high-level C/C#/Java output (a la Mercury) - so that I can use tiny pieces of Haskell code in larger projects without making too much noise around; so that I can resort to a conventional debugger in extremely painful and tricky cases
+- improving external Core support (no particular wishes here, just always keeping it well aligned with all the rest of the product)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- cross-compilation or even just outputting reasonably platform independent C
+- dynamic linking
+- How does GHC write to stdout? It's soooo slow in a shell on linux that it significantly slows down compilation.
+- really packed strings</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>reduced size of applications built with GHC</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- Improvements in compiler speed
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Currently i am using the Text.Regex utility really a lot, mostly because it is fast to use, but it doesn't support the more advanced Perl like regex's like lookahead. It would be very useful, there is a package on the web, but i didnt't have it running yet, but it uses &quot;pcre&quot;, a c implementation as bases. Maybe its a nice extension to the Text.Regex implementation, which only supports extended regex.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Dynamically linked Haskell libraries.
+Better memory management...
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Hmmm...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>User-defined kinds to make kind-checking of GADTs more precise.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As my knowledge of category theory is superficial, a little more introductory material in the documentation (or pointers to such) would be pleasant. But then that would be at the expense of getting the main job done, so maybe this is asking too much.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The use of GHC (or Haskell in general) as part of Eclipse.
+Code generation for JVM, even if it is not fitting well and slower than it could/should be, packaging of Haskell modules for use as Java packages.
+
+Both features would contribute to a better acceptance/use outside the Haskell community (in my opinion).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Type error messages could be better
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. an IDE 
+2. an IDE
+3. an IDE
+I know : you're writing a compiler, not an editor. 
+But it would be such a terrific package if it included a fully-fledged IDE.
+
+I know : it's such a pain to create a cross-platform IDE. But you guys are so smart...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The compiler optimization for many cases when the program should run in a consstant
+ space and it does not.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>nice to have:
+declaring a function f only by its signature
+(currently a dummy implementation &quot;f = undefined&quot; need to be added)
+
+&quot;specification support&quot; (a la programatica with P-Logic formulas or quickcheckable properties maybe similar to RULES-pragmas)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>wefef</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Constraint based instance resolution
+Automatically Resolvable Mutually Recurisve Modules
+Stateful Template Haskell
+More Meta-Data available to TH (GHC version etc.)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Better support for writing low-level code.  I would love to see GHC used for writing things for which C is generally thought to be best at, such as device drivers, runtime systems, or graphics libraries.  For example, it would be great to be able to use compiler plugins or TH to add primops or guide the production of low-level code.  This would tremendously help hacks such as hOp/House, and I can see people developping processor-specific pluggins to make use of superscalar instructions present in modern processors, on top of which high-level libraries could be based.  There should be no excuses for using C anymore. :-)
+2. Built-in support for rewrite rules, for example based on lazy rho-calculus.
+3. Polymorphic variants and records.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Template Haskell still feels clumsy to me. My background is in Lisp/Scheme, and I miss the ease of use of Scheme hygienic macros.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>* easily readable source code. :-P
+
+* I'm into DSL building a lot. 
+I would like to see better support for DSLs, e.g. command-line flags for a bunch of things. I'm thinking of something like a DSL-definition file that could specify i) src file extension other than .hs ii) preprocessor to apply iii) implicitly available modules (i.e. extra &quot;Prelude&quot;).
+I haven't really thought it all through yet, but if you find the idea interesting I might have a closer look at it.
+
+* a ghc package, with a nice interface.
+
+* full constraint solving for instance declarations, i.e. a type checker that looks at the premises and not only the head. Don't know how doable that is though. :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Backwards compatability!! Up till now, each new version of GHC has been a major effort in maintenance for me (ie. wxHaskell). I can understand the need for each little change, and see how it makes things better, but maybe it is in the end more important to stick with a slightly less better system that stays compatible. Most of the time the little innocent changes are the most problematic: the &quot;util&quot; package suddenly including &quot;readline&quot;, or haddock documents in different directories, or functions moving from one library to the other, or &quot;newForeignPtr&quot; switching its arguments because the spec said so, etc, etc. All seemingly small and innocent changes, but in practice they took a lot of my time to fix. If this happens too often, people will just not invest the effort in maintaining libraries (ever compiled hOpenGL on windows?), which I believe is really important for the future of Haskell and GHC.
+
+When I hear that the package format changes with GHC 6.4 I almost feel like giving up -- again I have to change the configure scripts etc. Of course, this holds for most other people releasing libraries, and I understand that there are all kinds of reasons for experts to want to improve on the format but really, for the library developer it is just a nuisance.
+
+Well, after this rant I should say that I really like the work you guys are doing on GHC! The only reason I complain here is because it is a wonderful system that I use every day and I realize how difficult it is to maintain it all. Thanks!!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Explain why when &quot;Inferred type is less polymorphic than expected&quot;.  That is, I would like the error message to tell me what expression caused the conflation of two types I didn't mean to conflate.
+
+2. Allow importing standard modules, defining variables, defining functions, etc in ghci.
+
+3. Allow functions to have precedences, so that abs -3 is abs (-3) rather than (abs -) 3.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compiler Speed is my only real gripe. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Library improvements (which mostly seem to be happening) - wxHaskell, data structures, etc.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>64-bit native support</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1) Whatever it takes to make cabal catch hold.
+2) persistence and serialization
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'd love to see one improvement in Haskell:
+I want to specify defaults for record components,
+as in    data Foo = Foo { bar :: Int, bar = 0 }   (or some other syntax)
+and even  data Foo = Foo { tail :: Foo
+    , bar :: Int, bar self = succ $ bar $ tail self } 
+this would allow to cache results of computations together with the data.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>This is really difficult. There is a lot, but nothing fatal is currently lacking.
+Here's a list, not necessarily in order:
+
+* I'd like all the type class extensions to get cleaned up a little.
+* I'd like with -package ghc thing that some people have been talking about, i.e.,
+  an interface to talk to the compiler from other Haskell programs.
+* I'd like more ghci-goodies, like a way to search for functions in the
+  standard libraries, or (this would be really cool) a way to define
+  datatypes or classes/instances interactively.
+* I'd like views in the language (yes, I know, pattern guards are there,
+  but views would really be better).
+* I'd like kind polymorphism.
+* I guess I would like data-kinds or pattern-dependent types, as Conor
+  called them.
+* I would like some system to explicitly manipulate the dictionaries for
+  overloaded method calls, to overrule the type system when it cannot find
+  out what I mean. [Ideally, GHC would allow me to write everything that
+  can be expressed in External Core somehow.]</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A good use of &quot;context&quot; is required.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>(this section purposefully left blank)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Streamlined, generic XML (HaXML is interesting but doesn't quite fit my needs.  Electric XML and REXML seem more intuitive and useful.)
+Ability to marshal data and functions
+Platform independent byte-code (like Java)
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Faster, faster, faster!
+
+It would be nice to tie the parallel and concurrent aspects into library support, so that you could define new concurrency mechanisms (e.g. CORBA, sockets, shared memory) that are accessed through existing language mechanisms.
+
+While its not directly GHC, the biggest obstacle is actually library support for GUIs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Last time I looked at GHC, I seem to remember it couldn't build shared libraries. I might be wrong about that, or there may be good reasons why this isn't supported. However, it would certainly be a nice feature for me, as a lot of my code is structured as shared libraries, which are usually loaded into a Tcl interpreter, which acts as my &quot;main&quot; loop -- handling GUI, network, etc, and acting as an integration platform. It would be nice to be able to add Haskell to this mix, by creating shared libs with GHC which could also be loaded into Tcl. I've not looked into this in much detail though, so it might already be possible with the current release (which is just installing...)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Use of a less balky back-end than gcc would make ghc seem less like a black art.  I guess C--
+is one possibility.
+
+The handling of recursive modules seems pretty fragile right now.  We had trouble getting it
+working.
+
+Anything to help make ghc a compiler of the ages.  I.e., I would hate to see it ever disappear.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I know that GHC must be build with other Haskell compiler but the latest extensions would allow massive code size reduction in GHC source code itself.  I have Data.Generics very high on my mind, here.
+
+Using both monad transformers and exception handling is currently hard to do. Using MonadIO class in the Control.* modules could help.
+
+A standard and clean interface for fast IO is still missing.    </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Stabilization around a &quot;Haskell-NG&quot; language specification, providing a stable base for *application* development.  Experimental features I'd consider using if they became more &quot;mainstream&quot; include: generics, pattern guards and extensions, easier selective updating of ADT fields.  (Those noted above I regard as stable;  as a touchstone, I use only features that are implemented in HUGS *and* GHC.)
+
+Thius is a general Haskell thing, not specifically GHC:
+In the past, I've stumbled on a restriction on the use of imports and hierarchical package names that escapes me at the moment.  Or maybe that's module naming... IIRC, it that I have to change the name of a module when I access it at different depths in the include search path.  If I have a search path for a compilation that includes /foo/bar, and import module &quot;baz.module&quot;, then that module must be named &quot;baz.module&quot;.  I cannot have a different compilations setup that includes /foo/bar/baz and imports just &quot;module&quot; without changing the module name in the source code.
+
+Otherwise, most of my desires are in the area of library support.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>One small addition which would be really useful to me is to have a version
+of the &quot;error&quot; function which as well as the normal behaviour of &quot;error&quot; would cause GHC to spit out a warning message during compilation. e.g. a &quot;warn&quot; function. This would be much nicer for prototyping than having to grep for &quot;error&quot;
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC as a package</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Faster compilation time!!!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>* True Paralellism. I belive this to be the killer-app for Haskell. Compiling a program which will automatically use all the CPU's available is &quot;doable&quot; for purely functinal programs, but not imperative programs. Make this work and Haskell programs can be much faster than C programs on the upcoming multi-core systems.
+
+* Optimzation. Speed is important. Whatever happened to the GRIN project? Wouldn't something like that work for GHC?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've heard that you guys have more or less put template haskell onto the back-burner because people don't seem to be using this much. That seems like a shame because that sort of meta-programming is really powerful. Of course, it can also be quite tricky which probably accounts for a lower level of interest (especially when coupled with very little in the way of documentation and an implementation with important chunks of functionality missing).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- examples on user documentation, this is important for novice users.  The HOpenGL  examples are great in this sense, they introduce both the use of the lib as well as the API.  However, many other libs still could benefit from examples.  This is the first on my list, because I'm novice user.  I believe that this could bring wider user base, too.
+- libs for numerical computations, maybe APIs for some other libs like LAPACK, BLAS etc.  All this includes a tight and carefully thought API that is somewhat similar to APL with its nice syntax for inner and outer products (with what ever functions) and other sugar.   Ok, this might be more about language than particularly GHC. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>
+Maybe all the hooks are there for this wish, but not explicit enough for me: features that allow to implement effiently and transparently &quot;persistent objects&quot; (obviously the terminology is wrong, but I wouldn't know how to express it well). Efficiently would mean that structures on disk would correspond closely to structures on the heap together with transport means between the two; transparently would mean that one could create a database that would be &quot;self describing&quot; (comparable to Codd's requirements for a relational database) and could be used independently of a Haskell development environment.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It would be really useful if there was a function to read in graphics files in standard  formats and store them in an array or something. Pan does this, but it's not much use because it uses symbolic integers so you can't easily get at the numbers for debugging. 
+I have ended up using the PPM/PGM graphics format for everything, which seems rather silly in this day and age.
+Maybe there is a function that does this that I don't know about.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Native Visual C++ build (not necessarily a native build environment, but using the VC++ compiler so I could also use the VC++ debugger). 2. This isn't a GHC issue but I'd love to see the Graphics library from SOE working on GHC/Windows.  3. I really liked monad comprehensions back when they were in Gofer &amp; (I think) Hugs.  I'd like to see them come back.  4. I'd like to see some of the experimental Haskell debuggers (like Hood, GHood) ported to Windows.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I hope better support (such as Hat) and tutorials would be provided for debugging Haskell code, especially when there are laziness problems.  As someone not very familiar with the language, sometimes it takes a lot of effort to figure out why foldl'ing a large list may sometimes cause stack overflows, or why making something strict would cause a &quot;loop&quot;.  I can't find much documentation about how to debug such cases.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would like to see concurrent functionality become as easy to use (and ingrained in Haskell) as it is in Erlang.  It works quite well for certain cases, but I haven't seen whether it is a good system for building fault-tolerent client/server applications.
+
+I would also like to see better support for building GUI applications somehow.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>0. Dependent types
+1. constraint handling rules for overloading
+2. SPJ's suggestion to Conor McBride about &quot;Kind Nat; Nat Zero&quot; - help with simulating dependent types
+3. Support for more of Generic Haskell
+4. More template haskell documentation
+5. parallel haskell without a VM</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Efficient string handling, even if it would require strict strings.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC's biggest weakness is the fact that there is no other compiler that comes even close to it. This is a very unstable situation. Unfortunately, it is not something you can do about (others should do something about it).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>more efficient code produced by GHC, faster and less space consuming and with less size of executables
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Actually, I cannot really decide on the order. Here are just some thoughts.
+Records ARE important for large scale applications, though.
+
+A better story for records would be really great. (However, what's there
+is way better than nothing, which often seems to be forgotten, and has
+some nice aspects to it, such as being pure syntactic sugar and thus
+zero run-time overhead.)
+
+Couldn't the compiler figure out when recursive do-notation is needed
+both for arrows and monads in order to do away with &quot;mdo&quot; and &quot;rec&quot;, 
+more or less like Haskell handles let? Would certainly seem quite
+logical if one is happy with the way let works in Haskel (I am).
+
+Would be nice if GADTs played with the (limited) support there is for
+records. But that would probably require a quite different syntax for GADTs.
+Maybe not worth it until the record and GADT stories have stabilized ...
+Anyway, as things currently stand, it's fairly clear that GADTs are
+somewhat &quot;bolted on&quot;.
+
+Automatic handling of recursive modules! I actually try very hard to AVOID
+recursive modules, because the boot strapping process seems way more
+complicated than it should be (ideally, there should not be any such process
+at all). However, I don't think one should HAVE to avoid recursive modules.
+They are quite natural many times. Would simply compiling sets of mutually
+recursive modules together be unthinkable for performance reasons?
+Maybe that could be the default, while still possible to bootstrap if
+really necessary?
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Only one at the moment -- manual pages would come in handy.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's too big and too slow. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The ony thing I would like to improve now is my emacs haskell mode :) (It would be great to have something so powerfull as ilisp for Common Lisp) But it is not interesting for you, right? :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. The possibility of getting very good performance from (unboxed) array 
+   operations.  A reasonable complete library which resulted in very 
+   fast code would probably be a good 90% solution for me.
+
+2. A fast expession-evaluation server (to replace the use of Hugs I 
+   mention in the applications section above).  Ideally, ghc -e would 
+   have a flag (--daemon ?) that would let it stay running so 
+   subsequent invocations could avoid loading unchanged files and 
+   their dependents. 
+ </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sorry these are general remarks on Haskell versus Clean. Not specific to GHC.
+
+In my opinion The Clean language and the Haskell language are two great languages and environments. It would be great if the advantages of both could be merged, but I guess it will never happen.
+
+The reasons I continue to use Clean:
+- uniqueness typing. When needed (for IO), it seems easier to learn the mondad equivalent functions. Uniqueness is quit easy to understand for my students.
+- standard IO library and in compination with uniqueness typing easy to learn for the students.
+- small, easy to install environment with a fast compiler (compile time) With such a fast compiler I do not need an interpreter.
+- In my own project I need a lot of string processing and the choice to have a basic String type in Clean is essential to me. (similar for arrays)
+- IDE for Windows and Mac OS, with language specific features.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- Ability to link with other libraries which use GMP; GHC steals GMP allocation functions for itself, rendering GMP unusable for others. This prevents me from making a bridge between Haskell and my language (which also uses GMP, but without changing the allocation functions).
+- Real Unicode support, with transparent translation of I/O and strings for C via explicitly specified or locale-dependent conversion. Text and binary I/O should be explicitly distinguished.
+- Sharing field labels among different records types.
+- An extensible exception type (better: extensible types in general). Using Dynamic is clumsy, it divides exceptions into predefined and custom ones which look very different.
+- I/O handles with different underlying implementations should be interchangable, e.g. it should be possible to have the same type for a physical file and for a gzipped stream going into memory. Maybe some OO-like mechanisms are missing.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- an enhanced GHCi
+- more information about how to use FFI (particularly on Windows)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Please see above.
+
+Local typeclass instances.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>more &quot;dynamism&quot; (think common lisp/scheme/erlang/mozart/smalltalk environments), ghci, &quot;ghc as a library&quot; and hs-plugins are on the right track, but a lot more of that would be nice (easier to use haskell for embedded languages/scripting/dynamic environments/&quot;live code upgrade&quot; and so on). Doing this in a (mostly) statically typed language just makes it more interesting ;)
+
+extensible I/O streams (as discussed every now and then on the mailing lists)
+
+A (partial) posix compatibility layer for windows (like the unix module in ocaml).
+
+&quot;portable c output&quot; (or something equivalent)
+faster compilation
+smaller produced binaries
+less memory hunger (both the compiler and produced code)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'afraid you are implementing TOO MANY 'academic' features
+(of course, you must implement some).
+
+Imho: 
+- less capabilities described (or just thought of) once in a paper
+- more libraries, libraries, libraries: sort of CHAN 
+- more fresh, breathing, talking code samples (in the style of the prelude, but with tasty meaning, such as wash or haskore)
+
+But, please, go on and thank you.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A better package system, preferably along the lines of CPAN and PPM. I know it is being worked on, but that's really the number-one thing.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>* New records: extensible, new update and selection syntax, 
+first-class labels ...
+* New exceptions: extensible, simplified.
+* Support for &quot;scripting tasks&quot; in order to be able to use GHC/GHCi instead of
+perl or python in my daily work, i.e. stable and portable libraries for filepaths, system commands, better libraries and syntactic sugar for matching with regular expressions.
+* Optional function arguments
+* Easier to use idioms for stateful and imperative programming: syntactic
+extensions for the do-notation like those suggested in O'Haskell
+
+
+
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would love if haskell grows out of the &quot;static-world&quot; approach (which is easy to do but not very realistic) to a modular or dynamic approach. How this has to work is still a matter of research i think, but nevertheless it would be worth the effort.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>More optimizations would be great.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Documentation, Documentation, Documentation. My haskell compiles, but I'm sure it isn't very good. I'd love to learn more, but there is _nothing_ on the internet.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>More detailed and human readable error messages and tracebacks ala Python.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Hierachical export lists/ better course grain modul specification
+Better standart library documention</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Optimisation.  More of that fiendishly clever and analysis to squeeze all the unnecessary allocation of closures and structures out of my nice consise lazy code.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I wonder if the random number generators work? It may just have been Irix, though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't done much heavy-duty stuff, so really my only need is that native AMD64 support. Those extensions seem damn slick; I just haven't toyed with them yet :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Make ext-core work.
+
+Allow .hcr inputs to be re-optimized.
+
+Fix libraries to only use GHC extensions to type classes etc. where necessary.  Another one which is more in the library author's laps; the stuff in the GHC core seems to be pretty conservative in this respect.
+
+A Nat kind or equivalent with pleasing numeric notation.  I know Lennart cooked this up in Bluespec.  It makes sized types usable (I would argue that without it they are not).
+
+Put down implicit parameters before they do any more harm. :-)
+
+Revive the quest for a non-metaprogramming deriving mechanism.
+
+Provide a defaulting mechanism for arbitrary classes (this may later prove to be a terrible mistake, of course, but it's a simple experiment that's worth trying.  Or did it get tried, and no one told me?).
+
+Magically think up a better way of doing MPTC than functional dependencies.  Perhaps a way which is more like functional programming and less like logic programming...  But I don't really expect that asking this is going to make it magically happen.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would like to see the language become smaller and simpler
+while still doing everything I want --
+of course I realise this is unreasonable.
+But I think there is some danger of ghc becoming too complex.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>why not graphic libraries as part of ghc?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>This is a theory issue, but I have some interest in &quot;capabilities,&quot; as in the E language  (erights.org) and in Jonathan Rees's implemention of capabilities in Scheme. Some have speculated that capabilities would be a natural fit with monads...in the back of my mind is doing one to show this. This is not a language or GHC issue per se, but including a &quot;capability monad,&quot; if in fact this is possible, could generate a lot of interest in the security/capabilities world. (I know Peter Van Roy is interested in extending Oz to do this, though this project is competing for time like everything else is.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Simplification.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Better optimization. It's a big one I know.. and I'm thinking highly unlikely to improve dramatically over a short period of time but it's pretty much the only thing I miss in Haskell. Sure it's possible to write code that runs fast but it's often not obvious. What I need is just that averagely written programs run reasonably fast.
+For example, when I was starting with Haskell I often used list comprehensions in my code and a number of times I ended up with code that would run in O(n^2) time for algorithms that should run in O(n) time. Replacing list comprehensions with simple recursive functions usually fixed the problems. I could just go to #haskell on irc.freenode.net and ask someone every time something like that happens (and I sometimes do) but it just takes too much time.
+Profiling does help but with Haskell I have to profile a lot more then I would with just about any other language I can think of.
+That's my main problem with Haskell - and from what I've read online there are a lot of other people who would rather use Haskell over Ocaml, SML, Scheme, Lisp if only writing efficient code wasn't so hard.
+It's probably more realistic (and almost as useful) to ask for a guideline/tutorial/article/book on what to use and what to avoid while at the same time keeping the code reasonably easy to read then to ask for the compiler to be improved that much.
+
+On another note most of the things I didn't answer in part two of the survey was because I'm not familiar with them. It only reminded me just how much there is that I still have to learn about Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Err. This might be a good time to admit that I have no idea what GHC actually does. So..I think that whatever it does, it's doing it just fine! As long as Perl6-Pugs works.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Merging the namespaces for types/tycons and functions
+Merging the namespaces for operators and infix tycons</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>TH/macros/the like (that is to completely remove the need for a preprocessor)
+libraries as a never-ending task
+
+I don't say the current is bad though, contrary I am quite happy with it :)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sorry, not enough experience w/GHC yet.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Considering its task, GHC produces impressively efficient code.  Nevertheless, the biggest things holding me back from using GHC for larger programs are the persistent stories of space leaks.  Some of this is more attributable to Haskell the language than to GHC, but anything GHC could do to help programmers avoid space leaks would make me that much more likely to use GHC extensively.
+
+And speaking of thorny areas: type error messages are often all but indecipherable.  Anything that would clarify them or make them easier to analyze would be a huge win.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Debugger for Code in the ST/IO Monad
+Support for PackedString (or something comparable) as FilePaths</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'd like to see (not that this is high priority) support for using multiple OS threads (on SMP systems) for improved performance.  This isn't very high priority, but it's rather embarrassing that I can't benefit from multiple processors when running a haskell code.  I know this is a difficult research question, since haskell is lazy, which messes things up, but still, a purely functional code ought somehow to be able to automatically parallelize, at least across threads.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>* Better records, particularly allowing existentials with named fields
+* Type specialisation to allow unboxing in polymorphic data types (I know that's
+  asking a lot)
+* ACIO Monad as a subtype of IO with top level &lt;- bindings</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't gotten around to installing the latest GHC, but if you haven't added this yet, I would really like to see Hugs' :e command work the same way in ghci.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Posix libraries. These appear to be supported, but a little out of date.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It would be nice to try and get GHC to follow exactly the Haskell semantics (I know there isn't one :-) at least when compiling without optimizations in Haskell'98 mode.  I mean things like:
+h     = \() -&gt; \y -&gt; 1
+main  = putStrLn (h (error &quot;Correct&quot;) `seq` &quot;Error&quot;)
+Or the compiler looping in the simplifier for some recursive data-types.
+I realize these are not common in &quot;real programs&quot;, but they are very helpful when learning the language, and using GHC to try things out.
+
+Getting recursive modules to work without hi-boot files would be quite nice. 
+
+Having finer control over what extensions are enabled/disabled in a module
+(there were some discussions on the Haskell list about how to do that)
+
+Speeding up --make might be nice (I heard it is better in 6.4 though)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Foreign callbacks on x86_64
+Absolutely any forms of optimisation which result in faster compiled code or less space usage (yes I know these are often exclusive, that's what options are for)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>More ``functions'' at the type level.
+More facilities to ``scrap boilerplate''.
+A TYPED version of Template Haskell.
+A type for proof-terms (ie to put in a Monad's signature a proof that it is a Monad by giving evidence for the Monad laws)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>* Support for associated types ;)
+* For teaching, better debugging support would be helpful</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Implementation of a Grand Unified Theory of types that gets it _right_.
+A reworking of the numeric classes along the lines of the Basic Algebra proposal or somesuch, and something similar for Functor/Monad etc. (more of a Haskell improvement I suppose)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Functional data structures with lower space requirements would be nice.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I need a &quot;Gentle Introduction to the Hierarchical Libraries&quot; that explains how to access the libraries, and what is in them.
+
+The one thing I miss from Hugs is the ability of the interpreter to highlight the line containing the error in the source file.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>couldnt runghc cache succesfully compiled scripts?  startup still is tooo slow.
+
+this is not compiler related, but the libraries are missing lots of essential things.  randome subjective selection: encryption support, standard network protocols (also things like ldap, zeroconf), declarative low-level network programming would propably also be 
+_great_, easy shell style process management, better database support, support for reading rdf and topic maps, syslogging, jabber.
+
+perhaps compiler related, havent thought this out, but i think it would be
+quite interesting for network and file format programming to have a facility for _easily_ mapping algebraic datatypes on a binary encoding.  
+
+ghc imho should include some standard debugging tool, hat or something.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>At the moment, I can't think of any big shortcomings of GHC apart from its rather poor performance.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Dynamic linking for both native (Haskell) and foreign languages. I need to be able to use libraries installed separately on the target machine where the program will be deployed.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Monadic comprehensions.
+Extensible exceptions.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>platform support or better better support for non-supported platform builds, i.e. platforms where ghc is not available yet</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compiled output could be smaller.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I need duplicate instances, but I guess this will work in 6.4, which is the reason I am downloading it right now :-).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I leave this to the excellent judgement of Simon Peyton Jones.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>* Make it possible to encode more invariants etc. in types. Push the type system further towards dependent types. GADTs are a nice step. Programming (as opposed to doing proofs) with dependent types is underexplored, and usually when a feature is added to GHC there is a rather large user base which pushes the new feature to its limits.
+
+* It would be interesting to have support for subtyping and records.
+
+* It would be interesting to see if adding whole-program analyses (e.g. &#xe0; la GRIN) could boost performance of generated code further, without being too costly.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Work on improving the speed of the code generated.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1) I would love to see GHC require only a c or c++ compiler to build. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Improve error messages - more concrete locations. It's usually unclear where the conflicting type comes from, which forces creating type annotations in many places, to catch the point of failure.
+
+2. Improve error messages - use simple terms. For example, when first getting the rigid variables error, I couldn't figure out what it means, so I had to google it, and only found the answer in GHC's source.
+
+3. New syntax for type classes - this it less urgent. Type classes are relations, and when one type is dependent on all the others, the relation represents a function. I'd like to have signatures such as
+show :: &lt;Show&gt; -&gt; String
+or (with class Collection i e c | i e -&gt; c)
+lookup :: &lt;Collection i e&gt; -&gt; i -&gt; &lt;Monad e&gt;</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Efficiency. I am planning to write a compiler in a functional language and CAML has a reputation for speed/efficiency which I gather Haskell is unlikely to match.  I would love to be able to use Haskell and the lazy features, but the cost may be too great. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>is it possible for 'ghc --make' to support other modes/parameters like '-c' and '--mk-dll' ? </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>fast bit manipulation on all Int and Word types.
+good performance on benchmarks like Fhourstones so I can feel confident
+to use Haskell for boardgame programming.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Could you make Prelude.undefined print a source position when it is called?
+
+Something like a call stack would be very useful when programs fail. I believe a profiling build can help with this, but it tends to take a while to create one so I rarely bother. Instead, I debug the old-fashioned way by adding print statements to the code!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Some/any support for SMP, using parallel arrays, STM, or whatever. I'm going in the direction of distributed processing and multi-processing. I would benefit from some sensible way of migrating types and values from one running RTS to another, via TCP/IP, though a Binary persistance standard would probably cover this just as much. I very much want something like Erlang-OTP, something that would let me write a decentralized app like mnesia in Haskell/GHC.
+Also, what about a darcs repo mirroring the cvs repo? It would allow anyone to fix /upgrade anything in their local anonymous checkout and then submit patches via email with a single command.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Vectors
+IO</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The last time I tried wxHaskell in GHCi I had problems.  This was a year ago, though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>* dynamic library binding -- no more large, static binaries please!!!
+* improved error messages. hugs is slightly better at this</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>&quot;gcd 0 0&quot; should be zero rather than an error. Perhaps this sounds flippant, but I use Haskell for number theory and this pains me! I have written &quot;import Prelude hiding (gcd)&quot; too many times (along with importing my module that defines gcd properly in terms of Prelude's gcd.) Also, for what I use haskell for more transparent access to the various functions in gmp would be nice. (I've seen that requested periodically on various mailing lists.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would like to see a constraint based type inference along the lines of Dependent ML. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Something like Perl's CPAN for sharing code.  Hopefully packages + hierarchical libs will open the way for that.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A debugger
+
+Faster compilation/linking speed
+
+Some way of getting ghc --make to print out the commands that it executes
+but to not print out the commands that it doesn't execute (-v0 is too quiet
+and -v is too verbose).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Some way of managing name lookup so that I can have, e.g., the same name for a field of two different record types. Having to import qualified and use prefixes for everything drives me batty.
+2. Better support for dynamic loading and linking, especially on Windows.
+3. Performance, esp. in terms of speed. What happened to the speculative evaluation stuff? Wasn't that supposed to make most programs twice as fast?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Better tool integration ---&gt; IDE</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compiling speed (with -O)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>(1) Arrays are painful to use.  Lists are slow for numerical work, but reasonably transparent.  In addition, arrays just don't give the performance boost one would expect.  By far the most important improvement in GHC for me would be better (i.e. faster, cleaner) ways to handle arrays with O(1) access.
+This is the reason that I use GHC for prototyping, not production code.
+
+(2) Good library bindings to common numerical libraries such as LAPACK.  Creating these bindings almost certainly would require (1) above.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Shared library support for Linux.
+
+Better support on x86_64: registerisation, ghci, FFI, etc.
+
+The make/build system seems a bit ideosyncratic IMHO:
+I guess works well enough, but it would be easier for
+newcomers to have something more conventional.
+
+Could --make be made to be a no-op with the output file is
+newer than all its deps?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The ability to produce dynamically linkable libraries, so that I can use code written in Haskell from other languages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Support for amd64.
+Better performance of compiled code.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For teaching, (yet) better error messages are the most critical.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Proper support for Control-C in ghci on Windows.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>YIO[0Y8U8O[98YU0[Y[</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Some kind of more serious module system is something that I really keep wanting.  I don't necessarily mean functors and all that (though there are situations), but something simpler: just the ability to completely separate the interface of a module from its implementation.
+
+When this was discussed on haskell-cafe, one idea that seemed promising was pushing this functionality more onto Haddock.  I still think this would be pretty good, and it might be substantially easier than changing the language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm not sure how easy it is for modern GHC to let me write little interpreted Haskell scripts much as one can with Perl. But, if it's hard, then that's a requested improvement!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Portability</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Distributed support that is as nice as Oz/Mozart/Alice integrated with STM would be a huge win for me.  It would enable me to do all sorts of stuff here at work in terms of distributed simulations that I don't really want to contemplate without high level support (like in the STM paper, locks don't do it for me).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I find the user interface to ghci a little painful, e.g. working out what definitions are in scope.  Would be useful sometimes to have command histories that were saved between sessions, i.e. as with unix shell histories.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1) partial loading of programs containing errors (type errors generally) in GHCi
+2) A second mechanism of error messages production in GHCi, producing only one error message but differently (same thing as using Hugs in parallel)
+3) A way to get the type signatures of embedded functions (in 'where' or 'let' clauses) in GHCi
+4) An option to produce all the missing signatures in a program</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>* continuing improvement of library and package infrastructure
+
+* support for optimization of important tools like darcs (working with tool authors)
+
+* I hear complaining about a lack of gdb-like debugger.  I have to admit that this rarely occurs to me these days.  I have changed my development process to work around it by working in a test-first way.  That is, create test cases first, run them all the time.  That way when I observe a bug, I add a test case to demonstrate it, then work to fix it.  I think this is a change for the positive in my development process.  Occasionally, it would be nice to have a debugger, though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Please don't get carried away with improvements to the language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>More modularity in the compiler - i.e. it should be much easier to create different back-ends, and without having to recompile the entire compiler from scratch.  Intermediate formats (core and stg) should be better documented.
+
+The build process should be simplified and less Unixy.
+
+Support for dynamically loaded Haskell libraries should be better.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1) even better code optimization (in most common cases GHC is still significantly slower than Clean and camlopt - I have not tried 6.4 yet)
+2) a *really straightforward* mechanism for calling external C libraries with transpaernt type conversion (including enums and structs)
+3) an advanced tracer/debugger integrated with ghci 
+4) extensible data types
+5) integration of gtk2hs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It would save a lot of time if there were a way to move from a non-profiled build to a profiled build quickly (rather than rebuilding everything). In particular, it would be nice to rebuild a particular module for profiling (and get time and space profiling for objects in it), without profiling the rest of the system. A necessary qualification is that mixing profiled and non-profiled code should not cause segfaults.
+
+A better memoization library would be nice (particularly one that could easily memoize multi-argument functions).
+
+Some small irritations:
+
+- It would be helpful in certain usage scenarios if GHC's runtime did not depend on the GNU multi-precision library. It is one extra dependency for our installation packages that occasionally causes problems.
+
+- More accurate warning messages about record-update constructs. If you do a record-style update of something that has been previously pattern-matched, ghc does not take into account the pattern-matching restrictions before issuing a record-update warning.
+
+- Generics should compile without adding any warnings (no matter how high warnings are turned up). We currently filter our build output to remove warnings triggered by generics support. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>sample code with ghc i think would be the most useful thing for those of us just learning haskell and functional programming.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Memory Performance
+Better support for Modules
+More libraries (though that's more for others than GHC to do)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would like to be able to do generic traversals (like in Stratego). That's the only reason why you would use Stratego. Another thing that would be great is inclusion of attribute grammars. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>&quot;Dependent types with class&quot;</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Speed improvement in the generated executables.
+Small generated executable size
+Compile speed improvement.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I can't build anything with it, because I dont know how.  Library binaries are tied to an exact release number (wxWin).  Windowing is not clear.  Database libs are barely there.  Haddock is insufficient documentation.  The most important missing part is documentation at a level I can use.  There is no K&amp;R for haskell.  Pugs is amazing but uses template haskell, parsec, and GADT; good luck if you are a newby.  The doc's for all three are less than ideal.  Maybe a cookbook would be a good idea.  There need to be small useful applications I can steal and make my own.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Portability.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Better GUI support. Currently, wxHaskell almost supply every need I have, but I still miss a good IDE to easy Haskell dissemination.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>
+Faster compilation would be nice.
+
+Wish I could think of more for you.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>.NET FFI, with appropriate utility module would be nice.  I know some work has been done here, but I've never been able to get it to work properly.
+
+[this one is a bit long]  Suppose I have a (perhaps built-in) datatype a, and I have several routines, such as:
+f1 :: a -&gt; Int
+f2 :: a -&gt; [a]
+f3 :: a -&gt; a
+etc.
+
+Suppose that f1 computes a small result, but takes so long that I want to cache the result.  The obvious program is
+
+newtype a' = (a,Int)
+mkA' x = (x, f1 x)
+f1' x' = snd x'
+f2' x' = f2 (fst x')
+f3' x' = f3 (fst x')
+
+It would be wonderful if there were a pragma for this program transformation.  Perhaps I could do it with template haskell, but it's deeper than that, because any pattern matches I did on the a datatype have to be rewritten (ew).
+
+Feel free to contact me on this one: orielmaxime@yahoo.com.  Again, this is motivated by the wish to write pretty programs that also run quite fast.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- faster linking
+- better support for recursive modules (no .hi-boot files!)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Inside of a splice &quot;do a &lt;- getArgs&quot; should make a be a list of arguments explicitly directed at the template code via compiler command line options like -optToption
+
+Currently, I can pass -optF, but my template haskell code has to look through the compilers options to grab them, and a different compiler might have a different option completely. If -optT is present I'd like the template code to get just the -optT specified arguments
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>improve installers</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>(1) package ghc, with a nice and simple api in preference to one dictated by the internals of ghc;-) missing support for reflection and meta-programming (not just at compile time) is IMHO the major reason for the lack of Haskell development tools, compared to Lisp or SmallTalk. i'm not happy with the move away from multiple haskell implementations, but better the main one has support for this than none!
+
+(2) binary compatibility across releases - why does one have to update all libraries whenever a new ghc comes out? if the interface format really changes that often, there is something wrong. and if it is cross-module optimisations getting in the way, that may be optimising for the wrong metric, or at the wrong time.
+
+(3) a proper type Dynamic, fully supported (including polymorphism)
+
+(4) single-stepping through reductions, at least in ghci. the reduction systems developed in Kiel proved long ago that one can have a truly interactive implementation of a functional language (with functions and partially reduced programs -after n reduction steps- as results in high-level syntax) without having to forget about optimised implementations. there are operational semantics out there for call-by-need lambda calculi showing that the idea should work for Haskell as well. and yet, if anything goes wrong in GHC, we're stuck with things like ctrl-c, &quot;no Show instance for ..&quot;, Debug.Trace.trace or monadification, and the like, instead of getting a proper high-level expression dump from which we can easily extract what went wrong. by default, we don't even get a stack trace, just a big black hole of information.
+
+(5) proper first class functions, including i/o of functions; see Clean's support for first-class i/o as an example (in effect delivering orthogonal persistence plus mobile code, all based on two language/implementation extensions: Dynamic, first-class i/o)
+
+(6-) other things I'll remember later;-)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I want to be able to specify expected performace characteristics for evaluating some part of the result of an expression and to be told when the code is written in a way that prevents the optimisations being done. (eg, some code can't be optimised in some way because the compiler can't decide what the length of a list is at compiletime).
+
+I particularly want to be able to specify that the memory required to complete a given peice of IO will be successfully allocated before computation not also required for other IO is begun, so a user can be told that a long calculation cannot be started before they wait and find it fails.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1) GHC --make should skip linking, if nothing got recompiled
+2) GHC --make should recompile modules if, e.g., -O was added since last compile
+3) Documentation is very good in general, but sometimes I'd like to have quick links to the actual source code, especially when the source would be shorter than any other informal description.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The record system is an utter embarrassment. Any one of the proposals that
+are floating around would be an improvement. (I realize that this is a language
+issue as well as a GHC issue, but GHC could take the lead in fixing it.)
+
+And I wish that no one will mess with TH until GHC-7.0, except to fix bugs, so
+a user community can develop.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Finish the binding to OpenAL, at least to a minimal usable state (i.e. sound output, with or without directionality.
+
+2. Make a Tcl/Tk binding if there isn't one already.
+
+3. Also, I've got an idea for improving GHCi: incremental evaluation of expressions.  I'd be willing to help write that.
+
+4. I listed two platforms for porting: the JVM and game consoles:
+
+4a. Port to next major consoles (after GameCube/PS2/XBox):  You should begin talks with Nintendo so that they eventually support Haskell.  Or you should send me to talk with Nintendo.  C/C++ is holding back games.  In order to support another language, a console maker would have release their proprietary information, and that would mean whoever wrote the compiler would have to sign a non-disclosure agreement.  This could be an issue for GHC, since it is created as an open-source tool.  If there is a solution to this, it would be good if it were pursued.  I'd like to code in Haskell on a console, and I'd like to avoid using the .NET framework to do it.
+
+4b. Port to JVM:  It would be a good idea to port to the JVM, because a lot of odd pieces of hardware include a JVM.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Many things, but this one takes the cake:
+  Proper official support for COM/.NET programming; for instance, I want to be able to read/modify/create Excel Spreadsheets directly from my GHC compiled Haskell program. Scriptability is a must. This is going to have to be done via a whole bunch of libraries and proper compiler support for .NET CLR.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Please be less backward-compatible. Please do more unsexy things, like tweaking the prelude. Monad should be an instance of Functor. Double should be Bounded. Etc. Within reason, of course. But I think even the fundamental parts of the language should be constantly evolving.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think a proper debugging environment would help new users a lot.
+They usually struggle with things like evaluation order, and some simple tool that
+displays value/degree of evaluation, would help for debugging and performance
+tuning. 
+In the current situation they get the feeling that this is a bit of a black art
+and are taken aback
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Compiling speed.
+2. Ability to compile libraries into DLLs under Windows.
+3. More optimization/better strictness analysis</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Coming from a lisp background (sorry!), I love template haskell.  A nicer (more transparent) syntax would be nicer though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm missing UTF-8 input. I'd even like syntactic elements like -&gt; and \ (lambda) to be recognized in the form of their Unicode counterparts.
+
+I'd also like to have simple mechanism for mapping module names to URLs so an imported module can be fetched automatically at compile time. It would make using external modules much easier. Especially since simple modules (which don't require the FFI for instance) would not require any form of packaging to be made available to everyone. Just an announcement of a URL which would go into a public list or something. We could map subtrees of the module hierarchy to directories, so for instance Pesco.Foo.Bar could be auto-fetched as http://www.scannedinavian.org/~pesco/hsmodules/Pesco/Foo/Bar.lhs by just establishing &quot;Pesco. -&gt; http://www.scannedinavian.org/~pesco/hsmodules/Pesco/&quot;</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Template Haskell further development
+2. Dynamic linking (Windows)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Libraries using GADTs.
+2. Syntactic sugar for Object-oriented programming (basically comes down to being able to write both type class and an algebraic data type with one declaration).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A fast way to build it without having to bootstrap through several older versions of the code.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC's functionality should be available through a well-designed API!
+Dynamic loading a la hs-plugins (at least, a bomb-proof version of it)
+should become part of GHC</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- Speed of output code / garbage collection.
+- Compilation speed.
+- Anything to help understand lazyness of code / space leaks.
+- I've not been keeping abreast with ghc the last while, but the lack of a GUI library for all platforms has bothered me. The ones I did play with (eg gtk) had no real productivity gain  versus writing straight C.
+- Perhaps it's just me, but I don't feel as comfortable with ghc on windows as on Unix. On Unix I have FFI working so that I have an application that includes Python, C, C++, Haskell and x86 all linked together. On Windows I'm not sure I could do that.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Unicode and internationalization standardized. This is important to me as to a bilingual person (my native language is Russian, but at work I use English). I have some experimental code that implements Hugs-like Unicode character categories support in GHC without relying on glibc locale stuff. 
+
+2. I/O needs to be improved to support Unicode and streams. So far, I see several independently created libraries around that deal with Unicode I/O. I believe this will be standardized in the future.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i'd like ghc to be as easy to use as gcc. if i have a program written in C, it doesn't matter much what version of gcc i use. got gcc? good to go. but i guess that means mostly that there must be one Haskell that everyone uses and no language extensions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The one and only most important wanted feature for me :
+
+I would like to see Views, i.e. to replace the (terribly slow) list representation
+to an Okasaki one without loosing pattern matching. (preferably the [] and x:xs one)
+
+Further more all kinds of speed improvements, like PArrays (Chakravarty) etc
+preferably automatically by -O 3
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>llvm backend (which has aggresive interprocedural optimizations)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>* Better documentation for some features.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Laziness makes space behavior very hard to reason about. But I believe this is a Haskell issue, not a GHC one. Since purity or laziness are of no particular importance to me, but I do believe in the value of the functional paradigm, and accurate reasoning about program time and space usage is crucial, OCaml is currently my language of choice for serious implementation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I had to stick to Haskell 98 during most of my work, because Hugs delivered much better interactive performance than ghci. It's better now that I've got a faster machine.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'd want this to be portable etc before using it: There's some issue where I make &quot;FooM a&quot; a type synonym for a state transformed monad or something, and then want a &quot;BarFooM a&quot; that does another transformation on top of FooM, that means I have to inline the definition of FooM into BarFooM. I'm like this to not be necessary.
+
+If rewrite rules could be used to simplify things like the in bounds tests in cases where the offset is statically known then they would be much more useful to me.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Serializing library for datatypes. Probably built on top of &quot;Scrap your boilerplate&quot; combinators.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Quicker compiles.
+Haskell needs a real module system.
+The option --make is significantly less useful because it ALWAYS links and creates a new executable even if nothing has changed.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Generate fast code. Let's make all non-functional programmers eat dirt. Let's end the reign of C/C++/Java. Let beauty, grace, and reason prevail.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It would be nice if GHC could create an executable that could be used by .NET and the other way around. Kind of like the Hugs98.Net &quot;CallIn&quot; example, but compiled. Maybe GHC can do this but I can't figure out how and don't have the time to dig deep enough in the ffi, nor can I seem to find anything usefull on the Internet about this.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Please support the production of shared objects on Solaris.  It seems impossible to do this right now.  The normal way we integrate is loading a shared object into our Tcl based web server (www.aolserver.com).  Not being able to do this is going to cause us problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>-more kind error messages. these are needed to invite beginners, like me.
+-convert to other languages, say, c++ 
+-thank you for the great language haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'd really like a way to specify that a function should be strict, a compiler hint perhaps.  My Markov chain program consumes an exponential amount of memory making thunks unless I pepper my code with seq and deepSeq in strategic places, and I'm sure this causes a performance hit.
+
+Error messages are generally good, but I've had a few really confusing ones.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>a minor thing: start/call $EDITOR  from ghci, e.g. based on an error message</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A problem of Haskell and similar languages is the conflict between teh desire to create abstract data types and the impossibility to use pattern matching on them. Therefore I would like to have Views (with a separate flag to enable them). I also support the ideas behind Robert Will's (class-) hierarchy of abstract container data types which could greaty profit from Views (http://www.haskell.org/pipermail/libraries/2004-March/001854.html).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Full x86_64 support would be very very nice. I can of course use the unregistered build or the x86 build, which I do at the moment. And I don't really mind waiting, as long as it doesn't get forgotten.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>deriving Typeable for ALL (i.e. in particular higher-kinded) type constructors
+
+instance Ord TypeRep
+
+Dependent types ;-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>compilation to Java bytecode would be great</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PLEASE do something about the record system, it's terrible. Field labels should absolutely not pollute the top level namespace. 
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The most important request I have is probably the least helpful for you:
+  better optimization!! :)
+
+Other than that I would really like to see some help in interfacing to c++ libraries. I'm quite used to having to create a C interface, which is akward
+but manageble for me. However, linking is a complete mystery to me. It seems
+to work when compiling an executable, but not with ghci.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm missing something similar to aspect oriented programming in Java/C++ (AspectJ, AspectC++). Aspects can really increase productivity but can be also confusing because you cannot see how code works without knowing all the used aspects (editors should show effects of aspects to code).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As I predominatly work with complex data, some improvements using records would be nice:
+- Syntax: not field rec but rec.field
+- Sharing of record labels between different types
+- extensibility of records: field extension &amp; concatentation
+
+Moreover, where seems to be an unexplored area between implicit parameters, type classes and records, especially after the inclusion of higher rank types. It would be nice to see some improvements like:
+- reification of type classes as record and vice versa
+- 'named' instances
+- Are implicit parameters and type class the same thing somehow?
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Unsure, I haven't extensively tested any of the extensions enough to be familiar with their pitfalls.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Performance and memory use of the compiler.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Nothing at all</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>* Less memory hungry compiler (I have modules that are just a few hundred lines long but still take minutes to compile and require ~150M heap, with ghc -c -O)
+* Eliminate bogus dependencies on the readline library. (I don't use it in my programs, but people still can't compile them without installing the readline library.) 
+* Proper support for recursive modules (without the need for boot files)
+* Some kind of linear types (e.g. to support update-in-place for pure arrays, to capture proper use of external resources.)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't seriously expect anyone else to do these for me, but:
+
+1. An alternative module &amp; record system, along the lines of Cayenne (open r use f, g in ...)
+
+2. This may be a library thing, but integrate the above with databases, e.g. when opening a cursor, check that the column names and types match the statically inferred type(s) of the reference site(s).
+
+3. More ways to convey hints to type inference, cf. Conor McBride's recurring theme of allowing as many valid programs as possible, with guidance by the programmer for the hard parts.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- move GHC to a darcs repository (probably not easy), I think it would help
+  to encourage people to contribute
+- better support for TH (just yesterday I couldn't compile a program 
+  using TH with -prof -auto-all)
+- support for user-defined syntaxes in Template Haskell
+- (configure) option for heap allocated activation records - OK, I know
+  I can set +RTS -K256M
+- (configure) option for higher time granularity in Concurrent Haskell
+- let Haskell code benefit from multiple CPUs on SMP machines (probably
+  very difficult)
+- shorter compilation times (very low priority)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Nicer ghci front-end
+Don't stop the good rate of evolution/new features!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Documentation</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Type-system advances! But following the philosophy of removing restrictions rather than adding features, I hope.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Improved performance of compilation and linking; for example, I have just started experimenting with wxHaskell and linking against it (on Windows) is very slow. Also, building GHC itself is very slow.
+2. Improved performance of compiled code.
+3. Easier output of small executables on Windows (e.g. automatically strip executables, provide &quot;smart linking&quot; that includes only the code that is actually reachable). I distribute my Haskell programs to their users by email and they don't like it when a three-hundred line program is over a megabyte in size.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1) Source code debugging &amp; tracing
+2) Source code debugging &amp; tracing
+3) Source code debugging &amp; tracing
+4) Documentation which clearly states functionality, and provides useful examples.
+5) Useful code examples shown in a profession and maintainable style.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I love to see a prettier ghci front-end for Windows.  Running in a old-fashioned console windows doesn't cut it.  It's okay for OS X, because OS X terminal windows aren't as limited as under Windows.  Have a look at the OCaml top-level app for the Mac if you want a good example of how to do this.  Really nice.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It would be much better to have more practical libraries, such DB access.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Effective binary IO.
+
+Exposing GHC's parser for use by Template Haskell code would be useful, I guess this'd require making TH module-aware as well though which could be tricky. 
+
+If the type checker could do error slicing in some form it could save hours of staring at dumbfounding type errors the next time I do something impressively stupid.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Please make it bootstrap faster! :'-(</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'd like it to be easier and faster to compile Haskell programs and for better type error messages to be given.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Improved error messages.  Maybe some kind of history mechanism:  I have a program that compiled yesterday.   I made some changes, and the compiler makes wild-ass guesses about the types (giving every possibility equal likelihood) instead of saying &quot;Yesterday, this type was blah; today, one usage is consistent with blah, but the other is &lt;some esoteric thing that I don't even understand&gt;.&quot;  I should take some more time to think this through better.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Records with re-usable labels. They don't need to be extensible but I do need to be able to re-use labels.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The compiler (and language) are developing really well and are in great shape as they stand.  I would really like to see advances in the use of GHC as a development environment for GUI based applications.  On the other hand, I feel the future of Haskell (and very likely of computing in general) is in parallel processing and (reasonably) automated support of the development of applications to run on consumer grade, multi-processor machines.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Nothing specific.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Make it more simple and friendly for beginners.
+Yes, I still have to write a list of desirable features...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1) A really good IDE.  I sometimes use Eclipse, for which someone developed a
+   Haskell plug-in which isn't bad.  Perhaps as better support develops for
+   the plug-in, that this approach will suffice.
+2) A window version of ghci with graphical debugging</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Better documentation on the standard Monads, providing references to papers is fine for background / depth, but a simple paragraph describing their purpose and general function for each would be good.
+
+I could really use an IDE, mostly to keep track of what I have written in the past and locate it again, but also to pull up function names and interfaces so I don't have to keep going to the documentation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Drop the monad, it seems to be interesting only to type theorists. Noone else cares about it. ML and OCaml do it right.
+
+Better support for API definitions. Think JavaDoc.
+
+Nice to have: sensible syntax for (hash-)maps and sets. Most algorithms I play with have a combinatorial nature, and a lot of algorithms in the real world use maps and sets. Think Python.
+
+Nice to have: old school type inference. Most type inferencers these days seem to build upon inductive rules instead of bisumulation. Last time I checked I cannot express types like T i o = i -&gt; (o, T i o) (maybe already possible through an extension?).
+
+Nice to have: laziness doesn't seem to scale ;-). A strict evaluation switch would be nice.
+
+Mutable records would be nice to... (Are they there already?) Referential transparency is a programmer's choice - not a universal panacea.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>* More stability in the libraries, esp. the low-level ones.
+* Better support for low-level systems programming.
+* Faster compilation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>More improvements to back end.  Faster generated code.  More optimizations and more aggressive versions of currently implemented optimizations.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Most of the features I marked &quot;Never use&quot; I'm either unaware of, or don't understand.  Most of these features are described in research papers, and I'm
+slowly learning enough to read the papers, but more examples of use would help me. </TD
+></TR
+></TABLE
+></HTML
+>

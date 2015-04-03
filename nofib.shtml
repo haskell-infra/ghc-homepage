@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>The NoFib Haskell benchmark suite</title>
+</head>
+<body>
+<h1>The NoFib benchmark suite</h1>
+<!-- ================================================== -->
+
+We are very keen to encourage the collection of a good suite of
+Haskell programs to use as benchmarks.  We have made a start, by
+collecting the <strong>NoFib</strong> suite. It has three main
+collections of programs: 
+
+<ul> 
+<li> The <em>imaginary</em> part consists of toy programs such as
+nqueens and Ackermann's function.  Such programs are useless for
+drawing general conclusions, but can sometimes show up nasty
+performance bugs in sharp relief.
+<p>
+<li> The <em>spectral</em> part consists of kernels of real
+programs, such as Fast Fourier Transform.  Again, one should be
+careful about drawing any general conclusions from these programs, but
+they are a whole lot more realistic than the imaginary suite whilst
+still being of modest size.
+<p>
+<li> The <em>real</em> part consists of real application programs,
+written by people who simply wanted to get the job done.  They are
+larger and more I/O intensive than the imaginary and spectral suite.
+</ul>
+<p>
+The NoFib suite and the ideas behind it is presented in more detail in the
+following paper:
+
+<ul><li>
+<strong>The <tt>nofib</tt> Benchmark Suite of Haskell Programs</strong> - Will Partain<br>
+  <a HREF="docs/papers/nofib.ps.gz">PostScript(gzip'ed)</a> 
+<p>
+  <cite>
+  In Functional Programming, Glasgow 1992,<br> 
+  J Launchbury and PM Sansom, eds., <br>
+  Workshops in Computing, Springer Verlag, 195-202.
+  </cite>
+</ul>
+<p>
+We are very keen indeed to expand the range of the NoFib suite.  If
+you have a Haskell application program, please send it to us (along
+with suitable test data) to include!
+<p>
+
+<!-- ================================================== -->
+<h2>Obtaining the NoFib suite</h2>
+
+<p>The NoFib suite lives in the same CVS repository as GHC.  To grab
+the code, see the instructions on accessing the CVS repository <a
+href="http://www.haskell.org/ghc/docs/latest/html/building/sec-cvs.html">here</a>.
+
+<!-- ================================================== -->
+<hr>
+<address>
+<a href="mailto:simonpj@microsoft.com">Simon Peyton Jones</a>, 
+<a href="mailto:simonmar@microsoft.com">Simon Marlow</a>
+</address>
+</body>
+</html>

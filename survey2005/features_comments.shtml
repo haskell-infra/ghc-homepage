@@ -1,0 +1,1049 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--Rendered using the Haskell Html Library v0.2-->
+<HTML
+><HEAD
+><TITLE
+>Comments on &quot;Features I like and why&quot;</TITLE
+></HEAD
+><BODY BGCOLOR="#e0e0e0"
+><H1
+>Comments on &quot;Features I like and why&quot;</H1
+></BODY
+><TABLE ALIGN="center" WIDTH="800" CELLSPACING="10" CELLPADDING="5"
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A language implementation without FFI is pointless for anything except computing
+factorial.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The base language is really the killer feature.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Multiparameter type classes are incredibly useful.  Functional dependencies are an important part of that.
+
+I use higher-order polymorphism in implementing abstract types such as continuations.
+
+I'm interested in using Template Haskell to stage my interpreter into a compiler.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sorry.  I'm still just learn the haskell 98 core language.  I haven't learnt enough to exploit GHC's feature set as  yet.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Good optimisation and profiling is always on the top for me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Higher code generation quality (better runtime performance of compiled programs)
+Visual Studio .NET integration</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Template Haskell is central in my current approach to domain specific languages in general, and hardware description languages in particular.  However, I have also considered a more heavyweight approach, using a separate parser and code generator for the DSL (the code generator would emit Haskell, and this approach would offer more flexibility while requiring a lot more implementation effort).  At any rate, Template is clearly important!  I've also found functional dependencies to be essential for parts of my Hydra system.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As I'm only learning, I don't have many opinions yet about anything other than basic features - but I find GHC's scope important as it gives me a very clear feeling that this is anything but a &quot;toy&quot; system :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Pattern guards are just plain useful.
+Existential types are useful for things like homogenous lists and mimicing object-oriented programming techniques.
+Template Haskell is great for deriving your own instances.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use mainly basic features so that I can attract students to work with Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like plain Haskell 98. It's powerful enough for real application building. Of course, the FFI is needed to link to C++ libraries and for GUIs (wxHaskell).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Well-designed, powerful typing is the main advantage GHC has over other languages (such as OCaml).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly haskell comments, but the Haskell/GHC (especially with hsc2hs) ffi system is by far the easiest FFI I've ever used.  Most other languages require lots of complicated glue.  It is kind of amazing to me that the language with such direct support for calling C is also lazy.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i create multiple threads in my program, runs C functions in these threads and then call from these functions back to Haskell. All these works great (not counting one bug - see below)
+
+i also uses classes for creating encoders (something like nhc/Binary) for many types - tuples, lists and so on. this works great too, but with some limitations, so i wiil be happy to see some simple but powerful feature to program with generics
+
+i also think that unboxed types and byte arrays an unevaluable because it can be used to speed-up parts of program without rewriting them in C. of course i use FFI too
+
+i'm also very impressed by your new work (TVar's and so on). It's seems to be great shift in concurrency programming paradigm!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use the concurrency features (including the STM features) because I'm experimenting with ways to use concurrency in Haskell. I'm also using all the classic Haskell features in various programs I write (often preceding a translation into C# for integration with others' code).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The Typeable/Data generics are essential to work around the base defect of Haskell itself: the domain error of using types themselves to carry data.  Being able to describe data handling which does not follow (or need to know about) the strict type hierarchy solves many problems with data access in a large system. 
+
+Implicit parameters are (IMnsHO) an attempt to patch the incorrect assumption that functions without context are sufficient for large programs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haskell 98 standard is not good enough for me. Main reasons are multi-parameter type classes and being able to define instances for more kinds of types.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>ghc --make is most convenient.
+ghci</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>profiling is important for me, because usullay I don't know the exact impact of lazy evaluation</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Don't know what is used to compile darcs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't used most of these features, so I can't say much.  I like the fact that they're there, because it means that when I read a Haskell paper on (say) arrows, I can try out the examples immediately. I'm particularly keen on Template Haskell and arrows, and I couldn't live without ghci (it would also make teaching Haskell vastly more difficult).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like Haddock and the generated hyperlinked documents. If now all modules would have sufficient documentation (System.Posix?)... 
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am glad that many of the feature I don't use are available.  When I plan a fairly small program, my mind set is not so much &quot;Can I do this nicely in Haskell&quot; but more &quot;How can I do this most nicely in GHC&quot;.  Usually I would prefer to write a program in a way that I find in nice (pretty, straight-forward, whatever) rather than to get the job done as quickly as possible.  Of course, many people don't have this option.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GUI libraries with win32 support
+a read-eval-print loop supporting type/variable definitions</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>So. That probably wasn't particularly useful :p
+Since I've never used GHC -- or Haskell in general, for that matter -- before, I put 'never use' for everything.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>N/A</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't really have enough experience to have an opinion on most of this...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- Having the profiler is great; I'd be completely lost without it.
+- Parsec has been quite easy to use, though I don't understand why it doesn't rewind the input when it fails.
+- The FFI is very elegant.
+- I'm happy to hear that you're replacing the FiniteMap class.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Interactive mode takes too long to start on my machine. I like to experiment - I like to make a change and run my code through an interpreter and get immediate response (like I can with Python). I find that I often have to resort to using Hugs instead of GHC when I am in the process of developing. I want much better/faster interactive support, and I want the top-level to allow assignment, not just evaluation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>as an enthousiastic-but-not-too-serious user I may fall in lots of cool featurism traps..</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHCi and the fact that it feels very like HUGS.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use and like the Monad.* classes. I don't like that the exception mechanism isn't generalised to MonadIO m =&gt; ... but uses IO. I don't want this for all IO functions as I fear that the error messages are going to become really bad.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like haskell, it is probably the nicest language out there.
+too bad that for people like me, who use haskell now and then, to accomplish concrete tasks, there is a crying lack of real, useful straight-forward documentation. library and other... I realize that writing library documentation does not get you any publications, but for the longest time I could write 27 fibonacci functions in haskell, but no non-trivial program. Haddock, however nice, is NOT documentation, just a list of type declarations in most cases... I find it unnecessarily hard to do even the most trivial things, just because I cannot get to the information that tells me how in a consistent, no-nonsense fashion. 
+well, just exagerating a bit to drive the point home :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>jn</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm downloading 6.4 as we speak, so my answers to the above may change once I start using it.
+
+I think I'm going to be fond of scoped type variables.  One of my annoyances has been having to comment out type declarations on nested polymorphic definitions to silence compiler complaints.  I think that will fix  them.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Actually, I'm overwhelmed by all the features.  I'm trying to learn about all of them as time permits.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A lot of my &quot;Never use&quot; above was &quot;dont know what that is&quot; I think you should distinguish between them in your pool.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would like to do a ODBMS integration with Haskell.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't consider my answers very knowledgeable</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm not sufficiently advanced in Haskell to offer intelligent input.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I tend to aim for Haskell98 compatability where possible</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Wasn't aware of many of these!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I can't answer most of the above as I haven't got around to looking at the features.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The main thing which attracted me to Haskell was list comprehensions (at such an early stage that I thought they were actually array comprehensions).  Parallel comprehensions make this syntax even more flexible.  It's a shame that they can't be compiled into code as efficient as direct manipulation of arrays.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've been using TH in my PhD research on partial evalution. It does a lot of the hard work for me which is nice.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>intermixing of interpreted and compiled code for development
+portability (windows, linux,..)
+basic extensions like multparameter type classes</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am just learning the features of GHC and its various extensions. The two areas I have used most are FLI and Concurrent Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In fact I don't care so much about all of these features. I'm not going through heaps of logical and mathematical articles just to write some code. Most of the time I just use Haskell 98.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>looking forward to trying runghc</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't looked at new versions of GHC for some time and I am suprised (positively) with the number of new syntactic/type system/whatever extensions implemented. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GADTs, because they allow one lots of extra control over data structure invariants.
+
+Higher-rank polymorphism &amp; existential constructors, because when you need them, you *really* need them.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Note: as a novice with little experience, I don't think I can make an informed judgement on most of the issues above, so most have been left as &quot;Didn't answer&quot;.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I hardly use extension things, only when I compile other people's code. But I am
+bound to use them later, so I guess I am happy they exist. But all these
+'extensions' are likely to have a negative effect as well, which comes in the
+next question.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Simply, the ability to compile Haskell to native standalone executables is great.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. Dependent types
+2. Interpreter, with reflection. Reflective design.
+
+Though, this does not look to be in the traditional Haskell tool line.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>great diagnostics (warnings) indicating &quot;bad smells&quot;</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Too early to tell. Just starting.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>wfewsfe</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would like to see the type-class system be able to cope with overlapping instance heads which only differ by the constraints. This is very useful, for example, when typing XML using XSD, so that general members of classes can be assigned the most general member of their type set in XSD.
+
+I'd also like to see a better system for mutually recursive modules, since when mapping a Schema to a Module, it is near impossible if the Schemas are recursive. Especially when using a complex type-class hierarchy.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I play with the class system a lot, and the various extensions for instance declaration are really useful. I'd like more though, see below.
+Also I write few programs that *don't* use higher rank polymorphism and liberalised type synonyms.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Type system extensions! The type class magic is pretty cool. The interactive environment is also great.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Rich library support (the hierarchical libraries, not strictly part of GHC, I suppose).  I'm not a language researcher, just a user who finds Haskell in general and GHC in particular to be becoming my most productive tool for problem solving and application development.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I should mention that I'm very new to Haskell, and that's why a lot of the above features say &quot;Didn't answer&quot;, I just haven't gotten to trying them yet.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Most of this stuff is &quot;never use&quot; because I'm not familiar with the advanced features of the language.  However, it looks very useful so don't construe the &quot;never use&quot; as a token that the features are not useful.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I wish I understood half of what was in the list above; I think I'll argue for it eventually once I understand Haskell better.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't used it, but STM seems like it will greatly simplify certain coding tasks.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I found rating the features a bit hard. It is  hard to say that any feature is essential, since most programs could be rewritten to not need the feature (though, somethings, like FFI, would be hard to replace).
+
+That said, the FFI and packaging are probably the most important to me, because I typically want to write real world programs, and so I helps greatly to be able to use third-party libraries, whether they be native haskell libraries, or C libraries with bindings.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- a simple tracer !!!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The time/space profiling is really neat to discover the bottlenecks in your code</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Generally, I'm all for language extensions, as long as it is easy to turn them
+on and off. In this light, I appreciate the efforts that have been made to split
+the -fglasgow-exts into smaller pieces, especially where syntax is affected.
+
+I really like the rank-n polymorphism, and everything regarding higher kinds,
+as it occurs often in my research. Currently, I find GADTs much fun to play with,
+but I cannot really say how much I like them yet :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm too new at Haskell to comment on these.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>That's what I was going to do in my 1978 PhD thesis. I had made some progress in recursive back and forth theorem proving in concurent constraints recognition way, but then went into a different dir. and had been occupied with contextual systems formalization.  Congratulations with the result! Would be nice to be in touch latter. 
+
+best, 
+
+Irina </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm most interested in Haskell's fancy type system -- the newer things that you've been adding GADTs is one of the fun things I've just started playing with.  I've never had any formal academic studies in software related subjects so it's a little hard going.  But Haskell has definitly changed the way I think about programming in a lot of VERY good ways -- GHC has been quite a big part of it.
+
+Thanks!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My favorite is Data.Generics.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've generally not responded to specific optimization features, but for real use it is essential (and to my mind its key purpose) that GHC can generate fast code.
+
+In the type system, multiparameter classes with functional dependencies seem to be indispensible.  Also, 2nd-order polymorphism, because Parsec needs it, even if I've never used it myself.
+
+I also plan to heavily use the --main-is options to simplify testing.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In general, I try to stick to H98 types, but every now and then an extension
+seduces me...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Actually, I just like Haskell. All the extra features might be nice, but I haven't had the chance to exploit them --- I know nothing about them. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Not that much experienced that I could give detailed answers -&gt; there is quite many &quot;nice to haves&quot;. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>
+No wishes as I struggle enough with the language extension features that are there and which I love to play with and understand.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As I have said, I like it for speed.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a good performer (http://shootout.alioth.debian.org/benchmark.php?test=all&amp;lang=ghc&amp;sort=fullcpu).  My main complaint is that I haven't had time to learn it more thoroughly.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like the type extensions that allow previously dynamically typed programs to become statically typed.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sorry, I haven't been using it long enough to answer any of the language specific questions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Wow! I had no idea that all the above features were in GHC.
+
+I like: Derivable type classes.
+
+I also like (very much): Type annotations on arguments in function definitions.
+(I.e. f (x :: Int) = x+x)
+
+I am going to like (very much): The Cabal. This is important.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I wasn't aware of most of these -- all of the docs I've read avoid GHC-specific extensions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I consider things like MPTC and thus functional dependences quite essential.
+The same goes for existential types and higher rank polymorphism.
+All of these are by now fairly well established, it seems, with
+support from both GHC and Hugs.
+
+Of all the more experimental features above, I have to single out GADTs
+as my current favourite. They are really a very natural generalization,
+and surprisingly flexible and useful. They really do stop the
+type system from getting in the way.
+
+Of course, one could wish for more. But meanwhile, I'm starting to think
+of GADTs as an almost essential &quot;bug&quot; fix of the present type system that
+was long overdue. Lots of people, including me, just didn't realize the
+system was broken! ;-)
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Many of the Glasgow Haskell extensions are above my head, so I can't say I benefit from them regularly. My favorite features have more to do with the development environment---GHCi is very nice, as are ghc --make and the foreign language interface. I'm eager to go deeper into Glasgow Haskell, in particular the Arrow syntax and Template Haskell. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am still not good at Haskell. Why not ask me a year later?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The design of FFI is very nice.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Higher-ranked types are essential in achieving both performance and confidence.
+ Haskell seems to be the only mainstream language that can express Hongwei Xi's
+ examples. Cf. a message on Haskell list
+ `eliminating array bound checking with non-dependent types'. 
+
+Undecidable instances are essential to any serious type-level programming. In most of the cases, the instance resolution process is decidably terminating.
+Alas, the current termination checker is way too conservative and can't see that. Mercury has quite a sophisticated termination checker. Recently Neil Jones
+and collaborators have developed a termination checking algorithm that is most
+general, handles a large number of algorithms, in polynomial time.
+
+Overlapping/incoherent instances are needed for deriving type equality and
+type deconstruction. I would have preferred to have type equality and deconstruction as first-class `predicates'. I claim there would be no need
+for overlapping instances. We would get type equality and deconstruction for
+free if GHC supported deriving TTypeable (as it supports deriving Typeable).
+
+Regarding Template Haskell. I have heard quite unfavorable comments about
+Template Haskell: people found it hard to comprehend how the most `statically typed' language can have essentially untyped pre-processor. TH is just like
+Camlp4.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>OOHaskell and HList is very exciting, anything which makes that kind of programming easier would be nice. 
+freestanding &quot;deriving&quot; clauses.
+what happened to &quot;optimistic evaluation&quot;?  laziness is great, but so is performance ;)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As I said above, I've really only used Hugs before.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>ghc and make do not cooperate very good, which gives problems if haskell code is generated out of multiple files or multiple haskell files from one file.
+
+note: do not like the feature is not an option?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'd really like improved support for debuggers built into ghc. Hat, for example, (ab)uses the profiling system to do its work. I'd much prefer something more elegant.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Interpreter is quite important for work done fast. Also, I use runhaskell for different data and code generation processes.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like the way GHC reports errors: It is very (but not overly) verbose, explaining errors in (somewhat) plain english, in formulations that leave not much room for guessing what went wrong. It's just ugly that it sometimes counts types like t, t1, t2 ;)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The time profiling (I think that was the name..?) ability is great. We could evaluate our program and determine which functions were mostly run, and optimize these.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>ghci - It starts nice and fast, compiles code fast, handles mix of compiled and interpreted files, allows IO, command history and command line editing.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Features I rather like:
+  Transactions
+  Deriving for newtype
+  Higher-rank and existential types
+
+Stuff I like to have around:
+  All of &quot;Miscellaneous&quot;
+  FFI
+  Pattern Guards
+  Scoped Type Variables
+
+Features I use but find warty:
+  MPTC + functional dependencies
+  Overlapping instances
+
+Stuff I wish people would stop using:
+  Implicit parameters of all kinds
+  </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>All the features mentioned don't ring any bells (although I might be using them - I can't connect to the names), sorry.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've never used any of the features - still on &quot;make&quot;!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sorry, not enough experience w/GHC yet.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHCI is the biggest win, I think; it's the nicest REPL I've ever seen in a statically-typed language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mutable unboxed ST Arrays (don't have to drop to C for fast code)
+Performance Profiler (shows %allocation and %time)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like GHC's optimizer a lot: I write dumb code and it runs it reasonably quickly.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In the question &quot;Higher-rank polymorphism&quot; I use rabk-2 all the time (foralls in data structures), but I don't really use the the &quot;higher&quot; rank (predicative) extension much.
+
+In the question &quot;Generalized algebraic data types&quot; I said &quot;Never use&quot; because I haven't had a chance to try them out (I usually use the official GHC release).
+
+I really like &quot;pattern guards&quot; but I don't use them much because they don't work in Hugs and usually I use both GHC and Hugs.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Some of those I've said are nice are ones I've never used, but which I do feel are valuable and especially many of them I suspect that I will want to use one day. I certainly wouldn't really fancy doing much arrow programming without arrow notation, even though I've not really written anything seriously using arrows yet.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GADTs.  They are great.
+The trying-to-be-helpful error messages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A very valuable feature of GHC is that it is open source software, open to study and modification.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Hmm, I did not understand most of the questions over - I read &quot;a gentle introduction to haskell&quot; and just started... I know *some* of the things I do could be done more elegantly, but then, haskell is the means and not the primary interest.
+
+&#xd8;h, but let me draw your attention to the documentation as part of your &quot;feature set&quot;. You can take a hint from the fact that if a feature is not mentioned in &quot;a gentle introduction...&quot; i'm not using it. The big haskell spec report stands unused on my shelf.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i really like type ghc's type inference.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I definitely need multi-parameter classes because there are cases where single-parameter classes are too restrictive.  Functional dependencies are often needed, too.
+
+For the Haskell Web Publisher, I plan to use Template Haskell.  The website implementor shall be able to provide a description of the website structure (including types of query attributes) via a Haskell value and Template Haskell shall be used to create types for the site itself, types for inner-site links and corresponding function and/or class instance declarations.  Another idea I have is the generation of Haskell types from RelaxNG schemas via Template Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Packed strings are very nice</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I especially like the GADTs and the generic classes. Template Haskell is also interesting (like macros: usually not needed, but sometimes very useful).
+
+Unfortunately I have done so little Haskell programming in recent years that I do not have a very good feel for the relative importance of all the above features. However I believe most of the features are valuable.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I really like the class constraints.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Unfortunatly I have not used ghc other than for installing other programs so I am not able to comment much on what features I like and don't like.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I especially like type classes, and also GADTs. GADTs seem like they should've been in the standard in the first place, they're so natural.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Too new to mae sensible informed comments.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I may say the functional dependencies is my &quot;most-wanted&quot; extension ! Really a great usefull one for me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>FFI, ability to build shared libraries and dlls</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I find assertions very useful, because they automatically tell you the source position where the error occured.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Too bad there's not a 'kill it now!' option in the choice above. I'd definitely choose that for implicit parameters.
+Maybe another good option above would be &quot;never tried it, any good?&quot;, since </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>k</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>wxHaskell support.
+
+I like reading about fun uses for types, e.g. the awkward squad, information hiding, and HLists/simulating OOP.  Support for these sorts of articles is appreciated.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Coming from Python, I really like having an active interpreter for rapid testing. The profiling tools are also really handy.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like the large range of features; it provides a good level of flexibility.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I try to use as few things as possible, I also have no idea what a lot of things I use are actually called.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sorry, I'm too new at it, too basic....  I hardly know what most of those things are.  :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I do not like implicit parameters, overlapping instances, and undecidable instances.  But unfortunately our existing code base uses them, because GHC allows them and other developers use them.  So now they are essential for us :-(
+
+I listed both ghc --make and ghc -M as essential, but in fact I only need one of those, not both; either one would do.
+
+laziness is not an essential feature, and causes lots of problems.
+I would much rather have annotations for laziness in those rare cases when
+it is needed rather than the current situation of having laziness be the
+default and having annotations for strictness.  It would be really nice
+if GHC supported that.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>More of a proviso to my answers above: I benefit from many of the extensions I don't use directly by using libraries that do use them e.g. wxHaskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Unfortunately, many if not most of these features require the user to have in-depth knowledge of the type system.  I'm simply a user, not a language researcher, and I don't have time to work out the intricacies of the type system.  One of the things I love about Haskell is that most of the time, the type system just works.  Typing errors are invaluable to me in developing prototypes.  
+
+I'd be more than happy to read a survey paper for non-specialists like me on how the type system works.  Perhaps then I would be more willing to invest the time to learn these features ... but I haven't found such a paper, so most of the &quot;nice-to-have&quot;'s above will probably remain a mystery to me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>--make and the hierarchial module system are very nice.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Arbitrary-rank explicit universal quantification; because it allows a greater level of polymorphism.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I said &quot;never use&quot; to some of the features because I, well, haven't used them. I just never needed to profile anything. That doesn't mean the feature wouldn't be very useful to me some day, though, because I almost certainly _will_ profile something some day. So take these statements with a grain of salt.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm still getting on to the more advanced features.  I expect to use (and that my students will use) a few of the above extensions, e.g. arrow notation, as we go along.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>JP'HIO[P8U</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've found existential types and functional dependencies very useful.
+GHCi is handy for trying things out.
+Profiling is useful because it's hard to guess what's slowing a programme down.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I put them all as essential, not because I use them all, but because it is the fact that new language ideas and techniques get into GHC so fast that makes it useful to me.  It is like a solid testing ground in which I can learn aobut and test out all these new things.  Much better than just trying to get info from conference papers and the like.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For my DSL stuff, TH and GADT are indispensible.  I'll be experimenting shortly with STM as well, as that is very important to me as well.
+
+I've read the docs and papers on GPH but I'm not sure that it works for the kind of clustered distribution that I'm thinking of.  I'm not really looking for fine-grained parallelism.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am very interested in the extensions to the type system</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>We use existential types over multiparameter type classes with fundeps to model something like ML structures as (almost) first-class citizens. However, it is a bit tedious to write down e.g. new datatypes over these existential types, since often 10 or 20 type variables are involved. It would be nice to have some kind of packaging notation that allows us to treat the &quot;ML structures&quot; (i.e. instances
+of the multiparameter type classes) as a whole.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Usually, I write Haskell 98 programs. However, it is nice to have a lot of usefull extensions for programming at home.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I quite like the Haskell extension for generic traversals (scrap your boilerplate); I have only toyed with this, but had I known about it early enough I may well have used it to implement a large translation function over the entire Haskell abstract syntax.  I _think_ it could have helped me produce a much more modular and compositional (and shorter) definition of my large translation function... It also may have made me decide not to use a state Monad for the translation function;  if each translation could be defined by a different function (by using generic traversals) then each could take the extra parameters (and return the extra results) that it needs without affecting the types of the other translation functions (so the state Monad for implicit inputs and outputs could be scraped... perhaps!).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>the integration of Parsec: writing a parser directly in Haskell is so convenient!!!
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I very much like the ST monad (which requires higher-rank polymorphism, IIRC). I think it is a very handy way to package up state in a more modular way (so IO is only dragged in when you actually care about IO). 
+
+GHC's library in general tends to be quite handy and time-saving. I'd like better support for integrating third-party Haskell libraries (currently we manage those ourselves), but, from what I recall, that is already being worked on.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like ghci most. Running e.g. gui tests in the interpreter is nice. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is claimed that overlapping instances are not needed if we have a &quot;TypeEq&quot; class or something like that.  If this were true, and a nice syntax were found, I could do without overlapping instances, if only so that it could be made part of the standard.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is clear that it is a powerful tool with many higher level concepts.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Wish I could give you more, but I am a very conservative
+user and haven't delved into many of these features yet!
+Thanks for reminding me about them though!....</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Don't forget the aggressive optimization!  It's key to turning a beuatifully-written program into a reasonably-efficient one.  I </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>users need java interface</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- ghc --make (down with makefiles!-)
+- ghci (could be improved, but is already indispensible)
+- type-system extensions (if they remove unneccessary restrictions instead of introducing new complications - the language desperately needs simplification)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haskell has a great type system, and GHC's extensions make it even better.
+
+Using GHC, I can write high-level code, then look at the core (or profiling results), and suggest optimizations via INLINE, SPECIALIZE, etc. without actually changing the source. This unaffects readability while allowing for good performance.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>If one thing makes my life easier, it is --make.
+
+I've also noticed that with 6.4 the error messages seem improved. I think this
+is so, but I'm also getting better at understanding common error, so I rate
+the improvement as greater than a newbie might.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHCi, and &quot;:type&quot; within GHCi.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Games don't (yet) depend on complicated code behavior.  Most games have straightforward operation and code, except for the fact that they are generally multi-threaded.  I use GHC (and Haskell) because it lets me say complicated things quickly and elegantly, but I don't need extremely fancy tools such as implicit parameters and such.  I had to look up half the stuff in the list to realize I was using it.  So, I need good concurrency and good interfaces to OpenGL and OpenAL.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I shy away from linear implicit parameters; they scare me. (can't loose beta for anything, you know..)
+
+
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Dependent types in some form would be very nice, or at least some ability to have types depend on values. Recursive types would be nice.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't use most features of GHC outside Haskell-98, except MPTC, FunDepsand such. The concurrency part is quite impressive and made me decide to use GHC instead of Erlang in my P2P application, because it should support many independent threads.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I love ghc --make. I've almost never needed make, hmake, or so for compilation. I think all programming systems should work like that.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Control.Concurrent.Chan.
+The type system in general.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As far as I am concerned, because my code deals with very large numbers (eg 128Kb long nunbers), I use unboxed types and directly poke into the numbers' representation. This means ghc is the only compiler I can use.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>as a less-clued haskell programmer, i'm mostly working on the language and haven't needed many extensions yet. so not many of the above are essential to me. but when programming functionally it's much harder for me to see how efficient or inefficient some construct is, and it seems easier to write ridiculously slow code. so profiling and optimization are essential.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I speak basic Haskell only, most of the extensions are beyond me. I plan to improve on this, though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>[whereever you see portable, add &quot;and preferably an approved addendum&quot;]
+
+I'm not really sure what to say for -M / --make. What I really want is for it to be easy to have something that works for ghc+nhc+hugs. Currently I think this means using cabal or hmake. If nhc supported -M too then that would be nifty. Portability is a big thing to me.
+
+Profiling is also particularly important to me, e.g. in my recent work to track down performance issues, both in time and space, in darcs it has been invaluable.
+
+TH is obviously essential due to my work, but there are places I would use it regardless if it was portable.
+
+On syntactic extensions, some (like arrows) I don't use the syntax only because I don't use the feature. Sometimes I avoid them for portability reasons.
+
+Pattern guards, lexically scoped type variables, datatypes with no constructors I would use for opaque types from C if they were portable.
+
+The only time I can remember wanting overlapping or undecidable instances is for &quot;Show a =&gt; a&quot; and &quot;a&quot;, where they don't work.
+
+I put fundeps in the middle as I don't use them myself, but they are needed for monad transformers etc IIRC, which are vital to me.
+
+Unboxed stuff is only important while performance tuning; I consider it a bug if my finished code still has any in.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sorry, but I have no knowledge of how pugs uses Haskell, maybe one day I might delve into it.  Right now Haskell is a means to an end.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Hierarchical modules are nice.
+Of all the ghc extensions, higher-rank polymorphism has been the most useful to me.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haven't gotten far enough into Haskell yet to say anything worth listening to.  Sorry for leaving most of the above question blank, but I don't know enough to say anything meaningful, yet.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use multi-parameter type classes all the time.  I'd like to eventually write a linear algebra library, which requires things like being able to write a vector space type class where you can multiply scalars by vectors, which is not possible with a single variable type class.
+
+I've successfully used the profiler to speed up programs considerably.  I've been meaning to experiment with unboxing to see how it improves performance.
+
+I love assertions.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>hey I leant something filling in this form. There are a few things that I've some issues with that I now see there may be a solution to here. Wish there were ways to keep upto date with these developments more cheaply (in time on my part!)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Full H98 support is very important; a good library comes second and cool features (unnecessary for the library) come as a distant third.  The past lack of recursive modules was a major pain (marked nice to have above because there was a tolerable workaround), for example.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Having looked at the list I can see that I only use a small number of the facilities in GHC and they seem to work very well for me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>This doesn't belong here, but anyway: My &quot;Never Use&quot; answers to some of the above questions (partcularly space and time profiling) don't mean that I regard them as unimportant. I just didn't use them yet but probably will in the future (profiling will probably rank &quot;essential&quot;, then).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't really disagree with any of the extensions available, as they are generally implemented well and in a non-intrusive way.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>-O: makes Haskell competitive
+
+Growing hierarchical libraries as part of distribution: Re-invinting far fewer wheels nowadays...
+
+--make: huge management simplification
+(The bulk of my Makefiles is now for lhs2tex)
+
+Advanced language features: GADT, Typeable, arb.-rank polymorhphism, etc.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use implicit parameters all the time, makes code much cleaner.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have read some articles about parallel array comprehensions, which I find very cool.  A month ago, though, it seemed like the implementation in CVS was lacking and buggy.  I haven't played with it much, though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>More tutorials</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I enjoy that GHC tries to incorporate the best available ideas. Please keep up!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In C++ (my main area of expertise), I made frequent use of template metaprogramming, but this is so cumbersome, limited, and ungodly hard to read that for anything requiring such features, I prefer to use a language with proper compile-time code-generation features, like Template Haskell. 
+
+The foreign language interface is of course essential so that I can access my C graphics and interface functions. I am still unable to find a PROPER tool that will automatically bind my C functions to native Haskell functions, however.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Control.Monad.*</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>do notation in ghci.  Quality and formatting of error messages (eg, &quot;possible fix&quot;).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Higher-order functions and lazyness -- they are great!
+
+The ellegance of the language: its syntax and semantics. Everything is simple, and can be done in different ways.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My instances are not undecidable, but GHC isn't clever enough to see that they are decidable.
+GADTs are quite new, I haven't used them yet...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>it has super nice syntax (but layout importance gets in the way sometimes; eg when your list spreads over more lines)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Functional dependencies, because the monad foundation classes use them.
+
+Template Haskell looks particularly interesting, but I haven't had occasion to use it yet.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. I really like the mix of a very high level language and access to very low-level features (unboxed types, FFI, low-level OS interface). It allows me to initially write in a very high level style and then, if it's necessary, to tune the most performance critical parts. The unique features of Haskell, like Monads, often allow me to add the optimisations in a modular way, almost without touching the initial code.
+2. STM seems to be a very cool feature, one that fixes many difficult problems occuring in concurrent programming, and at same time is (the STM) very difficult to get right in traditional imperative programming languages like C++ or Java.
+3. I generally like the extensions to Haskell your are adding to GHC. Reading the feature list of a next GHC release feels like unpacking a Christmas present :)
+4. Template Haskell is a very important extension. It seems that recently you had problems to find manpower for developing it further. It would be really sad if you ceased to support it in the future.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It seems, I want it all (-:
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>&quot;ghc --make&quot; is really important for me because I don't want to write complicated Makefiles. I can't seem to get away from using overlapping instances, if only because my use of Control.Monad.Error seems to always result in them.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>ghci is huge part of why I even look at ghc.  I've gotten to where I strongly dislike languages without an interactive top-level.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Recursive modules are proving essential to a plug-in design for Flippi, a way to avoid having to write .hi-boot files would be nice if this isn't already in 6.4.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like the extensions to the type system.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I couldn't answer anything in the list, since I don't know enough in Haskell.  Moreover, in all that technical stuff, I couldn't know what's just Haskell, what's GHC-specific, what's generic to functionnal programming at all, etc.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In fact, since i'm quite a newbie with haskell, i don't know a lot of ghc features but i'm likely to use some extensions. (to learn about current possibilities of functional programming)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like my programs to run fast, and use as little memory as possible.
+Didn't answer most of the above stuff because I'm a newbie and haven't got a clue what it is yet :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think in a few months I'll be better able to answer these questions</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The well documented Haskell libraries are very useful to me, as is the Prelude documentation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a miranda type programmer, mostly only concerned with the algorithm I want to express; I do not dive into most GHC extensions.
+
+The syntax of Haskell and Haskell's type class implementation is excellent; ghci is an incredible tool.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The implementation of light-weight threads is great. GHCi is a real blessing.</TD
+></TR
+></TABLE
+></HTML
+>

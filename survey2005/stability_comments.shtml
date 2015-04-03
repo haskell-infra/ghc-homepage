@@ -1,0 +1,537 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--Rendered using the Haskell Html Library v0.2-->
+<HTML
+><HEAD
+><TITLE
+>Comments on &quot;Are releases stable enough?&quot;</TITLE
+></HEAD
+><BODY BGCOLOR="#e0e0e0"
+><H1
+>Comments on &quot;Are releases stable enough?&quot;</H1
+></BODY
+><TABLE ALIGN="center" WIDTH="800" CELLSPACING="10" CELLPADDING="5"
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Never had any problem with any stable release.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A have had a few issues with stable releases in the past but after reporting the issues the next stable version has always included fixes.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>ghc is a great tool!  It is having a huge impact on functional programming research in general, and I think it's also probably improving the prospects for FP in the real world.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>At least for my purposes</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've only had one showstopper till now: the 6.2.1 garbage collector bug. Fixed in 6.2.2. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i found just two problems after half-year of everyday GHC use. one is that GHCi can't load my compiled modules and second is about calling into Haskell from multiple C threads. Please write to my email bulat_z@mail.ru, because i can't send bug-report to you :)  (nor to Hugs developers :)
+
+in all other aspects GHC works FINE</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Or at least they seem to be.  One glaring error in 6.4: the redefinition of GT in the Data.Generics package.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The problem is not so much with GHC, but with the brittle dependency on particular builds of GHC exhibited by some ancilliary packages, e.g. wxHaskell. Can't invest time on things that will break (even if temporarily) when I upgrade GHC, which I will want to.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I tend to be conservative in my usage, however.  (Maybe if I used more of the cutting-edge features I would get cut more often?)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Never had a problem with bugs in the compiler.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Definitely yes. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>never had any real problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>there are some annoying problems (ie compilation errors on *.hc intermediate files); it happens always when I am just in hurry</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have not had any problems yet except for external libraries (HSQL) not working with the package format changes in 6.4.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have never seen a segmentation fault or a crash or anything like that, so it is more than stable enough for me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I didn't have any issues, but I am not using it for professional purposes.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>though I suspect 6.4 will need to keep it's Release Candidate state for a while.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I remember some legacy things (like ghc-pkg -l) being replaced or augmented in a backward-incompatible way. Worse, some of badly designed features are replaced by other hacks. Example: One thing that is broken in ghc-pkg description is the extra_ld_opts field which should contain options that the linker understands. Instead it contains options that are undestood by gcc. The driver should add the popper prefixes itself since I as a user don't know that gcc is used underneath. How is this going to work if c-- is used instead of gcc?
+
+It would be nice if most features of ghc could be checked without reverting to comparing the version number.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>jn</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haven't experienced trouble with released versions of GHC. GHC 6.3 was a bit of a moving target, though (see previous question).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>New releases are stable, but API breakage between versions is quite frustrating!  I understand that there's always tension between freezing an API and breaking backward-compatibility to fix problems, but I see a lot of effort spent on upgrading old libraries to work with new GHC versions.  It's hard work to pick up a three-year-old Haskell program and get it to work with new versions of GHC!
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I run into fewer problems with GHC than most of the commercial compilers I have used.  Excellent work.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>for the newer releases, yes; previously doubtful.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>but almost. And often the problem isn't GHC's fault but other things (Hat, HMake, Alex, Happy) being incompatible with the GHC upgrade.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC does have bugs every now and then but my experience is that it is in very dark corners and I am almost never affected by these. In my experience GHC is very solid.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>You can never be stable enough!  &lt;smiley&gt;
+Perhaps GHC would benefit from a dual-train (stable + development) approach?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've been pretty pleased with 6.2.2 and it having been around for a while is fine.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't had any problems except with experimental extensions.  On that note, I'd like to see more fine-grained command-line options to enable specific extensions -- with only --fglasgow-exts it's too tempting to use experimental features that are half-baked and/or are unlikely to be included in the next version of standard Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Well, I'm not using it often now...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Although I did not test 6.x thorougly</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>There are few non-backwards compatible changes from release to release.  Even though that can be a pain in the rear, that goes a long way towards easing the tensions of new releases (ie. &quot;will this release break my current code?&quot;).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have experienced no stability problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A few releases are stable.
+It is better to do 3 times less of releases, but make them more stable. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't really know, as I do not use the advanced features.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>So far, I haven't had a problem, but I haven't reached much of the edge of the language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't had any problems so far, but then again I'm not the one installing them on Solaris... ;)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Absolutely, it is amazing how well it all works. Well done!! </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Yes, but I don't use much more than H98 + Concurrent.  Can't speak for more adventurous users...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My only recent experience is with the 6.4 release, which was problematic.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>never ran into problems with releases that are marked &quot;stable&quot;</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>They are stable enough for me. For GHC-6.4, I'm not too enthusiastic about the
+non-backward compatible change in the package system, and I think that it would
+be really nice if library moves would not so easily break old programs. OTOH,
+I would really like to mention that the long public release candidate testing
+phase of GHC 6.4 was very helpful and probably helped to find a lot of problems
+prior to the final release.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The releases I've tried have seemed very stable.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Releases themselves are stable enough.  But some kind of &quot;migrating your programs from version x.x&quot; document would be great. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Never had any problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As a matter of policy, I nearly always wait a few months for software releases to
+stabilize (not just GHC's!).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haven't seen any problems, but haven't done any hard nor large sw with Haskell, yet. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>AFAIK</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Hope so</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Although for many releases now the documentation has stated that the ability to create Haskell DLLs in Windows is broken - I'd like to see that feature working again.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I actually don't know, but there is no option for that.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The version that I'm using, 6.4, hasn't crashed yet. Of course, I've only run hello world so far, so that may not be too impressive. :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Things could always be improved, but ultimately, yes, stable enough,
+especially given the usually very rapid response from the GHC developers
+to various kinds of problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't found any bugs yet. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have no problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>one exception: 6.4 package tools are not compatible with earlier versions - language is ok</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Bugs rarely show up, and if they do, it's mostly due to buggy source code. I've never encountered a bug that kept me from compiling a correctly stated program.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I expect bleeding edge use of Haskell to break, and non-bleeding-edge use seems to be pretty stable these days.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>until now, no problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Not really sure yet - but expiriences so far are very good.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Still on &quot;make&quot;...Stable so far!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>6.2.2 was good for me</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sorry, not enough experience w/GHC yet.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I can't remember it ever crashing on me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For what I do GHC is stable enough.  Of course it could always be more stable :-)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Never had a problem with stability.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm using 6.2; have had no problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>yes, definitely.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Releases are usually very stable, but if one needs a bugfix - that is usually included in HEAD very fast - waiting for the next stable release can take very long. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have not had a lot of experience with ghc in recent years, but have always found it to be a good quality compiler, and have not noticed any change.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>&quot;The impossible&quot; happens quite often. :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have had no problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The only small bug I found was due to a syntax error not properly handled and was corrected within 24 hours :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Though I do wish for more QuickCheck tests in the test suites, I don't yet wish hard enough to write them myself.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>On the whole</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't tried 6.4 yet.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very stable.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I hardly use it for anything serious.  Soon, though, I hope!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>But I would like a more detailed analysis of &quot;what this may break&quot; in the relase notes.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would like better support for backwards compatibility.
+E.g. please deprecate features for at least two releases (over at least 12 months) before removing them.  ghc 6.4 removed a lot of features which were not even
+deprecated in 6.2.2.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Non back-compatible library changes are bad.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Releases seem very stable to me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Although... there have been problems with GHC on newer architectures, such as x86_64.  In particular, bootstrapping has been a problem for me, as well as compiling some libraries (HSQL) that specify -split-objs, which isn't yet supported on AMD64.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>9Y0-[Y90-[</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have never had any stability troubles.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haven't exercised them enough to be able to tell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In the time I have been using it, I have had no significant problems with new releases.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>No problems with that</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>... but sometimes it is work to adapt to new releases (especially if low-level
+things like OS calls are involved)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Never seen a crash.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>on the rare occasion I find bugs, they are always quickly fixed.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>mostly yes, except ghci on debian/powerpc</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>More stability would be welcome. but it is extremely rare for us to run into a problem that is a GHC bug.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Just switched to 6.4, 6.2.1 was very stable.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For me they are, but I stick to the straight-and-narrow,
+ie. I don't dabble much in language extensions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I only once had a problem with the compiler - the program would bomb when a great deal of memory was used.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>in general, yes, but testing on windows starts too late in the release cycle, resulting in more problems with releases on that platform.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Stability has been a strong point.  The only recent exception being the integration of Cabal into 6.4. (Putting it into 6.4 certainly lit a fire under
+the libraries group to finish something, so this was perhaps unavaoidable.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very stable as far as I've seen.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I never had problems with stability.
+Occasionally I hear people complaining about something that might be a stability
+problem, but that has never been confirmed when tracking down the cause</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't seen any unstableness, but then I haven't used ghc that much so far.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>6.4 has quite a few problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Not had any stability issues</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Altough the intermediate versions are often *very* unstable.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I did not answer the Features I did not yet use.
+Thanks for the poll</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Using GHC 6.2.1 I was often getting: Stange closure type ... error</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haven't tested 6.4 yet extensively.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Actually, no, but that's entirely the fault of people (including me) not testing prereleases for various reasons. You certainly shouldn't have delayed 6.4 more.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Yes, so far.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly.  I've been getting odd messages and crashes out of my Markov chain program and I haven't had time to pursue them.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>for our needs. Not for our customers though. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>No complaints.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I rarely have any problems</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Since I look at them only very occasionally, I am not sure I can interpret the logs of the nightly builds appropriately --- a guide to what to look for might be useful.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I seldom had problem migrating from one release to the next.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've never had a problem with GHC producing erroneous results or crashing on me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>never had any misgivings, never been sorry for getting the latest version.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've never met a show-stopping GHC bug.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>There was painful GC bug in 6.2.1 though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A bit harsh, but 6.4 has caused us trouble. Lava broke, for example. A bit awkward since I had just installed 6.4 on Mary's new lap-top for her, and she took Lava to  demonstrate to Intel without checking that it would compile!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I was suprised to see that GHC 6.4 was released, and then see a bunch of bug reports against GHC 6.4. I think this is an indication that GHC needs more pre-release testing, by a more diverse set of users, than it is currently getting.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Yes, the release have been stable</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've only ever run across one bug myself</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>They seem to work</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>One more time: I'm not an expert, but at least GHC never crashed with the basic usage I need.  Doesn't mean anything, I guess, but hey, that's cool ;)</TD
+></TR
+></TABLE
+></HTML
+>

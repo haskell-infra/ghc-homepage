@@ -1,0 +1,130 @@
+BODY { 
+  margin-top: 0px;
+  margin-left: 0px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: sans-serif;
+  } 
+
+A:link    { color: #0000e0; text-decoration: none }
+A:visited { color: #0000a0; text-decoration: none }
+A:hover   { text-decoration: underline }
+
+TD {
+  border-width: 0px;
+}
+
+/* -------------- top banner stuff: ---------------- */
+
+TD.bannerleft {
+  background-image: url("images/ghc2.gif");
+}
+
+IMG.titleleft {
+  vertical-align: middle;
+}
+
+IMG.titlespacer {
+  vertical-align: middle;
+}
+
+TD.bannermiddle {
+  background-image: url("images/header_bg2.gif");
+}
+
+TD.bannerright {
+  width: 49px;
+}
+
+IMG.titleright {
+  vertical-align: middle;
+}
+
+TD.shadowleft {
+  background-image: url("images/green.gif");
+}
+
+TD.shadowright {
+  background-image: url("images/shadow.gif");
+}
+
+/* ------------------------------------------------------------ */
+
+LI {
+  padding-left: 10px;
+  padding-bottom: 8px;
+}
+
+H1 {
+  font-style: italic;
+  font-size: 140%;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #000000;
+}
+  
+H2 {
+  font-style: italic;
+  font-size: 120%;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #000000;
+}
+  
+TD.wholecontents {
+  width: 0px;
+  background-color: #D6F3D7;
+  vertical-align: top;
+}
+
+TD.rightpane {
+  width: 100%;
+  vertical-align: top;
+  padding-top: 20px;
+  padding-left: 10px;
+  }
+
+TD.lefthead {
+  padding: 6px;
+  color: #ffffff;
+  background-color: #008000;
+  font-weight: bold;
+  font-style: italic;
+  }
+
+/*
+TD.lefthead {
+  font-weight: bold;
+  font-style: italic;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #000000;
+  }
+*/
+  
+TD.contents {
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  }
+
+DIV.body {
+  padding-left: 15px;
+}
+
+TABLE.contentstbl {
+  font-size: 90%;
+}
+
+TD.indentcell {
+  padding-left: 10px;
+}
+
+TD.cellhead {
+  padding-top: 7px;
+  font-weight: bold;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+

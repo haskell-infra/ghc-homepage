@@ -1,0 +1,1871 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--Rendered using the Haskell Html Library v0.2-->
+<HTML
+><HEAD
+><TITLE
+>Comments on &quot;Applications I use GHC for&quot;</TITLE
+></HEAD
+><BODY BGCOLOR="#e0e0e0"
+><H1
+>Comments on &quot;Applications I use GHC for&quot;</H1
+></BODY
+><TABLE ALIGN="center" WIDTH="800" CELLSPACING="10" CELLPADDING="5"
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly for things concerned with Yampa, a functional reactive progrmming language working on Haskell and invented by Yale Haskell Group</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use it to learn more about functional programming.  I'm also a darcs fan.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Algorithm modelling, research into various things, fun.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haskell XML Toolbox
+Examples for Course in Compiler Construction
+XML applications (web photo album, ...)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've just been fooling around with learning how laziness works, what monads are for... etc; things that I haven't found in other languages. I've used it for OpenGL graphics, parsing text, and a few other miscellaneous tasks and found it useful.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm working on a BASIC interpreter and doing research in continuations &amp; exceptions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Complex algorythms are fun to implement in Haskell. GHC provides interface for calling these functions from C</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>see above</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm just coding the examples and exercises I read about in SOE.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have a real-time shading system (similar to Stanford RTSL - http://graphics.stanford.edu/projects/shading/ but better ;-) that consists of a shading language compiler and a runtime. Compiler part is written in Haskell, it is compiled using GHC. Under win32 the compiler part is a separate .dll file that is dynamically loaded by the runtime (runtime itself is written in C++ and has C-interface for applications).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Research in computer hardware description languages (the Hydra project); parallel programming with the SIMD and SPMD models; teaching; general research in functional programming.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is especially good for modeling and simulating digital signal processing and developing hardware.  Decision analysis is another area where I use GHC.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Nothing specific - various &quot;learning exercise&quot; programs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've been working on two DSLs - 1. A reimplementation of Pan (as part of my PhD) and 2. a language for composing sounds (represented as functions from continuous time to amplitude)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The book will tell you all. 
+Understanding and handling oriented matroid data. Generating related information.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>hello world, fib sequences, etc. Beginner stuff</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>We are writing an application for Bayesion network editing and analysis. It has a GUI and it uses a C++ library for probabilistic  inference.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compiling darcs :-)
+I'm still learning Haskell, so I'm writing &quot;stuff&quot; to help me learn the language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i use GHC (and Hugs) for hobby project - creating archiver program (like Info-Zip)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Evaluating the usage of Haskell for the development of planning/budgeting/forecasting applications. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Writing compilers</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>None atm.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I play with Haskell language tools, and use ghc as one compiler to test-build those tools (e.g. nhc98, Hat, etc.).
+
+I also use Haskell for &quot;real&quot; work, implementing prototype model-analytic tools.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>graphics, language analysis</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Web applications; logic, theorem proving systems; compilers, interpreters; personal productivity tools; solving Internation Collegiate Programming Contest problems; teaching declarative programming in the context of an IT degree that seems to students that its Java Java java...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Prototyping.
+Parsing and translating.
+Network programming.
+Web apps (particularly w/ WASH)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>type checkers, small compilers, cgi programs, puzzle solvers, scripts, and so on.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>We do a lot of projects in the railway domain, quality assurance, tests. I used Haskell to develop several tools: for analyzing code, validating a safety-critical translator by writing the same program once again in Haskell (much quicker :-), writing a compiler for a scripting language to test distributed systems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Interactve authoring/editing of functional values* Interactve authoring/editing and display of functional values.  I hope to give non-programmers a fun environment in which to create sounds, imagery, and shapes and tools for manipulating them.
+
+* Calculus on manifolds.  The idea is to express derivative values as linear maps (e.g., scaling functions in 1D), rather than scalars, row &amp; column vectors, matrices, tensors, etc, all of which are *representations* of linear maps.  This view unifies the many different chain rules into one.  It seems a natural fit for functional programming.  Static type checking (on linear maps) replaces runtime consistency checks on matrix dimensions.  My main application interest is in simplifying computer graphics math &amp; programming. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My Phd research is in programming language analyses. The parsing and data processing features of Haskell are very useful. Lazy evaluation allows for elegant and clean code too.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Developing a desktop environment framework for programmers extensible in Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Designing DSLs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>So far I'm trying to implement some demo stuff using the OpenGL module.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>see CPAN</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Pugs (http://pugscode.org/) and OpenAFP (http://svn.openfoundry.org/openafp/) mostly.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>So far, I haven't written anything substantial, but I'm very interested in using ghc as a C code generator.  I've been in contact with a very forward-thinking internet company in the Pasadena area and we've had several discussions about this.  My goal is to make lots of money off of Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>See here: http://proofgeneral.inf.ed.ac.uk/kit. Amongst others.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Currently developing an IDE for Haskell in Haskell, it's going to be great! :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- teaching (data structures and algorithms, protocols engineering,programming languages)
+- prototyping: scheduling algorithms, tsp, others
+- research: formal derivation, security</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Nothing major.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Experimenting with audio synthesis.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I ve used GHC for Web scripting, for implementing PL-related applications (interpreters etc) </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>test haskell bits, small compiler implementations, tiny wxHaskell applications for my own use.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Some light graphic generation programs (generating pnm files).  May soon use it for a network server application.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Nothing yet. I want to use it for web programming.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>We are building an IDE for Haskell. 3D graphics toy applications. Tools.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's a web framework where a php front-end calls Haskell (cgi), through xml-rpc, to exchange data with a DB, enriched by various attributes written in xml. Then xsl transformation completes the chain</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm currently re-implementing parts of the PMS / Reservation System I'm maintaining at work to try out new ideas. I plan to try out the concurrency facilities and the socket interface for a web interface as soon as I have accmplished something to interface with.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's a small and very extensible programming language of sorts. It's not embedded in Haskell, GHC compiles and executes it.
+I'm also using Darcs, but I haven't looked at its source code.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am very interested in lexical analysis and compiler design. I used Haskell and Parsec to make a compiler that generates PIR, the intermediate assembly dialect used by the Parrot virtual machine.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Just fun projects, mainly Haskell &quot;translations&quot; of university Java homework / projects, e.g.:
+- a parser / interpreter for a small imperative web language
+- Dijkstra's and other Graph algorithms (mostly monadic)
+- writing algorithms as Calculus homework (e.g. wrt Banach's fix point theorem)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>sysadmintools (ahum, e.g. managing my ogg vorbis collection), a bit of concurrency, networking, opengl, ffi and lots of messing around.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I want to explore Constraint Logic Programming more having done this in Scheme and Prolog.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm developing an interpreter for an experimental programming language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>program analysis</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Formal concept analysis / logic / natural language semantics</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Educational (toy) programs (e.g. I wrote an interpreter for a small imperative langugage, a prover for propositional formulas), CGI Web formulas written with the CGI library and compiled with ghc ;-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>HaXml </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>f</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sometimes I use it for my homework, just to be different.  Sometimes I use it to write fun little projects which aren't going to be used for anything serious.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Building compilers and tools.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm starting to use it on a commercial job.  I could tell you what for, but then I'd have to kill you ;-)  If I ever end up making any money off of it, rest assured you will hear plenty more.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Studying Simon Thompson's Craft of FP book - </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I once found web-development to be cool which lead to a Haskell module for Apache and Hackage. I've abandoned the Apache module but Hackage is gonna continue to grow as a part of the Cabal project.
+Currently I'm working on easing the burden on the programmer when binding to foreign functionality. This has manifested it self as Hacanon, a TH library for automatic FFI code generation. Hacanon allows the programmer to give general guidelines, as well as specific commands, on how marshalling should take place.
+
+ModHaskell - http://www.scannedinavian.org/repos/modhaskell
+Hackage - http://www.scannedinavian.org/repos/hackage
+Hacanon - http://www.scannedinavian.org/repos/hacanon</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>To optimize hardware placement in a AIX server rack.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Offline computer graphics (ray-tracing, photon mapping, ...)
+Compiler implementation</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In teaching - comparative language paradigms, writing interpreters and compilers
+In research - writing interpreters and language analysis tools
+In industry - writing interpreters and language analysis tools</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Yet I'm in the learning stage, so it's just small programs for learning Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>pugs.  But of course, given the speed of development of pugs, I may look into learning some Haskell myself.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I try to think about using Haskell in Linear Algebra</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>deliberate planning, crisis action planning, mapping, operations research, reasoning</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Just screwing around. A fractal image creator, a multiplayer game server, a few small CLI  utilities, toy language implementations. A few (trivial) patches to the darcs SCM program.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compiling programs I have written</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have written a system for generating PDF-files in Haskell along with various plotting routines. I have written innumerous small utilities. I have also used Happy and Alex for some small custom languages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I depend heavily on GHC in my research project on analysing Haskell programs. We use ghc to desugar programs into </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Waiting for the day I can use it in business apps.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>FP examples and practicals on courses. Papers, mostly of the Functional Pearl variety. Day-to-day fiddling - eg ghci is more convenient than bc or dc as a calculator.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haven't got an application yet; I am still tinkering. I am interested at the moment in graph algorithms and data base access (I have struggled with the latter a bit trying to get various packages to work - since I do this for fun if I hit a problem I tend to move onto something else)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Toys only, so far.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A GIS project.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For my PhD project I use Haskell to write compilery / typeinferency sort of programs.
+
+We use GHC for the gtk2hs project which I work on in my spare time.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>simulation of physical systems </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>To develop Haskell related tools and libraries</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>by now i'm still learning</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>implementing toy languages</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The prototypes I build involve compiling data from several disparate data sources and formatting for input into advanced visualization renderers.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As designer and implementor of the Proxima generic editor, and
+as co-designer and co-implementor of the Dazzle Bayesian network editor. (both are large applications written in Haskell) Furthermore, I teach functional programming, and we use GHCi for the lab assignments.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Playing with mathematical methods like automatic differentiation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PUGS/Perl 6</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- automatic software test generation (prototype for PhD thesis);
+- various tiny (and often unfinished) essays dealing mostly with PL processing and semantics.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>data analysis / number crunching, video processing
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>currently, small tools, nothing (yet) business-critical</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Personal projects... just for fun.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>prototyping, fun, and several icfp contest entries.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>An tool for evaluation functional programs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly toy programs, also a simple natural language processing tool and a lazy functional language compiler a long time ago</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Like i said above, I generally just play with GHC, although I have used it occasionaly to put together simulations that I could have just done with Mathematica, but chose to do in GHC for the fun of it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>An interpreter for a functional language.
+PhD Research.
+Toy programs I write to amuse myself.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Perl 6</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Only used for toy applications so far.  I am looking for larger projects, but having problems finding spare time and adjusting to such a radically different language.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Simulating denotational semantics (so far).
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>compilers and other structured text processing</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compilers.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly small elegant programs that greatly resemble math problems. For instance, I've written several solvers for puzzles with GHC. I tried it for some linguistics programs, but I found that figuring out where I needed to make evaluation strict so that performance would be acceptable was much harder than just writing the program in SML. :) I have looked at WASH/CGI a lot as well.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Toy apps so far</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>to program symbolic computation systems</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I wrote a tool to do category partition testing.  Have done some development work on implementing a process algebra and building a gui interface to it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>none yet. Pugs -- Perl 6-- for sure</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>wer</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am primarily into Web-Service applications, and specifically am working on XML applications for Haskell using the SYB Generics library. We are planning on using GHC to build a Composite Web-Serivce execution engine.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A rather involved compiler for an executable specification language.  (The language is not functional, and the object code is either Prolog or virtual machine code.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- developing algorithms
+- OpenGL
+- CGI + http://graphviz.org/ (in the future)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>for the time being, nothing in particular</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use GHC for every programming tasks, including writing toy compilers, web-based tools both for research and personal uses, quick and dirty problem solvers...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Recently these have come in basically three guises:
+1) Small test programs that I write to check some specific idea I have, e.g. can you encode this or that using type classes, would a GADT help in this situation, etc. These are by far the most frequent programs I write.
+2) My master's thesis involved a larger server application in Haskell.
+3) The server itself actually calls GHC (via hs-plugins) to compile user-supplied modules. I use a preprocessor to translate into Haskell and then use GHC to compile.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Writing compilers.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I mainly use GHC for one-offs: working in computer graphics, Haskell is still too slow for most of my stuff. But I do use GHC for non-time-critical tasks: for example, most of my diagrams in papers come from HPS, a PostScript EDSL I wrote that needs the GHC type system extensions</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>From trivial stuff investigating mathematical properties of school level things, up to a graphical application using wxHaskell for a probability demonstration.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As described, plus the specific research topics of type checking and error reporting, probabilistic programming, and simulating biological systems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>nothing yet, besides learning, due to lack of library-ability.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Small data-munging scripts - often beats shell and Perl on their own ground!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compilers (DSL, general purpose, simple code translation engines).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Manipulating ini-style config files, data mining on debian control files, web+database applications. And, hopefully someday, music applications.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Natural language parsing involves lambda parser, chart parsing, unification</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>automatically assessing students' log files
+viewing and publishing my digital photographs
+writing research compilers and type-checkers</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Most recently for pugs, the perl6 interpreter.
+Previous, only for half-hearted play.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>see previous.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A ray tracer :) And I also wrote an article on the GUI library gtk2hs, which works great with GHC</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>automatic termination proofs for string and term rewriting,
+http://141.57.11.163/matchbox/
+
+e-learning (grading of homework exercises)
+http://www.imn.htwk-leipzig.de/~waldmann/pub/fdpe-02-autotool.ps
+
+Game Server http://141.57.11.163/havannah/</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The main program I write and maintain using GHC is the Generic Haskell compiler.
+All others are significantly smaller, smaller even than lhs2TeX. Most programs
+I write are little code snippets to experiment with or demonstrate language
+features.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>No now.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>the systems of communicating contextual systems</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Day to day work related stuff is of massaging bits of other code and data together that wouldn't otherwise fit.  Haskell seems a lot more expressive than other languages.
+
+For play, it's for thinking about programming lanaugage design.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>programming language tools, small web applications (WASH)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly, it's been exploration.  I've experimented with networking and I'm on to 3D.  I'm working my way up to trying to create a 3D pseuedo-turn-based game that allows for head-to-head play.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>mostly for running examples used in my research, e.g., to test performance of original vs. transformed programs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm using it to produce code for a MVC-bsed system to produce diferent models of data representation for diferent process modeling languages in a PSEE (Process Based Software Engineering Environment)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I wrote some hobby software, including an FTP client in pure Haskell and a WxHaskell puzzle
+(and some FRP stuff and some WASH pages).
+
+We also wrote a CGI-based web service as part of a prototype at work
+
+If I had any free time, I would probably use Haskell for almost all my personal projects.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compiling darcs is by far my most important use
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Programming language understanding, small Domain Specific Language, quick parsing tools, operating system experimentations and others.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Automatic planning / Machine intelligence</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>darcs, my stuff</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Currently, bioinformatics researchers are using Excel to process large tables of genetic probe data.  I wish to separate code from data, and also prepare the data for inclusion in a semantic-web-based database (www.bioimage.org), which calls for a &quot;real&quot; programming language of some kind.  I choose Haskell because it's cool, and I have already written tools to read the spreadsheet data into semantic web form.
+
+I also have this subversive idea that I might be able demonstrate to the (non-computer-savvy) researchers that their calculations are expressed as easily in Haskell as in Excel formulae, if I can isolate the &quot;awkward&quot; bits of I/O programming.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Currently, use it as the basis for the House operating-system-in-Haskell project.
+Also use it routinely for Haskell compilation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly to write software engineering tools, but also for &quot;quick hack&quot; and shell script type programs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>To build an tool to support Haskell program development </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use it for writing interpreters, inverse interpreters and some other programs dealing with programs as data.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Everything and nothing, really. GUI-stuff, small utilities. GHCi is a great replacement for calc.exe.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Continuous Data Types. That is, I try to implement them. This involves many big integer operations (so x86_64 platform).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm interested in generating certain mathematical structures (oriented matroids) and most of my experimental code is written in Haskell. I've just started to port a more stable algorithm to C++ for speed reasons.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Still learning.  I have a plan for a game, also plans for modelling and optimization... </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Still just learning haskell</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Generic Haskell, TH, haskelldb, hs-plugins, plus lots of trial programs (snipets)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Toy applications to explore haskell; small tools for common tasks; main project: a webserver.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Usually I use GHC for commom and simple programs but I had used it for FFI (together with Greencard).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Spreadsheet analysis tools
+Implementation of Parametric Fortran
+Development of several Haskell libraries and tools</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have used it in an implementation of fractal image compression that was very slow in Hugs.
+
+I've also used it for mucking around with nested datatypes.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I generate Haskell code from block diagrams.  This code generator is currently in C++, maybe I will port it to Haskell as well and then I will have Haskell generating Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Games and simulations (e.g., Pentominos problem solving, stuff from Wolfram's &quot;New Kind of Science&quot;).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Some experiments on lambda calculus and functional data structures, and a fast DCT program generated using template Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mainly to build Darcs right now.  I'm interested in becoming more proficient with Haskell, since I think it is one of the prettiest languages to read.
+
+I wish it had better meta-programming support (based on my bias from using Scheme/Lisp for so long).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Spare time: I'm (sometimes) working on a verifier and presentation tool for Metamath (metamath.org); Haskell is perfect for this, and it is trivial to install on my Gentoo box.
+
+Day job: sometimes I have to prototype fairly complex algorithms; Haskell is ideal for that.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Personal work in math and programming language exploration</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>See http://simonpeter.com/technology/software/zadok/ for more details.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Lexicon development.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Scripting, Compilers</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am/was an O'Caml nut but I've been looking to expand my horizons.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>solving recreational mathematical problems, Haskore &amp; audio signal processing, scripting &amp; HTML processing</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Lately mainly Functional Reactive Programming + various applications in
+teaching, as described above.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Only for the exercises at the moment</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Having just picked up Haskell, I'm mostly implementing toy programs at the moment---I plan on eventually writing compiler-related software. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>DSL, cannot tell more</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>These days, I write almost all code which isn't too be checked into the tree using GHC.
+
+At my previous gig, we made much more extensive use of GHC.  We wrote 
+the following in Haskell: 
+ 
+  (1) All the tools surrounding our microcode processor implementation: 
+      (a) Global-register and global-memory allocating macro assembler 
+          (written as a monadic DSL),  
+      (b) Interpreter taking the same DSL as (a), 
+      (c) ISA tools which define the actual instruction encoding and 
+          produce a map and the Verilog for the decoder (see (4), 
+          below), 
+  (2) Tools to parse, plot and analyze data produced by our hardware, 
+  (3) The golden model for our system (RTL and firmware), 
+  (4) A meta-language for our RTL.  Verilog is pretty rotten so this 
+      really helps generally.  With 1(c), the decoder RTL for the 
+      instruction set is largely automatically generated.  W.r.t. (2) 
+      and (3), this keeps all of the constants the same across the 
+      various pieces. 
+ 
+      The meta-language implementation takes arbitrary text with 
+      embedded Haskell definitions and expressions and produces 
+      Haskell code that, when run, produces the final output.  The 
+      implementation itself is compiled with GHC but the produced 
+      Haskell code is run through Hugs (loading time rather than 
+      compute time dominates) to produce the final output, 
+  (5) Device driver for our hardware (over a parallel port), and 
+  (6) Algorithm-level simulation. 
+ 
+With the one exception noted (see (4)) these were all developed using 
+GHCi and compiled with GHC. 
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Web applications, compilers.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>darcs (again) :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A tool for parallel programming that defines a coordination language on top of regular Haskell. The tools are themselves programmed in Haskell. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Higher-than-usual database interface
+Logical programming system based on fully polymorphic delimited continuations
+Trust-management system (planned)
+Wrting messages on Haskell lists</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>&quot;system/network administration tools&quot;, graphics (OpenGL) programming (haskell is lovely for that!), darcs, prototyping stuff..
+And I use ghci a lot as a calculator.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have been playing with writing interpreters in Scheme, ML and will try now with GHC.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am developing a part of a new haskell compiler, which cannot compile itself yet.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am hoping to be able to replace Python with Haskell for the scripts and small prototypes of algorithms I develop. I am looking forward to runghc in 6.4.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>web application server
+
+algorithm prototyping (semantic search engines)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Genetic programming, general AI attempts, several small board games implemented.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Translations, modelling system descriptions into logic.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Pugs (Perl6 prototype) development</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>compiler for hll.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Explorative Programming. A thing that takes 10 minutes to implement in C might be done in 10 seconds in Haskell. This frees your mind for the real problem.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's darcs, but I think you most likely know that...
+
+At one time I also used ghc at work for a code-generating code.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Silly little scripts, mainly using the networking module. I once wrote an extensible irc bot in haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>math and lots of number crunching. we convert tons of mathematical algorithms and the source can be compiled anywhere....</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Please see my first note.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Neural network simulation and daily tasks.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Nothing in production, yet.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As I said, darcs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Academically I use GHC for developing tools for Process Algebra based complex systems modelling.  As a hobby I'm using GHC to prototype fractal world-building algorithms.  I also find GHC excellent for writing those quick text and file manipulation filters.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Never much more than a toy program for experimentation with Haskell and programming and thinking in Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Data structure prototyping.
+Fiddling with concurrency (usually in home-brewed monads where I control the interleavings).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Building a combinator library (embedded language / compositional denotational semantics) for statistical models.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm currently working on making a compiler for Macromedia Flash ActionScript, so right now I'm using GHC on a daily basis. Using Eclipse for IDE with this plug-in: http://eclipsefp.sourceforge.net/haskell/index.html</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Looking at how belief systems use constructive/intutionistic logic (a la Heyting, affirmable or semidecidable logic). How this relates to money and beliefs about future value and reputation. And, somewhat differently, how topological ideas are present in &quot;commonsense reasoning&quot; (somewhat along the lines of George Lakoff, Gilles Fauconnier, Mark Turner, Evelyn Rosch, and the &quot;metaphors/mappings/slidings&quot; line of thought. Sort of a category theory look at metaphors, types, and morphisms.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Currently working on my own implementation (or rather a derivative) of Joy - a concatenative functional programming language. Also a 3D modeller and a computer game (an RPG/adventure game).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm just installing it now, because Perl6-Pugs requires it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Discrete modeling
+Scientific computation</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm implementing a hardware description language in Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>still learning</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am investigating using Haskell for telecommunications billing.  We have a large (several 100kloc) perl application; I am looking into alternative languages for future development.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>So far, it's been toy programs: puzzle-solvers and the like.  For comparison's sake, I ported a small Scheme database program to Haskell just to see how it turned out, and that further reinforced my high opinion of Haskell and of GHC.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>network server applications (Job)
+darcs (spare time)
+implementing algorithms for learning (crypto, algebraic number theory)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>darcs (of which I'm sure you're aware).  Previously I used it for the aBridge server, and if I ever go back to working on aBridge, I expect to rewrite it using wxHaskell and Concurrent Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use it for general utilities (file format conversion and the like)
+and algorithm prototyping and simulation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I frequently write Haskell programs to explore discrete structures: games, groups and group actions, partially ordered sets, graph polynomials, etc.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Language processing, linux scripting tasks, general programming.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Writing interpreters, compilers, and language processors.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Some simple things which most people would probably do in Perl or Python, such as the program on my mail server which reads mbox files and feeds the emails in them through the spam filter to retrain it when it makes mistakes.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Currently: reverse engineering of legacy assembler codes (IBM 1800 code, no stack, self-modifying in places, etc).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>spare time math; combinatorics</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>(1) For the software that I happen to write in Haskell
+(2) As a research tool
+(3) For coursework assignments that I set
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Any kind of language hacking, or mathematical exploration, is much nicer in GHC.  It's not an option for &quot;real work&quot; for environmental reasons.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Program Slicing, Teaching, Formal Methods</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I primary use GHC for experiments and learning about functional programming. I also use it to compile darcs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Experimenting with algorithms, small scripting tasks/data manipulation, general software development</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Experimenting in code transformation/generation for C.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>* calculating optimal control strategies for long-haul freight trains
+* calculating optimal control strategies for solar racing cars
+* calculating wiring schemes for solar arrays
+* creating SVG, VRML and EPS diagrams</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Graph topology analysis to be more precise. Otherwise pretty generic use.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- data mining
+- web application frameworks
+- peer-to-peer networking (not yet, but planning to)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For my diploma thesis, I'm experimenting with implementing a more structured approach to I/O interleaving which is not &quot;unsafe&quot;.
+
+Privately, I occasionally work on a library and toolset for developing websites in Haskell, called Haskell Web Publisher.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very little so far, but the plan is to use it for compiling Haskell into machine code programs that would be of general use. That means I will need to use all the possible existing libraries (from other languages as well) to be able to program in Haskell whatever I choose and enable people to use my programs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>SCM/darcs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly scripts that deal with data analysis.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>computational linguistics - building a natural language generator</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly for little tools parsing easy-to-write-by-humans text formats and pretty printing them to an easy-to-read-by-C++ format.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I will use it for the user-space parts of the PersiMMon project - an implementation of distributed persistent memory.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For exploring Haskell.
+For writing programs that I need/feel like writing.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Modelling a trusted web server, and modelling the L4 kernel. I am also translating Haskell into Isabelle for theorem proving.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>darcs, http://abridgegame.org/darcs/ 
+I would like to add that I didn't write this, I just install it for those that requested it. 
+For the next question on the number of people that use it. One person requested ghc for darcs, however thousands now have access to it. None have access to a working copy of ghc though, at least untill I am able to build my own copy for our system.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Experiencing with programming language design and implementation in Haskell.
+GHCi - also as a text-based calculator.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Also use it for more general stuff besides my research - puzzles, graph algorithms...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Main use so far has been in modelling denotational semantics.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm preparing a course on functional programming and i plan to use Haskell as targeted language</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>darcs, which is a version control system</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Interested in Haskell for inferencing in Semantic Web applications but also for Functional Hybrid Modeling for engineering applications, specifically projects at NASA.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>see above</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I try to make semantics combinators. GHC allows me to model the ideas so closely to the theory that I don't feel a need for a non-implemented theory.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Simple interactive experimentation with types, something Scheme does not support well. For example, I had a semantics course this semester that involved typed lambda calculus and I wanted to evaluate some of its expressions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A combined lambda calculus and combinatory logic interpreter with embedded
+binary interpreters.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use Haskell to write compilers.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Curryspondence - mailman mailing list archive web searcher
+curryspondence uses HaskellDB, WASH, HSQL, hsemail, and a bunch of other code.
+lambdabot - irc 'bot
+PLog - blog application by Peter Gammie
+darcs - source control
+Too many apps to list.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Digital Circuit  simulation</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I wrote a few lines of code to look up BibTeX references on MathSciNet by MR number.
+
+I gave a presentation about how cool Haskell is, and used GHCi for a demo.
+
+I played with GpH once and managed to get a small speedup on an embarrasingly parallel problem.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use Haskell as a general purpose programming tool. Currently using it for tokenization tasks.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Cryptography, integer sequences, algorithmic algebraic number theory, other language source code generation. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Home: Various hobby applications e.g. CGI stuff, general playing around.
+Work: Generating C code.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is the basis of our introductory computer science course. It is also
+used as the inspiration, and toolchain, for a compiler used in our 
+programming languages course.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The current course I'm doing is a course about programming languages (http://www.cse.unsw.edu.au/~cs3161). So I'll be doing the assignments for that.
+
+Also, I'll probably use it for answering my mathematical curiosities, but nothing big.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>term rewriting, type checking, interpreters. Model checking. soon will need gui for all this stuff. based on playing around with wxHaskell, not looking forward to it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Experimenting with typing, implementation of type checkers and code generators.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would *like* to eventually write some OpenGL stuff (with wxHaskell preferably).  It would be great to do some cross-platform development.  I want to write a CAD-type program.  All pipe dreams at the moment.  :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PolyP
+CoverTranslator
+Agda
+scripting
+experiments
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sometimes I prototype things in GHC because it forces me to be clear about the logic. I also write many day-to-day scripting tasks in ghc.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>See Object-Oriented Bayesian Networks, Daphne Koller and Avi Pfeffer, UAI-97.  I am writing an editor.  No public release yet.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A Wiki system and a visualisation tool for evaluation strategies of
+lambda calculus.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am using GHC as my primary Haskell compiler in the development of code
+related to my master thesis, which is about Module Systems in Haskell.
+I will be using GHC to develop a large scale system for a (family) company.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For school I use GHC mainly for math and cryptography type stuff. We don't use GHC for anything major at work, just a few minor things here and there (but hopefully I'll be able to change that...). For fun I use it for everything from calculating the odds of getting a winning poker hand to writing compilers.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Signal processing and soft AI, such as Bayesian nets, etc.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly simple parsing applications. I plan to build a parser/interpreter/compiler for a programming language I'm toying with. For that I'm looking forward to using the new &quot;wobbly types&quot; which are just what I had missed.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For developing gtk2hs and hircules.
+
+A small program that pulls latest software packages from our development
+trees at work.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>darcs
+sitrep (a status report/task manager)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Teaching and research.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>dynamic web apps</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Student projects, many out of SOE and then web applications based on WASH.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>798POT798POT</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The course has been heavily WASH based.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>At home: simple stuff, like a little household book-keeping system.
+At work: inference, simulation, distributed evolutionary algorithms, etc.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Learning new functional programming techniques.  Both in terms of programming functional languages and implementing them.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Currently, they're aren't any applications.  As above, I'm interested in seeing how well I can use it here at work for DSLs of various sizes as well as for simulations.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have been experimenting, through GHC, with using Haskell for applications in visualization and computer graphics (see below); an undergrad student is completing a project on declarative approaches to scene graph organization. I have recently obtained UK funding (with Colin Runciman from York) on using FP technologies (including polytypism and program specialization) for generic data visualization over the grid, and I have been using ghc to explore some preliminary ideas.  At this point it is not certain what system(s) the project will adopt when it commences later this year.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly only small algorithm implementations for comparisson with imperative ones.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>toy functions so far, with plans to develop an interpreter for the lambda calculus, eventually subsets of Haskell itself</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am interested in using Haskell for small programming languages anlysis and compilation, like Domain Specific Languages</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>heterogeneous tool set: parsing and typechecking specifications and proof management in a heterogeneous setting</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Most when I'm &quot;playing around&quot; with diffrent programinglanguage constructions, for my studys and for fun.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Programming experiments, web applications, teaching.
+Developing research software.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Video Editor.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Besides work, I use ghc for daily scripting tasks that one might consider the domain of python or perl.  I use it to develop haskell libraries.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>day job -&gt; primarily as a glorified calculator
+for fun -&gt; various AI (ANNs, classifier systens, primarily)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>LDAP directory client.  Comparison of file heirarchy.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I used GHC to compile a Haskell translator that I wrote for my student project.  I used Hugs when testing the translator on tiny programs (e.g. to see if a specific translation worked), but the Hugs-interpreted translator was unusably slow for even quite small programs.  GHC allowed my translator to be usable on large programs (at least programs of 10's of thousands of lines).
+
+I also use Haskell as structural hardware description language (as advocated by the Lava and Hydra people).  Simulating large circuits in Hugs is slow;  GHC makes the approach more practical.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am writing a JavaScript interpreter, an ActionScript compiler and a Java bytecode-to-ActionScript-bytecode translator.  I would like to use Haskell for projects in the J2EE space and plan to implement a Haskell compiler, or back-end, targetting the JVM.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm implementing a kernel learning-based analyzer of honeypot logs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Parsing (using Happy &amp; Alex and Parsec), html documentation generation, learning/using Strafunski ... </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i'd be intersted in using haskell (and ghc) for web programming</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>ghci has become my desktop calculator.  I write small text and structure processing applications mainly.  During my master's degree I used ghc to create a program which would read in IBM 1800 assembly, parse it, and create dot graphs and xml versions of it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I wrote a compiler for a compiler construction course. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>for example : play go at the surface of a cube :
+http://nm.nerim.net/goCube2.0.tar.gz  
+http://nm.nerim.net/goCube1.png 
+http://nm.nerim.net/goCube2.png</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Application of a custom genetic algorithm framework to a transport optimization software. Fast deploy of analisys and diagnostic software (traffic monitoring). Powerful functional scripting for boring task.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>One-off internal scripting, exploratory code, code generators.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Implementation of a small language (using BNF Converter). Now I will build a linguistic exctracion tool generate a morphological lexicon from a corpus.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In one application, I used Haskell to examine database schema descriptions, finding shortest paths of foreign keys between any two tables.  This was then translated back into Java where it served as a basis for drag and drop filtering between spreadsheets representing any two database tables.
+
+Another application involved examining the output of principal component analysis applied to toxicology endpoints.  The goal would be to find matching points between two outputs, and to find the points that were displaced or dropped between two runs.
+
+Lately I am experimenting with using GHC to implement XML searching and transformation on MAGE-ML documents.  Some of these files are over 1Gb in size.  I might need GHC extensions and certainly GHC's optimizations if this project is to succeed.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Currently, a H.264 video player (for a testing purpose).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use ghc mostly to compile darcs. I do not program in Haskell a lof but I'm a fan of darcs.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have implemented a number of tools in Haskell and used
+GHC(i) to develop them.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Lots of things. Generally when I see a problem, I try to solve first in Haskell to open my mind. Then I do in the real used language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very diverse.  Mainly, as rapid prototyping templates for device or process
+engineering.  Some work on compiler technology, and a little audio work.
+codec simulation and testing.  Sanity-checking.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I write a lot of puzzle-creation and puzzle-solving routines.  I also do experimental calculations, such as determining optimum Backgammon Bearoff strategies for X many checkers remaining, or to determine the expected number, in the Lord of the Rings game, of Activity steps before the sixth event occurs.  Many of my programs run for hours at a time (solving NP-complete problems involves that risk).  Many or my programs are expected to use a 400-600 MB heap, and only that small because of constraints on the machines I use!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>educational use</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>do you mean projects? see my old home page, but briefly:
+- HaRe, Haskell refactoring tool (ghc, programmatica,strafunsky)
+- HCPN, Haskell-coloured Petri nets (ghc,wxhaskell)
+- FunWorlds, embedded domain-specific language for reactive animation in 3d worlds, trying to improve on Fran/FRP/Yampa by simplifying the design and thus the implementation (ghc,HOpenGL,GLUT)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Want to use it for everything.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly semantic toys/examples, and one static analysis tool.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For log analysing and for making CGI etc.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'll be using GHC to write computer games (in my garage, more or less).  In college, I used GHC initially as part of two courses, then purposefully used it after that in all the classes where the teacher allowed me to pick my programming language.  Now I want to use it to write complicated computer games.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Building darcs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Text processing, data analysis, data extraction, ...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Building the Perl 6 compiler, Pugs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Numerical, database, machine learning. Haskell is the best imperative language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Prototyping compilers and related tasks
+Model checking algorithms
+In general, symbolic computation tasks
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Rudimentary problem-solving exercises, e.g. su doku solver, pentomino puzzle solver.
+
+Attempting to compiling other people's Haskell code - HaskellDB, Yi etc. - with somewhat mixed success.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Prototyping a parser for a DSL</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I developed a couple of log processors, a directory pretty-printer, a couple of compilers and I'm designing a P2P application.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Text processing and code generation utilities, wrapper generators for third-party APIs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compiler for a programming language based on category theory.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm looking to build a website using Haskell. I also use it for random scripting jobs, and personal itch-scratching...
+
+Mostly, I'd like to see a Zopeish webserver in Haskell, or at least supporting Haskell. I imagine this would rely heavily on the work Don Stewart is doing with hs-plugins</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Small toy programs in order to learn Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>those which are relevant to programming languages</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Parsing and analyzing data files</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Building Hat and some random OS X utilities</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Working through SOE and some other little projects</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compiling compiler compilers (Happy), compiling my Java interpretor.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Pugs (http://pugscode.org/)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>mostly developing WASH
+writing compilers and type inference engines</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Theoretical computer science (automata and other abstract machines, infinite graphs, code-generation, simulation of cellular automata, visualisation of all that stuff...)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>One of the tools generates tests to run on verilog from pin transitions on the PCI and DDR busses and is used to debug x86 CPUs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>darcs!
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>commandline tools and wxhaskell Gui apps on MS Windows
+also read, write of pcx and bmp files
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>realtime multiuser game server</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>usually small problems, ibm ponder this</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Random small bits of code. Also a pretty printer and a document summarizer (class project).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>One of the primary uses is to implement operational semantics presented in papers. Haskell's expressiveness allows a more or less ad-hoc translation of the semantics into code.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Computing matrix elements of Hamiltonian matrices on large sets of vectors: TCSA.  It's an approximation method usable in 2 dimensional quantum field theories for example.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>darcs is the main one currently.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use it to compile nhc98 (I'm (trying to) hacking nhc98), and sometimes other applications (not much)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Perl 6 pugs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Building type inferencers. Prototype for programming languages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Modeling HW.   Scripting.  Writing compilers.  Writing DSLs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Transforming xml into html. Automatic code modification.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The application mentioned above is part of a web publishing framework built for my employer.  We are a publisher in the legal, HR support and general &quot;compliance&quot; industries.  The web site needs to surface a specialized full text query language and we intend to use parsec to generate SQL from the user input.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>formalising physical systems. numeric culculations.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Prototyping Image Based Rendering techniques</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Now I hacking a bibliography generation program for LaTeX. It uses database files which are mostly compatible with BibTeX, but the biblioraphy are written in Haskell (implemented with hs-plugins). I hope that in near future I'll use GHC to program the active control device for the grinding machine (at work - my post-graduate study is related to this).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm using it to program a Markov chain simulation that will eventually include some sophisticated natural language processing.  </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Application Specific language development. Network Protocol design. Hardware Architecture prototyping.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>gfh</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I was given the task of trying to develop a Haskell web browser (madness i know) and I'm using GHC to try to do it.  The libraries I use with it are wxHaskell to help make a GUI and HTTP modules for downloading web pages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Still mostly exerimenting. Began writing a Haskel wrapper for a network protocol (Channel Access, a main part of EPICS, see http://www.aps.anl.gov/epics/).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>fgs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like to use Haskell for every project where it is possible to do so, and I use GHC as my main Haskell compiler</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For the next question (number of users): about 20 in projects,
+plus 60-100 during courses.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Usually I do anaything that needs to be compiled and nobody cares about source code. Otherwise, I use hugs (no binary required) or C/C++ (source code required). The kind of applications is varying - usually state space serachers, simple tools/functions, never compilers, even if I've written own combinators, but bison/flex or recursive descent parse I like more. :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>This is a finite model finder for first order logic:
+
+http://www.cs.chalmers.se/~koen/paradox/
+
+Other than that I use haskell for rapid prototyping or simply trying out
+ideas. At a completely different level is it for textprocessing.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Most likely parsers, for programming langauges or a file format used for certain games.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Numerical/scientific computing.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>meta-programming, text processing ...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am creating a &quot;non-ambiguous&quot; language for computers to use as an intermediate language for translation applications. The main goal is to use this as a base for translators, and potentially, using generative linguistic principles, a program that can LEARN several languages and translate between them. This is all experimental, perhaps several years down the road I'll have something to show for it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Trying out ideas/implementing some algorithms in Number Theory;
+writing utilities for some of my mundane everyday tasks (eg, updating a remote database with the marks of student papers)
+but also: exploring some FP ideas</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>hope to embed haskell into other program for its best suited area</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>using it to support build related tasks on projects.  currently working on a replacement for ant.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Small personal projects (personal finance management, flashcard quizzer, &quot;scripting&quot;) and programming exercises/puzzles.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Constructing programming language research related applications. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Algorithms for wireless communication (FEC, CODEC, etc.).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Most of the applications are toy-programs. The big application I'he done using Haskell was an Othello's game, using GHC+wxHaskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I do Haskell to extract information from spreadsheets and develop models or perform consistency checking.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>darcs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have used GHC for XML processing, application testing and load testing.
+
+I also use it for fun.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A backtracking parser for postal address standardisation.
+Ad hoc fun stuff, such as Jim Propp's recursive aptitude test.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I want to use it to serve my webpages!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In my job:
+- algorithm prototyping (compression, data processing)
+- CGI web applications in WASH
+- many small programs for processing different structured text files
+- some one-shot network applications (proxies, servers)
+- starting to experiment with mixing Haskell and C++ in one program for
+  some of our quite important applications which are currently written in C++
+At home:
+- some small contributions to darcs
+- a half-finished master's thesis application for running Microsoft
+  SQL Server applications under PostgreSQL.
+- many, many small programming experiments</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A typical application would be an interpreter, analysis, transformation or some other programming tool in an experimental system.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>almost any programming I do, but main applications are theorem provers, parsers, compilers, GUIs, graph drawing. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>See above. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Toy applications.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Parsing and type-checking natural-language expressions.
+Running a human-subject experiment (measuring reaction times) that occurs concurrently across two terminals over the network.
+Fancy calculator (replacement for &quot;bc&quot; and &quot;dc&quot;).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1. I am developing an implementation of the OMG MOF2/UML2/OCL2/QVT languages in Haskell as an independent study project for my University.
+2. I have written some simple programs on a contract basis to preprocess data exported from a database into a format that is convenient for mail-merging (i.e. combining the variable data in the database export with boilerplate formatted text.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>We develop a commerical Electronic Design Automation tool (Bluespec), where the majority of the source code is Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>FP compiler research
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It will be for the 'little tools' that support my main work.  Prototyping, visualisation, experimentation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm not really making anything sizeable yet, just learning the language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Personal research (largely language design, type systems etc), web applications, quickie scripts. Would use for GUI applications, but presently the library support isn't quite up to it (not GHC's fault). Intend to try using for games.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compiling darcs.  ;-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>nothing that actually exists, just some code for concatenative languages</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use *Haskell* for embedding my DSL FunctionalForms.
+I use GHC for compiling Haskell. :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly just small tests and examples.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Cryptography, web services security, role based access control.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have used it for scientific computing and optimization.  I have used it for mathematical research.  I've used it in the development of database applications.    Currently, I use GHC primarily for development of audio processing algorithms.  I would really like to be able to move to using GHC for the final product and by pass the porting to Objective-C step.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compiling simpl haskell programs that help understand general functional constructs (monads, parser combinators, arrows, lazy patterns). Learning some TCP/IP programming in Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In our development environment, many items grow from a long, piped command line
+into a script, into a cleaned up and documented script (ksh, ksh93, perl) needed
+for a release process for example.  Once in a while, these scripts are hard to
+debug and to slow.  Haskell allows a high level rewrite, and ghc allows for a large speed improvement without having to write it in C.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Generic Editing</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Toying, mostly.  I'm discovering functionnal, lazy programming, type system, etc.  I hope I will make useful things in Haskell one day :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i want to learn haskell more deeply. i plan to implement a raytracer (based on pbrt.org) (and see the performance:)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>gtk2hs (library)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>tracing, assertions, playing with HO functions and lazyness</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is too slow for any application that actually runs in our switches.  However I feel it has great potential for developin external applications which would be used to test the operation and correctness of the software we write that does run on the switch.  In this role it would replace scripts currently written in Perl or Python.  I think it may be also useful to prototype future development ideas</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My Master's thesis involves creating a domain specific language, Haskell and Parsec for the front end at least, probably the entire compiler.  The crux of my language is an advanced type system for scientific applications, which includes complex dependent types.  I am using GHC with extensions, also exploring Chameleon and related work by Martin Sulzmann and company.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Recreational programming - ideas for the development of a factorization algorithm based upon a boolean reduction, trivially size balanced maps, small language development, (Collatz) number experiments, stuff like that...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mainly systems programming and scripting ATM, as a replacement for shell/awk/perl/C etc.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Programming language construction</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use GHC for whatever problem catches my eye. I've programmed a few web apps,a game or two, and lots of small apps and problems.
+</TD
+></TR
+></TABLE
+></HTML
+>

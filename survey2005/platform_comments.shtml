@@ -1,0 +1,599 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--Rendered using the Haskell Html Library v0.2-->
+<HTML
+><HEAD
+><TITLE
+>Comments on &quot;I use GHC on the following platforms&quot;</TITLE
+></HEAD
+><BODY BGCOLOR="#e0e0e0"
+><H1
+>Comments on &quot;I use GHC on the following platforms&quot;</H1
+></BODY
+><TABLE ALIGN="center" WIDTH="800" CELLSPACING="10" CELLPADDING="5"
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'd like to use it on Plan 9</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For my teaching applications, it's important that my software written in Haskell will run on Linux, Windows, and Macintosh.  However, I use ghc only on Linux (currently Fedora).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I do wish the dynamic linker was more portable.  Although I don't always use ghci when developing, it is sure handy to have.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i want to make my archiver (see above) be portable to maximal number of platforms, especially i interested in x86/64 (windows, unix) and OS/2. so i will be happy to see GHC porting on these platforms</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I wish for ghci on x86_64!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I: develop on Mac OS X, deploy web apps on linux (which I think is Red Hat, but happily it's not my job to administer); have users of my systems that use Windows. Students (sadly) prefer Windows.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I occasionaly use GHC on x86/Windows, but not when I can help it.  ;-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Reasonably good portability.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The Linux distro I use is Arch Linux (http://www.archlinux.org), for which there's an unofficial ghc package. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mandrake Linux</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Linux From Scratch</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have been very pleased with the gentoo support for GHC and sundry associated packages.  I find the windows GHCi clunky, but I think that is mostly Windows' fault.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am happy with my Linux installation (Mandrake) but providing RPMs for Mandrake may be a good idea. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Works great so far...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A colleague of mine wanted to try Darcs on his home amd64 running FreeBSD. He gave up for the moment because he couldn't get GHC installed.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sparc: does it support callback with more than four arguments? I haven't checked recently.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>ik</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have problems with GHC 6.2 and GHC 6.4 since my Linux distro (arch -- www.archlinux.org) upgraded to readline 5 -- it doesn't seem like I can find a version I can install or compile myself.  I have to install readline 4 -- this is annoying.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Native code generation for the x86_64 platform. Im currently running a hacked GHC in 32-bit emulation mode.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PLEASE add the ability to create Cygwin executables.  I tried looking at the instructions for porting GHC, but couldn't figure it out.  (Not that the instructions are bad... I just don't have experience with that kind of stuff).
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would like to see amd64 on FreeBSD, too.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I give it to me students, so I am very glad that it is supported on many platforms.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sparc/Linux works fine for me except for ghci which we found segfaults on 2.6 kernels.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'd love to see a version for handhelds (eg. Palm) so I can play any time. I'd also like to play with FRP on a real robot, not just a sim, so I'd love to see a lightweight version suitable for microcontrollers with under 1MB of total memory. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GNU Slackware Linux</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>the ARM platform
+the ability to cross compile would be useful</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Portability is good, but binary releases for more platforms would be helpful.  I would use Sparc, HP, AIX.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I ticked the window box because I think it is important,  not because I actually use it there.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have used it on Solaris, but not anymore. Also, i don't use it much on Linux anymore. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>OpenBSD</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Java, see remarks on 'improvements'</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>mac os x</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Beos</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>unix support seems to be the worst, but this may simply be due to library issues 
+e.g. readline.  Also, 3rd party contributions tend not to support unix, or so it has seemed to me.
+Still, I wouldn't run on unix/solaris if I could avoid it.  Which I can now.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>bootstrapping from no haskell compiler was very difficult.  I am an experienced linux system administrator.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>trying to port it to arm-unknown-linux (gentoo on sharp zaurus)
+but i do not know enough about arm-assembler
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>x86/mandrake powerpack+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It would be nice if more embedded environments were supported.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It would be nice if the &quot;readline&quot; problems were fixed on MacOSX (and Windows)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have no personal portability problems with GHC, but I heard this one guy complain about how he couldn't run Darcs at work, on their Cray...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>x86_64/Linux was a bitch.  Native 64-bit registered support would be very helpful.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Other: In-house cross-compiling version of GHC targeting Green Hills Software's real-time operating system.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>We care about support for RedHat 7.2 (and less often 7.3 and 8.0). Since recent versions have not come pre-built for anything older than 9.0, this has involved custom compilation from source.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would use haskell if it was available for handhelds or cell phones -- but I would not rate that as a high priority.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I recently had portability difficulties:
+The ghc 6.4 x86_64 rpm came with ghci and templates disabled.
+And the source distribution failed to build.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I package GHC for Gentoo Linux, and my impression is that there is significant
+interest in x86_64 support.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Binary/Text IO seems to be my only major gripe at the moment.  Glynn Clements seems to sound like quite a good voice of reason about this stuff on the cafe list.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haiku-OS is a place that I would like to see it supported once the platform matures.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Cygwin...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have one platform which cannot run GHC: UltraSparc/NetBSD. I know that porting myself is possible but I never had the time (or guts) to do it.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The custom &quot;standalone plateform&quot; for hOp! ;)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Linux (Fedora/Redhat) and MacOS are also potential targets.  In this repect, portability isimportant.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Would be nice if cross compiling was easier - but thats probably out of the hands of the GHC team.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Didn't get FreeBSD to work, would be nice if it the haskell-ports or package for FreeBSD worked for FreeBSD 5.3</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Why does it demand readline 4, I have readline 5 installed. Is there no nicer way to check for gmp rather than ask for a specific rpm package, people may have it installed from another rpm package or from source.
+As I wrote above I have yet to get it to compile.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>If available on Symbian, for some mobile phone, I would change my phone immediately.  I have time for programming in very little time slots, because my very little dotter takes most of the time.  But when I have the 15 minutes or so, I'd like to be able to do something while being in a bad position with 4 - 8 kilos in one hand :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I need the Debian platform only for DaVinci (uDraw) which is still not available for windows. I would really appreciate not to need a *nix Box just for profiling. (I can'tget off the feeling that profiling for another operating system is not that safe.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>AMD 64 bit (is desperately needed for a biological simulation model)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Might use x86 Linux at some point in the future.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Looking forward to trying it on x86_64/Windows, assuming of course that Windows Pro 64 is ever released.  But I might try x86/Linux (RedHat) since that's the platform we use at work, and x86_64/Linux when its ready.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is portable enough for me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>On Windows I use GHC from cygwin; but not for any serious stuff.
+
+(My Gentoo box is an AMD64 running in 32 bit mode.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The lack of a GHC/6.4 package on debian is annoying.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>x86/Cygwin</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Amiga</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Plan9/Inferno</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am going to try also Windows and AIX OS</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>x86_64/Windows 64 bit</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>at work, in the spare time, i have a working CYGWIN environment.  Let's see if it compiles there...
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I care a lot about portability. I'd like to be able to use ghc (and haskell) everywhere!  Sometimes worried about the size and (perceived?) complexity of ghc, and the limits that puts on portability.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'd like a cygwin version. I understand the moving cygwin dll issues, but at least I'd like to be able to build ghc for TARGET=cygwin using the mingw binary. (it was not possible for 6.2.2.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Slackware, Mandrake</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>&quot;Other&quot; is Ubuntu, a Debian derivative.  I do wish that Fran and similar libraries were more portable, but suspect that's outside what GHC can reasonably provide.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>There was a guy on freenode.net #haskell that asked about haskell on a ARM (Atmel sparrow's brains - 10 MHz at a whopping 32 k of RAM or something) -- while not really thinking this would make sense, it would be great to have haskell available on embedded systems at one point in the future (Haskell can be written via COQ extraction!)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm currently running GHC in a 32-bit chroot environment in my Gentoo box, which works out pretty well. (GHC works, but GHCi doesn't, in native 64-bit mode, but I gather that's not news :-) )</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Would like to use on Solaris, but don't have at-work cycles to devote to porting.  And after trying to build GHC from source with a working installation back in my MIT days (on an admittedly non-standard machine setup) I'm not sure I can take the pain.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>x86/Linux (Mandrake)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A bit annoying that one cannot access command history by using up-arrow in GHCi on Cygwin (unless working in a dos shell)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Windows Cygwin support would be nice</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I mostly use GHC on a Mandrake Linux distribution.  </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It seems that gtk2hs requires foreign callbacks, which are not implemented in GHC on x86_64 - or if they are, we've not heard about them yet. This is unfortunate as it's a project I'm very keen to use and help out with.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>x86_64 is probably going to be used in the (near) future.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i feel like the build guide could use an overhaul.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>If ghci would work without problems on NetBSD it would be nice.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'd like to see support for Solaris/x86 and Solaris/amd64</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's often hard to get GHC running under Solaris.
+Linux works like a breeze.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It would be very nice if you didn't need to have a working copy of GHC in order to build a copy. For me this is just a pain since I can't get the binary I have to build a fresh copy of GHC. I have posted to the list for help, but still can't get it working. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>About the situation before Cabal (since I didn't learn about it yet): versions of libraries were not available for the same compiler version, and it caused a lot of problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I wish the x86_64 support was better.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Ubuntu</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Bootstrapping from just GCC on Sparc/Solaris is Hard if you already have a version of GHC installed...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I greatly appreciate the binary and installer for OS X as it allows to me avoid thinking.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I do wish .hc files were easier to get. I wish I could easily generate .hc files for applications I'd like to have everywhere, like darcs. Bootstrapping GHC on some random Linux that a client is using can be a real pain in the butt.
+By the way, where's the checkbox for GHC on the bare metal using hOp/House? :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Slackware</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>OS X is still a little shaky</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I also ocassionally use GHC on x86/Linux, but have no idea what distro it is. (The machine is an off-site server.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The lack of portability is an issue for adoption at work. It would be very helpful if I could be sure of it working on Sparc/Solaris and HPUX, in particular, and ideally ARM.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>if you consider Ubuntu to be not debian, then I use it too.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've had some trouble with GHC &amp; libraries, mostly due I think to FreeBSD's odd way of handling thread libs (need -pthread flag, not -lpthread, etc.).  I'm hoping that with FreeBSD 5.4 and libpthread that this will be resolved.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Portability between OS for a fixed ghc version works well. Upgrading ghc version is often tiresome (several small details need to be updated in the code). </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>There's a tendency for the Windows port to lag a bit - I wish windows binaries would appear in the CVS snapshots folder, since it's often very tricky to get a working build environment in windows.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sometime this year I'll probably switch to x86_64/Linux.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am considering installing *BSD on my computer. So I would use x86_64/FreeBSD or x86_64/NetBSD.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>x86/Linux (Ubuntu)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Alpha/Linux, PPC64/AIX, and hopefully MacOS X in the future</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've had no issues for portability.  I've used Debian sid and Ubuntu (using the ghc in Debian unstable).  All seems to work ok.
+
+I appreciate that you guys made an install shield version of GHC, although the latest version doesn't include the html for the user's guide.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have in the past used ghc on windows and cygwin, and had no difficulties.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would like to see binary packages for Solaris x86.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Not enough space to complain about portability.  I wish NetBSD were supported, I wish BeOS were supported, AIX, but really what I wish is that I could get the source and build it on any platform - like I can with ocaml.  Failing that, I wish I could build it on any OS with supported hardware.  Could there at least be some attempt to support this?  Particularly, if there is already a port to
+Intel 80386, could the .hc files be made available?   Also, dependencies on other software products can be a problem.  Perl comes to mind.  I forget, but if you haven't already become dependent on it, please bear in mind that it is not universal.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It would be nice to try GHC also on x86 GNU/Hurd. I've read on bug-hurd@gnu.org that someone is trying to compile GHC on x86 GNU/Hurd. I don't know how it's going.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Only wish it was available on more platforms (even if only unregistered builds).  It would be nice if a tar of the .hc or .c (whatever is needed to build it using a C compiler) files would be put up with every release.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a great alternative to Java for cross-platform development.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haven't tried ghc on the other architectures I regularly use (such as Sparc/Solaris and PowerPC/MacOS X), but knowing that it has been ported to these architectures is important (meaning that it is very suitable for cross-platform development, a big plus for me).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I manage Sparc/NetBSD and ghc does not run on it :-( And porting is not trivia.
+
+I manage Sparc/Debian and everything is fine on them.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It would be nice to have FFI to .NET working, with utilities.  It's very sad that I can't write a user interface in .NET which is tied to a GHC routine for logic and computations.  That leaves the hardest part of the app (getting the algorithm correct) in the best language (high-level Haskell).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>while i develop on windows, i don't like non-portable code of any kind, whether it is windows-specific code that doesn't run on unixes or unix-specific hacks that preclude use on windows. it would be good if portability -as in platform-independence- was not just a goal, but a priority for ghc users and developers. that means making users of any non-platform-independent libs/tricks, such as posix (!), etc. aware of the fact that they are creating code that will *not* run on all ghc-platforms (independent of whether posix itself is portable in principle). as annotations in the library docs have proven insufficient for this
+task, ghc should have a warning option that highlights portability issues (or does it have one already? it's not easy to keep track of ghc options;). as far as development is concerned, it would be good to include windows in the main platforms, including dailiy builds/tests/binary snapshots, to avoid the current effect that windows problems only pop up when the windows snapshot release candidates finally come out (all too often too late for changes to the main release, so x.x.1 is the first working ghc version for windows). daily tests should also show up packages that are not working properly on windows (see the win32 &amp; hgl issues), and highlight other areas of neglect (such as the there again and gone again status of dynamic linking on windows, inability to build documentation there, ..). Sigbjorn told me that it is nowadays no problem at all to build and package a relocatable directory tree for a ghc that corresponds to what the installer would produce, so why not use that and good old tarballs for daily snapshots if msis are still problematic? not all ghc users are cvs-users, in particular, there are (potential) users of ghc-compiled code who just want a consistent set of snapshots to be able to use their DSEL.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>No AMD64 Linux builds of 6.4</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I will use GHC on amd64/FreeBSD as soon as it is available.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Heh.  If only.  I wish that GHC was ported to the following:
+1. The JVM. (contact me if you don't know why)
+2. The Nintendo GameCube, and whatever platforms Nintendo creates. (to make games, of course)  Why just Nintendo?  Because the other guys are crap, and I don't want to be associated with that.
+I understand that there are major legal and architectural difficulties with these wishes, but they are wishes after all.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>x86/Solaris</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>linuxppc64</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mandrake Linux x86. I'm about to use it on MacOSX, and were I staying at AMD I would no doubt eventually use it on x86_64/Linux.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>X86/something that used to be Slackware Linux 7.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i want DotNet or Parrot support. because virtual machines are easier to install and run than compiler toolsets. and the JVM isn't free enough, but Mono, DotGNU and Parrot all are.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I also maintain ghc for all Debian platforms (currently Linux only; could be BSDs and HURD at some point in the future).
+
+I wish ghci Just Worked everywhere.
+I wish Template Haskell Just Worked everywhere.
+(these two are essentially the same wish, I think)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Would love to use PPC/MACOSX but haven't been able to successfully install it.  No package available for 10.2.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Now that I'm running MacOS X, I run across more bugs/glitches than I have previously with the x86/Linux platform.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm looking forward to more &quot;closer to the road&quot; developments like HoP. Network elements whose function I can trust!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Portability is very important, since it is usually not very motivating to work on software that could in principle be portable if only the toolchain was, even if I personally use only one platform.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>fghgfh</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>At work, we still use HP-UX a lot, so support would have been nice. OTOH, we are gradually moving to Linux anyway.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would love to see better x86_64 support, since that is my main computer's platform.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use GHC and WxHaskell and I'm maintaining recipes and binary packages for those and related programs for GoboLinux.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>x86/Windows+Cygwin</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I wish that GHC built faster on Windows</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i386/Solaris: Intel (SunOS 5.8) and Opteron (SunOS 5.10).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>x86/archlinux www.archlinux.org</TD
+></TR
+></TABLE
+></HTML
+>

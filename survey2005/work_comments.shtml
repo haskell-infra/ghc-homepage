@@ -1,0 +1,1036 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--Rendered using the Haskell Html Library v0.2-->
+<HTML
+><HEAD
+><TITLE
+>Comments on &quot;I work&quot;</TITLE
+></HEAD
+><BODY BGCOLOR="#e0e0e0"
+><H1
+>Comments on &quot;I work&quot;</H1
+></BODY
+><TABLE ALIGN="center" WIDTH="800" CELLSPACING="10" CELLPADDING="5"
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>for my final thesis</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Just learning Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>systems management development (customizations on top of SNMP, Tivoli, other large-scale management/monitoring tools) for a large financial services corporation</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>University of Applied Science Wedel, Germany, http://www.fh-wedel.de/</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I used to use it as a student, now I just play around with it.  I'm working on some self-directed research.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm an embedded systems programmer.  I use C almost exclusively at work.  Also, I have a computer science degree.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>CTO for a high technology company</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work as a database administrator</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a Phd student and the University of New South Wales</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>University Professor </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>&quot;enterprise&quot; software development consultant</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Scientific programmer</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I do not use GHC at work, but for personal projects at home.  Most of my coworkers aren't smart enough to accept Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>my commercial work is done in Delphi. but i use some functional-style extensions to Delphi which i wrote yourself :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work as an SAP Basis administrator at Monsanto Company, a major argricultural company based in St. Louis.  Unfortunately we do not (to my knowledge) use Haskell at the company.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Primarily research - Using it to write a compiler and interpretor for a quantum programming language. Have written other compilers and some toy programs in it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am teaching myself Haskell, and using ghc/ghci as the vehicle.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>University RA.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>University lecturer. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I own a small software consultancy in Pittsburgh.  My background is in electrical engineering, but I have spent most of my life (and career) writing software.  I have always liked functional programming, but until Haskell, I could not practically use it much in my day-to-day work.  Many other fp implementations offer power but require painful sacrifices in order to use that power.  Haskell, however, harnesses a ton of great theory in a practical, readily usable way.  I no longer feel like I need to make a sacrifice in order to use fp in my work.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Java, J2EE developer</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Halfway through my studies, but I've already been an assistant on a course on functional programming (where we used Haskell). I'm also full-time employed doing something that Haskell often does not suit, but I manage to wedge in it sometimes anyway...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a PhD student in the School of Computer Science, St Andrews</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Amature programmer, looking to move into open source.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work at a console video games company.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use it for teaching purposes.  I'm teaching a course on Haskell this term at Caltech.  The students are among the smartest I've ever had in four years of teaching here, and they're very enthusiastic.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Computer Science student, third year</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly for fun, number theoretic calculations and whatever else I take an interest in.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Professor of Computer Science at Simon Fraser Uniersity</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work as a freelance contractor, and I need to have a broad but accurate view on software development technologies, methodologies and best practices.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>software development company. Not with Haskell, though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Technology Consultant.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Beta80 group, Italy</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use it for my own projects but they tend to have a lot to do with what i'm currently working on.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a systems administrator and tech journalist. I am teaching myself Haskell to augment my understanding of functional programming, lambda calculus, and category theory.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Principal systems engineer</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>unemployed, normally work as full type employee of a company</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have pendient use GHC much more (Phd Tesis). </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>ikjf</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm an undergrad studying CS</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I teach programming languages at Caltech.  Haskell is my new favorite programming language (I was turned on to it, and more specifically to ghc, by a couple of my best students) and I'm trying to learn it well enough to teach it ;-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Valueclick.com - serves 50% of the ads on the internet</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work part-time doing writing multimedia systems, and do a Ph.D part time at UNSW under Manuel Chakravarty on EDSLs for multimedia systems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Software consultant.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Ph. D. student</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The stuff I do for work is all C++, though I can sneak in another language for small utilities.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I wear two related hats.  I am a faculty member where I use Haskell for my development needs and as a teaching tool (undergraduate and graduate).  I also have a startup company that delivers products written in Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As a self-study; learning a functional language for solving problems that functional languages fits well with.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>pugs development</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mathematics and statistics for human factors research</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>SFA, Inc., Virginia Beach, VA, for SPAWAR and Defense Logistics Agency, DoD USA</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PhD</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am working on a MSc in theoretical physics. (Also a former student of theoretical computer science)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Ph.D. student at Chalmers.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The language has potential, but in my world of business app development, it falls rather short. I check in periodically, just in case the situation improves.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>University Lecturer on professional part-time MSc programme at Oxford
+Also researcher in functional programming</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work as a 'software engineer' responsible for customisation of our software packages. We use a proprietory dynamically typed OO language (has similarities to Ruby). I have experienced some extremely bad code in the product (bad in the sense of defects but also difficult to understand and extend) and also issues with our customisation code. The question at the back of my mind most days is: Would this all be easier with a language like Haskell?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PhD research student.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PhD student</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Work as a consultant for 15+ years mainly with OO languages, but favor functional programming from the beginning (Scheme, ML, OCaml, and since one year Haskell)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a technical product manager at a small (&lt;30) person software company.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Part-time teacher/scientific programmer at the computer science dept. of Utrecht University.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My work is unrelated to Haskell</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>software engineer, currently working on tools for program development and testing</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>University of Washington, Computer Science department.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For my graduation project</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've used it as a student, then to teach Haskell to students, now for my own pleasure.   </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>MIT Lincoln Laboratory</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Software Engineer, using C++ on PC's for commercial products.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a novice, although I have some experience with SML. So far, I have written only one serious program in Haskell, but found it fairly exhilarating. A few quirks arising from lack of familiarity. The indentation is a bit peculiar to an experienced occam programmer, but I have pretty much adapted. It didn't seem to accommodate folding very well, but again that might just be my lack of understanding/familarity and inexperience. And it probably can't be changed anyway at this stage.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>swiss government. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a graduate student</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Was a full-time lecturer in theoretical computer science, now freelance researcher and self-employed.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>work for a non-profit</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>wer</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a fourth year undergraduate at the University of Sheffield.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use GHC for research and development carried out in my own free time.  There are periods when I use it quite heavily for extended periods of time, building rather large programs (ca. 10K lines and more) and long periods when lack of time prevents me from using it at all.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Learning Haskell for a job interview.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work for a company, but I use Haskell for personal use</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Third year Ph.D. student at Heriot-Watt University under the supervision of Joe Wells.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>California Institute of Technology, soon to (hopefully) graduate and go on to Vrije Universiteit Amsterdam.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a would-be phd student, just finished my master's thesis</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a first-year undergraduate mathematics student who enjoys programming.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Was a professional software engineer until last September, now in training as a teacher of secondary school mathematics.  Planning to continue my use of GHC in my teaching, primarily as a tool for developing demonstration aids for teaching.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a student most of the time, and I just use GHC to learn Haskell and make toy programs with it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Ph.D. student at Oregon State University</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>IT support to big physics lab</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work for Linspire, Inc. and have some minor side businesses. I use GHC for both.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'am a image-processing/pattern-recognition researcher.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use GHC for my thesis</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a post-doctoral researcher.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a senior SWE major in embedded linux development.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Retired from space systems engineering.  Ph.D. Math.   Current interests in knowledge representation, logic, and lately functional programming.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a haskell newbie, so I don't really understand most questions in this survey.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Teaching English</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>ph.d. student (programming languages)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>working as a PostDoc in functional programming research, in particular semantics and program transformations</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've been studing and using Haskell in software development process and Process Modeling Languages (PML). </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Startup company building language processors in OCaml</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Engineer in an Internet-related organization</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Was self-employed, now involved in bioinformatics research.  </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Researcher and teacher in programming languages, especially functional ones.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Have used GHC for a number of years (since GHC version 4.x) as both student and researcher</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>for fun!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>phd-student in the mathematics department</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Project manager, not needing Haskell in my daily work.  But I'd like to be in a position that requires the use of Haskell all the time. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Perl programmer</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am risk manager in a large insurance company and my ghc use is unrelated to my work.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>mathematics &amp; physics at the Universiteit van Amsterdam (Netherlands)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PhD student on funcional programming</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am lecturer who teaches functional programming among other things.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>At the moment I work for a company but am doing research on my own using Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work for Google.  It would be interesting - but very unlikely - to get a Haskell program into production ...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>An EE graduate student with quite a bit of interest in computer science also.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I run the &quot;Great Computer Language Shootout&quot;, where Haskell is a good performer.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use it for educating myself in (functional) programming.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am using it as one of the languages understood in my open-source multi-language testing tool, Zadok. See http://simonpeter.com/technology/software/zadok/ for more details.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As a student and undergraduate tutor.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>At work it's all C++ and Python.  They're ok but I pine for something more... creative.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>mathematician &amp; computer scientist</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Lecturer, the University of Nottingham</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Used to work for RF Micro Devices as a software engineer in WLAN division. Not employed at the moment.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>graduate student, major in Physics, at the Univ. of Tokyo</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a student of programming, and I just picked up Haskell recently. I've got plans to implement compiler-related software using Haskell and GHC. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I do logic design and system software for a startup SAN chip vendor.  I used to work for a very small wireless hardware company (which I co-founded).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I teach functional programming using the Clean language. But sometimes I use Haskell to compare the two similar languages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>graduate student</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a 30 years old brazilian programmer.  I'm currently learning Haskell, with Hugs so far.  My primary job is as a aplication programmer, using Borland's Delphi and ObjectPascal.  I love programming languages and here some of my favorites: Scheme, Python, C, OCaml, Perl, Ruby and Haskell for sure.  I hope some day i'll be using some of these technologies at work, or at least the many bright ideas from them, with the less flexible and powerful tools at work.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Software developer, Python, C++ and some Visual Basic.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Studying Computer Sciences (Diplom-Informatik) in Germany</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Software engineer for the leading Mobile OS Producer</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a student in the CS department in University of Utrecht</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Systems administrator. No apparent opportunities for using Haskell at work.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As you know, I'm working on Fortress at Sun Microsystems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Reader, Comp Sci and Software Eng, Monash University, Australia 3800.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>faculty</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a master's student at Utrecht University, the Netherlands. I'm in my second year. I work 'self-employed' occasionally, but for that I haven't used GHC (yet).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Retired. Interested in category theory, topology, belief systems, and AI. Perhaps the slogan is &quot;topology via logic,&quot; a la Steve Vickers and Martin Escardo. Topological ideas directly mapped into Haskell. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PhD student</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>System administration, maintainance of 400 PC computer lab, automatic installation
+and software distribution for Linux/Windows.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>research assistant (Theor.C.S, Funct.Progr., parallel Progr.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Just for experimenting</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My company has nothing to do with Haskell at all.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>numerical analyst</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Senior lecturer</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I do temporary contracts. I mostly use GHC between contracts.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Senior Research Fellow, Centre for Industrial and Applied Mathematics, University of South Australia</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use GHC for my diploma thesis as well for private projects.  I probably will use it in the future as a researcher.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I want Haskell to become my primary language for hacking - ghc seems to be the environment of choice for this purpose.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>phd student</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>IT contractor</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PhD student, Chalmers.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use it on a contract (self employed), as an employee (of Galois), and sometimes for my own use (scripts to support church)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>www.panix.com</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>BA in Math, Open University, Israel (lasr year).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Working on my PhD and use GHC for my Haskell stuff.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PhD Thesis on computational biology</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Co-founder of TopQuadrant, a consulting company specializing in emerging software technologies, focusing on Semantic Technology.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am retired</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PhD Students are technically faculty in .nl.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Computational linguistics grad student at Indiana University</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>ARM Ltd.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use GHC for my company, of which I'm half-owner.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>mathematics graduate student, soon to be assistant professor at a liberal arts college</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work for ARM, in the group developing armcc.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Various courses at UNSW</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Studying generic programming.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Just playing around with it for my own edification.  I'm a Comp. Sci. drop-out, do tech support for a database company for work.  Interested in ocaml, haskell, mercury.  Mostly love haskell for beautiful syntax &amp; clean design.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work for Galois Connections</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Developing some structured Bayesian Net software.  Unfortunately none of my colleagues share my interest in Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Research and teaching assistent at the Technical University of Berlin,
+Germany</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a graduate student at the Federal University of Minas Gerais (UFMG,Brazil).
+I do some consulting now and then ...
+I used to work in a data security company, developing the first brazillian Certificate System.
+I expect to get a PhD in the near future.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I do R&amp;D for a large American defense contractor.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a contract software developer.  Most of the work I do is in Java, XML, XSL, Ruby, and Matlab.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>At the university of Utrecht we have a lot of courses which use Haskell and also a lot of research (Generic Haskell, Helium etc).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a teacher at the Computer Science department of Univ. Federal de Ouro Preto, Brazil, where I deal with Programming Languages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>MSR Cambridge</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>7OT8O798O7</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Faculty at U Penn</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use Haskell primarily in my spare time. It is a really great tool to push one's own limits in programming and understanding further.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>also use ghc/haskell as a hobbyist and for my free software projects</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PhD student doing research into functional languages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a simulation engineer in the space division of General Dynamics in Gilbert, AZ, USA.  I'm interested in creating DSLs for simulating individual satellites (at the logical block level) and in simulating entire constellations of satellites.
+
+Another thing I'm very interested in is distributed computing.  We have several very large distributed C++ simulations that run different sim objects on a cluster of Linux workstations.  I'm very involved in researching this entire space, and looking to see what lies in the FP space for this.
+
+I'd really, really, really like to see some distributed support similar to the Oz/Mozart/Alice setup, although I don't think their technique of using logical variables to synchronize would work for Haskell.  I would like to see STM extended to a distributed model though, although I do agree that the issues of failure, latency, etc are very difficult to solve.  I mention the Oz/Mozart/Alice stuff because I think that they have done a pretty good job of making distribution work at a high abstraction layer for the programmer (I just don't like their dynamic typing and syntax -- ugggghhh).
+
+
+If you were to pursue distribution, I'd like to point you to David P. Reed's MIT thesis &quot;Naming and Synchronization in a Decentralized Computer System&quot;.  He's the main theory architect behind Alan Kay's Croquet vision (http://www.opencroquet.org/index.html).  His idea for distribution is to have 2-phase commit that might be compatible with STM and also sees a distributed object as really a series of values of time, very much like the old Lucid dataflow language.
+
+Anyway, pointers for though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>School of Computing at Leeds</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My company develops software for payrolling, in C &amp; Java</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Professor</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I study functional programming and use Haskell on a regular basis.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The company is actually a university, but I am not academic.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Software engineer, currently taking a sabbatical to work on freelance and personal projects in Java and Haskell, and, hopefully, a mixture of the two.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I believe we've talked at length about what Bluespec uses GHC for. If you would like more details (about this or any of the other usage questions), please feel free to ask.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>working on web programming mostly</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>teacher in a &quot;professionnal&quot;/?&quot;technical&quot; school</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm an italian software engeenier.  I implement optimization softwares, expert system and integrate enterprise application.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>University of G&#xf6;teborg, Sweden</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Now experimenting with it as a replacement for XSLT for transforming large MAGE-ML (Micro-Array Gene Expression Markup Language) documents. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use it in personal projects - especially ones involving translation - parsing XML or natural language and generating output.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am trying to learn new ideas</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have implemented a number of tools in Haskell and used
+GHC(i) to develop them.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a computer consultant, doing custom application development on the Microsoft platform (.NET / Sql Server / etc.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I was a student until recently, using haskell and ghc a lot (at Chalmers, go figure). I still use it personally for my own projects, and we use it at work too, but it's not among my primary duties.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>systems administrator and research engineer</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I do research and standards on various aspects of XML and Web languages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>currently looking for a new position, but still heavily involved in research.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PhD student</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Graduated from UT Austin (undergrad BS CS), learned Haskell and of GHC there.  I list some very specific requests, and I would be willing to help implement them.  Please e-mail me at etherson@yahoo.com if anything I write here interests you.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Research Associate at a University</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have a consulting company and work full-time at another company as a Java architect/developer/whatever</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm in high school and I am using Haskell as the implementation language for a component of an independent research project on types that I am just now beginning.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PhD Student at UKC</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Bioinformatics, University of Manchester</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work for AMD.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work as a programmer, but in totally different area (SAS/clinical reporting). I see FP as a promising technology in the future, so my interest to GHC is more like self-education. And, many things I learned from FP, I try to apply to my regular job, and this helps me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm doing research in mathematical physics.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PhD Mathematics student</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>IT Training Company www.qa.com</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Galois Connections (in case you didn't know). Have also used Haskell as student &amp; researcher.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>We need to put a specialized query front end on top of Oracle.  We are experimenting with using parsec as the parser/sql generator.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>univercity undergraduate, faculty of science</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a mathematician and I use it to write programs for my research.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm in my final year of a computer science degree and I'm doing a dissertation on functional programming.  I'm using Haskell so GHC is quite important to me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Contol system programmer for an electron accelerator (synchrotron light source).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Using GHC in undergraduate programming languages course for software engineering, in graduate FP course, and for all coding in research projects.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>as Java developer</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PhD student, implementation of functional languages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Phd Student at Computer Science department at G&#xf6;teborg University (actually the same location/department as the Chalmers people that you know well)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm too young to work properly. I'm a secondary school pupil (11-16/18) and know nobody at my school who has any connection with Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Financial industry, mainly dataware housing</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Software Engineering student at the University of Calgary</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I teach mathematics</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A small startup.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Working on the back-end for .NET</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a graduate research assistant working on my PhD.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work for a finance company</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>amazon.com</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Data mining, and the mundane data-handling that goes with that.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I elected to take a class specfically to learn Haskell (after learning OCaml in a compiler design/implementation class). Haskell is much more pleasant.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I work for Gemius SA, Poland, a company which makes money from website traffic analysis. A big part of my work is designing and implementing algorithms for storing, searching and processing huge quantities of data. I found Haskell to be a great tool for experimentation, prototyping and often also for final implementation. For playing with Haskell I almost exclusively use GHC.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>How often? When I get to write programs. Less often than I would like! Bursts of activity.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>See below.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a senior in a high school in the United States.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>(Reverse chronological order):  IBM, Apple, Sun, Digital Research etc...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use it to clarify my thinking and understanding of work issues, for example, of web services security and role based access control.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>But haskell is a marginal tool in my research and not the topic of my research.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Consultant/system integrator.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm in an engineer school in Paris, France (INSIA).  I work in sandwich-mode in a company (Boursorama), this is part of the normal cursus (half-time at school, half-time at work).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>but now, i use ghc because i like a lot haskell and i want to learn more !</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm just trying to learn Haskell.. I'm actually done studying though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am employed by a company that designs and  manufactures fiber optic switches. My role is as a principal software engineer in the core systems (OS and supporting utilities) and the cross-connect fabric groups. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>M.Sc at McMaster University, Hamilton, Ontario, Canada.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>teacher</TD
+></TR
+></TABLE
+></HTML
+>

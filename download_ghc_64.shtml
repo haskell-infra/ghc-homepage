@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso8859-1" />
+<title>GHC: Download version 6.4</title>
+<link href="ghc.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!--#include file="ghc-std.shtml" -->
+
+<h1><a name="6.4">Version 6.4 (released 11 March 2005)</a></h1>
+
+<!--
+<div style="text-align: center">
+<div style="background: #d0d0f0; width: 350px; text-align: left; padding: 10px;
+	font-size: 120%; margin-left: auto; margin-right: auto; border: 1px dashed">
+   While GHC is downloading, why not take a few minutes to fill in the 
+   <a href="survey/start.cgi">GHC Survey</a>!
+</div>
+</div>
+-->
+
+    <h2>Online Docs</h2>
+
+    <div class="body">
+      <ul>
+	<li><a href="docs/6.4/html/users_guide/release-6-4.html">Release
+	    Notes (vs. 6.2.x)</a> </li>
+	<li><a href="docs/6.4/html/building/index.html">Building
+	    Guide</a> </li>
+	<li><a href="docs/6.4/html/index.html">User's Guide &amp; Libraries</a></li>
+      </ul>
+    </div>
+
+<h2>Source Distribution</h2>
+
+<div class="body">
+
+<ul>
+  <li>
+    <a href="dist/6.4/ghc-6.4-src.tar.bz2">ghc-6.4-src.tar.bz2</a>
+    (6.6 MB).
+  </li>
+</ul>
+
+<p>The source distribution needs an installed GHC 5.X or 6.X to build.
+If there isn't a binary distribution for your platform (any version),
+then you'll need to consult the section on <a
+href="docs/6.4/html/building/sec-porting-ghc.html">Porting GHC</a>
+in the Building Guide.</p>
+
+    </div>
+
+<h2>Binary Packages</h2>
+
+<div class="body">
+
+<p>The OS-specific packages (eg. RPMs on Linux) are generally a better
+bet than the vanilla <tt>.tar.bz2</tt> binary bundles, because they
+will check for dependencies and allow the package to be uninstalled at
+a later date.</p>
+
+<p>However, if you don't have permission to install binaries on your
+system, or you want to install somewhere other than the default place
+(usually <tt>/usr</tt> or <tt>/usr/local</tt>), then you'll need to
+use a <tt>.tar.bz2</tt> binary bundle.</p>
+
+<p>Available binary distributions (more will appear as they are built):</p>
+
+<ul>
+ <li><a href="#x86linux">Linux (x86)</a></li>
+ <li><a href="#x86_64linux">Linux (x86_64)</a></li>
+ <li><a href="#powerpclinux">Linux (PowerPC)</a></li>
+ <li><a href="#powerpc64linux">Linux (PowerPC 64)</a></li>
+ <!-- <li><a href="#sparcsolaris">Solaris (sparc)</a></li> -->
+<li><a href="#windows">Windows 95/98/ME/2000/XP (x86)</a></li>
+ <!-- <li><a href="#debian">Debian (x86, alpha, hppa, m68k, powerpc, s390, -->
+<!-- sparc)</a></li> -->
+<li><a href="#freebsd">FreeBSD (x86)</a></li>
+<li><a href="#openbsd">OpenBSD (x86<!--, x86-64, sparc-->)</a></li>
+<li><a href="#macosx">MacOS X (PowerPC)</a></li>
+<li><a href="#powerpcaix">AIX (PowerPC)</a></li>
+</ul>
+
+<h3><a name="x86linux"></a>Linux (x86)</h3>
+
+<ul>
+
+  <li>
+    <b>Fedora</b>.  RPMs available from the 
+    <a href="http://www.haskell.org/fedora/">Fedora Haskell Project</a>.
+  </li>
+
+  <li>
+    <p><b>RedHat Linux/x86 9.0 RPMs</b>. These may work on any system with glibc 2.3,
+    SuSE 9.1 and SuSE 9.2 have been tested.</p>
+    <ul>
+     <li><a href="dist/6.4/RedHat9.0/ghc-6.4-1.i386.rpm">base RPM</a> (18 MB)</li>
+     <li><a href="dist/6.4/RedHat9.0/ghc-prof-6.4-1.i386.rpm">profiling libraries RPM</a> (14 MB)</li>
+     <li><a href="dist/6.4/RedHat9.0/ghc-6.4-1.src.rpm">src RPM</a> (6.6 MB)</li>
+     </ul>
+  </li>
+
+<!--
+  <p>
+  <li>
+    RPMs for RedHat Linux/x86 8.0 (these may also work with RedHat
+    7.3) from <a
+    href="mailto:chak@cse.unsw.edu.au">Manuel Chakravarty</a>:
+    <ul>
+     <li><a href="dist/6.4/RedHat8.0/ghc-6.4-1.src.rpm">source RPM</a></li>
+     <li><a href="dist/6.4/RedHat8.0/ghc-6.4-1.i386.rpm">base RPM</a></li>
+     <li><a href="dist/6.4/RedHat8.0/ghc-prof-6.4-1.i386.rpm">profiling libraries RPM</a></li>
+     <li><a href="dist/6.4/RedHat8.0/ghc-doc-6.4-1.i386.rpm">documentation RPM</a></li>
+     </ul>
+  </li>
+-->
+
+<!--
+  <p>
+  <li>
+    RPMs for RedHat Linux/x86 7.2 from 
+    <a href="mailto:jlewis@galois.com">Jeff Lewis</a>: 
+    <ul>
+     <li><a href="dist/6.4/RedHat7.2/ghc-6.4-1.src.rpm">source RPM</a></li>
+     <li><a href="dist/6.4/RedHat7.2/ghc-6.4-rh72-1.i386.rpm">base RPM</a></li>
+     <li><a href="dist/6.4/RedHat7.2/ghc-prof-6.4-rh72-1.i386.rpm">profiling libraries RPM</a></li>
+     <li><a href="dist/6.4/RedHat7.2/ghc-doc-6.4-rh72-1.i386.rpm">documentation RPM</a></li>
+     </ul>
+  </li>
+-->
+
+<!--
+  <p>
+  <li>
+    RPMs for SuSE Linux/x86 8.0 from 
+    <a href="mailto:ralf@informatik.uni-bonn.de">Ralf Hinze</a>:
+    <ul>
+    <li><a href="dist/6.4/SuSE/ghc-6.4-1.src.rpm">source RPM</a></li>
+    <li><a href="dist/6.4/SuSE/ghc-6.4-1.i386.rpm">base and docs RPM</a></li>
+    <li><a href="dist/6.4/SuSE/ghc-prof-6.4-1.i386.rpm">profiling
+    libraries RPM</a></li>
+    </ul>
+  </li>
+-->
+
+<!--
+  <li><b>Debian</b>. see <a href="#debian">below</a>.</li>
+-->
+
+<!--
+  <li><b>Gentoo</b>. GHC is available as an ebuild.  However, the
+  ebuild for 6.4 may be masked, depending on your setup.</li>
+-->
+
+  <li>
+    <p><b>ArchLinux</b>.  There are distributions for ArchLinux <a
+	      href="http://starcrow.starzinger.net/~vidvandre/arch/">here</a>.</p>
+  </li>
+
+  <li>
+    <p><b>Generic Linux with glibc 2.3</b> (e.g. RedHat 9).
+    This is a complete build, including interactive system, profiling
+    libraries and documentation.</p>
+    <ul>
+      <li><a href="dist/6.4/ghc-6.4-i386-unknown-linux.tar.bz2">.tar.bz2</a> (22 MB)</li>
+    </ul>
+  </li>
+
+<!--
+  <li>
+    <b>Generic Linux with glibc 2.2</b> (eg. RedHat 7).  Possibly also works on
+    glibc 2.3 systems.
+    This is a complete build, including interactive system, profiling
+    libraries and (some) documentation:
+    <a href="dist/6.4/ghc-6.4-i386-linux-glibc2.2.tar.bz2">.tar.bz2</a>
+    (14.4 Mb).
+  </li>
+-->
+</ul>
+
+<p>NOTE: You need the libreadline.so.4 and libncurses.so.5 libraries
+to use the distributions above. Newer Linux distributions come with
+libreadline.so.5 only (e.g.  SuSE 9.2), so we have provided a
+<a href="dist/6.4/readline-compat-4.3-307.i586.rpm ">readline4 compatiblity RPM</a>
+for this case.</p>
+
+<h3><a name="x86_64linux"></a>Linux (x86_64)</h3>
+
+<ul>
+  <li>
+    <b>Fedora</b>.  RPMs available from the 
+    <a href="http://www.haskell.org/fedora/">Fedora Haskell Project</a>.
+  </li>
+</ul>
+
+<h3><a name="powerpclinux">Linux (PowerPC)</a></h3>
+
+<ul>
+    <li><a
+    href="dist/6.4/ghc-6.4-powerpc-unknown-linux.tar.bz2">ghc-6.4-powerpc-unknown-linux.tar.bz2</a></li>
+</ul>
+
+<p>A small <a href="dist/6.4/ghc-6.4-powerpc.patch">patch</a> is required to
+	    build GHC 6.4 on PowerPC/PowerPC64.</p>
+
+<p>PowerPC/Linux support is by <a href="mailto:desrt@desrt.ca">Ryan Lortie</a>.
+
+<h3><a name="powerpc64linux">Linux (PowerPC 64)</a></h3>
+
+<ul>
+    <li><a
+    href="dist/6.4/ghc-6.4-powerpc64-unknown-linux.tar.bz2">ghc-6.4-powerpc64-unknown-linux.tar.bz2</a></li>
+</ul>
+
+<p>This build is unregisterised, has no GHCi support, and no NCG.
+
+<p>A small <a href="dist/6.4/ghc-6.4-powerpc.patch">patch</a> is required to
+	    build GHC 6.4 on PowerPC/PowerPC64.</p>
+
+<p>PowerPC/Linux support is by <a href="mailto:desrt@desrt.ca">Ryan Lortie</a>.
+
+<!--
+<h3><a name="sparcsolaris"></a>Sparc/Solaris</h3>
+
+<p>NOTE: you <em>must</em> use GCC 2.95 or 3.4+ on Sparc.  There is a known
+bug with GCC versions between 3.0-3.3 which causes incorrect code to be
+generated.
+
+<ul>
+  <li><a
+    href="dist/6.4/ghc-6.4-sparc-sun-solaris2.tar.bz2">ghc-6.4-sparc-sun-solaris2.tar.bz2</a> (19.5 Mb)</li>
+</ul>
+
+<p>This is a complete build, with profiling libraries and docs.  The build was
+done on Solaris 2.9, but should be installable on older versions.
+
+<p>NOTE: you'll need <tt>libreadline.so.4</tt> and
+<tt>libncurses.so.5</tt>.  You should ensure you have these before you
+start, since without them GHC won't work at all.  Grab the ncurses and readline
+sources from GNU and build them if you don't have them.
+-->
+
+<h3><a name="windows"></a>Windows (x86)</h3>
+<ul>
+  <li><a href="dist/6.4/ghc-6-4-bld2.msi">ghc-6-4-bld2.msi</a> (~47 MB)
+      <em>[Updated: 22 March 2005]</em>
+  </li>
+</ul>
+
+This is a Windows Installer for Microsoft Windows 95, 98, ME, NT, 2000
+and XP, prepared by <a href="http://galois.com/~sof/">Sigbjorn
+Finne</a>.  It's a complete build, as above. 
+
+<p>This installer relies on the Windows Installer runtime to
+operate. If, after having downloaded the above file, double-clicking
+on the MSI file doesn't start up the installer, the likely cause is
+that you don't have the Windows Installer runtime installed on your
+machine.  You can download it from Microsoft:</p>
+
+  <ul>
+  <li><a href="http://www.microsoft.com/downloads/release.asp?releaseid=32831">
+         Windows 95,98 and ME version</a></li>
+  <li><a href="http://www.microsoft.com/downloads/release.asp?releaseid=32832">
+         Windows NT and 2000 version</a></li>
+  </ul>
+
+<p>Install the appropriate version, then double-click again on the MSI
+file.</p>
+
+<!--
+<h3><a name="debian">Debian</a>: x86, alpha, hppa, m68k, powerpc, s390, sparc</h3>
+
+<p>All these platforms have ghc packages in unstable in the main
+Debian archive (and should move into testing shortly).
+Only x86 and sparc are registerised.
+<tt>"apt-get update; apt-get install ghc6 ghc6-prof ghc6-doc"</tt>
+as normal, with <tt>ghc6-hopengl</tt>,
+<tt>ghc6-libsrc</tt> providing some extra bits for those who want them.
+
+<p>For x86 I've also compiled for stable and uploaded to Isaac's
+"Haskell Experimental" repository. To use it add this line to
+/etc/apt/sources.list:
+<tt>deb&nbsp;http://www.syntaxpolice.org/haskell-experimental/stable/</tt>
+and install as above.
+
+<p>The Debian packages are maintained by
+<a href="mailto:igloo@debian.org">Ian Lynagh</a>.
+-->
+
+<h3><a name="freebsd"></a>FreeBSD (x86)</h3>
+
+<p>GHC is in the FreeBSD ports tree as <a
+href="http://www.freshports.org/lang/ghc/"><tt>lang/ghc</tt></a>.
+
+<p>To install a binary package, try
+
+<code>pkg_add -r ghc</code>
+
+provided the package exists on whatever mirror site your system
+is set up to use.</p>
+
+<p>To install from source instead, make sure your copy of
+<tt>/usr/ports</tt> is up to date, and say 
+ <tt>cd /usr/ports/lang/ghc && make install</tt>.
+
+<h3><a name="openbsd"></a>OpenBSD x86<!--, x86_64 (aka amd64), sparc--></h3>
+
+<!--
+<p>GHC is now in the OpenBSD ports tree as <tt>lang/ghc</tt>.  Make
+sure your ports tree is up to date, and say <tt>cd /usr/ports/lang/ghc
+&& make install</tt>.</p>
+-->
+
+<p>There is a binary distribution with profiling libs, no docs:</p>
+
+<ul>
+<li><a
+href="dist/6.4/ghc-6.4-i386-unknown-openbsd.tar.bz2">ghc-6.4-i386-unknown-openbsd.tar.bz2</a>
+	(21MB)</li>
+      </ul>
+
+<p>OpenBSD support is thanks to <a
+href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></p>.
+
+<h3><a name="macosx"></a>MacOS X 10.3 (Panther)</h3>
+    <ul>
+	<li><a href="dist/6.4/MacOSX/GHC-6.4.pkg.zip">GHC-6.4.pkg.zip</a>
+	</li>
+    </ul>
+
+<p>This package includes GHCi, profiling, dynamic linking support 
+(experimental), documentation, and double-clickable icons.</p>
+
+<p>MacOS X packages were prepared by <a
+href="mailto:wolfgang.thaller@gmx.net">Wolfgang Thaller</a>.</p>
+
+<h3>MacOS X 10.2 & 10.3 (using darwinports)</h3>
+
+GHC can be installed on MacOS X using the darwinports system.
+See <a href="http://www.haskell.org//pipermail/glasgow-haskell-users/2004-October/007268.html">this message</a> for details.
+
+<h3><a name="powerpcaix"></a>AIX 5.1L (PowerPC)</h3>
+
+<ul>
+  <li><a href="dist/6.4/ghc-6.4-powerpc-ibm-aix-bindist.tar.gz">ghc-6.4-powerpc-ibm-aix-bindist.tar.gz</a></li>
+</ul>
+
+<p>This is an unregisterised build, with no GHCi support.</p>
+
+<p>PowerPC/AIX support is by <a href="mailto:jgoerzen@complete.org">John Goerzen</a> and <a href="mailto:autrijus@autrijus.org">Autrijus Tang</a>.</p>
+
+<!--
+<h3>mips64/Irix</h3>
+
+<ul>
+  <li><a
+  href="dist/6.4/ghc-6.4-mips64-sgi-irix.tar.bz2">ghc-6.4-mips64-sgi-irix.tar.bz2</a></li>
+</ul>
+
+<p>This is an unregisterised build, with profiling libs, but no
+documentation or GHCi support.  
+
+The mips64 port requires an external libgmp. This should come
+installed with the "freeware" packages for Irix.  You also need to set
+the <tt>LD_LIBRARY_PATH</tt> variable as follows:
+
+<pre>
+   export LD_LIBRARY_PATH=/usr/freeware/lib64:$LD_LIBRARY_PATH
+</pre>
+
+The mips64 port is contributed by <a
+href="mailto:dons@cse.unsw.edu.au">Don Stewart</a>.
+-->
+
+<!--
+<h3>ia64/Linux</h3>
+
+<ul>
+  <li><a
+  href="dist/6.4/ghc-6.4-ia64-unknown-linux.tar.bz2">ghc-6.4-ia64-unknown-linux.tar.bz2</a></li>
+</ul>
+
+<p>This is a full build, with profiling libs and GHCi, but no docs.  The
+ia64 port requires an external <tt>libgmp</tt>, installed in some sensible
+place.</p>
+
+<p>The ia64 port is thanks to Matt Chapman and <a
+href="mailto:dons@cse.unsw.edu.au">Don Stewart</a>.</p>
+-->
+    </div>
+
+<!--#include file="ghc-footer.shtml"-->
+
+
+</body>
+</html>

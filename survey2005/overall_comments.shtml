@@ -1,0 +1,2334 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--Rendered using the Haskell Html Library v0.2-->
+<HTML
+><HEAD
+><TITLE
+>Comments on &quot;Overall opinion of GHC&quot;</TITLE
+></HEAD
+><BODY BGCOLOR="#e0e0e0"
+><H1
+>Comments on &quot;Overall opinion of GHC&quot;</H1
+></BODY
+><TABLE ALIGN="center" WIDTH="800" CELLSPACING="10" CELLPADDING="5"
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>No particular opinion at the moment.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is great! Very powerful!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think it's great.  Better performance of the resulting binaries would be good of course but I find this to be the best implementation of Haskell available.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haskell newbie speaking!
+
+The batch compiler is pleasant enough, GHCi is often frustrating (cannot write
+new definitions, cannot peek at unexported names).  The compiler documentation is
+good, a library users' guide would be welcome.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>At least within my limited understanding of the fundamental underpinnings of implementing a Haskell compiler, GHC is overall my preferred compiler. As a Lisp/Python/Emacs aficionado, I would always appreciate a more featureful GHCi REPL system... but offhand I can't think of the killer features I would add.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I love GHC.  Haskell is a great language and wonderful fun to work with and ghc is a most excellent compiler/interpreter (ghci) for it. 
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My favorite compiler (and language)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've found GHC to be very stable, to perform acceptably, and support far more language extensions than I'm ever likely to use. It's very available on my OS (Debian i386), I'm a fan.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haskell is a fun language and GHC is easy to use, and produces fast code.  I love ghci for interaction.  I love the numerous experimental extensions.  It supports Windows well.  The Haskell mailing lists are helpful for support.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like GHC's extensions very much.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>We use it for everything, and our research would be virtually impossible without it. We think support and quality are excellent, although the accessibility of its internals is not so easy. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a beginner and something of a dilatante with haskell.  So, with that in mind here are my initial impressions:-
+Quality:  It installed in my winXP PC with out any trouble.  It hasn't crashed
+          on me.  Beyond that I couldn't comment.
+support:  I use comp.lang.functional &amp; the various haskell.org lists.  My
+          questions have been answered by community members.  That said, I
+          haven't had problems with GHC itself.
+language extensions: I'm not that advanced so I couldn't comment intelligently.
+different platforms: I use it on win XP but I would like to use it on a linux 
+                     distro in future.  It works on other OSs I beleive,
+                     including linux based system.  So I'm happy.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A truly great piece of software. Perhaps somewhat slow.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My opinion: GHC has good error reporting, has reasonable compiling times,
+supports important extensions. Availability is good. Sometimes runtime performance could be better.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The best thing about ghc is that it simultaneously offers a stable platform (H98) and tracks current research developments.  The language extensions are particularly important to me.
+
+I've found the system to be robust, especially considering all the changes and enhancements that are constantly appearing.  It's an essential tool for my research.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is excellent for technology staging: modeling, simulation and decision analysis.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very powerful implementation, easy to get started with but also quite complex when going beyond the basics.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Performance is acceptable. Support is good: there are always people willing to help you on the mailing lists. Many of the language extensions I couldn't do without. It is available on all the platforms I'm interested in: Mac OS X, Linux, BSD and Windows.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have used GHC as a beginnner. 
+A forthcoming book of mine &quot;Computational Oriented Matroids&quot;
+(Cambridge University Press Nov.2005) uses Haskell within Discrete Geometry.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Quite impressed in general. Am just learning (self training) haskell and am using ghc</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm very happy with both compiler speed and speed of generated code. It's great to have GHCi for quick testing. My only complaint is the quality of the error messages, even though they have been greatly improved since earlier versions. I would like to see which terms have the types that are mentioned in a &quot;Couldn't match `blah' against `bluh'&quot; message. E.g. 'a' &amp;&amp; True. All in all I'm very happy with GHC. My job is more fun because of having a great, industry-strength Haskell compiler. Great work, guys!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's great!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm fairly new to Haskell, and my only exposure has been hugs and GHC.  GHC is a nice compiler and compilation system.  It does feel a little big and slow, but I am happy with the generated code.  I seem to end up doing things as pet projects that aren't naturally thought of as applications of functional programming languages, such as backup software, and the likes.  I come from an ocaml background as my &quot;day job&quot; functional language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC makes possible using very high-level language (haskell) to create efficient compiled programs. As a result, i just describe program's algorithm/data structures and then compiler do all the dirty work</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think GHC is great. I've started using it again after a long hiatus, so although my responses below suggest I use hardly any features, I'm using more every week.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is an excellent practical implementation of the most elegant language I have ever encountered.  GHC supports a judicious selection of extensions while fully supporting the standard language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>After only a relatively brief exposure to 6.2: The availability on the major platforms Linux/Unix, Mac,Windows is important to me. Otherwise I probabably wouldn't invest the time. The performance of the generated code was ok for me, the compiler itself is a little bit slow, but that is not an issue right now. The error messages were difficult to understand.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Excellent product, has a great set of useful extensions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very useful but clearly not designed to integrate with larger systems.  </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am not at all qualified to answer this survey.
+
+Take this as my 0.02c</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Pretty good error messages (sometimes a little on the verbose side).
+Good speed of generated code.
+Seems daunting to get running on an unsupported platform (but I haven't tried it).
+Very responsive/helpful implementers.
+Lots of interesting language extensions, but I don't have any time to play with them.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is one of the key tools I depend on. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC rocks.  I love it.  Seriously, guys, go have a beer -- you deserve it!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For me GHC is the complement to HUGS (HUGS for developing; GHC for building the final program).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>dsadsa</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is great. Thanks for maintaining it.
+While I use Hugs during development to get fast feedback and tests, I use ghc to build efficient and self-contained executables. Quality is good, though documentation could be much better. Better Performance of the compiler and debugging support are two things I would appreciate very much.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I find it the most usable Haskell implementation. Only that that worries me is runtime performance, memory and cpu-wise, and also the size of output binaries. These are show-stoppers for only a fraction of what I'd use GHC for, however.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I enjoy the cutting-edge features.  I don't enjoy how difficult it is for me to compile GHC under Windows.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I consider GHC pretty solid compiler, I began using to the exclusion of Hugs after the introduction of ghci. Type error messages are much better than in the old days, the package libraries are very useful. Also the profiler has come in handy one one or two occasions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is an excellent compiler, with crucially important language extensions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Don't have enough experience to know how &quot;good&quot; it is.  </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>no opinion as yet, but it is a requirement for Perl6-Pugs, so GHC i must!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think GHC is truly glorious. :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It rocks!  There's no other Haskell environment in the same league as ghc.  I particularly like ghci, as it keeps me from having to use hugs (which is also good, but ghc is so much better).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think GHC is a great playground for experimental ideas in functional programming, and has the potential to be a strong offering a practical offering for large-scale development.  Its main problems now are 1) the platform is incomplete, with a mishmash of APIs and a lot of functionality missing and 2) general performance issues, esp in terms of space.  I consider 1) more important.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Where would we be without eh?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Available on all my platforms. Language extesions, excelent.
+High quality other than the somewhat difficult error messages...
+Takes a while to rebuild my packages, perhaps someone should write a ghccache like ccache.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like Haskell and ghc so much that  http://www.haskell.org/ghc is one of the first sites I daily isit when i wake up in'  morning (may a times between 3 and 4 am).
+
+- performance: impressive when you take into account  the fact that you can write the whole code for a greedy heuristic for TSP with priority queue and spatial binary tree on a blackboard in front of an audience of 40 students. think of doin' it in C. and even so your code will be reasonably fast
+- quality: never mind those &quot;misterious bugs&quot; your clever coleague or student believes he's dug out in ghc. he's invariably wrong</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like it very much! The executables are a bit slow, unfortunately (there are a few things I did also in Java, they are faster, but Haskell is better to programme, so this is what I mostly use).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Excellent.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>If GHC didn't exist I would not do any Haskell. That's what CommonLisp is missing today, a reference &quot;implementation&quot; -- with win32 fully supported that is!
+Great job.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The two things I value most about ghc are it's completeness (with respect to Haskell98 and common extensions like FFI) and the speed of the code it generates.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Overall good. I' d like it to be a little faster and I'd like to see improvement in the error messages. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have just begun to learn Haskell and I have used ghci to play around with the language. I find that ghci does a very good job of allowing me to run through some of the basics. My only complaint involves the quality of the compilation errors. All in all, a great tool that I look forward to understanding more fully in time. Thanks for the hard work.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC rocks!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's a great compiler, but some flags are just too obscure and produce strange errors.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Never used Haskell before. At all. Downloaded at a whim in case I want to play around with it.
+
+I went for GHC because it was something I remember hearing about in connection with Haskell, not because of any particular attributes of that implementation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is a little slow on my machine, but I imagine that has something to do with the thorough checking of the code.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Since I am starting to learn functional programming using Haskell, I cannot comment on the specifics of the Haskell support itself. But so far, I have little complaints with it, besides the sometimes confusing error messages I get (but this is due to my inexperience.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>excellent</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I generally like GHC very much. The main thing I have a problem with is the module system. I'm not sure really how my ideal module system looks like and I know it's a complicated issue, but I really think that the module system can be improved. Maybe it's more of a Haskell-language issue though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>great compiler, but lack of important features like dynamic linking under win32 and easier error messages during compilation</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've just started using Haskell for my free-time programming projects. The fact that GHC compiles to native code and was available for OSX were the two most important factors. I've found it to be top quality so far.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm quite happy, overall.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm not a very experienced user, and I'm still a Haskell beginner, but I think GHC is a good compiler. As I generally spend more time experimenting than developing, Hugs better meets my needs for the most part. I use GHC to compile the programs I write that I plan to regularly use.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Generally, Haskell is my favorit language - although I am still very much a newbie -, and GHC is the natural tool to use with it.
+
+GHCi - with its integration of compiled and interpreted code, and its &quot;global&quot; variables - is helpful for prototyping, but it is still a long way towards getting a bit more like a Lisp REPL.
+
+The language extensions are really helpful, and as well error messages, while still cryptic, are better than that of HUGS.
+
+GHC the compiler is clearly more oriented to former C users than to s.o. more acquainted with Common Lisp, Java and Smalltalk. The command line arguments and the source code dependency handling seem to be stone-aged.
+
+I run GHC on FreeBSD and Mac OS X without any problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would be happy if there is version for MS.NET framework.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Quite content. Hm, language extensions. I'd like a little bit of standardization (&quot;Haskell 2&quot;, I know, not exactly GHC's &quot;job&quot;) and more control over what extensions to enable: I'm not entirely happy with -fglasgow-exts when I just want 1 tiny extension. Oh, and I'm wondering what happened to Optimistic Evaluation. Oh2, and don't take my answers more too seriously.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is a fine Haskell compiler as far as my knowlegde and experience goes.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>great compiler for a quickly evolving language</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very good impression as it has proven easy to install and use under Mac OSX 10.3.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Big. Provides excellent implementation of standard Haskell and all of the interesting extensions. I have made good use of its support for multiple platforms. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>quality: good
+stability: good on Haskell98+FFI, I'm happy with improvements for the better, even if they break code
+language extensions: I'm don't want to use any extensions that can change from version to version and where it is not clear how they should work (e.g. undecidable instances)
+portability: using GMP is good, using the GHC heap to allocate numbers is bad and a real showstopper for me</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I thing GHC is the number one implementation of what is probably the nicest programming language around. but, as Joe The User without a PhD in category theory or 14 hours /day to spend on #haskell, there are many many obscure parts to it. unnecessarily obscure, it seems at times.
+over all, great work though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a very good and well supported compiler for Haskell!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I consider, have used GHC just little bit to prove HaXml with a DTD designed. It works ok.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>what i value most of all is: high quality, linux &amp; windows availability, detailed docs on the extensions, good performance</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I appreciate the OS X installer, since that is where I am running GHC, because fink lags behind.
+
+Some libraries should have more documentation / examples on the wiki.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>oij</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I feel GHC is not a practical tool for day-to-day use.  Though it is unarguably the best implementation of Haskell currently, the semantics of Haskell and the implementation of laziness make it too difficult to reason about time and space.  I feel like I have to help the compiler too much.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC would be better off if it gets much easier to extend</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Wonderful</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think it's fantastic, but then I'm not a very experienced Haskell programmer.  All the people I know who are good Haskell programmers swear by it.  As a learner, I especially like ghci.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Rock solid. I use it instead of hugs because it has more extensions out of the box. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A lot of my work involves the FFI and TemplateHaskell extensions. Using the FFI is really a joy since it's so well documented. TH has been harder to learn because of the lacking/missing documentation, plus the dependency on &gt;=GHC 6.3 for a more complete feature set.
+But I am, in general, really happy with the quality and performance of GHC.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As a compiler, it is great -- given the number of people who work on it, I don't think I could ask for anything more; you guys work hard, and it hits its goal.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use GHC to develop my programs int the computer science course.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very stable and useful.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A great language tool! Apart from issues with the code-generation for x86_64 platform its just great. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I consider GHC the de facto standard Haskell implementation. It has all the most interesting and useful language extensions, and it's always being improved and refined. Support from the mailing lists and the maintainers is always excellent. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I enjoy working in GHC and have selected it as the primary platform for both my research and industry work.  All the issues I have are addressed before I can type  them up!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Too big to get into initially. A cut-down (as in just the standard and a *minimal* set of librarys) version ghc-lite would be nice.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Would prefer better conformance. Not too interested in extensions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't have enough knowledge to give a reliable answer to this question, but I appreciate very much that GHC open source.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Well, it's allowing pugs to move forward at an amazing pace, so that means it's great.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC has reached a very good state, though compilation time and memory usage should be improved.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have a very high regard for the compiler, the language, and the team that put it all together.  I just wish there were more tutorials and real world examples to help with the learning curve.  I want to present Haskell as an alternative at work, but currently I believe my management would view Haskell as something from the ivory tower, and would fear it would be next to impossible to find good Haskell developers.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Overall, it seems like a very nice piece of work to come out of what seems to be a fairly small language community. It's a beast to build, obviously, and doesn't always produce the fastest or most memory-efficient programs, but I think those are probably issues with the language itself.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very nice</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I was pleasantly surprised by the speed of the generated code (altough a bit large). Using extensions such as FFI has been really easy (altough I have only used it on one platform (Mac OS X).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My general opinion of GHC is that it is a very nice tool to use and very reliable when it comes to generating correct code. It is a bit slow though. I also feel that GHC is a bit of a moving target, new releases often change a lot of language features and libraries. More stability would be comforting.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great compiler -- for a great language designed for researchers. Not particularly useful, and probably intentionally so, for developing business applications.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Excellent! Reliable, complete, better error messages than Hugs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As I'm doing this for fun, I was pleased to see how easy it was to install and get started and yet have access to a powerfull set of features later on when I need them. ghci is particularly useful. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've dabbled in quite a few PL's, but I'm relatively new to Haskell.  I am thus far completely happy with GHC; its capabilities quite outpace my own in the language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like exciting feature of GHC: interactive let - it makes easy to debug step-by-step complicated programs</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is just great!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In general, I am more than satisfied with GHC.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GREAT</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>(Tried to fill out the survey before, but there was an error when I did submit it, I guess)
+Very nice system, missing some debugging facilities, at least some more convieniant support for tracing).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am currently learning Haskell and just started to use GHC on simple prototypes. I find GHCi very important for both learning and experimentation. GHC's integration with the Emacs Haskell-mode is very important. I am just starting to explore the language extensions, Parsec in particular.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC seems like the great monolithic Haskell compiler: it supports every feature that is supported by any haskell compiler, it runs on any common platform. And I never ran into trouble (like install problems or runtime bugs) with it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A great compiler, which in my opinion defines the language Haskell (rather than reports, specifications etc.). With a standard GUI library and a little more support for IDE-like features (see below), it will be perfect.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Hard to compare with anything else, there isn't exactly a wealth of Haskell compilers to choose from.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Es la primera vez que voy a usar GHC sin embargo no puedo instalarlo:
+
+# rpm -i ghc-6.4-1.i386.rpm
+error: Failed dependencies:
+        gmp is needed by ghc-6.4-1
+        libreadline.so.4 is needed by ghc-6.4-1</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very impressive piece of code, in many ways.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Excellent! However, would like to see work on parallel computation. GpH is cool, but is a long way behind current GHC in terms of language features.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A great system.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Well, GHC is a great piece of software. The thing I like most about it is the wide variety of type system extensions that allow a sensible typing in almost every situation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very impressive software for which I am most grateful.
+
+I wish it supported ARM natively or otherwise.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A great opus of open-source software!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is an amazing piece of software.  However, I am concerned that its feature set is becoming too complicated, with oodles of extensions (sometimes overlapping, non-intuitive, or contradictory) that seem to be added with each new release.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My usage is limited (see below), but I hold GHC in the highest regard. It's existence, open source nature and active development is what makes practical development in haskell possible.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>its ok, warnings and error message are sometimes hard to understand. Language extensions are not allways complete.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great compiler. :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It has got really stable and reliable over last few years/major versions. Once you got familiar with error messages it's convenient to use. 
+I haven't looked at new versions of GHC for some time and I am suprised (positively) with the number of new syntactic/type system/whatever extensions implemented. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I found that GHC is the most usable Haskell system, mainly since it works so well with native code and compiles to fast executables.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I really enjoy the combination of an interpreter and a compiler in one package. Speed, both of GHC itself and the code generated or interpreted, has so far been more than good enough for my needs.
+
+One thing that works wonders for is that after the &quot;silly typos&quot; are out, almost all errors manifest as type errors of some kind. I find that that uniformity makes me much more efficient at chasing down problems. I'm not sure to extent that's Haskell in general vs GHC in specific, though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is very good.  Well documented.  Supports useful extensions to Haskell98.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Not really sure.  I'm using it for Perl.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have found the language design to be outstanding.  It has a strong &quot;practical idealism.&quot;  My main attraction to GHC is Haskell itself, and the extensions that GHC carefully explores (such as arrow notation).  The attraction of Haskell is the new paradigm that it presents.  I found Haskell after doing some work with &quot;expression templates&quot; in C++ and realizing that I have little experience with a functional language.
+
+The compiler has been stable and reliable.  The feature extensions seem to be carefully thought out, but still progressive.
+
+Considering what is being attempted (a pure, lazy, funcitonal language), I am impressed with the execution speed and general memory profile of the compiled code.  But I would be nervous about using it in a production environment due to its strange memory behaviors.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>High performance; elegant; rigorous; excellent quality; open source much valued; generally wonderful :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am glad that a stable, longtime supported Haskell compiler exists, including its libraries and other environment, and can be used for a variety of programming tasks, simple &amp; complex. GHC can be used as a tool instead of only being experimental.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Strong, but the type errors could be improved.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is pretty great, definitely the premier Haskell compiler and probably the premier compiler for functional languages period. I don't use it much only because I don't like Haskell. :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>de facto standard for haskell compiling. I'm just starting using it so I can't comment much on it right now...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm very pleased with GHC in all aspects but one: it would be nice if had better performance for example like Clean (http://www.cs.ru.nl/~clean/)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A reliable implementation of a clever and elegant language.
+It will be good to develop it in the direction of the symbolic program trasformations.
+I wonder how simply, in principle, this implementation can be described and understood
+by a user.  
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is excellent.  A very good place to start learning functional programming, and an industrial strength compiler.  Have taught it to undergraduates as their first declarative programming language.  Syntax is very good, and the strong typing system is perfect for new users.  It is very well maintained and developed and there are plenty of 3rd party additions.  Performance is good, platform availability also (great to have a windows installer for example).  I have used it on linux, windows and solaris (where support seems to be worst).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>a very productive tool for many (non-interactive) programming tasks! Almost all language extensions are a bit problematic. Even running your own classes and instances is rarely a good idea (I'm not talking about the standard classes that can be derived). The support via the mailing lists is great. Code reuse (less reinventing the wheel) via better libraries could (and probably will) be improved</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm just strating out. Intrigued by the apparent power of the language. Have heard about it before, but especially interested because of reaing about the pugs project (a temporary Perl 6 via ghc).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>wer</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is currently the best compiler for Haskell around. It provides most of the features I require for my work, but there are still language extensions I would like to see.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is an excellent (in fact: the only serious) implementation of Haskell 98. I am not so interested in non-standard extensions.  From my point of view it would be better to improve various remaining (minor) problems with usability and diagnostics than to try out various more advanced features, but I realise that this is an unrealistic expectation.  Still, the volume of correspondence about various errors  makes me uncomfortable about the development process.  I also don't understand why building from sources has to be so complicated.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Quite an impressive compiler for an impressive language.  Documentation of bootstrapping the compiler is lacking and the process is difficult for someone new to the language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>- best compiler/language for pre-planning and programming, fst choice (snd is gnu c++ with &lt;STL&gt;)
+- could be easier to port to other architectures -- at least for non-optimized ghc
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For the time being, I am learning Haskell, so I have no particular opinion about GHC</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In my opinion, GHC is vastly superior to all the other (Haskell or not) compiler, and the best thing is that it keeps getting better all the time!  Sometimes I get the impression that all possibly useful features are either already implemented, or actively worked on, or have nasty theoretical issues that are also being resolved.  GHC offers a postmodern programming environment of truly outstanding quality!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is an awesome development platform. It lets you program in a very advanced language, but it is still actively maintained, and provides a reasonably-performing free software compiler with extensive libraries and many back-ends.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I really like GHC overall. I use a lot of GHC-specific extensions in my programming so no other system really does it for me. It's easy to use and the produced code is fast and reliable.
+My main gripe is that it is really difficult to extend GHC to try out something yourself, e.g. some typing scheme or syntactic extension. The GHC source code is a mess. :-P</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great! I believe it is very important to offer good availability on different platforms -- it is nice to see that windows support has improved a lot over the years. Lately, my biggest stumbling block with GHC has been backwards compatability. 
+
+(note: Even though I use this survey to file my complaints, I really appreciate all the great work you are doing on GHC! I would not be a happy person without GHC :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is fast, produces good executables, and is highly available, but its error messages could be more helpful.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC rocks! I use it in my three environments (Windows XP, Linux and Mac OSX) with little to no problems. About the only thing that could improve, in my opinion, is speed of compilation. I don't really care too much about execution speed, as I can use other languages for that and the FFI works fine, but speed of compilation is sometimes a bummer.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>An excellent implementation of a superb language.  Performance is very good.  Crucially, both of my required platforms (Win32, Linux) are supported.  Thank you for providing such a useful tool.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm just a beginning Haskell programmer, so I don't have much to offer here.  It seems stable enough.  Performance isn't all that important to me, but it appears decent enough.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Provided libraries are very impressive, system is fast.  Occasionally there are memory leaks for no obvious reason... I think may be related to lazy evaluation.  Also, the error messages could stand improvement.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't used it until now.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I really like it, but can't get it to link with c wrapper code around a database library; without better link support under win32 (or, at least, a more clueful me), it lacks the I/O facilities to get work done.  Otherwise it's great, and I wish that it was more practical to use for general programming problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It compiles my naive programs and I can usually understand its error messages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a delight to work with, esp. since the advent of GHCi. The FFI in particular is wonderfully engineered and very easy to use. I've never had any problems with performance of generated code (that weren't the fault of the source code itself, i.e., bad algorithms), but GHC itself can get a bit choked up on large programs (of the kind we write at Galois). But that's pretty hard to avoid.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>This is just an addendum with an extra comment about portability.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I find GHC to be a high-quality compiler. I find it to strike a nice balance of adding new features and extensions, but not before there time. For example, &quot;extensible records&quot; (and the whole record system in general) seems like </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great compiler</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>ghc has given me many years of excellent, flawless service
+the only problems I sometimes feel are slow compilation and large binaries</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Generally impressive.  I have recently had trouble with portability.
+My experience is very limited.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is good for me. I seek expressivity in coding image processing algorithm. The performance are good enough.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC has good performance as opposed to Hugs, but the error messages are more clear in Hugs imho </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>a fine compiler for a fine language</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am using ghc since ~1999, and since the introduction of GHCi, I am
+all in all quite happy with it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sounds Good. I am going to try it now.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's darn sexy</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is fairly easy to use and is well documented.  However, some compilations are very slow.  I use GHCi rather than HUGS although I have both installe.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Should be glorious, but I have to check it first. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Pretty good, but I don't think I push things as much as other people.
+
+FFI seems to work pretty well whenever I've tried to doing anything (reasonably simple) with it.  Still need to get round to calling back from native code into Haskell code though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a mature compiler and promotes the use of Haskell for building industry strength applications. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>the better gcc for the functional world!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>*drool*
+
+Having a little trouble getting 3D working on Windows XP but it works wonderfully on Linux.
+
+I'm finding that multi-threading is an incredibly powerful way to duplicate OO-style encapsulation and to deal with the non-functional aspects of a computer.  It also scales up incredbily well, allowing for distributed systems without having to change the logic for each component.  It also allows for easier integration of external components.
+
+It would be nice if there was a way to provide a compiling environment where certain libraries (e.g., file access) were not available.  That way, source code could be downloaded, compiled, and 'safely' run, similar to Java's RMI.
+
+Streamlined XML support would be very handy.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Mostly excellent.  Run-time performance is the biggest problem.  It ought to be as fast as C :-/</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Good quality compiler. Seems to generate good quality code. I am a light user of Haskell and GHC, though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Excellent, excellent, excellent.  The language is a bit intimidating, though. ;)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is such a wonderful compiler for such a wonderful language. It's fast, acurate,  consistent and well documented. Thanks!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very good, fast and not buggy. It just works.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is currently _the_ Haskell compiler.  Getting better with every release, it's a bit hard to keep compatibility with software made for earlier version as language extensions tends to change a bit every time.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Solid, heavyweight, &quot;industrial strength&quot; tool for Haskell software development.  Resulting executable programs very large (last time I looked).  I still tend to use Hugs for code development because I perceive it's more lightweight (may be mis-perceotion), and also because it helps me to avoid &quot;obscure&quot; language extensions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Still the ne plus ultra of Haskell compilers.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Overall, very good. Excellent support. I don't use a huge number of extebsions, but performance on multiple platforms has never been a problem (other than when my algprithms suck :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Overall, I am a happy ghc user: the system works well on my linux box --- I haven't had any problems with the basic system. As some people claim that Haskell is suitable for multimedia applications I would have liked to use HOpenGL, but I've been unable to use this library. On the other hand, the stuff I need for my studies (mostly just ghc, alex and happy) have worked without problems.
+
+Thanks for a good product --- and thanks for giving it away!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've only just started using ghc, but it's quite impressive. There do some to be some rough edges though. For example, I tried twice to use template haskell and both times I ran into blockers due to features that were in the template haskell paper but not implemented. Also some of the documentation seems spotty. For example pre and postconditions don't seem to be documented at all so the behavior of stuff like Data.Map.insert isn't very well defined.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As it seems to be the de facto standard for Haskell I am trying to give a try. At the moment though I'm stuck in getting it to compile on my x86_64 Suse 9.2 box.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a great tool for a great language.  I cannot compare it to other Haskell compiler/interpreters (I have just tried Hugs).  Language is clearly much more appealing than OCaml, for example.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Thank you, GHC is a great piece of software!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm not experienced enough to comment</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a casual user, loving to play with Haskell, so: ghc is great, particularly as it implements quite early experimental language features. Plus: the continued effort to offer the parts of ghc as libraries is very welcome (even if the complexity to use it is above my means, at least for now).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Overall it is good. Support through Haskell mailing list is excellent, mreally impressing</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a great program! Quality and performance are excellent. Documentation is good when existent, but too often non-existent.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC have a good performance during compilation and the generated code usually works with no problems. Although the optimization feature seems very attractive it usually gets too much time during compilation which isn&#x2019;t compensated in execution.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a great Haskell implementation, in particular together with GHCi.
+It provides an excellent tool for teaching functional programming and for 
+research. I use it on a regular basis for designing/exploring (domain-specific) 
+languages and for implementing language tools/extensions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>First time use. Appears to be well set up for easy windows installation</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>New to haskell, getting this to learn.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I mainly use Hugs, but I have turned to GHC lately because it is faster and works better on some programs I have written that use a lot of memory.
+
+I also find the arbitrary rank polymorphism useful.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Only used GHC briefly in the past.  For some reason I switched to Hugs.  I can't remember why.  Am re-installing GHC to make sure my code works with it and possibly to use it instead of Hugs, particularly if I have a performance problem.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>High quality compiler with reasonable error messages.  I like the fact that GHC is the &quot;gold standard&quot; for Haskell compilers - anything I read about in academic papers I can usually try in GHC.  I wish it had a MS Visual C++ native port so I could experiment easier with compiler modifications, and I wish the DLL stuff worked for Windows so I could create DLLs in Haskell (callable from Haskell).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My impressions of GHC are similar to that of the GNU C++ compiler --- it is feature-complete, portable, optimizes reasonably well (for the language), but a bit slow and memory-hungry.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Fantastic compiler for many applications.  Still weak with respect to creating GUI applications.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The Standard Haskell compiler. This is based on documentation, support, and completeness (including extensions).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Getting better and better</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great, but the change to Cabal has caused a lot of difficulty with old packages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>So far so good. I have only been tinkering with it for a couple of weeks. I was tempted to look at it because of it's similarity to Erlang and the fact that DARCS is written in it. This intrigued me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haskell is a great language for developing language descriptions, both natural and formal, but, for some reasons, it performs extremely poorly when it comes to strings, the fundamental building block in language processing.  This is a real issue for me as a language technologist. I guess there is good motivations for why this is, and a hard-core Haskell person would suggest PackedString or whatever, but for me, I would prefer the compiler to solve this issue.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Works nicely most of the time.  Can't say I've ever really tried anything too exotic with it though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's great!
+
+Although... I am sometimes annoyed at how difficult it is to compile programs that worked in previous versions of GHC with newer versions. I guess it is partly my own fault (I like to use the new stuff).
+
+Also, related to this, the documentation (GHC User Guide) is very often not up to date. For example, the documentation of Template Haskell describes an old version. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Wonderful.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's a big pleasure to work with. I like both quick interactive hacking and compiling large libraries.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I really like GHC: I think it is an abzolutely amazing piece of work.
+Sometimes I wish it would provide a more stable and &quot;polished&quot; experience.
+One random thing that springs to mind is binary compatibility between
+relases to a larger extent than now. Another that, albeit only in my fairly
+limited experience, it requires a bit of luck if one wants to build from
+CVS head sources (one has to pick the right day and the star signs have to
+be favourable, or something ;-). Recently the way import chasing is done
+changed in a for me unfortunate way (but ultimately for the better).
+However, in balance, I think it is important that GHC evolve, and given
+the limited manpower, grievances such as those above are really not much
+to worry about.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's great :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Didn't have much experience with it yet -- just started learning Haskell. The interpreter (toploop) and packaging (directory layout) looks nice. One thing that is a bit annoying is absence of manual pages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I installed the haskell interpreter, 'hugs', and learned a bit about haskell.
+Now I need GHC, to learn more about haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is incredible. It has everything I could possibly ask for. No complaints whatsoever. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is very nice compiler. I like it most. I also love Haskell language. The problem I only have is the speed of the compiled code (that is why I use oCaml sometimes for my tasks). The final code seems a bit slow. And I did not try it still on Windows. Thanks for your great job!!!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I just incedently use the haskell compiler.
+- good error messages
+- slow 
+(remarks are relative to the Clean environment, which I normally use)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A great compiler, in particular to take inspiration and learn from. A bit too heavy (takes long to compile and produces big executables). The type system it implements is so complex that only a few people in the world can understand it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Simply great.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I just use it to compile darcs, but learning Haskell is in my TODO list :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have never stressed the compiler so much, so it seems good to me. It's available on all platforms that I care. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'd like to comment on the survey. It sucks! It uses Javascript! And has
+no NOSCRIPT tag. I had to type this survey twice because my favorite browser
+doesn't support Javascript (intentionally) and I found out that something
+is wrong after I submitted the survey and received `unknown action' message
+in return. Please note that W3C Web accessibility guidelines _require_
+providing a version of a web page with no Javascript.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i don't have an opinion on it as of yet, since i never used it. I heard it's a top-notch, state-of-the-art, native or bytecode compiler for the amazing programming language Haskell.
+
+that's why i'm downloading it to try it out.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Given the resources behind it, the level of support and quality is awesome!
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have just started using GHC (have been using Hugs to read Craft2e)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I would describe the quality of GHC as high. Only a few points do surprise me.
+- Application size - even a hello world will take 248K
+- Many libraries not needed, but still linked (Hello world does niet use Integer, so why link libgmp?)
+Documentation is good, but somtimes it is hard to find which package to look at
+
+Package system is week for users without root permission. But I believe that 6.4 fixes many of the problems</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great, but laziness is very difficult to make efficient/fast.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I cannot fully appreciate GHC at the moment, but from what I've seen I am under the impression that it's a pretty impressive piece of software coming from a small group of people.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>great work. great team.  
+performance of compiled code ever improving.
+ffi, concurrent haskell, hierarchical libraries now quite satisfactory.
+Not-crystal-clear aims, i.e. at the same time ghc seems to enhance:
+- mind gyms
+- spectacular shortcuts in software design
+- the self-reproduction of paper and papers</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I love using GHC and GHCi! I use it only on windows so far, but have plans to employ it on linux in a critical role for a small business.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Obviously, I'm overall very grateful for GHC, otherwise I wouldnt fill in this form! My main complaints concerns the
+GHC team's bias towards implementing rather exotic, research-style features
+while ignoring simple but absolutely basic things like e.g. improved record syntax or basic libraries for filepaths. 
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Just works. Win32 support is better than expected, even partially native, except that threads don't run while a system() call is under way.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Well polished basic functionality; some of the extensions seem less well-documented and unfinished.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Quite mature. I do not have anough time to even read about all the features.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>quality seems good, performance is good, speed low but within a reasonable range for a compiler. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very nice.  It's sad that it's not easier to bootstrap on new platforms, but that's getting to be less of an issue.
+
+I have a vague recollection that I may have filled out this survey before...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's the premier haskell compiler, though all things considered this may or may not be a recommendation. I'm sure I'm not qualified to judge :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Nice, too slow for practical use, good for experimentation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is very nice and we use it in our lab as both a teaching tool and as an application for production projects. High quality, very good speed and such. Error messages could be a little bit clearer for the sake of new students.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a great compiler. Last year I used GHC to make an AI-related program that learned itself to play chess. It involved a pool of mutliple neural networks that played against each other using a 3-level MiniMax algorithm. The network was used to determine the evaluation of each board state. To start evolving, we just started the program, and waited a few hours. Thanks to GHC the game evolved, after matching for 3000 generations, a great neural network that beated any other sophisticated one with almost instant decision time.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Best compiler I have ever seen. Brilliant error messages, integrated make system and profiling are to mention here. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've only used it a bit, along with HUGS, to try and learn the basics of Haskell.  I like the language, and although I haven't used it for anything in production, the ideas that it embodies have influenced my programming style in other languages.  What I'd like most is
+a) Better documentation - tutorials, code examples etc.
+b) More bindings to other systems - e.g. database bindings etc., along the lines of http://htoolkit.sourceforge.net/
+
+Keep up the good work!  I've several times encountered situations in C++ where I've said to myself 'why can't this be as easy as in Haskell?'  (Specifically function bindings and higher order functions. 
+
+(+1)
+
+is much nicer than
+
+std::bind1st(std::plus&lt;int&gt;(),1)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The main reason I use ghc is to compile darcs.
+
+I'm not a programmer (although I use C to code stuff I need). Programming is more of a hobby for me and learning functional languages is a long term goal.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a truly excellent tool.  I especially appreciate the
+nice packaged versions that install and uninstall cleanly
+and without fuss.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Doesn't seem to have much competition. Sort of the gcc of Haskell. Huge. Apparently works fine where available. I wish there were more ports available from (porting and packaging) vendors. More packaged libraries and bindings, too, perhaps.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Well, I love playing with Haskell (I've never done more than a little toy project in it), and GHC keeps it fun :-) Stuff like the way GHCi is so well-integrated is great - I can code and explore in the same language (like Python, my other favorite language). My only real beef is lack of AMD64 support, but I'm working around that, and I understand support is coming, so all in all I'm happy.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's becoming a de facto standard, which is both a blessing and a curse: a blessing because it gets a fair amount of attention from the community, bugs get fixed, and you know stuff will be available if you want it.  A curse because it is also the place where new language features get tried on for size, and stuff often ends up enshrined as a language feature before all the sharp edges have been completely filed off.  Also a curse because more and more stuff depends on sharp-edged bits.
+
+Performance is best of breed, but I get the impression it hasn't been a big focus in recent years.  Is that a correct feeling?
+
+I've always found building GHC from source to be an exercise in self-flagellation, and gave up trying some years back (though I've made a couple of half-hearted attempts since).  The Darwinports version of GHC which I use now is the first time I've gotten GHC to build out of the box.  Would have loved to crawl around the GHC source back when I had time (and regularly use the library code to answer questions).
+
+Transactional memory is great, but I knew that before you went and implemented it.  When do we get real thread-level parallelism and a parallel GC?  (Yes, I've gone on the record before saying this is labor-intensive.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I just started playing around with haskell.  Im still trying to understand Monadic IO.  I like the fact that its packaged nicely so I can easily download it.  But it might be nicer if the Windows Toplevel ran in its own window instead of a Dos Box.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It seems to be a solid piece of software.
+My biggest regret is that it does not
+(i) have an option to generate &quot;ordinary&quot; C, or
+(ii) operate with the auto-make/ configure/ gen software
+used in many open-source projects.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The compiler works really well for me. I'm not a big Haskell guru so I can't make any 'deep' comments here, other than GHC seems to be the standard Haskell compiler.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>No real complaints. I realize no language or compiler or environment can have all features that some other languages or environments have, so I live with the model that Haskell is. I use OS X exclusively (even though I worked for 12 years for Intel in the 70s and 80s...go figure).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Remarkably solid.
+Full of features I neither understand nor use.  Thankfully I can 
+usually ignore them. 
+Availability much improved in recent years with rpm distributions. 
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haskell is a great language and GHC is pretty much the only decent compiler for it. The main problem I have with it is that it's often not obvious how to write fast and efficient code. Also, it often seems that the code that has been written to run well is nowhere near as easy to read as a more naive solution (assuming both implement the same algorithm). Now, while this is true for most other languages as well, the performance difference between the optimized and non-optimized program (again implementing the same algorithm) is usually not as big.
+This is the main reason why I use Ocaml more then Haskell - it's a lot easier to get code that runs well without having to give any hints to the compiler - pretty much the only thing I avoid using in Caml are OO constructs. Then again Caml compiler is nowhere near as complex as the Haskell one.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Err. Very nice so far - still on &quot;make&quot; though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>An (almost) industrial-strength tool</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is reliable</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very nice system for both learning and using Haskell. Gives me confidence that the language is useful (besides the language's own beauty).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Seems like high-quality software, with a very responsive user community and lots of cutting-edge research going on.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a high-quality Haskell compiler, with numerous extensions.  Some extensions are more experimental than useful, but hey, it's a research project.  I've found it easy to install and run on several different platforms (WinXP, Linux, Mac OS X).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Many problems get solved from one version to the next one. Output of performance
+profiler is very usable with -auto-all. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is the fastest and de-facto standard implementation for Haskell, and offers nice extensions to it, but it is neither really user-friendly, nor is it clear and easy to understand in its internals.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I find it fantastic that such great software is completely free. Experimenting with functional programming is made possible this way. The only thing I miss is an IDE with userinterface builder, but maybe I am spoiled by Borland et al.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Excellent!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's very nice.  It can be a problem for some users to install, which is a bit of pain.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Overall very good.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It runs my Haskell programs. Quickly.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I use GHC a lot, and most of the time I am quite happy with it.  It is the best compiler we have for Haskell, and it provides a lot of extensions (perhaps too many :-)  It seems to generate pretty good code, considering that Haskell is a tricky language to compile efficiently.  Overall I am quite happy.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Pretty good but the x86_64 support needs some work</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Overall, I am very pleased with the compiler.  The biggest gripe is the difficulty of debugging (and even of finding the options for doing simple things like getting  decent run-time stats output in case of failures is difficult)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Overall, GHC is a great tool.  Debugging support could be better, though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Wonderful compiler, generally available everwhere I want Haskell.  I don't push the envelope with language extensions or debugging.
+
+Performance is terrific.  I was pleasantly surprised when I discovered that a simple string mergesort compiled with ghc ran much faster than the gnu sort binary on my linux box.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Ever since GHCi came out, I stopped using Hugs. Now I only use GHC for Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like the fact that GHC manages to give me great performance out of the Haskell code.  I worry slightly that it is simultanously being used as a research vehicle; while it is a small price to pay, there is a chance that too many little-used experimental features complicate its internals and its usage.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Woderful tool and language</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I mainly use GHCi, but do occasionally compile code. The sequence of languages I used to get to GHCi was Pascal, Prolog, Miranda, Gofer, Hugs, GHCi. Overall, GHC(i) is ideal for my work, which is writing non-production code to support my research.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't programmed in it much. However, I have studied the language and have installed it and used the interactive shell. A few things that I would like to see are
+1) Please make the compiler faster. The Clean compilers seem to be lot faster and churn out better code than GHC. Why is GHC slow and why does it produce not so efficient code (when compared to other compilers?)
+
+I think that's all. Thanks a lot!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a beautiful piece of a well written compiler for my favourite programming language, although it lacks in terms of available libraries, speed and debugging support.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's great.  A DrScheme-like environment would really help spread it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I definitely need this compiler.  For checking Haskell code under development, Hugs is often better because of faster compilation but I need GHC because of the fast code it generates and the lots of language extensions it provides.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I do not have a strong opinion yet because I am Haskell and GHC beginner.
+So far it seems to me that ghc is the best and the only option for compiling Haskell down into machine code. That is what I need so I think ghc is a great stuff even though lacking some features, like dynamic linking.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm just darcs users and beginner haskell hacker, so I'm not in possition to judge about GHC, but so far the only issue I've hit is platform not-availability, ie. Solaris/x86/amd64 is missing.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think it's quite good. A tad less memory hogging would be nice, and better support for command line one-liners would be great. E.g. passing arguments on the command line to the command line script.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I just use Haskell occasionally for fun. GHC has always worked with no problems for me. The error messages are good.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Linking on a mac seems terribly slow - or rather, linking with wxhaskell takes up lots of memory and causes lots of swapping and is terribly slow as a result.  Perhaps this has nothing to do with ghc and more to do with wxhaskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The download size is amazingly big for a compiler, but is a hell of a compiler - yeilding great control(over optimization etc.), and nice excecutables, I think compilation-times are bearable.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Decent error messages (not quite Helium, but definitely more friendly than Hugs); nice to have a properly working system under Windows as well as Linux; haven't had performance problems.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think GHC allows me to write usable programs in Haksell, that is: it combines beautiful programming with practical programming.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Probably the finest compiler ever written.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>1) Nice with many features.
+2) Lock-in, since no other tools support all the features. If it was easy to add new features to GHC for outsiders, then this might not be that much of a problem. (There are many tools, like Hat and HaRe, that do not support the kind of code that I write...)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Excellent language and compiler. I like also ghci. I struggle with ghcmake, I wish there were more documentation on it, and worked examples.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I find GHC very hard to install. This is important because I am incharge of upgrading, maintaining, and installing new software for my internet company. I have not been able to build my own copy to install so our users can use the software. The problem is that the binaries for my platform (Netbsd) have many shared libraries I don't want to install and require those libraries to be in odd places for our system. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like GHC and GHCi very much. I have problems with the errors, but I'll expand on this subject in the improvments section.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is very stable, usable and useful. No complaints about the platforms supported - I use it on Solaris, XP, and OSX without any issues.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a good general purpose compiler. It's a bit slow to compile on old machines.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A novice, but I am deeply impressed.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have no complaints.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am very pleased with the functionality, quality and performance of GHC. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very interesting.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I try programming Music, like HUDAK explained it in &quot;The Haskell School of Expression&quot;</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is honking huge but very nice and impressive.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>With all the sexy GHC extensions, I am really starting to look forward to Haskell 2. May be it's time already ? May be at least Haskell 1.9 ?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Personal experience: reliable and complete Haskell implementation.
+Information from others: *the* reference for a real Haskell compiler that can produce highly optimised code.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Undoubtedly the most useful Haskell program ever written...
+Very solid and capable. A joy to use.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Excellent compiler. Unfortunately, the executables are quite big and slow compared to other languages, but I think this is primarily due to the semantics of Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC totally kicks ass. :-)
+It's fast, stable, and the parts of GHC written by the Simons have excellent support. Support for the other parts is iffy, notice that GpH and GdH code is being removed from GHC, and parallel array fixes are slower. I'm not sure what that implies though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is very good Haskell compiler, but it is too slow yet</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am a recreational user.  I am very impressed with GHC overall.  It has a very professional feel to it.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Overall I am pleased with ghc. The compiler runs reasonably quick, the mailing lists answer most any question in a reasonable period of time. My main complaints focus around use issues and not the technology itself. ghc still feels like an experimentation vehicle and not an attempt at a canonical Haskell compiler/interpreter.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is great.  I salute all those who have worked and continue to work on it.  I'm certainly someone who believes that functional programming should have its day, being the &quot;least broken&quot; programming paradigm.  
+
+However, I also believe that Haskell needs to 'grow up' in another way (besides expressiveness, correctness and execution performance).  Haskell needs to have a legitimate development tool suite - a set of tools supporting the writing of Haskell code and debugging it, and the management of large codebases.  These things might 'emerge' from the fanbase, but I fear that most of the current users of Haskell are not interested in such things, but rather in more academic pursuits (the language itself, or developing libraries or smaller programs in Haskell).  If Haskell is ever to appeal to a larger slice of the developer base it will need to exhibit tools that help the newbie and seasoned developer alike get things done in the language and feel 'comfortable' in using Haskell on problems.
+
+That is my opinion.  Sorry about it being more than a &quot;sentence or two&quot;!
+
+ </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I love Haskell. I don't often bump up against ghc's edges so I find it to be a fine tool. (I also use hugs and I waffle between hugs and ghci.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The default option when picking a Haskell implementation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like Haskell. GHC is a means to an end. I don't really notice GHC, which is probably a good thing, it just does what it is supposed to do.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I feel that GHC is a great functional programming environment because of language features, responsive user community, and documentation. I am happy to have the group holding the reigns of development of the sort that are practical but strong in theory such that we get effecient implementations as well as reasonably fast access to type developments like GADT's. One area that needs work is integration into a cross platform GUI framework. wxHaskell doesn't seem to be very reliable. Haskell is close to the point where I'd like to abandon all use of Java. reliable GUI stuff is one of the key issues.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>To be honest, I'm quite fond of GHC. Today, I use it for all my Haskell programming. Mostly, because of the extensions. Since I'm studying type systems, I often need the type-system extensions and I find it very useful to be able to give kind annotations for all type variables appearing in my programs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like it, I haven't used it for anything serious yet. I'm looking forward to playing with the extra libraries that are now included.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great work! (but many problems with 6.4)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Overall it's good.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think GHC is an excellent tool. I'm happy to see so much activity on the compiler.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Brilliant - thanks!  I am a great fan of typed functional languages, especially for symbolic processing.  I use Windows.
+GHC best points: installation, libraries, performance, ease of use
+GHC/Haskell issues: debugging, library documentation, ever growing complexity of the type system.
+I realise that many of the libraries I use depend on GHC extensions and I have used some extension myself.  However, what I would most like to see in better integration with recent debugging techniques, IDE development etc rather than language development (a bit of a contradiction).  Also, a standard GUI library would be a great bonus - I use wxHaskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC seems very stable, well supported and has a large user community,
+making it easy to find others for help on the Haskell language and GHC itself.
+Also, much of current research is included as fast as the papers are written,
+making it possible to try out the bleeding edge in functional programming
+and type systems.  Thanks!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think it is the best Haskell compiler and a very good compiler in general, with good quality compiled code. However, it's very slow when compiling with optimizations, and it is bloated with too many (in my opnion) extensions. Overall, I would like to thank those who produced it very much!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great stuff!  GHC is stable, complete, reasonably quick.  I'd like to see a mature IDE (I have used the Eclipse IDE plugin and have read about the Visual Studio-based IDE) although I know most GHC users are emacs or vi types.  An IDE would allow easy access to documentation (especially libraries) and perhaps wizards for GreenCard interfaces, etc.  </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a very nice tool which just works (-make is very nice)! 
+I like the language extensions very much.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think ghc is a cool compiler.  Though at times it feels a little big and heavy,
+in terms of versatility and overall performance it is great.
+As _the_ major compiler for Haskell, it is well supported with its mailing
+lists and bug tracking system.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is straightforward and easy to use, and produces fast executable.  I only use GHC peripherally, so I don't have enough experience to have nitpicks about it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The combination of a compiler and the interpreter interface (GHCi) makes it very usefull for writing Haskell programs. And of course all the typesystem extensions make it the compiler for Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>never used it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>With no doubts GHC is the best Haskell implementation. But it is too big and complex and this may be a problem. Once I have considered using GHC as part of a project for a new functional language (Haskell with overloading without classes). If the structure and code of GHC were simpler, it would be easier to use it for other projects. Maybe it should be rewriten in Haskell98 (which is old and lacking of features as well).
+
+I care about performance as well. At least one implementation of a language should  produce code with very good performance when compared to other language implementations. GHC generates code with good performance. But I hope it will be better in the future.
+
+Also to be successfull, a language implementation should be available to most used platforms. GHC seems to recognise this as well.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think GHC is an exceptionally reliable and well-maintained piece of software.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Seems to work great!  </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Super cool. Biggest issue by far for me is a silly one: ctrl-c in ghci on Windows takes you straight back to the windows shell. It should take me back to the interactive prompt.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>78OT798OTF789</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great compiler.  No complaints at all so far.  (And my baseline is OCaml, which is a tough standard to measure up to!)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>In my opinion GHC is a really awesome system. I am very impressed in code generation possibilities of it, e.g. the possiblity to define rewriting rules on the code. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It seems pretty solid and featureful.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very nice system overall.  I have very few complaints.  My #1 complaint is portability.  From my own experience trying (and finally succeeding) to make it work on AIX, and failing to make it work on ARM, it is one of the most difficult-to-port Unix apps I've seen in a long time.
+
+I would view it as a tremendous plus if the user were given the option to have GHC generate something approximating ANSI C, or ANSI+POSIX C, without requiring detailed knowledge of the system that is usually reserved for the components of bunutils.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think it is really fabulous.  I can't think of a better tool for programming language research in any area.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a very new user.  I've been heavily studying FP and Haskell for the past 6 months but have been mostly reading rather than programming.  When I do program in Haskell, I exclusively use GHC.  What draws me to use GHC is the bleeding-edge features that go into GHC, STM and GADTs being the 2 things I'm most interested in using.
+
+My impression as a new user is that it is a very powerful compiler and seems pretty speedy to me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I find GHC a straightforward tool to use; my impressions of its performance
+are favourable (executable size seems high, but is not currently a problem). The option set is large but not unmanageable, and the documentation is good. I have had some difficulties building the system from the CVS release, but I am not sure that these are all GHC-specific; for example, if ObjectIO is part of the standard library, should I expect it to build? (it didn't last time I tried)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Certainly the best Haskell implementation on this planet. Excellent libraries and extensions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Extremely good and powerful.
+I am specifically interested (and impressed) by the constant adding of new features for extending Haskell</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>High-quality software, supporting an impressively complex
+language
+compilation is a bit slow</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Don't know yet.  Want copy to learn language.  Appealing because of cross-platform operation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Acctually, I havn't studied the &quot;market&quot; for haskell compilers that much, but according too &quot;everyone&quot; it is the most potent and that why I use it for my haskell compiling.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great tool, GHCi a bit slow to start, type-checker always rejects my programs (:-)!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a very good implementation of the Haskell language, which I overally like to work with. The compilation possibilities are good, the flags seem well thought out and the implementation seems well balanced.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm starting to use GHC now...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very good: well-documented, open development, drives language development, usable, includes an interpreter.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm waiting the OpenAL support.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I really like GHC.  It's a joy to use and contribute to.
+
+P.S. This form should have a meta-comment area for both comments about the form itself and for items not covered in specific questions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>quality -&gt; great
+performance -&gt; haven't really pushed it yet, but so far, so good
+other stuff -&gt; hasn't been an issue
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>nice, but slow</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Implementation is very good, availability is broken.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>This is the first time I install GHC. My primary development architecture is PowerPC GNU/Linux (I also occasionally use x86 GNU/Linux and sometimes x86 GNU/Hurd), and I've just seen GHC has now been ported on it. I'm very happy about it. I heard GHC is a very good Haskell system, and I'm eager to try it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Love it.  Only wish it was available on more platforms (even if only unregistered builds).  It would be nice if a tar of the .hc or .c (whatever is needed to build it using a C compiler) files would be put up with every release.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is important to me, as it is the only efficient compiler for my favourite programming language!
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>High quality and highly compliant Haskell implementation.  
+Leading the pack in terms of language-feature innovation.
+Fairly monolithic.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>For some extensions of GHC and some features (like -fallow-overlapping-instances) allowed and working combinations are not clearly documented. My overall impression is that it is a stable compiler for even complicated tasks with heterogenous approaches.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is a truly excellent package. Thank you for providing us with such high-quality free tools! One regret: each release focuses mostly on integrating new features. I would prefer the next couple of releases to focus more on improving the compiled code performance (GHC is beyond doubt the best Haskell compiler available but I'd love the generated binaries to be as fast as OCaml's or Clean's without needing to use dirty tricks). </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is the Haskell world's answer to gcc - a high-quality Haskell compiler that includes most of the production features one would want as well as a wide variety of usful extensions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Lots of great features, a beast to build, slow to run. :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very nice. I switched from using both Hugs and Clean with the Clean IDE when the Eclipse Plugin became available and it has been a real pleasure to use since then. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm a beginner at functional languages and, in general, the compiler was easy to get going on windows.  Perhaps adding a section with some good sample applications to compile (and learn) from would have been useful.
+
+to sum it up, i like ghc a lot -- it really was easy to get started with it on windows -- i had  no problems at all.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Pretty good on the whole.  Could probably use some more aggressive memory management, etc, so that naively written programs could still achieve good performonce (though I can understand the language itself making that kind of thing difficult).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is the only Haskell compiler I use. It's error messages are acceptable. The documentation of the compiler is too limited. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Best (ONLY) compiler for Haskell, research protoyping avanpost</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>for what i see, well</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Powerful, can be improved in clarification of error message. Need improve to library documentation (adding example for any functions?).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is an excellent tool.  It is fast enough for what I want, available on all platforms that I care about and easy to use.  My only complaint is the complexity of the build process.  I never build it myself if I can help it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very nice. It suites all my needs of a haskell compiler for the moment.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think GHC is a superb compiler.  It is pushing the state of the art of Haskell which is already an interesting programming language.  The latest revisions are improving performance to such a degree that the language is becoming practical to use for web apps in production systems.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great!
+Big.
+Slow.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is great!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>the best haskell compilier in existance</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Fast and &quot;just works&quot; most of the time.
+
+Unfortunately does not run on all my platforms.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A very interesting system and research project.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is more than I can dream of. I started loving Haskell at university, when I had to use Hugs and rarely GHC. Now with GHCi I use only GHC for testing and compiling my code.
+Actually I do research with Haskell and dream about deploying things in my company (I work in one of the largest transportation company in Brazil: Expresso Mercurio).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>PROS:
+I like GHC because it is written in Haskell (afaik),
+it produces the best error messages of all Haskell compilers I've tried,
+and the documentation, support, and optional features and extensions
+are without their equal (again afaik).
+CONS:
+I am leary about the Microsoft connections.
+Also, GHC is rather slow (probably b/c it's written in Haskell?)
+compared to HBC or NHC.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like it!  I love having a good, aggressively optimizing compiler for such a great functional language.  It's key to me that it produces good low-level code from beautiful high-level code.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Powerful compiler and interpreter, supporting many interesting extensions. It's the only Haskell compiler/interpreter I use.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC does a good job, the only things I can complain about are long linking times and the weak support for recursive modules.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'll be downright honest and admit my ignorance :) I know very little about GHC (though the name's popped up here and there over the years) and am downloading it as a dependency for Perl6::Pugs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>a great tool, usually sufficient performance, suffers a bit from the complexity of Haskell (there is still a simple and elegant language in there waiting to come out, but it has silently managed to become the C++ of functional languages), portability (of ghc-compiled code) could be great (but is too often neglected in favour of simpler platform-specific approaches).
+
+Thanks for all your good work!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It lacks the infrastructure to integrate with the rest of a Linux system</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think that GHC is an excellent compiler. Stability is great, and Haskell98 extensions often simplify programming, allowing many code generalizations. Moreover, GHC provides a lot of ways to control optimization phases, allowing for a good performance. GHCi is also very useful.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Generally GHC does what I expect it to. The bugfix support
+has been excellent. The one big disappointment has been Template Haskell, which
+has hitherto been far to unstable to use (or even make the simplest examples
+compile without rummaging through the source code).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Good performance, tolerably well libraries, but few examples well-documented.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is great!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Powerful and complex.  Well documented, except for its extensions.  I have used it for ... around three years consistently.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Needs to have support for Solaris/x86.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As good as it gets.. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is awesome and awe-inspiring. I think it's great that it serves as both the main Haskell compiler and as a platform for implementing experimental new features, rather than letting itself be held back by existing standards. This gives Haskell a big edge over other popular languages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Excellent in terms of stability and user feedback: huge improvement over the last 
+10 odd years I have been using it.
+GHC and Haskell provide a &quot;community feeling&quot; that I haven't seen for example
+in the ML world. I believe that's the main edge in direct comparison.
+Main problems: debugging and performance tuning; these are the most common questions I get from people trying to use Haskell on bigger programs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Powerful, slow, improving.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I found GHC quite easy to install (I use win2k), but somehow slow. Then again I mainly use Java with Eclipse so I usually don't compile everything at once, but compile as I go.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is an awesome piece of software, I couldn't live (in the figurative sense) without it. I feel strange about it appearently relying on some specific behaviour of GCC, though and I miss some small things (details below). Otherwise I'm very happy with it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The only production quality Haskell compiler for Windows. Also, language extensions delivered are of critical importance for me.
+
+Excellent product!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is absolutely great for writing compilers.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Big, fast, complex.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't used it that much yet, but my impression is that it just works. It does what I ask it to do.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I've only recently begun using GHC, but I have an positive overall impression thus far.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>6.4 Has a few problems still that are slowly getting worked out, but it's otherwise good.  I would like it integrated into some development environment though (XCode in particular)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Looks good so far, but only really been using GHCi</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Easy to use, quick on x86, slow on Sparc (to compile).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I mostly run hugs98, but I have been trying the wxHaskell, and therefore installed GHC.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Good. But needs to get better. Better GADT support. Support for relational programming with views, constraints, nested transactions, would be good.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>awesome tool, APIs are generally well documented, helpful support (and usually
+quick, too).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC: The great tool I use as every day shell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very good compiler, good FFI support and leak detection suport.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Faster than Hugs (programs compiled with GHC that is), yet more memory-hungry.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>it compiles things fine, but kinda slow.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is great to have a compiler rather than an interpreter for that beautiful language.
+Problem: why is  
+square :: Int -&gt; Int
+square x = x*x
+faster than
+
+just using the power operator (for integral, ^or ** I forgot)
+on Int values ???
+This should be optimizable (I use ghc 6.2.1)
+
+Further syntacticall enhancements I do NOT consider important
+I have the feeling that the first low speed experiences drive people away
+(considering my fellow students) </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>One of the best pure FP language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>good</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Impressive, but I wsh type classes gave more helpful error messages</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC itself (disregarding issues related to Haskell the language) is a great tool. Produces fast code, offers many useful options and libraries outside the H98 standard, it's well maintained, authors are responsive to suggestions. I like GHC a lot.
+
+The one complaint is compilation speed. It really becomes a drag to wait several minutes for smallish programs to compile, let alone compiling GHC itself. Native code generation doesn't seem to fix the issue, it is still very slow by comparison to e.g. ocaml and gcc. C generation is unbearable.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC delivers good enough performance and has high quality and helpful support.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Performance is generally fine; problems tend to be specific bugs.
+
+Portability of some functionality is my biggest issue.
+
+GHC is good from the PoV of implementing extensions. I think the community could be better about standardising them, though.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A solid compiler with good support for language extensions.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Useful, and mostly harmless</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very good support of bleeding edge features for Haskell.
+It is a good quality compiler.
+Good support due to big and active community.
+It is a slow compiler (when compared to, say, ocaml).
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very impressive implementation of my favorite language.  Now that ghci has improved
+in efficiency, it's almost as fast as hugs for rapid edit-compile-run -ing.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's important to be available on different platforms, and that code is garanteed correct in all the platforms.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>mature,
+maintained,
+fast</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC seems to have all the tools that I want to use for my project.  However, we find it impossible to build a shared object from haskell code on Solaris.
+
+I&quot;m a long term Tcl hacker.  Being able to use ghci as a shell and write the equivalent of Tcl scripts would suit me, but that may not actually make sense.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>fast compiler and interpriter(compared to hugs). very nice.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Fantastic</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like GHC with its good libraries and lanuage extensions, and its  portability: I'm happy to be able to use it under Linux and Mac OS X.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I just started learning haskell.  So far, I like it very much.  I find ghci very useful for testing and debugging.  I also like and use several of the extensions to the type system.  Since I formerly did most of my programming in C++, Java, and Python, I frequently wish there was an OOP system, basically where you could define a type in terms of what functions it provides, but I haven't run into a situation where I absolutely had to have that and couldn't work around it.  My experience is that GUI programming is best done with OOP.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is great. Forces thinking over coding - could not be so productive with anything else that was not so high-level, strongly typed and produced such re-usable &quot;thinkware&quot; components.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Just perfect for my Haskell needs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>ghjgh</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's useful that a Haskell compiler exists at all.  I don't know how else anybody could make executables from Haskell code otherwise.
+
+I use it to compile programs from the command line (often caling various packages) and more often than not it's successful.  I find it very simple to use on the whole.  I haven't used the interactive mode much though; I moved from HUGS to GHC because I needed to make executables.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Absolutely impressive overall quality, considering the complexity of the language and all the additional features. Support is excellent. Some parts of the documentation could be improved (mainly some of the experimental features such as TH), but most is quite good.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>hsdfgh</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Probably the greatest piece of software ever seen.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A very competent compiler, for a very competent language.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great work!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The Haskell compiler of choice, well supported, useful extensions. The language itself has issues which make it hard to use for some practical applications.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Nice to have a compiled code of Haskell, really. :-) I'm personally more focused on Hugs, though. :-\ Differences in libraries make my life more difficult, but I can withstand. :-) I would aprreciate ideas from projects like parhugs and similar to be in a certain way available in haskell/ghc - &quot;imperative&quot; approach is more systematic, I know, I'll get used to too, never mind. :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Nice, but slow (Both and produced executables)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very easy to use and install, with the compilation speeds pretty good for me. Sometimes the interactive element slows up a lot though. I use barely any of the features of GHC as I'm just learning.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm under the impression that it is the best implementation of the best language (Haskell), but both opinions may change :&gt;</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC's optimizations should be better. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>excellent compiler for a very good language</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is great. The number ideas incorporated is breathtaking. The overall quality is very good, and the whole environment is very good for cross plattform development.
+
+Thanks for your good work!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The best haskell compiler out there, produces the fastest programs and supports VERY USEFUL extensions. The error messages are hideously hard to understand, I find myself &quot;guessing&quot; at how to fix compilation errors sometimes.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I consider ghc to be one of my most useful (and used) pieces of software.
+Trying out an idea in ghci or using a utility compiled with ghc: ghc is excellent.
+
+(Thank you.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is good but still missed support for JVM, I think a JVM backend should be add to the compiler.
+
+Let GHC much more like javac, compile hs to a haskell bytecode(maybe defined from STG), and then a HaskellVM interpret the bytecode. the HVM can be implemented in haskell to convert hs to java class and run in JVM.
+
+I think such a arch should be more interesting than current's C backend.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>outstanding! bravo!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Excellent features, documentation, and overall usability.  Good performance of generated code.  Slow and memory hungry when producing optimized code.  Friendly maintainers.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is nice, Haskell is nice. I &quot;dream&quot; (and sometimes work) on a (trimmed down) core that solves the dilemma of the mixture of type classes with program structuring. Perhaps a simpler core could lead also to a simpler compiler source code...
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very plush. Performance is sometimes less than I'd like,
+but I'm usually willing to put up with it. I'm almost always
+able to express what I want in far less code than any other
+language, which matters a lot to me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The quality (transformations, optimizations etc) and its performance are the most proeminent features of the compiler.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Very nice and useful. I use Haskell for 90% of my work - so I am very dependent on you guys :)
+Thank you for doing a great job.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Big and indipensible piece of software, with all the advantages (completeness, improvability, performance, serve as a reference, ...) and the drawbacks (an awful ly big amount of code, overall complexity, inertia, ...). </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I find GHC very good and well documented. My only disappointment is that it does not handle linked libraries. So, for instance, it cannot easily be used to write a plugin for Apache.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>From my experience: it's big, reliable, actively maintained, and has more extensions than I have time to try out.  By reputation: it's not as elegantly engineered as HBC on the inside.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Haskell is awesome, but GHC is even more awesome because it has extremely friendly compiler errors. With GHCi, Haskell has been a pleasure to learn and to have my mind expanded by.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A remarkable achievement. It makes Haskell, a language thought by many to be useful only for academics, one of the most practically useful languages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A mature and sophisticated implementation of Haskell.  It provides a lot of extras to support a range of application developments, and language experiments.  It is  a big system, though, so it can be daunting for new installers and users.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A great tool! Somewhat buggy typechecker (:-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Excellent tool. Few complaints. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am mostly using GHCi and Hugs, and only occasionally the compiler. 
+I like what I have seen of it. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Brilliant.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The standard Haskell compiler and playground for cutting-edge language extensions, especially advanced type-system features. Generates fine code; debugging story unclear.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is the best Haskell compiler available today.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC appears to be the most mature and feature rich Haskell compiler available today.  It main limitation is its lack of a source code debugging features, which greatly restrict the further adoptions of Haskell into main-stream development</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I dont have opinion bicause only now I use for my course.
+In future I describe my opinion, OK. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC itself seems great.  I found the documentation a bit overwhelming for an absolute beginner like me.  It took far longer than I want to admit to find, compile, and run an example program that uses OpenGL.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compiler itself is wonderful, but the system feels clunky and unpolished overall, especially for Windows.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>This great system. I mostly use it for prototyping some ideas in my company. We even tried to build some comercial software based on GHC, but unfortunatly we stopped because it would not be so easy to integrate this software to some environments. Imagine the fact - we developed a library in GHC and like to sell it to a user who would like to include our library to Java base Web app. server. It appears that is not so easy to provide such package. So, for now we decided to stuck with C++.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC's pretty cool - I always recommend it when somebody wants a Haskell implementation. Life can be a little tough on windows occasionally though, especially for developers not used to a unix-like environment - MSYS or cygwin are essential to build many of the libraries available but this is something one learns by experience. Similarly, it's not easy for a windows user to try out anything other than the full releases which makes keeping track of the development process hard.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It seems like a nice Haskell compiler :-), but it takes eons to compile! :-(</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The compiler seems pretty slow, and it is inconvienent to use at the command line.  I couldn't find any convienent one-liner to do something as simple as compiling a Haskell file with no special options. Maybe it existed, but I still can't fidn it. But overall, it is full-featured and complete, as far as I can tell. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It does what I want; compile applications which use wxHaskell. I also use and like the Template Haskell metaprogramming functionality.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Outstanding (&quot;world class&quot;) academic effort.  I wish there were more funding to make it better.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Excellent.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is very high quality software.  Comparing it to other compiler and library combinations, it is truly impressive.  I think the only comparable package in the genre is OCaml.  As free software, the sustained effort is exceptional.  As someone who has watched several (possibly many) compilers/languages wither away, I greatly appreciate the contribution that the high quality and stability of GHC lends to sustaining the evolution of Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think GHC is a comprehensive implentation of the Haskell standard and for me the 
+best Haskell compiler. I also like ghci and the hierarchial libraries. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have quite a bit of experience with OpenSource projects, and this is a good
+one by my standards.  I use it under Solaris i386 most of the time, otherwise
+sparc.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Generally very impressive. In the past it was sometimes difficult to get running on PPC Linux, but this doesn't seem to be the case any more.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Since I'm not an Haskell long-timer, or a functionnal programming long-timer, I can't compare with anything.  GHC does the job I want done.  Oh, yes: error messages are very often hard to understand, because they are very generic and often far far from the exact reason of the failure.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i've not used it much... i like there are both compiler and interpreter</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't know much Haskell, just started learning it. 
+As a package maintainer of GHC I'll say the only thing bothering me is the fact
+that to compile it I have to have 2 (two) versions of libreadline which is quite annoying as the distro I am using is quite up to date.
+Availability is good.
+Performance could perhaps have been a bit better.. but hey.. if I really want that speed I'd write it in C++. :)
+Never used language extensions.
+
+It's a overall a good compiler. Keep up the good work!
+
+Waiting eagerly for 6.4.4 so I could push out another package :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The reliability of GHC is great. 
+Compared to Hugs I like the performance, mostly better error messages
+and a few language extensions such as concurrency.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Not much I can say here, as that I'm a new user using this tool to learn functional programming.  So far, its been very good, and eay to use.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is good for my purposes.  I normally work in GHCi, then move to the stand alone version at the end. I have not really put it to any serious test.  I do find myself in need of the extensions, my thesis involves dependent types.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Absolutely fabulous language for extremely fast development which, in my opinion, would have made it mainstream if it would have excluded monads, included a simple liberal typesystem, and have more decent support for API documentation generation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The compiler is good but the libraries could be less buggy.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My job depends on GHC's existence.  GHC's quality is superb, and that is the only way that I can justify using Haskell as a development language.  I encourage you to further improve the quality and stability of GHC releases.  Thanks for GHC!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great! Thumbs Up! The longevity of the project attests to its worth.
+</TD
+></TR
+></TABLE
+></HTML
+>

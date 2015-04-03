@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb">
+<meta http-equiv="Content-Type" content="text/html; charset=iso8859-1">
+<title>The Glasgow Haskell Compiler</title>
+<link href="ghc.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<!--#include file="ghc-std.shtml" -->
+
+
+<h2><a name="4.04">Version 4.04 (Patchlevel 1)</a></h2>
+
+<p><font face="Arial">This is the most recent release (here's the <a
+href="docs/4.04/ANNOUNCE">announcement</a>), for which a source distribution and selected
+binary distributions are available.&nbsp; </font></p>
+
+<p><font face="Arial">GHC 4.04 now has a BSD-style <a href="license">license</a>.</font></p>
+
+<p><font face="Arial">We rewrote large chunks of the compiler and the
+whole runtime system for GHC 4.xx, improving the overall architecture
+and adding some new features (Haskell 98 language support, scoped type
+variables, exceptions, weak pointers, multi-generational garbage
+collection, foreign function interface).&nbsp; We also cleaned up the
+back end and removed some of the more complex features of the runtime
+model (return in registers, two stacks), making GHC more efficient on
+architectures with fewer registers.</font></p>
+
+<p><font face="Arial">GHC 4.04 now beats all previous compilers in
+terms of execution speed, but is still lacking a working profiler.
+Some of the architectures supported by 3.02 are as yet unsupported by
+4.04, mainly due to lack of resources.&nbsp; For the time being, we
+have ports for x86 (various operating systems), Sparc, and HP-PA
+boxes.&nbsp; An Alpha port is in the works.</p>
+
+<p>NOTE: to build this version from source we recommend you use Happy
+version 1.6.  Sources available from the <a
+href="http://www.haskell.org/happy" target="_top">Happy web page</a>
+or the <a href="docs/latest/html/building/sec-cvs.html">CVS repository</a></p>
+
+<h3>Patchlevel 1</h3>
+
+A patchlevel release of GHC 4.04 has been made.  The distributions
+below have all been updated.  Patchlevel 1 includes the following changes:
+
+<ul>
+  <li> One major bug, and several minor bugs fixed. </li>
+  <li> Compatible with GCC 2.95.
+  <li> Non-blocking I/O code added, including support for <tt>threadWaitRead</tt>, <tt>threadWaitWrite</tt> and <tt>threadDelay</tt>. </li>
+</ul>
+
+<h3>Online Docs</h3>
+
+<ul>
+  <li><font face="Arial"><a href="docs/4.04/users_guide/users_guide-1.html#ss1.4">Release
+    Notes</a> </font></li>
+  <li><font face="Arial"><a href="faq_404">Mini-FAQ (Known Bugs)</a></font></li>
+  <li><font face="Arial"><a href="docs/4.04/installation_guide/installing.html">Installation
+    Guide</a> </font></li>
+  <li><a href="docs/4.04/users_guide/users_guide.html"><font face="Arial">User Manual</font></a></li>
+  <li><a href="docs/4.04/libraries/libs.html"><font face="Arial">GHC/Hugs Libraries</font></a></li>
+</ul>
+
+<h3>Distributions</h3>
+
+<ul>
+  <li><a HREF="dist/4.04/ghc-4.04-src.tar.gz">Source
+    Distribution</a></li>
+  <li><a href="http://www.dcs.gla.ac.uk/~sof/ghc-win32.html">Windows 9x/NT</a></li>
+  <li><a
+    HREF="dist/4.04/ghc-4.04-i386-unknown-linux.tar.gz">i386-unknown-linux</a>
+    (glibc 2.0) binaries. </li>
+  <li><a
+    HREF="dist/4.04/ghc-4.04-i386-unknown-linux-glibc2.1.tar.gz">i386-unknown-linux</a>
+    (glibc 2.1) binaries. </li>
+  <li>Linux <a href="ftp://greyarea.is.tsukuba.ac.jp/pub/jibunmaki/src/ghc-4.04-3.src.rpm">source</a>
+    and <a href="ftp://greyarea.is.tsukuba.ac.jp/pub/jibunmaki/i386/ghc-4.04-3.i386.rpm">binary</a>
+    RPMs (courtesy of <a href="mailto:chak@is.tsukuba.ac.jp">Manuel Chakravarty</a>).</li>
+    <li><a href="http://www-i2.informatik.rwth-aachen.de/Software/Haskell/">Debian Linux packages</a> (courtesy of <a href="mailto:michael.weber@post.rwth-aachen.de">Michael Weber</a>).</li>
+  <li><a href="dist/4.04/ghc-4.04-sparc-sun-solaris2.tar.gz">sparc-sun-solaris2</a> binaries.</li>
+  <li><a href="dist/4.04/ghc-4.04-hppa1.1-hp-hpux.tar.gz">hppa1.1-hp-hpux</a>
+    binaries.</li>
+
+  <li>FreeBSD binaries are available in the form of a FreeBSD package
+  (<a href = "http://www.freebsd.org/ports/lang.html#ghc-4.04"
+  target="_top">lang/ghc-4.04</a>), available from your local FreeBSD
+  mirror site.</li>
+
+  <li>NetBSD/x86 users can also get GHC as a package (lang/ghc-4.04),
+      from your local NetBSD mirror site.  The port template source is
+      <a href="ftp://ftp.netbsd.org/pub/NetBSD/packages/pkgsrc/lang/ghc/README.html">here</a>.
+      </li>
+
+  <li><a href="dist/4.04/ghc-4.04-x86-hc.tar.gz">HC files</a> (for booting from source without GHC installed on x86 boxes)</li>
+  <li><a href="dist/4.04/ghc-4.04-sparc-hc.tar.gz">HC files</a> (for booting from source without GHC installed on Sparc boxes)</li>
+</ul>
+
+<!--#include file="ghc-footer.shtml"-->
+
+</body>
+</html>

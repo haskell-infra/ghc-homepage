@@ -1,0 +1,275 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb">
+<meta http-equiv="Content-Type" content="text/html; charset=iso8859-1">
+<title>The Glasgow Haskell Compiler</title>
+<link href="ghc.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<!--#include file="ghc-std.shtml" -->
+
+
+<h2><a name="5.02.3">Version 5.02.3 (released 8 April 2002)</a></h2>
+
+<p>The 5 series features some major changes over the 4 series: in
+short, an interactive development environment, and significantly
+faster compilation for large programs.  5.02.3 is the latest stable
+member of this series, with minor bug fixes for the previous stable
+release, 5.02.2.
+
+
+<h3>Online Docs</h3>
+
+<ul>
+  <li><a href="docs/5.02.3/set/release-5-02.html">Release
+    Notes</a> </li>
+  <li><a href="faq_502">Mini-FAQ (known bugs and workarounds in 5.02.3)</a></li>
+  <li><a href="docs/5.02.3/building/building-guide.html">Building
+    Guide</a> </li>
+  <li><a href="docs/5.02.3/set/book-users-guide.html">User Manual</a></li>
+  <li><a href="docs/5.02.3/set/book-hslibs.html">hslibs (libraries)</a></li>
+</ul>
+
+<h3>Downloads</h3>
+
+   Notes:
+      <ul>
+	<li>
+	  <p>The source distribution needs an installed GHC 4.08.X or 5.X
+	  to build; if you've not got that, get an HC source
+	  dist. It's easier to build from sources than from HC files,
+	  if you possibly can.
+	</li>
+	<p>
+	<li>
+	  <p>On Linux, it's generally preferable to install from a .rpm
+	  or .deb package than from the binary .tar.bz2, because
+	  .rpm/.deb packaging ensures you have the correct supporting
+	  libraries on your machine prior to installing GHC. You need
+	  the following libraries to use the binary tar:
+	  libreadline.so.3, libncurses.so.4, libtermcap.so.2. These
+	  come as standard on RedHat 6.2, at least.
+        </li>
+	<p>
+	<li>
+          <p>On Solaris, you'll need libcurses.so.1, which resolves to 
+          /usr/lib/libcurses.so.1 on our build machine.  You should
+          ensure you have this before you start, since without it 
+          GHC won't work at all, and you'll just wind up frustrated.
+	</li>
+     </ul>
+  <p>
+
+  Available downloads are:
+  <ul>
+
+  <li>
+    Source: <a HREF="dist/5.02.3/ghc-5.02.3-src.tar.bz2">.tar.bz2</a>
+    (3.9 M).  
+  </li>
+  <p>
+  <li>
+    RPMs for RedHat Linux 7.2 (i386, glibc 2.2.4) from 
+    <a HREF="mailto:chak@cse.unsw.edu.au">Manuel Chakravarty</a>: 
+    <a HREF="dist/5.02.3/ghc-5.02.3-rh72-1.src.rpm">source RPM</a>, 
+    <a HREF="dist/5.02.3/ghc-5.02.3-rh72-1.i386.rpm">base RPM</a>, 
+    <a HREF="dist/5.02.3/ghc-prof-5.02.3-rh72-1.i386.rpm">profiling libraries RPM</a>, 
+    and
+    <a href="dist/5.02.3/ghc-doc-5.02.3-rh72-1.i386.rpm">documentation RPM</a>.
+  </li>
+  <p>
+  <li>
+    RPMs for SuSE Linux 7.3 (i386, glibc 2.2) from 
+    <a HREF="mailto:ralf@informatik.uni-bonn.de">Ralf Hinze</a>:
+    <a HREF="dist/5.02.3/ghc-5.02.3-suse73-1.src.rpm">source RPM</a>, 
+    <a HREF="dist/5.02.3/ghc-5.02.3-suse73-1.i386.rpm">base and docs RPM</a>, 
+    and
+    <a HREF="dist/5.02.3/ghc-prof-5.02.3-suse73-1.i386.rpm">profiling libraries RPM</a>.
+  </li>
+  <p>
+  <li>
+    x86 Linux/glibc 2.1 (a complete build, including interactive
+    system, profiling libraries and documentation): 
+    <a HREF="dist/5.02.3/ghc-5.02.3-i386-unknown-linux.tar.bz2">.tar.bz2</a>
+    (13.6 M).  This build was done on a RedHat 6.2 box.
+  </li>
+  <p>
+  <li>
+    Binary tar for SPARC Solaris 2.7 (complete build, with profiling
+    libraries and docs): <a
+    HREF="dist/5.02.3/ghc-5.02.3-sparc-sun-solaris2.tar.bz2">.tar.bz2</a>
+    (17.5 M).
+  </li>
+  <p>
+  <li>
+     Windows Installer for Microsoft Windows 95, 98, ME, NT, 2000 and
+     XP, prepared by <a href="http://galois.com/~sof/">Sigbjorn
+     Finne</a> (complete build, as above): 
+     <a HREF="dist/5.02.3/ghc-502-3-1.msi">ghc-502-3-1.msi</a> (21.4 Mb).
+     <p>
+     This installer relies on the Windows Installer runtime to
+     operate. If, after having downloaded the above file,
+     double-clicking on the MSI file doesn't start up the installer,
+     the likely cause is that you don't have the Windows Installer
+     runtime installed on your machine.  You can download it from
+     Microsoft:
+     <p>
+       <ul>
+       <li><a href="http://www.microsoft.com/downloads/release.asp?releaseid=32831">
+              Windows 95,98 and ME version</a></li>
+       <li><a href="http://www.microsoft.com/downloads/release.asp?releaseid=32832">
+              Windows NT and 2000 version</a></li>
+       </ul>
+       <p>
+       Install the appropriate version, then double-click
+       again on the MSI file.
+     <p>
+  </li>
+
+  <p> 
+
+  <li> OpenBSD/x86 3.0: <a
+  href="dist/5.02.3/OpenBSD/ghc-5.02.3.tgz">binary package</a>
+  (install with <tt>pkg_add ghc-5.02.3</tt>), and the <a
+  href="dist/5.02.3/OpenBSD/ghc-5.02.3-port.tgz"> port</a> that was
+  used to build it, prepared by <a
+  href="mailto:dons@cse.unsw.edu.au">Donald Bruce Stewart</a> .  <a
+  href="http://www.haskell.org/pipermail/glasgow-haskell-users/2002-April/003246.html">This
+  message</a> describes how to build GHC from source using the port on
+  OpenBSD/x86.
+ 
+  <p>Update: there is now a <a
+href="ftp://ftp.cse.unsw.edu.au/pub/users/dons/ghc/ghc-5.02.3.tgz">package
+for OpenBSD 3.1.</a>
+
+  </ul>
+
+
+<h3>Downloads for 5.02.2 (the previous stable version)</h3>
+
+  Available downloads are:
+  <ul>
+
+  <li>
+    Source: <a HREF="dist/5.02.2/ghc-5.02.2-src-1.tar.bz2">.tar.bz2</a>
+    (3.9 M).  
+  </li>
+  <p>
+  <li>
+    RPMs for RedHat Linux 7.2 (i386, glibc 2.2.4) from 
+    <a HREF="mailto:chak@cse.unsw.edu.au">Manuel Chakravarty</a>: 
+    <a HREF="dist/5.02.2/ghc-5.02.2-rh72-1.i386.rpm">base RPM</a>, 
+    <a HREF="dist/5.02.2/ghc-prof-5.02.2-rh72-1.i386.rpm">profiling libraries RPM</a>, 
+    and
+    <a href="dist/5.02.2/ghc-doc-5.02.2-rh72-1.i386.rpm">documentation RPM</a>.
+  </li>
+  <p>
+  <li>
+    RPMs for RedHat Linux 6.2 (i386, glibc 2.1.3) from 
+    <a HREF="mailto:tom-list-glasgow-haskell-users@moertel.com">Tom Moertel</a>: 
+    <a HREF="dist/5.02.2/ghc-5.02.2-rh62-1.i386.rpm">base RPM</a>, 
+    <a HREF="dist/5.02.2/ghc-prof-5.02.2-rh62-1.i386.rpm">profiling libraries RPM,</a> 
+    and 
+    <a href="dist/5.02.2/ghc-doc-5.02.2-rh62-1.i386.rpm">documentation RPM</a>.
+  </li>
+  <p>
+  <li>
+    RPMs for SuSE Linux 7.3 (i386, glibc 2.2) from 
+    <a HREF="mailto:ralf@informatik.uni-bonn.de">Ralf Hinze</a>:
+    <a HREF="dist/5.02.2/ghc-5.02.2-suse73-1.i386.rpm">base and docs RPM</a>, 
+    and
+    <a HREF="dist/5.02.2/ghc-prof-5.02.2-suse73-1.i386.rpm">profiling libraries RPM</a>.
+  </li>
+  <p>
+  <li>
+    RPMs</a> for Mandrake (Cooker) (thanks to <a href="mailto:pixel@mandrakesoft.com">Pixel</a>): <a HREF="dist/5.02.2/ghc-5.02.2-2mdk.i586.rpm">binary RPM</a>, <a href="dist/5.02.2/ghc-5.02.2-2mdk.src.rpm">source RPM</a>.
+  </li>
+  <p>
+  <li>
+    Debian GNU/Linux users: you should be able to say <code>apt-get
+install ghc5</code> to install GHC from your nearest mirror.  Packages
+can also be found in Debian's <a
+href="http://packages.debian.org/testing/devel/ghc5.html">testing</a>
+and <a
+href="http://packages.debian.org/unstable/devel/ghc5.html">unstable</a>
+distributions.
+  </li>
+  <p>
+  <li>
+    If none of the above Linux i386 RPMs are good for you, try this:
+    Intel Linux/glibc 2.1 (a complete build, including interactive
+    system, profiling libraries and complete documentation): 
+    <a HREF="dist/5.02.2/ghc-5.02.2-i386-unknown-linux-1.tar.bz2">.tar.bz2</a>
+    (13.6 M).  This build was done on a RedHat 6.2 box.
+  </li>
+  <p>
+  <li>
+    Binary tar for SPARC Solaris 2.7 (complete build, as above):
+    <a
+    HREF="dist/5.02.2/ghc-5.02.2-sparc-sun-solaris2-1.tar.bz2">.tar.bz2</a>
+    (18.3 M).
+  </li>
+  <p>
+  <li>
+    Binary tar for Alpha running OSF 3.X, from
+    <a HREF="mailto:ken@digitas.harvard.edu">Ken Shan</a>: 
+    (the interactive system, GHCi, is not available on this platform, unfortunately):
+    <a
+    HREF="dist/5.02.2/ghc-5.02.2-alpha-dec-osf3-1.tar.bz2">.tar.bz2</a>
+    (38.4 M).
+  </li>
+  <p>
+  <li>
+     Windows Installer for Microsoft Windows 95, 98, ME, NT, 2000 and
+     XP, prepared by <a href="http://www.galois.com/~sof/">Sigbjorn
+     Finne</a> (complete build, as above): 
+     <a HREF="dist/5.02.2/ghc-502-2.msi">ghc-502-2.msi</a> (23.3 Mb).
+     <p>
+     This installer relies on the Windows Installer runtime to
+     operate. If, after having downloaded the above file,
+     double-clicking on the MSI file doesn't start up the installer,
+     the likely cause is that you don't have the Windows Installer
+     runtime installed on your machine.  You can download it from
+     Microsoft:
+     <p>
+       <ul>
+       <li><a href="http://www.microsoft.com/downloads/release.asp?releaseid=32831">
+              Windows 95,98 and ME version</a></li>
+       <li><a href="http://www.microsoft.com/downloads/release.asp?releaseid=32832">
+              Windows NT and 2000 version</a></li>
+       </ul>
+       <p>
+       Install the appropriate version, then double-click
+       again on the MSI file.
+  </li>
+
+  <p><li>
+    <p>FreeBSD/x86 packages:
+    <ul>
+    <li>
+      FreeBSD users can install ghc by saying <code>pkg-add -r ghc</code>,
+      or get the package directly from
+      <a href="dist/5.02.2/ghc-5.02.2.tgz">here</a> for 4.x-STABLE
+      (install with <tt>pkg_add</tt>).  The port is in the main ports
+      tree, and packages should also be available from your nearset
+      mirror.
+    </li>
+    <li>
+      FreeBSD <a
+      href="dist/5.02.2/ghc-5.02.2-i386-unknown-freebsd.tar.gz">.tar.gz
+      package</a> (use if you need to install GHC somewhere other than
+      <tt>/usr/local</tt>).
+    </li>
+    </ul>
+  </li>
+
+  </ul>
+
+<!--#include file="ghc-footer.shtml"-->
+
+</body>
+</html>

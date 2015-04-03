@@ -1,0 +1,189 @@
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
+  <tr>
+    <td nowrap="nowrap" class="bannerleft"><img src="images/spacer.gif" width="169" height="70" class="titlespacer" alt="" /><img src="images/title_left.gif" width="32" height="25" class="titleleft" alt="" /></td>
+    <td width="100%" class="bannermiddle"><img src="images/title_right.gif" width="252" height="25" class="titleright" alt="" /></td>
+    <td class="bannerright"><img src="images/symbol2.gif" width="49" height="70" alt="" /></td>
+  </tr>    
+</table>
+
+<table cellpadding="0" cellspacing="0">
+  <tr>
+      <td class="shadowleft"><img src="images/spacer.gif" height="6" alt="" /></td>
+	  <td width="100%" class="shadowright"><img align="right" src="images/shadright.gif" height="6" alt="" /></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap" class="wholecontents">
+    <table border="0" cellspacing="0">
+      <tr>
+        <td nowrap="nowrap" class="lefthead">About GHC</td>
+      </tr>
+      <tr>
+        <td nowrap="nowrap" class="contents">
+        <table class="contentstbl">
+          <tr>
+            <td nowrap="nowrap">
+            <a href="index.html">Home</a></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap">
+            <a href="http://www.haskell.org/ghc/survey/start.cgi">Survey</a></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap">
+            <a href="license.html">License</a></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap">
+            <a href="documentation.html">
+            Documentation</a></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap">
+            <a href="http://www.haskell.org/ghc/docs/latest/html/users_guide/faq.html">
+            FAQ</a></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap">
+            <a href="download.html">
+            Download</a></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap">
+            <a href="http://sourceforge.net/bugs/?group_id=8032">
+            Report a bug</a></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap">
+            <a href="http://sourceforge.net/tracker/?group_id=8032%26atid=358032">
+            Request a feature</a></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap">
+            <a href="http://sourceforge.net/pm/?group_id=8032">
+            Task list</a></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap">
+            <a href="http://www.haskell.org/ghc/docs/latest/html/users_guide/introduction-GHC.html#mailing-lists-GHC">
+            Mailing Lists</a></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap">
+            <a href="http://sourceforge.net/projects/ghc/">
+            SourceForge project page</a></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap">
+            <a href="http://cvs.haskell.org/cgi-bin/cvsweb.cgi/fptools/">
+            CVS repository</a></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap">
+            <a href="http://www.haskell.org/ghc/docs/latest/html/building/sec-cvs.html">
+            CVS cheat sheet</a></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap">
+            <a href="contributors.html">The GHC Team</a></td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+      <tr>
+        <td nowrap="nowrap" class="lefthead">About Haskell</td>
+      </tr>
+      <tr>
+        <td class="contents">
+        <table class="contentstbl">
+          <tr>
+            <td><a href="http://haskell.org/">
+            Haskell.Org</a></td>
+          </tr>
+          <tr>
+            <td>
+            <a href="http://www.haskell.org/definition/">The 
+            Haskell 98 Report</a></td>
+          </tr>
+          <tr>
+            <td>
+            <a href="http://www.haskell.org/mailinglist.html">The 
+            Haskell Mailing List</a></td>
+          </tr>
+          <tr>
+            <td>
+            <a href="http://haskell.org/hawiki/">The Haskell Wiki</a></td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+      <tr>
+        <td nowrap="nowrap" class="lefthead">Links</td>
+      </tr>
+      <tr>
+	<td nowrap="nowrap" class="contents">
+	  <table class="contentstbl">
+       	     <tr>
+       	       <td>
+       	       <a href="http://www.haskell.org/alex/">Alex</a> 
+       	       </td>
+       	     </tr>
+       	     <tr>
+       	       <td>
+       	       <a href="http://haskell.org/haskell-mode/">Emacs mode 
+       	       for Haskell</a></td>
+       	     </tr>
+       	     <tr>
+       	       <td>
+       	       <a href="http://www.macs.hw.ac.uk/~dsg/gph/">GPH</a>
+       	       </td>
+       	     </tr>
+       	     <tr>
+       	       <td>
+       	       <a href="http://www.haskell.org/greencard/">Green Card</a></td>
+       	     </tr>
+       	     <tr>
+       	       <td>
+       	       <a href="http://www.haskell.org/gtk2hs/">Gtk2HS</a></td>
+       	     </tr>
+       	     <tr>
+       	       <td>
+       	       <a href="http://www.cse.unsw.edu.au/~chak/haskell/gtk/">
+       	       Gtk+HS</a></td>
+       	     </tr>
+       	     <tr>
+       	       <td>
+       	       <a href="http://www.haskell.org/haddock/">Haddock</a>
+       	       </td>
+       	     </tr>
+       	     <tr>
+       	       <td>
+       	       <a href="http://www.haskell.org/happy/">Happy</a></td>
+       	     </tr>
+       	     <tr>
+       	       <td>
+       	       <a href="http://www.haskell.org/hat/">Hat</a></td>
+       	     </tr>
+       	     <tr>
+       	       <td>
+       	       <a href="http://www.haskell.org/HOpenGL/">HOpenGL</a></td>
+       	     </tr>
+       	     <tr>
+       	       <td><a href="http://www.haskell.org/hdirect/">HDirect</a></td>
+       	     </tr>
+       	     <tr>
+       	       <td>
+       	       <a href="nofib.html">NoFib</a> 
+       	       </td>
+       	     </tr>
+       	     <tr>
+       	       <td>
+       	       <a href="http://wxhaskell.sourceforge.net/">wxHaskell</a> 
+       	       </td>
+       	     </tr>
+       	   </table>
+       	 </td>
+       </tr>
+    </table>
+    </td>
+
+	<td width="100%" class="rightpane">

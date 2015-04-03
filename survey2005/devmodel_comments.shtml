@@ -1,0 +1,632 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--Rendered using the Haskell Html Library v0.2-->
+<HTML
+><HEAD
+><TITLE
+>Comments on &quot;Does the GHC development model work?&quot;</TITLE
+></HEAD
+><BODY BGCOLOR="#e0e0e0"
+><H1
+>Comments on &quot;Does the GHC development model work?&quot;</H1
+></BODY
+><TABLE ALIGN="center" WIDTH="800" CELLSPACING="10" CELLPADDING="5"
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It seems to.  </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A wish there were more contributors...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>But it does seem to rely heavily on the continued participation of various people named Simon...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm never in need of a debugger. I don't know why, but most of the time things just immediately work after passing through the type checker. And otherwise there is trace and putStrLn.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Two things I like about Cabal and even ghc --make: It is important to me to be able to drop into a directory, quickly write some code up, and not have to write a 300 line makefile.  It is also important to easily be able to throw in C libraries and other things.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>really, i don't have any opinion. why should i complete this field? :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Developing Haskell requires the ability to use a dowsing rod to find coding errors, since the compile/runtime system is no help at all. My model for debugging is to dump the data structures at a point calculated by guesswork, and then stare at the code and data dump attempting to deduce where the error is. The lack of any debug features beyond &quot;trace&quot; is truly frustrating.
+
+The fragility of type representations: adding a new entry to an enumeration can cause the enormous recompilation, etc. etc.  There should be a way to set up stable type definitions which can be used for separate compilation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>more a grateful user than a participant</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>You guys haven't let me down yet.  :)
+
+One thing that would like to see is a concise description of what the GHC development model *is*.  I couldn't find any such description on www.haskell.org/ghc/, nor in the GHC manual, nor in the GHC FAQ.  A quick paragraph or two in a prominent place would go a long way toward cluing in new Haskell users about GHC development and might event result in more contributors.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I haven't followed it so much.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC 6.4 was late, but not late enough to bother me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I presume you mean the 'edit/load' cycle.  
+
+I'm *not* a fan of that at all.  On the surface, Haskell (&amp; GHC) appear to be interpreted, but the interpreter is really more of a fancy loader.  That's a hindrance, IMO.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As far as I can tell, the developers are very good about keeping ghc the most state-of-the-art Haskell compiler around.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC primarily attracts those with research interests, and so experimental features and &quot;paper-sized&quot; libraries abound.  However, the real hard work of creating good usable APIs and completing the functionality of the platform seems to be somewhat overlooked.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Well, it produces a fantastic piece of sofware.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sure, works for me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>judging by the results, the development model works if not great then at least good.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't write large enough program to really test this.
+It would be nice if there were support for Haskell in MacOS XCode, but I don't think this is of high enough priority to really justify the effort.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>make files to build packages are too complex. implementors should think of the Java's simplicity.
+once the packages are done, the ghc's daily use is great and fast</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't really know the mechanism. I do like the results.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't know that much about the development model. GHC seems like a good compiler, and it meets my (very simple and limited) needs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I cannot really judge this, but I get the impression that Haskell is really developing in innovative ways thanks to the GHC implementors.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>as far as I can see ;)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>That's for the developers to say. AFAIK nothing is impeding the kind of progress which benefits me.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>jn</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't get new compilers as often as I'd like, but then I don't contribute much, so I can't complain.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't really know enough to comment.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm not very familiar with the GHC development model.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>You are adding features every feature you can think of meaning there is a lot to compile/install that I don't need.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm sorry but I don't really understand the question.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I had not heard of it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It is good as long as the champions of the compiler are able to do the job.  It concerns me that if one of the Simon's passes through some unforseeable change of circumstances that the compiler might be substantially less well cared for.
+
+On the other hand, it seems that everything that can reasonably be done to remove this vulnerability, has been done.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>We need to do a better job of marketing/communicating the value of GHC to non-academic communities. The Darcs project is a good opportunity.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Depends very much on two people of course. On the other hand, I'm too lazy to help out, so I shouldn't be complaining :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>don't know anything about it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The development model OF GHC? No opinion.
+Development WITH GHC? Fine.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Why could I not leave this void since I don't know enough to make an informed comment? So disregard reply above.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>What is the model?
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I do not believe that it can do a real progress. Because the developers address
+mainly the technical details.
+But it has already become good several years ago. And now, it will be good, at 
+least, trying to simplify the implementation presentation.
+I feel it this way.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>What do you mean by the &quot;GHC development model&quot;?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am not involved in the development work, so it's hard to have an opinion.  The number of errors discussed in the list smacks of a certain lack of professionalism.  (I do realise that the real reason is the rapid pace of development and the small size of the development team.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>My experience so far has been good, learning the language without someone who already knows it is difficult.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think it would be easier for me to contribute if VC were in darcs instead of CVS. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As in my first claim, what I don't like about GHC is that it's practically impossible to get a good grip on the application itself. I want to be able to go in and change the parser/type checker/whathaveyou to test this or that idea of mine, for instance I'd like to try out a restricted form of behind-the-scenes subtyping. So, while the development model works, what it produces is not structured enough for my taste.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Using GHC with make files is still painful -- if one wants to put output files in a different directory, &quot;sed&quot; is still necesary to make it work.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Don't know enough to comment</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Not great, because we still have too much reliance on The Simons. But we know how to fix that, it's just a matter of doing so. And things are improving on their own anyway.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think it's good, but I'm not developing GHC myself, so I'm not the best
+person to judge.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I hope so</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>never had to get involved with it but, from an outsiders viewpoint, it seems to work quite well!
+
+This questionnaire seems a bit strange though -- surely the point of Free software is that the people who care about things not working quite correctly will fix these things and they will (when they mature a bit) be folded back into the main code base eventually.  This questionnaire seems to be an attemt at following the follies of the commercial world a bit.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think that GHC is wonderful and, with the exception of a few items, does everything I want and does it well.  Stability and errors have never been an issue for me.
+
+The biggest issues I run into are GreenCard and HOpenGL pages ploating around on the web.  Most haven't been touched in years and the functionality is in GHC.  The pages mostly serve to confuse newer users.
+
+Tutorials on techniques and technologies, as well as design patterns, would be helpful in making it more accessible.  There is a very steep learning curve with few canonical, complete, and free works to get past the initial hump.
+
+Perhaps consolidating community resources and tracking tutorial wishlists would help?  Maybe something like the Ruby Application Archive and pick-axe book?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't know much about how GHC is developed.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The consensus decision process works really well. One of the problem is the high bus factor on Simon Marlow and Simon Peyton-Jones, though.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm not involved, so can't really comment, but the resulting software is pretty impressive.  I guess that's a resounding &quot;yes&quot;.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Development model seems to work very well - but I'm worried about busses in Cambridge, and the effect they may have on Simon and Simon.... :)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Great considering the financial resources given for the work... Ok, this was again a guess :)   BTW, I would like to participate but not in a suitable research position to do this at the moment. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't know what this means.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I actually don't know, but there is no option for that.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't understand this question.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>As I mentioned above, one could wish things were more &quot;polished&quot; at times.
+But really, I don't think anyone have any grounds for complaints.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't know anything about the GHC development model. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>not particularly aware of it, but open-source rocks</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>A bit worried about the number of people who knows ghc inside out..</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>great according to the results. no idea of the real details, for instance of the dependence (apparently not apparent, so possibly benign) on the employer of just SPJ &amp; SM.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sorry, I don't understand the question.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>as a freenode #haskell chatter i do live with some parts of the community. Most things work better than with most other projects.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have a feeling that there aren't enough people working on ghc.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't file enough bugs to really get bitten hard.  I wish you had more manpower.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>There is a certain tension, sometimes raised in the newsgroup, between those who just want to use ghc and those who see it is an experimental test-bed.  The present compromise seems to work &quot;quite well&quot;. I would be concerned if the pendulum swung very far in either direction.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'd always like to see some of the &quot;inspector&quot; and &quot;browser&quot; GUI features from full-featured Lisp and Smalltalk implementations (like on Lisp machines), but there seems to be little clamoring for it in the FP community...perhaps because the functions are supposed to be small enough to be edited and understood on their own, without the &quot;run-debug-inspect-edit-run-debug some more&quot; cycle more common with dynamic languages.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm not sure I understand the question? What do you mean by development model?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Lovely!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sorry, not enough experience w/GHC yet.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't follow ghc development in detail, but it seems to improve pretty rapidly.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am not sure what you mean by &quot;development model&quot;.  You guys do a great job!  
+Separating the development of GHC and the development of Haskell libraries seems like a good idea, but I know that there are already attempts to do this.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>No idea, but it seems to produce interesting new features and regular releases so I'm not going to complain about it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Given how few people work at GHC and how complex it is, it is close to a miracle how fully-featured and reliable it is.  (I am almost exclusively using open-source software, so I have a lot of data points to compare GHC to.)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Bugfixes come very fast and each major release contains new major features.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>See part zero above.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have no idea how it works.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Seems to work from what I have seen, but I am not well enough informed to say more.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>i am a beginner</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Where do I contribute to the fund to allow the Simons to work on GHC full-time?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>still new to the community, no sure about the answer here. My feeling is the push is for language experimentation instead of a robust, user focused implementation.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The obvious issue is that only a few people can really hack on it, but that's clearly a hard problem to solve.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>We could do with more developers, probably.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Not familiar with it, sorry!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I benefit from this great free software - thanks.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Overall it works well I think.  I don't know if you have considered
+how to get more developer contributions, but on the other hand the
+small core team seems to work very effectly.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I have not seriously evaluated this aspect, as I am not contributing to GHC development.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>You guys do a great job. I love complaining about things that don't work the way I think they should, and GHC has given me surprisingly little opportunity to do just that. ;-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't really have enough experience to answer these items, but your interface is forcing me to!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>09U0[9U0Y[</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Sometimes GHC seems wrong about not doing recompilation. If I change the options to the compiler for the next compilation, it may complain, but if I remove the old *.o *.hi files then everything works.
+
+The greater fear is what happens if the two Simons are struck by lightning.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>New stuff gets included quickly and it all works well.  What more can I ask for?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm always amazed at the pace of incorporation of new features into GHC.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Too little experience of it to date.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I know little about it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Because I have two discontent.
+
+Haskell Hierarchical Libraries notice that: HGL and SOE on Windows  is not currently operational. I expected to improve this before GHC 6.4 release.
+
+I didn't here OpenAL Library discussion, I didn't see precview release, and GHC 6.4 doen't include OpenAL library. I wanted to be included this library because I'm making Multimedia Application in Haskell.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It works great!  But of course I worry that not enough people are deeply involved in hacking GHC every day.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>There is no perfect development model...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>GHC is developed more that well enough that I am not worried about depending on it. </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>If it works for the developers then that's good for me. I'm very greatful of all the effort in making GHC available.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The documentation is so bad(of the compiler).  </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>But I confess I don't know much about it -- I am judging
+by the apparant quality of the product.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Actually, I don't know, but the view from out here is that things are going well.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>it is surprising how much is being achieved with so limited resources - Great Work! some concern for non-cvs folks might be helpful, though: their increasing
+numbers are a sign of ghc's success, as they mean that ghc users have users, too!</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The 6.4 release cycle was too long. It also wasn't clear what the goals
+of the 6.4 release were (by the end of the cycle, it seemed that the goals were
+to stablize TH, introduce GADTs and integrate Cabal). Perhaps a survey of the
+community after they've had a chance to digest 6.4 would be a good way to
+ascertain priorities for 6.5.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I guess it must be good.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm just afraid what'll happen when Simon's decide to retire and go fishing instead of hacking away :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>both great and could-be-better</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I like the stable-development strand distinction</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>There is a standard fear: critical dependency on Mr. SPJ person.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I'm seeing regular updates and fixes to a very good free program. What's to complain about?</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Slightly worried about what would happen to Haskell as a whole if Simon/Simon went under a bus.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Missing option between so-so and great</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>but it is sometimes surprising what the team is coming up with next</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Don't know the GHC development model so an don't know would be great here.
+
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Looks like not too many people work on it...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Could use darcs instead of CVS  :-)
+
+(OK, darcs probably isn't quite ready for that yet. But soon!)
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Frankly, I have no idea how it's developed.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Can prototype things quick by hence create existence proofs quickly - this is what our customers want to see when we work with them</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am used to makefile based development, bot not everyone is. ghc --make is certainly a great advantage for small projects / rapid prototyping. For larger projects it gets unwieldy. I miss the possibility to create shared libraries.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Well, I think some problems are always. Programmers tend to overestimate their capabilites, thus I think it's OK. :-)</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Releases keep coming out with new features, bugs are addressed quickly, quality is high.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Many different places to update in the compiler for the addition of a new back-end. Maybe a configuration file for every back-end would be better, e.g. native_gen.config, c--.config, my_backend.config etc.
+  </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Could use a better, less centralized, version control system like darcs.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's good that GHC HQ effectively has a sponsor.  GHC is harder to maintain than most projects, so contributors are scarce, but my impression is that it's open to all serious contributors.
+</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think it would help to move GHC repository to a distributed VCS like darcs. It would be easier to experiment without destabilising the main branch. I know that CVS has branches, etc, but how would you feel about some kid playing with branches on your main CVS repository. With darcs he can make his own repository, record many changes and it won't affect the main repo unless you explicitly pull his patches there.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Works very well, given the constraints</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>To the extent that any production compiler's development model works...</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I think that GHC 6.4 was released too early as it seems to have a lot of bugs. Also, I understand that the new library system (Cabal, etc.) is a big, important change but it seems the result is that it is difficult to build libraries that can work with both GHC 6.2.2 (the &quot;stable&quot; version) and 6.4 (the &quot;new, unstable&quot; version).</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>What is the GHC development model?  </TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I don't have nearly enough experience to judge.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>But debug tools should be better. I understand that debuging lazy programs is not easy work. Probably Haskell should take a look to the Prolog's debuger, it is kind of different, but Prolog also has some non-standard execution. I used Prolog for many years and the debuger is great.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>It's hard for windows users to keep track of what's in the CVS build, or indeed to feel confident enough to build it.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>less than great, but much better than so-so.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>The library initiative needs to made to work.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>I am not sure what the model is.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Compared to working within an IDE, productivity is about half what it could be.</TD
+></TR
+><TR
+><TD BGCOLOR="#ffffff" STYLE="border: 1px solid #000000"
+>Probably too much geared towards theorists instead of users.
+</TD
+></TR
+></TABLE
+></HTML
+>

@@ -1,0 +1,86 @@
+<html>
+
+<head>
+<title>GHC 4.06 Mini-FAQ</title>
+</head>
+
+<body bgcolor="white">
+
+<h2>GHC 4.06 Mini-FAQ</h2>
+
+This page lists known problems for the 4.06 release with workarounds.
+
+<ul>
+<li><p>I can't build GHC 4.06 with GHC 4.04!
+<p>You need 4.04pl1. This is the version currently available from the 4.04
+download pages.</li><p>
+   <li>Linking a program causes the following error on Linux:
+<pre>
+   /usr/bin/ld: cannot open -lgmp: No such file or directory
+</pre>
+  The problem is that your system doesn't have the GMP library
+  installed.  If this is a RedHat distribution, install the
+  RedHat-supplied gmp-devel package, and the gmp package if you don't
+  already have it.  There have been reports that installing the RedHat
+  packages also works for SuSE (SuSE don't supply a shared gmp library).
+  </li><p>
+
+  <li><p>My program fails with
+<pre>
+    fatal error: No threads to run!  Deadlock?
+</pre>
+  The primary cause of this message is trying to use <tt>trace</tt> at
+  the same time as writing to <tt>stdout</tt> or <tt>stderr</tt>
+  (eg. <tt>putStr (trace "foo" "bar")</tt> will illustrate the error).
+  The problem is caused by overzealous locking in our I/O library, but
+  we don't have a complete fix at this time.  A workaround is to start
+  your program like this:
+<pre>
+    main = seq stderr $ do ...
+</pre>
+  This allows you to trace while writing to <tt>stdout</tt>, but
+  tracing while writing to stderr will still cause a deadlock.
+  </li>
+  <p><li><p>My program loops while trying to evaluate a large expression.
+  <p>GHC can only allocate 4096 bytes at a time. If your expression (e.g. a
+  large literal list) would take more, the run-time system loops trying to
+  allocate space for it. The workaround is to compile with <tt>-O</tt>,
+  which pulls the expression out to the top level and makes it static
+  (hopefully).
+  </li>
+  <p><li><p>GHC complains about bogus overlapping string patterns in my program!
+  <p>I'm afraid so.
+<pre>
+  module X where
+  x a = case a of
+              "aa"            -> a
+              "{"             -> a
+</pre>
+  gives the warning
+<pre>
+  X.hs:2: Pattern match(es) are overlapped in a group of case 
+  alternatives beginning
+                                             "aa":
+            "{" -> ...
+</pre>
+  </li>
+  <p>There's no fix at the moment.
+
+<p><li><p>GHC has problems parsing interface files it's generated, giving
+messages like
+
+<pre>
+TysPrim.lhs:52:
+    Type.hi:172 Interface file parse error; on input  #) '
+
+TysPrim.lhs:52: Could not find valid interface file Type'
+</pre>
+
+<p>Apparently 4.06 has a heart attack if it is faced with an empty unboxed
+tuple <tt>(# #)</tt>. Unfortunately, it also generates such things. The
+workaround is not to use optimisation.
+</li>
+</ul>
+
+</body>
+</html>

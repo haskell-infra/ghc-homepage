@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb">
+<meta http-equiv="Content-Type" content="text/html; charset=iso8859-1">
+<title>The Glasgow Haskell Compiler</title>
+<link href="ghc.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<!--#include file="ghc-std.shtml" -->
+
+
+<h2>Snapshot of 5.03 (ghc-5.03.20020410), released 11 April 2002</h2>
+
+<p>Another snapshot along the 5.03 line, we expect this to be the last
+snapshot before 5.04.  As before, there are NO GUARANTEES as to the
+stability of this release, but it has passed our three-stage bootstrap
+and all but one(!) of the 754 regressions tests passed.  Documentation
+is also still lagging behind the new features.
+
+<p>Changes since the previous snapshot (5.03.20020204):
+<ul>
+
+<li>GHC switched over to the new hierarchical library structure for
+its base libraries.  The old hslibs and the standard Haskell 98
+libraries are still there, so you shouldn't notice any difference for
+existing code.  We're currently working on documenting the new library
+structure for the next release.
+
+<p><li>The syntax for implicit parameters has changed: implicit bindings
+are now introduced with the <tt>let</tt> keyword instead of
+<tt>with</tt>.  The bindings in a <tt>let</tt> must be either all
+implicit bindings or all explicit, not a mixture of the two.  The old
+<tt>with</tt> syntax will be supported for a couple of versions or so,
+but will elicit a warning message from the compiler if you use it.
+
+<p><li>Foreign export dynamic is allegedly working in GHCi.
+
+<p><li>Generics are working again.
+
+<p><li>Explicit kind annotations can now be given on type variables.
+See the documentation (type system extensions, explicitly-kinded
+quantification) for more details.
+
+<p><li>Interface files are now in a binary format for speed of
+reading/writing.  Use <tt>ghc --show-iface</tt> to show the textual
+representation of an interface.  The synatx of <tt>.hi-boot</tt> files
+has changed, and is now much more readable.
+
+</ul>
+
+<h3>Downloads</h3>
+
+<ul>
+  <li>
+    Source: <a HREF="dist/5.03.20020410/ghc-5.03.20020410-src.tar.bz2">.tar.bz2</a>
+    (4.2 M).  Note that this corresponds to the CVS repository at the
+    moment <code>"Thu Apr 11 08:40:00 GMT 2002"</code>, and so you
+    should be able to recreate this snapshot by doing <code>cvs
+    checkout -D "Thu Apr 11 08:40:00 GMT 2002"</code>, if you are so inclined.
+  </li>
+  <p>
+  <li>
+    Intel Linux/glibc 2.1 (a complete build, including interactive
+    system, profiling libraries and complete documentation): 
+    <a HREF="dist/5.03.20020410/ghc-5.03.20020410-i386-unknown-linux.tar.bz2">.tar.bz2</a>
+    (16.2 M).  This build was done on a RedHat 6.2 box.
+  </li>
+</ul>
+
+<h2>Snapshot of 5.03 (ghc-5.03.20020204), released 5 February 2002</h2>
+
+There have been a number of significant improvements made to GHC since
+the 5.02 sources were branched off the main GHC development tree, but
+we're not quite ready to make a full 5.04 release yet.  However, we're
+keen to get feedback on the new features from people that don't have
+easy access to CVS or don't have the time & patience to build GHC from
+scratch, so we're making a snapshot release of the current GHC, in
+source and binary form.
+<p>
+There are NO GUARANTEES as to the stability of this release, although
+we do know it has passed our basic three-stage bootstrap test and run
+the regression tests successfully.  In some cases the documentation
+hasn't been fully updated to reflect the new features yet.
+<p>
+Briefly, the changes relative to 5.02.2 are:
+<ul>
+<li> The type system now supports arbitrary rank polymorphism,
+     given appropriate type annotations.
+<p>
+<li> Heap profiling has had a major overhaul and now supports
+     retainer profiling and biographical profiling ala nhc98.
+<p>
+<li> Major improvements to the native code generators.  You can now
+     compile any and all code through them, including the Prelude.
+<p>
+<li> The FFI syntax has been updated to match the latest version
+     of the FFI Haskell 98 Addendum.
+<p>
+<li> newtypes support deriving *any* class for which the
+     underlying type is also an instance.
+<p>
+<li> Linear implicit parameters: a highly experimental feature.
+<p>
+<li> GHCi has several new commands:
+     <ul>
+     <li><code>:show bindings</code>, to list the bindings made on the command
+	  line,
+     <li><code>:show modules</code>, to show which modules are loaded,
+     <li><code>:module</code> has been enhanced as per the discussion on the
+         mailing list (syntax is still experimental - feedback
+	   welcome).
+     <li><code>:browse</code>  similar to Hugs' <code>:browse</code>
+	  command.
+     </ul>
+</ul>
+
+And many other minor changes & bugfixes.
+<p>
+
+
+
+<h3>Downloads</h3>
+
+<ul>
+  <li>
+    Source: <a HREF="dist/5.03.20020204/ghc-5.03.20020204-src.tar.bz2">.tar.bz2</a>
+    (5.3 M).  Note that this corresponds to the CVS repository at the
+    moment <code>"Mon Feb 4 12:00:00 GMT 2002"</code>, and so you
+    should be able to recreate this snapshot by doing <code>cvs
+    checkout -D "Mon Feb 4 12:00:00 GMT 2002"</code>, if you are so inclined.
+  </li>
+  <p>
+  <li>
+    Intel Linux/glibc 2.1 (a complete build, including interactive
+    system, profiling libraries and complete documentation): 
+    <a HREF="dist/5.03.20020204/ghc-5.03.20020204-i386-unknown-linux.tar.bz2">.tar.bz2</a>
+    (14.8 M).  This build was done on a RedHat 6.2 box.
+  </li>
+  <p>
+  <li>
+     Windows Installer for Microsoft Windows 95, 98, ME, NT, 2000 and
+     XP, prepared by <a href="http://galois.com/~sof/">Sigbjorn
+     Finne</a> (complete build, as above): 
+     <a HREF="dist/5.03.20020208/ghc-5.03-20020208.msi">ghc-5.03-20020208.msi</a> (25.2 Mb).
+     <p>
+     This installer relies on the Windows Installer runtime to
+     operate. If, after having downloaded the above file,
+     double-clicking on the MSI file doesn't start up the installer,
+     the likely cause is that you don't have the Windows Installer
+     runtime installed on your machine.  You can download it from
+     Microsoft:
+     <p>
+       <ul>
+       <li><a href="http://www.microsoft.com/downloads/release.asp?releaseid=32831">
+              Windows 95,98 and ME version</a></li>
+       <li><a href="http://www.microsoft.com/downloads/release.asp?releaseid=32832">
+              Windows NT and 2000 version</a></li>
+       </ul>
+       <p>
+       Install the appropriate version, then double-click
+       again on the MSI file.
+  </li>
+</ul>
+
+<!--#include file="ghc-footer.shtml"-->
+
+</body>
+</html>

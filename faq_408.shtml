@@ -1,0 +1,55 @@
+<html>
+
+<head>
+<title>GHC 4.08 Mini-FAQ</title>
+</head>
+
+<body bgcolor="white">
+
+<h2>GHC 4.08 Mini-FAQ</h2>
+
+This page lists known problems for the 4.08 release with workarounds.
+
+<ul>
+   <li>Linking a program causes the following error on Linux:
+<pre>
+   /usr/bin/ld: cannot open -lgmp: No such file or directory
+</pre>
+  The problem is that your system doesn't have the GMP library
+  installed.  If this is a RedHat distribution, install the
+  RedHat-supplied gmp-devel package, and the gmp package if you don't
+  already have it.  There have been reports that installing the RedHat
+  packages also works for SuSE (SuSE don't supply a shared gmp library).
+  </li><p>
+
+  <p><li><p>When I use a foreign function that takes or returns a float, it
+  gives the wrong answer, or crashes.
+  <p>You should use <a href="docs/4.08/set/sec-ffi.html"><tt>-#include</tt></a>.
+  </li>
+
+  <p><li><p>My program that uses a really large heap crashes on Windows.
+  <p>For utterly horrible reasons, programs that use more than 128Mb of heap
+  won't work when compiled dynamically on Windows (they should be fine
+  statically compiled).
+  </li>
+  
+  <p><li><p>GHC doesn't like filenames containing <tt>+</tt>.
+  <p>Indeed not. You could change <tt>+</tt> to <tt>p</tt> or <tt>plus</tt>.
+  </li>
+  
+  <p><li><p>GHC crashes when I put a context on a newtype that has a named 
+  field.
+  <p>This is fixed in 4.08.2.
+  </li>
+  
+  <p><li><p>My programs crashes on startup under Windows.
+  <p>Use <tt>cygcheck</tt> to make sure it's not loading any DLLs it
+  shouldn't be. My favourite is having a copy of <tt>gmp.dll</tt> in my
+  Windows system directory. You'll need to remove such DLLs, or copy the
+  ones you need into the same directory as the program, to make sure they're
+  used in preference to DLLs in the system directories.
+  </li>
+</ul>
+
+</body>
+</html>
