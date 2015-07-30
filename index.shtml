@@ -18,6 +18,8 @@
       <h2>Latest News</h2>
 
       <dl>
+      <dt><strong>29 July 2015</strong></dt>
+      <dd>GHC 7.10.2 Released! [<a href="download_ghc_7_10_2">download</a>]</dd>
       <dt><strong>27 March 2015</strong></dt>
       <dd>GHC 7.10.1 Released! [<a href="download_ghc_7_10_1">download</a>]</dd>
       <dt><strong>23 December 2014</strong></dt>
@@ -117,7 +119,7 @@ Transactional Memory (STM)</a></b>.
         on <a href="http://hackage.haskell.org/packages/hackage.html">Hackage</a>.
       </li></ul>
 
-      <p>GHC is heavily dependent on its users and <a href="contributors">contributors</a>.
+      <p>GHC is heavily dependent on its users and <a href="https://ghc.haskell.org/trac/ghc/wiki/TeamGHC">contributors</a>.
       Please come and join the <a href="docs/latest/html/users_guide/mailing-lists-GHC.html">mailing
       lists</a> and send us your comments, suggestions, bug reports
       and contributions!

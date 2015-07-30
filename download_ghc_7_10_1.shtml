@@ -21,15 +21,11 @@
 <div style="background: #E0E0E0; width: 90%; text-align: left;
     padding-left: 10px; padding-right: 10px;
 	margin-left: auto; margin-right: auto; border: 1px black solid">
-   <p style="font-size: 130%; color: red">Stop!</p>
-   <p>
-     For most users, we recommend installing the
-     <a href="http://hackage.haskell.org/platform/">Haskell
-     Platform</a> instead of GHC. The current Haskell Platform release
-     includes a recent GHC release as well as some other tools (such as
-     cabal), and a larger set of libraries that are known to work
-     together.
-   </p>
+   <p style="font-size: 130%; color: red">Take Notice</p>
+<p>For most users, we recommend installing 
+<a href="http://www.haskell.org/downloads">a proper distribution</a> instead of GHC alone. 
+A distribution includes a recent GHC release as well as other important tools (such as cabal, for installing libraries), and potentially a broader set of libraries known to work together.
+</p>
 </div>
 <div style="background: #E0E0E0; width: 90%; text-align: left;
     padding-left: 10px; padding-right: 10px;
@@ -107,12 +103,13 @@ available <a href="dist/7.10.1/SHA256SUMS">here</a>.</p>
 <li><a href="#x86_64linux">Linux (x86_64)</a></li>
 <li><a href="#windows">Windows 2000 or later (x86)</a></li>
 <li><a href="#windows64">Windows 64bit (x86_64)</a></li>
-<!--<li><a href="#macosx_x86_64">MacOS X (x86_64)</a></li>-->
-<!--<li><a href="#freebsd">FreeBSD (x86)</a></li>-->
-<!--<li><a href="#freebsd_x86_64">FreeBSD (x86_64)</a></li>-->
+<li><a href="#macosx_x86_64">MacOS X (x86_64)</a></li>
+<li><a href="#freebsd">FreeBSD (x86)</a></li>
+<li><a href="#freebsd_x86_64">FreeBSD (x86_64)</a></li>
 <!--<li><a href="#ios">iOS</a></li>-->
 <!--<li><a href="#x86solaris10">Solaris 10 (x86)</a></li>-->
-<!--<li><a href="#x86solaris11">Solaris 11 (x86)</a></li>-->
+<li><a href="#solaris11">Solaris 11 (x86)</a></li>
+<li><a href="#solaris11_x86_64">Solaris 11 (x86_64)</a></li>
 <!--<li><a href="#sparcsolaris11">Solaris 11 (SPARC)</a></li>-->
 </ul>
 
@@ -239,7 +236,6 @@ available <a href="dist/7.10.1/SHA256SUMS">here</a>.</p>
     This is a complete build. It also includes support for compiling C++ files.
 </p>
 
-<!--
 <hr />
 <h3><a name="macosx_x86_64"></a>MacOS X (x86_64)</h3>
 
@@ -254,9 +250,7 @@ available <a href="dist/7.10.1/SHA256SUMS">here</a>.</p>
     You can find Xcode at
     <a href="http://developer.apple.com/">http://developer.apple.com/</a>.
 </p>
--->
 
-<!--
 <hr />
 <h3><a name="freebsd"></a>FreeBSD (x86)</h3>
 
@@ -296,7 +290,7 @@ Note: These are not the same as the lang/ghc port. See the
 <a href="dist/7.10.1/README.fbsd.html">README</a> for more
 information.
 </p>
--->
+
 
 <!--
 <hr />
@@ -324,8 +318,9 @@ information.
     </ul>
   </li>
 </ul>
+-->
 
-
+<!--
 <hr />
 <h3><a name="x86solaris10"></a>Solaris 10 (x86)</h3>
 
@@ -345,9 +340,10 @@ libraries. It depends only on libraries provided by Solaris 10. It
 supports Solaris 11 too especially if you do not require shared
 libraries support provided by distribution for Solaris 2.11/i386.
 </p>
+-->
 
 <hr />
-<h3><a name="x86solaris11"></a>Solaris 11 (x86)</h3>
+<h3><a name="solaris11"></a>Solaris 11 (x86)</h3>
 
 <p>
     <a href="mailto:karel.gardas@centrum.cz">Karel Gardas</a>
@@ -363,7 +359,26 @@ and uses system provided GMP and FFI libraries. If you do not have
 them installed you need to do this by using "pkg install library/gmp"
 and "pkg install library/libffi" commands.
 </p>
--->
+
+<hr />
+<h3><a name="solaris11_x86_64"></a>Solaris 11 (x86_64)</h3>
+
+<p>
+    <a href="mailto:karel.gardas@centrum.cz">Karel Gardas</a>
+    has provided x86 Solaris 11 binaries.</p>
+<ul>
+    <li><a href="dist/7.10.1/ghc-7.10.1-x86_64-unknown-solaris2.11.tar.bz2">ghc-7.10.1-x86_64-unknown-solaris2.11.tar.bz2</a> (117M)</li>
+    <li><a href="dist/7.10.1/ghc-7.10.1-x86_64-unknown-solaris2.11.tar.xz">ghc-7.10.1-x86_64-unknown-solaris2.11.tar.xz</a> (64M)</li>
+</ul>
+
+<p>
+Note: Solaris 2.11/x86_64 binary distribution supports shared libraries
+and uses system provided GMP and FFI libraries. If you do not have
+them installed you need to do this by using "pkg install library/gmp"
+and "pkg install library/libffi" commands.
+</p>
+
+
 
 <!--
 <hr />
