@@ -87,9 +87,9 @@ href="http://hackage.haskell.org/package/stm">Software
 Transactional Memory (STM)</a></b>.
 
       </li><li>GHC generates fast code, particularly for concurrent
-      programs.  Take a look at GHC's performance on <b><a
-      href="http://shootout.alioth.debian.org/">The Computer Language
-      Benchmarks Game</a></b>.
+      programs.  Take a look at GHC's performance on
+      <b><a href="http://benchmarksgame.alioth.debian.org/u64q/haskell.html">
+      The Computer Language Benchmarks Game</a></b>.
 
       </li><li>GHC works on
       several <b><a href="http://hackage.haskell.org/trac/ghc/wiki/Platforms">platforms</a></b>
