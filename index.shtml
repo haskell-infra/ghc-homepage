@@ -18,6 +18,12 @@
       <h2>Latest News</h2>
 
       <dl>
+      <dt><strong>11 Jan 2017</strong></dt>
+      <dd>GHC 8.0.2 Released! [<a href="download_ghc_8_0_2">download</a>]</dd>
+      <dt><strong>21 May 2016</strong></dt>
+      <dd>GHC 8.0.1 Released! [<a href="download_ghc_8_0_1">download</a>]</dd>
+      <dt><strong>8 December 2015</strong></dt>
+      <dd>GHC 7.10.3 Released! [<a href="download_ghc_7_10_3">download</a>]</dd>
       <dt><strong>29 July 2015</strong></dt>
       <dd>GHC 7.10.2 Released! [<a href="download_ghc_7_10_2">download</a>]</dd>
       <dt><strong>27 March 2015</strong></dt>
@@ -120,13 +126,12 @@ Transactional Memory (STM)</a></b>.
       </li></ul>
 
       <p>GHC is heavily dependent on its users and <a href="https://ghc.haskell.org/trac/ghc/wiki/TeamGHC">contributors</a>.
-      Please come and join the <a href="docs/latest/html/users_guide/mailing-lists-GHC.html">mailing
-      lists</a> and send us your comments, suggestions, bug reports
+      Please come and join the <a href="https://wiki.haskell.org/Mailing_lists">mailing lists</a> and send us your comments, suggestions, bug reports
       and contributions!
       </p>
 
       <div style="background: #e0e0e0; margin-top: 30px">
-      <p>This site is maintained by <a href="mailto:marlowsd@gmail.com">Simon Marlow</a>.  Please send me comments, questions and reports of any problems to do with the site.</p>
+      <p>This site is maintained by <a href="mailto:ben@smart-cactus.org">Ben Gamari</a>.  Please send me comments, questions and reports of any problems to do with the site.</p>
 	  </div>
 	</div>
 

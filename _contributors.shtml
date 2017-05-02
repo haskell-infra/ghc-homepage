@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso8859-1" />
+<title>The Glasgow Haskell Compiler</title>
+<link href="ghc.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!--#include file="ghc-std.shtml" -->
+
+<h1>The GHC Team</h1>
+
+<div class="body">
+<p>The success of GHC has a lot to do with the large band of highly
+talented people who contribute to it; this page is mainly to
+acknowledge those contributions but also to give users of GHC an idea
+of "who is responsible for what".  In particular there are several
+people who have generously agreed to look after the port of GHC to a
+particular platform, or produce packages for a certain platform - the
+section below lists these people and the port or packages that they
+maintain.</p>
+</div>
+
+<h2>Porters/Packagers (no particular order)</h2>
+
+<div class="body">
+
+ <table>
+
+  <tr><td colspan="2" class="cellhead">x86</td></tr>
+
+  <tr><td class="indentcell">Windows (targetting <a href="http://www.mingw.org">mingw</a>)</td>
+  <td><a href="mailto:sof@galconn.com">Sigbjorn Finne</a></td></tr>
+
+  <tr><td class="indentcell">Windows (targetting <a href="http://www.cygwin.com">Cygwin</a>)</td>
+  <td>Position open; port bitrotted</td></tr>
+
+  <tr><td class="indentcell">Linux (generic)</td>
+  <td><a href="mailto:simonmar@microsoft.com">Simon Marlow</a>,
+      <a href="mailto:simonpj@microsoft.com">Simon Peyton Jones</a></td></tr>
+
+  <tr><td class="indentcell">FreeBSD</td>
+  <td><a href="mailto:simonmar@microsoft.com">Simon Marlow</a>, 
+     <a href="mailto:obraun@FreeBSD.org">Oliver Braun</a></td></tr>
+
+  <tr><td class="indentcell">OpenBSD</td>
+  <td><a href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></td></tr>
+
+  <tr><td class="indentcell">RedHat Linux/x86 packages</td>
+  <td><a href="mailto:chak@cse.unsw.edu.au">Manuel Chakravarty</a></td></tr>
+
+  <tr><td class="indentcell">SuSE Linux/x86 packages</td>
+  <td><a href="mailto:sven.panne@aedion.de">Sven Panne</a>,
+      <a href="mailto:ralf@informatik.uni-bonn.de">Ralf Hinze</a></td></tr>
+
+  <tr><td class="indentcell">Gentoo Linux/x86 packages</td>
+  <td><a href="mailto:kosmikus@gentoo.org">Andres Loeh</a></td></tr>
+
+  <tr><td class="indentcell">Debian GNU/Linux/x86 packages</td>
+  <td><a href="mailto:igloo@earth.li">Ian Lynagh</a></td></tr>
+
+  <tr><td colspan="2" class="cellhead">PowerPC</td></tr>
+  <tr><td class="indentcell">AIX</td>
+  <td><a href="mailto:autrijus@autrijus.org">Autrijus Tang</a></td></tr>
+
+  <tr><td class="indentcell">Linux</td>
+  <td><a href="mailto:1hallber@informatik.uni-hamburg.de">Sven Moritz Hallberg</a></td></tr>
+
+  <tr><td class="indentcell">MacOS X</td>
+  <td><a href="mailto:wolfgang.thaller@gmx.net">Wolfgang Thaller</a></td></tr>
+
+  <tr><td colspan="2" class="cellhead">Sparc</td></tr>
+  <tr><td class="indentcell">Solaris</td>
+  <td>Position open</td></tr>
+
+  <tr><td colspan="2" class="cellhead">x86_64</td></tr>
+  <tr><td class="indentcell">Linux (in progress)</td>
+  <td><a href="mailto:simonmar@microsoft.com">Simon Marlow</a></td></tr>
+
+  <tr><td colspan="2" class="cellhead">Mips64</td></tr>
+  <tr><td class="indentcell">Irix</td>
+  <td><a href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></td></tr>
+
+  <tr><td colspan="2" class="cellhead">IA-64</td></tr>
+  <tr><td class="indentcell">Linux (in progress)</td>
+  <td><a href="mailto:matthewc@cse.unsw.edu.au">Matt Chapman</a></td></tr>
+
+  <tr><td colspan="2" class="cellhead">Alpha</td></tr>
+  <tr><td class="indentcell">Dec OSF</td>
+  <td><a href="mailto:ken@digitas.harvard.edu">Ken Shan</a></td></tr>
+
+ </table>
+</div>
+
+<h2>Current committers (alphabetical order)</h2>
+
+<div class="body">
+<p>These people currently have commit access to the GHC CVS
+repository.  The right hand column is a short description of what they
+have done / are doing in the tree.</p>
+
+<table>
+ <tr>
+  <td width="150"><a href="mailto:ka2_mail@yahoo.com">Krasimir Angelov</a></td>
+  <td>ObjectIO library</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:chak@cse.unsw.edu.au">Manuel Chakravarty</a></td>
+  <td>Array flattening, GHC Commentary</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:koen@cs.chalmers.se">Koen Claessen</a></td>
+  <td>New Read framework</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:Robert.Ennals@cl.cam.ac.uk">Robert Ennals</a></td>
+  <td>Eager evaluation</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:sof@galconn.com">Sigbjorn Finne</a></td>
+  <td>Win32 porting, threaded RTS, lots of other stuff</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:keller@cvs.haskell.org">Gabrielle Keller</a></td>
+  <td>Array flattening</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:qrczak@knm.org.pl">Marcin Kowalczyk</a></td>
+  <td>31-bit Chars, hsc2hs, various other stuff</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:jeff@galconn.com">Jeff Lewis</a></td>
+  <td>Implicit parameters, functional dependencies</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:desrt@desrt.ca">Ryan Lortie</a></td>
+  <td>PowerPC/PowerPC-64 Linux porting</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:igloo@earth.li">Ian Lynagh</a></td>
+  <td>Template Haskell</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:simonmar@microsoft.com">Simon Marlow</a></td>
+  <td>Release engineering, hierarchical libraries, general hacking</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:sven.panne@aedion.de">Sven Panne</a></td>
+  <td>OpenGL/GLUT/OpenAL bindings, configuration/build system, various other stuff</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:ross@soi.city.ac.uk">Ross Paterson</a></td>
+  <td>Control.Arrow, haskell-src improvements</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:simonpj@microsoft.com">Simon Peyton Jones</a></td>
+  <td>Template Haskell, general hacking</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></td>
+  <td>OpenBSD (x86 &amp; m68k) porting</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:stolz@i2.informatik.rwth-aachen.de">Volker Stolz</a></td>
+  <td>forkProcess#, thread labels</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:wolfgang.thaller@gmx.net">Wolfgang Thaller</a></td>
+  <td>MacOS X porting</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:apt@cs.pdx.edu">Andrew Tolmach</a></td>
+  <td>External Core</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:Keith.Wansbrough@cl.cam.ac.uk">Keith Wansbrough</a></td>
+  <td>Usage analysis</td>
+ </tr>
+
+ <tr>
+  <td><a href="mailto:michael.weber@post.rwth-aachen.de">Michael Weber</a></td>
+  <td>Debian packaging</td>
+ </tr>
+</table>
+</div>
+
+<h2>Past contributors</h2>
+
+<div class="body">
+<p>These people have contributed to GHC in the past, in various
+wonderful ways:</p>
+
+<table>
+ <tr>
+  <td>Sebastien Carlier</td>
+ </tr>
+ <tr>
+  <td>Kevin Glynn</td>
+ </tr>
+ <tr>
+  <td>Cordy Hall</td>
+ </tr>
+ <tr>
+  <td>Kevin Hammond</td>
+ </tr>
+ <tr>
+  <td width="150">Andy Gill</td>
+ </tr>
+ <tr>
+  <td>Hans Wolfgang Lloidl</td>
+ </tr>
+ <tr>
+  <td>John Launchbury</td>
+ </tr>
+ <tr>
+  <td>Jim Mattson</td>
+ </tr>
+ <tr>
+  <td>Darren Moffat</td>
+ </tr>
+ <tr>
+  <td><a href="mailto:njn25@cam.ac.uk">Nick Nethercote</a></td>
+ </tr>
+ <tr>
+  <td>Thomas Nordin</td>
+ </tr>
+ <tr>
+  <td>Bryan O'Sullivan</td>
+ </tr>
+ <tr>
+  <td>Sungwoo Park</td>
+ </tr>
+ <tr>
+  <td>Will Partain</td>
+ </tr>
+ <tr>
+  <td>Juan Quintela</td>
+ </tr>
+ <tr>
+  <td>Alastair Reid</td>
+ </tr>
+ <tr>
+  <td>Patrick Sansom</td>
+ </tr>
+ <tr>
+  <td>Andr&eacute; Santos</td>
+ </tr>
+ <tr>
+  <td><a href="mailto:jseward@acm.org">Julian Seward</a></td>
+ </tr>
+ <tr>
+  <td>Reuben Thomas</td>
+ </tr>
+ <tr>
+  <td>Phil Trinder</td>
+ </tr>
+ <tr>
+  <td>David N Turner</td>
+ </tr>
+ <tr>
+  <td>Philip Wadler</td>
+ </tr>
+ <tr>
+  <td>Michael Weber</td>
+ </tr>
+</table>
+
+    </div>
+
+<!--#include file="ghc-footer.shtml"-->
+
+</body>
+</html>
