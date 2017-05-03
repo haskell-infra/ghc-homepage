@@ -1,19 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE html 
-     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Language" content="en-gb" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>GHC: Download version 7.10.1</title>
-<link href="ghc.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-
-<!--#include file="ghc-std.shtml" -->
+---
+title: GHC 7.10.1 - Download
+---
 
 <h1><a name="7.10.1">Version 7.10.1 (released March 27th 2015)</a></h1>
 
@@ -101,8 +88,10 @@ available <a href="dist/7.10.1/SHA256SUMS">here</a>.</p>
 <ul>
 <li><a href="#x86linux">Linux (x86)</a></li>
 <li><a href="#x86_64linux">Linux (x86_64)</a></li>
-<li><a href="#windows">Windows 2000 or later (x86)</a></li>
-<li><a href="#windows64">Windows 64bit (x86_64)</a></li>
+<li><a href="#windows10">Windows 10 (x86)</a></li>
+<li><a href="#windows">Windows (x86)</a></li>
+<li><a href="#windows10-64">Windows 10 (x86_64)</a></li>
+<li><a href="#windows64">Windows (x86_64)</a></li>
 <li><a href="#macosx_x86_64">MacOS X (x86_64)</a></li>
 <li><a href="#freebsd">FreeBSD (x86)</a></li>
 <li><a href="#freebsd_x86_64">FreeBSD (x86_64)</a></li>
@@ -220,12 +209,12 @@ available <a href="dist/7.10.1/SHA256SUMS">here</a>.</p>
 </ul>
 
 <p>
-    This is a complete build, and should work for Microsoft Windows 2000
-    or later. It also includes support for compiling C++ files.
+    This is compatible with Microsoft Windows 2000
+    and later. It also includes support for compiling C++ files.
 </p>
 
 <hr />
-<h3><a name="windows64"></a>Windows 64bit (x86_64)</h3>
+<h3><a name="windows64"></a>Windows (x86_64)</h3>
 
 <ul>
     <li><a href="dist/7.10.1/ghc-7.10.1-x86_64-unknown-mingw32.tar.bz2">ghc-7.10.1-x86_64-unknown-mingw32.tar.bz2</a> (194 MB)</li>
@@ -630,9 +619,3 @@ in the Building Guide.</p>
 </div>
 
     </div>
-
-<!--#include file="ghc-footer.shtml"-->
-
-
-</body>
-</html>

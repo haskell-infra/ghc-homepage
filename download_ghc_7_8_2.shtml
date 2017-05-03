@@ -1,19 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE html 
-     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Language" content="en-gb" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>GHC: Download version 7.8.2</title>
-<link href="ghc.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-
-<!--#include file="ghc-std.shtml" -->
+---
+version: 7.8.2
+---
 
 <h1><a name="7.8.2">Version 7.8.2 (released 12 April 2014)</a></h1>
 
@@ -602,9 +589,3 @@ in the Building Guide.</p>
 </div>
 
     </div>
-
-<!--#include file="ghc-footer.shtml"-->
-
-
-</body>
-</html>

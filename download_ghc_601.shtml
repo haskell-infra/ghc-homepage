@@ -1,17 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-
-<head>
-<meta http-equiv="Content-Language" content="en-gb">
-<meta http-equiv="Content-Type" content="text/html; charset=iso8859-1">
-<title>The Glasgow Haskell Compiler</title>
-<link href="ghc.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-
-<!--#include file="ghc-std.shtml" -->
-
+---
+version: 6.0.1
+date: 25 July 2003
+---
 
 <h1><a name="6.0.1">Version 6.0.1 (released 25 Jul 2003)</a></h1>
 
@@ -286,8 +276,3 @@ href="mailto:wolfgang.thaller@gmx.net">Wolfgang Thaller</a>.
 
 <p>PowerPC/Linux support is by <a href="mailto:1hallber@informatik.uni-hamburg.de">Sven Moritz Hallberg</a>.
 -->
-
-<!--#include file="ghc-footer.shtml"-->
-
-</body>
-</html>

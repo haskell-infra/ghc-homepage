@@ -1,17 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-
-<head>
-<meta http-equiv="Content-Language" content="en-gb">
-<meta http-equiv="Content-Type" content="text/html; charset=iso8859-1">
-<title>The Glasgow Haskell Compiler</title>
-<link href="ghc.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-
-<!--#include file="ghc-std.shtml" -->
-
+---
+version: 4.08.2
+date: 30 July 2001
+---
 
 <h2><a name="4.08">Version 4.08.2</a></h2>
 
@@ -108,8 +98,3 @@ quite happily.</strong>
     <a href="dist/4.08.2/ghc-4.08.2-sparc-hc.tar.bz2">.tar.bz2</a> (3.8 M)
   </li>
 </ul>
-
-<!--#include file="ghc-footer.shtml"-->
-
-</body>
-</html>

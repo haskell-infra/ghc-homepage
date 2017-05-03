@@ -1,10 +1,6 @@
-<html>
-
-<head>
-<title>GHC 4.06 Mini-FAQ</title>
-</head>
-
-<body bgcolor="white">
+---
+title: GHC 4.06 Mini-FAQ
+---
 
 <h2>GHC 4.06 Mini-FAQ</h2>
 
@@ -81,6 +77,3 @@ tuple <tt>(# #)</tt>. Unfortunately, it also generates such things. The
 workaround is not to use optimisation.
 </li>
 </ul>
-
-</body>
-</html>
