@@ -110,7 +110,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
     then use this bindist. This is a complete build, including
     interactive system, profiling libraries and documentation.
     <ul>
-      <li><a href="dist/6.10.1/ghc-6.10.1-i386-unknown-linux.tar.bz2">.tar.bz2</a> (70 MB)</li>
+      <li><a href="$downloads_url$/ghc-6.10.1-i386-unknown-linux.tar.bz2">.tar.bz2</a> (70 MB)</li>
     </ul>
   </li>
   <li>
@@ -119,7 +119,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
     then use this bindist. This is a complete build, including
     interactive system, profiling libraries and documentation.
     <ul>
-      <li><a href="dist/6.10.1/ghc-6.10.1-i386-unknown-linux-libedit2.tar.bz2">.tar.bz2</a> (67 MB)</li>
+      <li><a href="$downloads_url$/ghc-6.10.1-i386-unknown-linux-libedit2.tar.bz2">.tar.bz2</a> (67 MB)</li>
     </ul>
   </li>
   <li>
@@ -141,7 +141,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
     then use this bindist. This is a complete build, including
     interactive system, profiling libraries and documentation.
     <ul>
-      <li><a href="dist/6.10.1/ghc-6.10.1-x86_64-unknown-linux.tar.bz2">.tar.bz2</a> (70 MB)</li>
+      <li><a href="$downloads_url$/ghc-6.10.1-x86_64-unknown-linux.tar.bz2">.tar.bz2</a> (70 MB)</li>
     </ul>
   </li>
   <li>
@@ -150,7 +150,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
     then use this bindist. This is a complete build, including
     interactive system, profiling libraries and documentation.
     <ul>
-      <li><a href="dist/6.10.1/ghc-6.10.1-x86_64-unknown-linux-libedit2.tar.bz2">.tar.bz2</a> (70 MB)</li>
+      <li><a href="$downloads_url$/ghc-6.10.1-x86_64-unknown-linux-libedit2.tar.bz2">.tar.bz2</a> (70 MB)</li>
     </ul>
   </li>
   <li>
@@ -166,7 +166,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 
 <ul>
   <li>
-    <a href="dist/6.10.1/ghc-6.10.1-i386-windows.exe">ghc-6.10.1-i386-windows.exe</a> (48 MB); a Windows Installer for GHC 6.10.1.
+    <a href="$downloads_url$/ghc-6.10.1-i386-windows.exe">ghc-6.10.1-i386-windows.exe</a> (48 MB); a Windows Installer for GHC 6.10.1.
   </li>
 </ul>
 
@@ -179,7 +179,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 <h3><a name="macosxintel"></a>MacOS X (Intel)</h3>
 
 <ul>
-    <li><a href="dist/6.10.1/GHC-6.10.1-i386.pkg">GHC-6.10.1-i386.pkg</a> (94M)</li>
+    <li><a href="$downloads_url$/GHC-6.10.1-i386.pkg">GHC-6.10.1-i386.pkg</a> (94M)</li>
 </ul>
 
 <p>
@@ -190,7 +190,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 </p>
 
 <ul>
-    <li><a href="dist/6.10.1/maeder/ghc-6.10.1-i386-apple-darwin.tar.bz2">ghc-6.10.1-i386-apple-darwin.tar.bz2</a>
+    <li><a href="$downloads_url$/maeder/ghc-6.10.1-i386-apple-darwin.tar.bz2">ghc-6.10.1-i386-apple-darwin.tar.bz2</a>
     </li>
 </ul>
 
@@ -203,7 +203,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 
 <!--
 <ul>
-    <li><a href="dist/6.8.1/scsibug/ghc-6.8.1-i386-apple-darwin.tar.bz2">ghc-6.8.1-i386-apple-darwin.tar.bz2</a>
+    <li><a href="$downloads_url$/scsibug/ghc-6.8.1-i386-apple-darwin.tar.bz2">ghc-6.8.1-i386-apple-darwin.tar.bz2</a>
     </li>
 </ul>
 
@@ -216,7 +216,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 
 <!--
 <ul>
-    <li><a href="dist/6.8.3/maeder/ghc-6.8.3-i386-apple-darwin.tar.bz2">ghc-6.8.3-i386-apple-darwin.tar.bz2</a></li>
+    <li><a href="$downloads_url$/maeder/ghc-6.8.3-i386-apple-darwin.tar.bz2">ghc-6.8.3-i386-apple-darwin.tar.bz2</a></li>
 </ul>
 
 <p>
@@ -232,7 +232,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 
 <!--
 <ul>
-    <li><a href="dist/6.8.1/maeder/ghc-6.8.1-i386-apple-darwin-tiger-optlibs.tar.bz2">ghc-6.8.1-i386-apple-darwin-tiger-optlibs.tar.bz2</a></li>
+    <li><a href="$downloads_url$/maeder/ghc-6.8.1-i386-apple-darwin-tiger-optlibs.tar.bz2">ghc-6.8.1-i386-apple-darwin-tiger-optlibs.tar.bz2</a></li>
 </ul>
 
 <p>
@@ -255,7 +255,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 
 <ul>
   <li><a
-    href="dist/6.10.1/maeder/ghc-6.10.1-sparc-sun-solaris2.tar.bz2">ghc-6.10.1-sparc-sun-solaris2.tar.bz2</a></li>
+    href="$downloads_url$/maeder/ghc-6.10.1-sparc-sun-solaris2.tar.bz2">ghc-6.10.1-sparc-sun-solaris2.tar.bz2</a></li>
 </ul>
 
 <p>
@@ -283,7 +283,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 
 <ul>
   <li><a
-    href="dist/6.10.1/maeder/ghc-6.10.1-i386-unknown-solaris2.tar.bz2">ghc-6.10.1-i386-unknown-solaris2.tar.bz2</a></li>
+    href="$downloads_url$/maeder/ghc-6.10.1-i386-unknown-solaris2.tar.bz2">ghc-6.10.1-i386-unknown-solaris2.tar.bz2</a></li>
 </ul>
 
 <p>
@@ -296,9 +296,9 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 <!--
 <p>If just want the files, you have the choice of:</p>
 <ul>
-<li>a .zip bundle: <a href="dist/6.8.3/ghc-6-8-3.zip">ghc-6-8-3.zip</a>(~72 MB)</li>
-<li>a tarball: <a href="dist/6.8.3/ghc-6.8.3-i386-unknown-mingw32.tar.bz2">ghc-6.8.3-i386-unknown-mingw32.tar.bz2</a> (~54 MB)</li>
-<li> a 7-zip bundle <a href="dist/6.8.3/ghc-6-8-3.7z">ghc-6-8-3.7z</a> (~39 MB)</li>
+<li>a .zip bundle: <a href="$downloads_url$/ghc-6-8-3.zip">ghc-6-8-3.zip</a>(~72 MB)</li>
+<li>a tarball: <a href="$downloads_url$/ghc-6.8.3-i386-unknown-mingw32.tar.bz2">ghc-6.8.3-i386-unknown-mingw32.tar.bz2</a> (~54 MB)</li>
+<li> a 7-zip bundle <a href="$downloads_url$/ghc-6-8-3.7z">ghc-6-8-3.7z</a> (~39 MB)</li>
 </ul>
 -->
 
@@ -321,7 +321,7 @@ work under Windows Vista.
     has provided a binary distribution tarball for FreeBSD x86_64.
 </p>
 <ul>
-    <li><a href="dist/6.8.3/kloke/ghc-6.8.3-x86_64-unknown-freebsd.tar.bz2">ghc-6.8.3-x86_64-unknown-freebsd.tar.bz2</a></li>
+    <li><a href="$downloads_url$/kloke/ghc-6.8.3-x86_64-unknown-freebsd.tar.bz2">ghc-6.8.3-x86_64-unknown-freebsd.tar.bz2</a></li>
 </ul>
 -->
 
@@ -333,7 +333,7 @@ work under Windows Vista.
 
 <ul>
 <li><a
-href="dist/6.4.2/ghc-6.4.2-i386-unknown-openbsd.tar.bz2">ghc-6.4.2-i386-unknown-openbsd.tar.bz2</a>
+href="$downloads_url$/ghc-6.4.2-i386-unknown-openbsd.tar.bz2">ghc-6.4.2-i386-unknown-openbsd.tar.bz2</a>
 	(21MB)</li>
       </ul>
 
@@ -350,7 +350,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></p>.
 </p>
 
 <ul>
-    <li><a href="dist/6.10.1/maeder/ghc-6.10.1-powerpc-apple-darwin.tar.bz2">ghc-6.10.1-powerpc-apple-darwin.tar.bz2</a>
+    <li><a href="$downloads_url$/maeder/ghc-6.10.1-powerpc-apple-darwin.tar.bz2">ghc-6.10.1-powerpc-apple-darwin.tar.bz2</a>
     </li>
 </ul>
 
@@ -363,7 +363,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></p>.
 </p>
 
 <ul>
-    <li><a href="dist/6.10.1/witten/ghc-6.10.1-powerpc-apple-darwin.tar.bz2">ghc-6.10.1-powerpc-apple-darwin.tar.bz2</a>
+    <li><a href="$downloads_url$/witten/ghc-6.10.1-powerpc-apple-darwin.tar.bz2">ghc-6.10.1-powerpc-apple-darwin.tar.bz2</a>
     </li>
 </ul>
 
@@ -374,7 +374,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></p>.
 
 <!--
 <ul>
-    <li><a href="dist/6.8.1/scsibug/ghc-6.8.1-powerpc-apple-darwin.tar.bz2">ghc-6.8.1-powerpc-apple-darwin.tar.bz2</a>
+    <li><a href="$downloads_url$/scsibug/ghc-6.8.1-powerpc-apple-darwin.tar.bz2">ghc-6.8.1-powerpc-apple-darwin.tar.bz2</a>
     </li>
 </ul>
 
@@ -390,7 +390,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></p>.
 <h3><a name="powerpcaix"></a>AIX 5.1L (PowerPC)</h3>
 
 <ul>
-  <li><a href="dist/6.8.3/tang/ghc-6.8.3-powerpc-ibm-aix.tar.bz2">ghc-6.8.3-powerpc-ibm-aix.tar.bz2</a></li>
+  <li><a href="$downloads_url$/tang/ghc-6.8.3-powerpc-ibm-aix.tar.bz2">ghc-6.8.3-powerpc-ibm-aix.tar.bz2</a></li>
 </ul>
 
 <p>
@@ -406,7 +406,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></p>.
 
 <ul>
   <li><a
-  href="dist/6.4.2/ghc-6.4.2-mips64-sgi-irix.tar.bz2">ghc-6.4.2-mips64-sgi-irix.tar.bz2</a></li>
+  href="$downloads_url$/ghc-6.4.2-mips64-sgi-irix.tar.bz2">ghc-6.4.2-mips64-sgi-irix.tar.bz2</a></li>
 </ul>
 
 <p>This is an unregisterised build, with profiling libs, but no
@@ -430,7 +430,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a>.
 
 <ul>
   <li><a
-  href="dist/6.4.2/ghc-6.4.2-ia64-unknown-linux.tar.bz2">ghc-6.4.2-ia64-unknown-linux.tar.bz2</a></li>
+  href="$downloads_url$/ghc-6.4.2-ia64-unknown-linux.tar.bz2">ghc-6.4.2-ia64-unknown-linux.tar.bz2</a></li>
 </ul>
 
 <p>This is a full build, with profiling libs and GHCi, but no docs.  The
@@ -447,13 +447,13 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a>.</p>
 
 <ul>
   <li>
-    <a href="dist/6.10.1/ghc-6.10.1-src.tar.bz2">ghc-6.10.1-src.tar.bz2</a>
+    <a href="$downloads_url$/ghc-6.10.1-src.tar.bz2">ghc-6.10.1-src.tar.bz2</a>
     (9.1 MB). This provides the compiler and a minimal set of libraries.
     For more information on building, see the
     <a href="http://hackage.haskell.org/trac/ghc/wiki/Building">building guide</a>.
   </li>
   <li>
-    <a href="dist/6.10.1/ghc-6.10.1-src-extralibs.tar.bz2">ghc-6.10.1-src-extralibs.tar.bz2</a>
+    <a href="$downloads_url$/ghc-6.10.1-src-extralibs.tar.bz2">ghc-6.10.1-src-extralibs.tar.bz2</a>
     (0.5 MB). If you unpack this tarball on top of the above then you
     will get a number of extra libraries. However, the build will take
     significantly longer. Alternatively these, and many others, can be
@@ -462,7 +462,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a>.</p>
   </li>
   <li>
     <a
-    href="dist/6.10.1/testsuite-6.10.1.tar.bz2">testsuite-6.10.1.tar.bz2</a>
+    href="$downloads_url$/testsuite-6.10.1.tar.bz2">testsuite-6.10.1.tar.bz2</a>
     (2.3MB). If you unpack this tarball on top of the above then you
     will be able to run the testsuite.
   </li>

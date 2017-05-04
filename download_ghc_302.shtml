@@ -22,7 +22,7 @@ Use it instead of 4.04 if you need profiling, or have a machine that isn't suppo
 <h3><font face="Arial">Distributions</font></h3>
 
 <ul>
-  <li><a HREF="dist/3.02/ghc-3.02-src.tar.gz">Source
+  <li><a href="$downloads_url$/ghc-3.02-src.tar.gz">Source
     Distribution</a></li>
   <li><a HREF="ftp://greyarea.is.tsukuba.ac.jp/pub/jibunmaki/i386/ghc-3.02-1.i386.rpm">RPM
     package for Linux (glibc)</a>, courtesy of Manuel Chakravarty</li>
@@ -39,7 +39,7 @@ Use it instead of 4.04 if you need profiling, or have a machine that isn't suppo
     <tr>
       <td>sparc-sun-solaris2</td>
       <td align="center"><a
-      HREF="dist/3.02/ghc-3.02-sparc-sun-solaris2.tar.gz"><img
+      href="$downloads_url$/ghc-3.02-sparc-sun-solaris2.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><img SRC="a41.gif" ALT="X" BORDER="0" HEIGHT="20" WIDTH="20"></td>
       <td align="center"><img SRC="a41.gif" ALT="X" BORDER="0" HEIGHT="20" WIDTH="20"></td>
@@ -47,28 +47,28 @@ Use it instead of 4.04 if you need profiling, or have a machine that isn't suppo
     <tr>
       <td>i386-unknown-freebsd2</td>
       <td align="center"><a
-      HREF="dist/3.02/ghc-3.02-i386-unknown-freebsd.tar.gz"><img
+      href="$downloads_url$/ghc-3.02-i386-unknown-freebsd.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/3.02/ghc-3.02-prof-i386-unknown-freebsd.tar.gz"><img
+      href="$downloads_url$/ghc-3.02-prof-i386-unknown-freebsd.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/3.02/ghc-3.02-conc-i386-unknown-freebsd.tar.gz"><img
+      href="$downloads_url$/ghc-3.02-conc-i386-unknown-freebsd.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
     </tr>
     <tr>
       <td>i386-unknown-freebsd3</td>
-      <td align="center"><a HREF="dist/3.02/ghc-3.02-i386-unknown-freebsd3.tar.gz"><img
+      <td align="center"><a href="$downloads_url$/ghc-3.02-i386-unknown-freebsd3.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
-      <td align="center"><a href="dist/3.02/ghc-3.02-prof-i386-unknown-freebsd3.tar.gz"><img
+      <td align="center"><a href="$downloads_url$/ghc-3.02-prof-i386-unknown-freebsd3.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
-      <td align="center"><a href="dist/3.02/ghc-3.02-conc-i386-unknown-freebsd3.tar.gz"><img
+      <td align="center"><a href="$downloads_url$/ghc-3.02-conc-i386-unknown-freebsd3.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
     </tr>
     <tr>
       <td>i386-unknown-linux (glibc)</td>
       <td align="center"><a
-      HREF="dist/3.02/ghc-3.02-i386-unknown-linuxglibc.tar.gz"><img
+      href="$downloads_url$/ghc-3.02-i386-unknown-linuxglibc.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><img SRC="a41.gif" ALT="X" BORDER="0" HEIGHT="20" WIDTH="20"></td>
       <td align="center"><img SRC="a41.gif" ALT="X" BORDER="0" HEIGHT="20" WIDTH="20"></td>
@@ -76,10 +76,10 @@ Use it instead of 4.04 if you need profiling, or have a machine that isn't suppo
     <tr>
       <td>i386-unknown-linux (libc5)</td>
       <td align="center"><a
-      HREF="dist/3.02/ghc-3.02-i386-unknown-linux.tar.gz"><img
+      href="$downloads_url$/ghc-3.02-i386-unknown-linux.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/3.02/ghc-3.02-prof-i386-unknown-linux.tar.gz"><img
+      href="$downloads_url$/ghc-3.02-prof-i386-unknown-linux.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><img SRC="a41.gif" ALT="X" BORDER="0" HEIGHT="20" WIDTH="20"></td>
     </tr>

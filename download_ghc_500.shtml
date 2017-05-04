@@ -1,6 +1,6 @@
 ---
-title: GHC 5.00.2 - Download
-date: 15 June 2001
+version: 5.00.2
+date: 18 June 2001
 ---
 
 <h2><a name="5.00.2">Version 5.00.2 
@@ -53,39 +53,39 @@ Notes:
   <h4>5.00.2:</h4>
   <li>
     Source: <a
-    HREF="dist/5.00.2/ghc-5.00.2-src.tar.bz2">.tar.bz2</a> (3.6 M).
+    href="$downloads_url$/ghc-5.00.2-src.tar.bz2">.tar.bz2</a> (3.6 M).
   </li>
   <li>
     Intel Linux/glibc 2.1 (including profiling libraries): <a
-    HREF="dist/5.00.2/ghc-5.00.2-i386-unknown-linux.tar.bz2">.tar.bz2</a>
+    href="$downloads_url$/ghc-5.00.2-i386-unknown-linux.tar.bz2">.tar.bz2</a>
     (13.3 M). (This build was done on a RedHat 6.2 box.)
   </li>
   <li>
     RPMs for RedHat 7.X (i386, glibc 2.2) from <a
     HREF="mailto:chak@cse.unsw.edu.au">Manuel Chakravarty</a>: <a
-    HREF="dist/5.00.2/ghc-5.00.2-rh70-1.i386.rpm">base RPM</a> (11.7
+    href="$downloads_url$/ghc-5.00.2-rh70-1.i386.rpm">base RPM</a> (11.7
     M), <a
-    HREF="dist/5.00.2/ghc-prof-5.00.2-rh70-1.i386.rpm">profiling
+    href="$downloads_url$/ghc-prof-5.00.2-rh70-1.i386.rpm">profiling
     libraries RPM</a> (5.9 M), <a
-    HREF="dist/5.00.2/ghc-5.00.2-rh70-1.src.rpm">source RPM</a> (4.1
+    href="$downloads_url$/ghc-5.00.2-rh70-1.src.rpm">source RPM</a> (4.1
     M).
   </li>
   <li>
     RPMs for RedHat 6.2 (i386, glibc 2.1.3) from Tom Moertel: <a
-    HREF="dist/5.00.2/ghc-5.00.2-rh62-1.i386.rpm">base RPM</a> (12.6
+    href="$downloads_url$/ghc-5.00.2-rh62-1.i386.rpm">base RPM</a> (12.6
     M), <a
-    HREF="dist/5.00.2/ghc-prof-5.00.2-rh62-1.i386.rpm">profiling
+    href="$downloads_url$/ghc-prof-5.00.2-rh62-1.i386.rpm">profiling
     libraries RPM</a> (5.9 M).
   </li>
   <li>
     x86 HC files: <a
-    href="dist/5.00.2/ghc-5.00.2-i386-hc.tar.bz2">.tar.bz2</a> (4.8
+    href="$downloads_url$/ghc-5.00.2-i386-hc.tar.bz2">.tar.bz2</a> (4.8
     M).
   </li>
   <li>
     Binary tar for SPARC Solaris 2.7 (including profiling libraries):
     <a
-    HREF="dist/5.00.2/ghc-5.00.2-sparc-sun-solaris2.tar.bz2">.tar.bz2</a>
+    href="$downloads_url$/ghc-5.00.2-sparc-sun-solaris2.tar.bz2">.tar.bz2</a>
     (18.8 M).
   </li>
   <li>
@@ -93,14 +93,14 @@ Notes:
     Alpha DEC OSF/3</a> (including modified sources and Happy).
   <li>
     x86 FreeBSD binary package (built on FreeBSD 4.3-STABLE): <a
-    href="dist/5.00.2/ghc-5.00.2.tgz">.tar.gz</a> (16.4Mb). (Can be
+    href="$downloads_url$/ghc-5.00.2.tgz">.tar.gz</a> (16.4Mb). (Can be
     used directly with <tt>pkg_add</tt>.)
   </li>
   <li>
     Mac OS X: binary package: <a
-    href="dist/5.00.2/ghc-5.00.2-powerpc-apple-macosx.tar.gz">.tar.gz</a>
+    href="$downloads_url$/ghc-5.00.2-powerpc-apple-macosx.tar.gz">.tar.gz</a>
     (28.8 M). Source patches: <a
-    href="dist/5.00.2/ghc-5.00.2-powerpc-apple-macosx.patch.gz">.patch.gz</a>
+    href="$downloads_url$/ghc-5.00.2-powerpc-apple-macosx.patch.gz">.patch.gz</a>
     (4 K).
   </li>
 </ul>
@@ -111,12 +111,12 @@ Notes:
 
   <li>
     RPMs for SuSE 7.1 (i386) from <a HREF="mailto:ralf@cs.uu.nl">Ralf
-    Hinze</a>. <a HREF="dist/5.00.1/ghc-5.00.1-suse71-1.i386.rpm">base
+    Hinze</a>. <a href="$downloads_url$/ghc-5.00.1-suse71-1.i386.rpm">base
     RPM</a> (12.4
     M) and <a
-       HREF="dist/5.00.1/ghc-prof-5.00.1-suse71-1.i386.rpm">profiling
+       href="$downloads_url$/ghc-prof-5.00.1-suse71-1.i386.rpm">profiling
        libraries RPM</a> (5.9 M), <a
-       HREF="dist/5.00.1/ghc-5.00.1-suse71-1.src.rpm">source RPM</a>
+       href="$downloads_url$/ghc-5.00.1-suse71-1.src.rpm">source RPM</a>
     (3.7 M) they were built from.
   </li>
 

@@ -76,7 +76,7 @@ build 3.02 and contribute binaries back to us :-)</font> </p>
       HREF="ftp://www.dcs.gla.ac.uk/pub/haskell/glasgow/2.10/ghc-2.10-sparc-sun-solaris2.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="ftp://www.dcs.gla.ac.uk/pub/haskell/glasgow/2.10/ghc-2.10-prof-sparc-sun-solaris2.tar.gz"><img
+      HREF="$downloads_url$/ghc-2.10-prof-sparc-sun-solaris2.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
       HREF="ftp://www.dcs.gla.ac.uk/pub/haskell/glasgow/2.10/ghc-2.10-conc-sparc-sun-solaris2.tar.gz"><img

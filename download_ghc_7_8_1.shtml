@@ -130,8 +130,8 @@ date: 9 April 2014
         <code>libgmp.so.3</code> (typically GMP 4.x).
       </p>
       <ul>
-        <li><a href="dist/7.8.1/ghc-7.8.1-i386-unknown-linux-centos65.tar.bz2">ghc-7.8.1-i386-unknown-linux-centos65.tar.bz2</a> (119 MB)</li>
-        <li><a href="dist/7.8.1/ghc-7.8.1-i386-unknown-linux-centos65.tar.xz">ghc-7.8.1-i386-unknown-linux-centos65.tar.xz</a> (66 MB)</li>
+        <li><a href="$downloads_url$/ghc-7.8.1-i386-unknown-linux-centos65.tar.bz2">ghc-7.8.1-i386-unknown-linux-centos65.tar.bz2</a> (119 MB)</li>
+        <li><a href="$downloads_url$/ghc-7.8.1-i386-unknown-linux-centos65.tar.xz">ghc-7.8.1-i386-unknown-linux-centos65.tar.xz</a> (66 MB)</li>
       </ul>
     </li>
     <li>
@@ -142,8 +142,8 @@ date: 9 April 2014
         <code>libgmp.so.10</code> (typically GMP 5.x).
       </p>
       <ul>
-        <li><a href="dist/7.8.1/ghc-7.8.1-i386-unknown-linux-deb7.tar.bz2">ghc-7.8.1-i386-unknown-linux-deb7.tar.bz2</a> (121 MB)</li>
-        <li><a href="dist/7.8.1/ghc-7.8.1-i386-unknown-linux-deb7.tar.xz">ghc-7.8.1-i386-unknown-linux-deb7.tar.xz</a> (69 MB)</li>
+        <li><a href="$downloads_url$/ghc-7.8.1-i386-unknown-linux-deb7.tar.bz2">ghc-7.8.1-i386-unknown-linux-deb7.tar.bz2</a> (121 MB)</li>
+        <li><a href="$downloads_url$/ghc-7.8.1-i386-unknown-linux-deb7.tar.xz">ghc-7.8.1-i386-unknown-linux-deb7.tar.xz</a> (69 MB)</li>
       </ul>
     </li>
   </ul>
@@ -166,8 +166,8 @@ date: 9 April 2014
       made on a CentOS 6.5 system and requires
       <code>libgmp.so.3</code> (typically GMP 4.x).
       <ul>
-        <li><a href="dist/7.8.1/ghc-7.8.1-x86_64-unknown-linux-centos65.tar.bz2">ghc-7.8.1-x86_64-unknown-linux-centos65.tar.bz2</a> (112 MB)</li>
-        <li><a href="dist/7.8.1/ghc-7.8.1-x86_64-unknown-linux-centos65.tar.xz">ghc-7.8.1-x86_64-unknown-linux-centos65.tar.xz</a> (62 MB)</li>
+        <li><a href="$downloads_url$/ghc-7.8.1-x86_64-unknown-linux-centos65.tar.bz2">ghc-7.8.1-x86_64-unknown-linux-centos65.tar.bz2</a> (112 MB)</li>
+        <li><a href="$downloads_url$/ghc-7.8.1-x86_64-unknown-linux-centos65.tar.xz">ghc-7.8.1-x86_64-unknown-linux-centos65.tar.xz</a> (62 MB)</li>
       </ul>
     </li>
     <li>
@@ -176,8 +176,8 @@ date: 9 April 2014
       made on a Debian 7 "wheezey" system and requires
       <code>libgmp.so.10</code> (typically GMP 5.x).
       <ul>
-        <li><a href="dist/7.8.1/ghc-7.8.1-x86_64-unknown-linux-deb7.tar.bz2">ghc-7.8.1-x86_64-unknown-linux-deb7.tar.bz2</a> (119 MB)</li>
-        <li><a href="dist/7.8.1/ghc-7.8.1-x86_64-unknown-linux-deb7.tar.xz">ghc-7.8.1-x86_64-unknown-linux-deb7.tar.xz</a> (69 MB)</li>
+        <li><a href="$downloads_url$/ghc-7.8.1-x86_64-unknown-linux-deb7.tar.bz2">ghc-7.8.1-x86_64-unknown-linux-deb7.tar.bz2</a> (119 MB)</li>
+        <li><a href="$downloads_url$/ghc-7.8.1-x86_64-unknown-linux-deb7.tar.xz">ghc-7.8.1-x86_64-unknown-linux-deb7.tar.xz</a> (69 MB)</li>
       </ul>
     </li>
   </ul>
@@ -194,8 +194,8 @@ date: 9 April 2014
   <h3><a name="windows"></a>Windows (x86)</h3>
 
   <ul>
-    <li><a href="dist/7.8.1/ghc-7.8.1-i386-unknown-mingw32.tar.bz2">ghc-7.8.1-i386-unknown-mingw32.tar.bz2</a> (138 MB)</li>
-    <li><a href="dist/7.8.1/ghc-7.8.1-i386-unknown-mingw32.tar.xz">ghc-7.8.1-i386-unknown-mingw32.tar.xz</a> (74 MB)</li>
+    <li><a href="$downloads_url$/ghc-7.8.1-i386-unknown-mingw32.tar.bz2">ghc-7.8.1-i386-unknown-mingw32.tar.bz2</a> (138 MB)</li>
+    <li><a href="$downloads_url$/ghc-7.8.1-i386-unknown-mingw32.tar.xz">ghc-7.8.1-i386-unknown-mingw32.tar.xz</a> (74 MB)</li>
   </ul>
 
   <p>
@@ -207,8 +207,8 @@ date: 9 April 2014
   <h3><a name="windows64"></a>Windows 64bit (x86_64)</h3>
 
   <ul>
-    <li><a href="dist/7.8.1/ghc-7.8.1-x86_64-unknown-mingw32.tar.bz2">ghc-7.8.1-x86_64-unknown-mingw32.tar.bz2</a> (194 MB)</li>
-    <li><a href="dist/7.8.1/ghc-7.8.1-x86_64-unknown-mingw32.tar.xz">ghc-7.8.1-x86_64-unknown-mingw32.tar.xz</a> (93 MB)</li>
+    <li><a href="$downloads_url$/ghc-7.8.1-x86_64-unknown-mingw32.tar.bz2">ghc-7.8.1-x86_64-unknown-mingw32.tar.bz2</a> (194 MB)</li>
+    <li><a href="$downloads_url$/ghc-7.8.1-x86_64-unknown-mingw32.tar.xz">ghc-7.8.1-x86_64-unknown-mingw32.tar.xz</a> (93 MB)</li>
   </ul>
 
   <p>
@@ -219,8 +219,8 @@ date: 9 April 2014
   <h3><a name="macosx_x86_64"></a>MacOS X (x86_64)</h3>
 
   <ul>
-    <li><a href="dist/7.8.1/ghc-7.8.1-x86_64-apple-darwin-mavericks.tar.bz2">ghc-7.8.1-x86_64-apple-darwin-mavericks.tar.bz2</a> (128 MB)</li>
-    <li><a href="dist/7.8.1/ghc-7.8.1-x86_64-apple-darwin-mavericks.tar.xz">ghc-7.8.1-x86_64-apple-darwin-mavericks.tar.xz</a> (67 MB)</li>
+    <li><a href="$downloads_url$/ghc-7.8.1-x86_64-apple-darwin-mavericks.tar.bz2">ghc-7.8.1-x86_64-apple-darwin-mavericks.tar.bz2</a> (128 MB)</li>
+    <li><a href="$downloads_url$/ghc-7.8.1-x86_64-apple-darwin-mavericks.tar.xz">ghc-7.8.1-x86_64-apple-darwin-mavericks.tar.xz</a> (67 MB)</li>
   </ul>
 
   <p>
@@ -242,13 +242,13 @@ date: 9 April 2014
   </p>
 
   <ul>
-    <li><a href="dist/7.8.1/ghc-7.8.1-i386-portbld-freebsd.tar.bz2">ghc-7.8.1-i386-portbld-freebsd.tar.bz2</a> (120 MB)</li>
-    <li><a href="dist/7.8.1/ghc-7.8.1-i386-portbld-freebsd.tar.xz">ghc-7.8.1-i386-portbld-freebsd.tar.xz</a> (68 MB)</li>
+    <li><a href="$downloads_url$/ghc-7.8.1-i386-portbld-freebsd.tar.bz2">ghc-7.8.1-i386-portbld-freebsd.tar.bz2</a> (120 MB)</li>
+    <li><a href="$downloads_url$/ghc-7.8.1-i386-portbld-freebsd.tar.xz">ghc-7.8.1-i386-portbld-freebsd.tar.xz</a> (68 MB)</li>
   </ul>
 
   <p>
     Note: These are not the same as the lang/ghc port. See the
-    <a href="dist/7.8.1/README.fbsd.html">README</a> for more information.
+    <a href="$downloads_url$/README.fbsd.html">README</a> for more information.
   </p>
 
   <hr />
@@ -261,13 +261,13 @@ date: 9 April 2014
     libraries and documentation.
   </p>
   <ul>
-    <li><a href="dist/7.8.1/ghc-7.8.1-x86_64-portbld-freebsd.tar.bz2">ghc-7.8.1-x86_64-portbld-freebsd.tar.bz2</a> (118 MB)</li>
-    <li><a href="dist/7.8.1/ghc-7.8.1-x86_64-portbld-freebsd.tar.xz">ghc-7.8.1-x86_64-portbld-freebsd.tar.xz</a> (67 MB)</li>
+    <li><a href="$downloads_url$/ghc-7.8.1-x86_64-portbld-freebsd.tar.bz2">ghc-7.8.1-x86_64-portbld-freebsd.tar.bz2</a> (118 MB)</li>
+    <li><a href="$downloads_url$/ghc-7.8.1-x86_64-portbld-freebsd.tar.xz">ghc-7.8.1-x86_64-portbld-freebsd.tar.xz</a> (67 MB)</li>
   </ul>
 
   <p>
     Note: These are not the same as the lang/ghc port. See the
-    <a href="dist/7.8.1/README.fbsd.html">README</a> for more
+    <a href="$downloads_url$/README.fbsd.html">README</a> for more
     information.
   </p>
 
@@ -285,7 +285,7 @@ date: 9 April 2014
 
       <ul>
         <li><a
-              href="dist/6.12.1/benl/ghc-6.12.1-sparc-sun-solaris2-fixed.tar.bz2">ghc-6.12.1-sparc-sun-solaris2-fixed.tar.bz2</a></li>
+              href="$downloads_url$/benl/ghc-6.12.1-sparc-sun-solaris2-fixed.tar.bz2">ghc-6.12.1-sparc-sun-solaris2-fixed.tar.bz2</a></li>
       </ul>
 
   <p>
@@ -320,7 +320,7 @@ date: 9 April 2014
 
     <ul>
       <li><a
-            href="dist/7.0.4/maeder/ghc-7.0.4-i386-unknown-solaris2.tar.bz2">ghc-7.0.4-i386-unknown-solaris2.tar.bz2</a></li>
+            href="$downloads_url$/maeder/ghc-7.0.4-i386-unknown-solaris2.tar.bz2">ghc-7.0.4-i386-unknown-solaris2.tar.bz2</a></li>
     </ul>
 
   <p>
@@ -338,9 +338,9 @@ date: 9 April 2014
   <!--
       <p>If just want the files, you have the choice of:</p>
       <ul>
-        <li>a .zip bundle: <a href="dist/6.8.3/ghc-6-8-3.zip">ghc-6-8-3.zip</a>(~72 MB)</li>
-        <li>a tarball: <a href="dist/6.8.3/ghc-6.8.3-i386-unknown-mingw32.tar.bz2">ghc-6.8.3-i386-unknown-mingw32.tar.bz2</a> (~54 MB)</li>
-        <li> a 7-zip bundle <a href="dist/6.8.3/ghc-6-8-3.7z">ghc-6-8-3.7z</a> (~39 MB)</li>
+        <li>a .zip bundle: <a href="$downloads_url$/ghc-6-8-3.zip">ghc-6-8-3.zip</a>(~72 MB)</li>
+        <li>a tarball: <a href="$downloads_url$/ghc-6.8.3-i386-unknown-mingw32.tar.bz2">ghc-6.8.3-i386-unknown-mingw32.tar.bz2</a> (~54 MB)</li>
+        <li> a 7-zip bundle <a href="$downloads_url$/ghc-6-8-3.7z">ghc-6-8-3.7z</a> (~39 MB)</li>
       </ul>
 
       <hr />
@@ -349,14 +349,14 @@ date: 9 April 2014
   <p>
 
     <ul>
-      <li><a href="dist/7.0.1/lee/OPTSFWghc-7.0.1.i386.pkg.gz">OPTSFWghc-7.0.1.i386.pkg.gz</a></li>
+      <li><a href="$downloads_url$/lee/OPTSFWghc-7.0.1.i386.pkg.gz">OPTSFWghc-7.0.1.i386.pkg.gz</a></li>
     </ul>
 
   <p>
     This is a binary distribution for OpenSolaris snv_134,
     prepared by <a href="mailto:mlexan@gmail.com">Michael Lee</a>.
     There is also a
-    <a href="dist/7.0.1/lee/OPTSFWcabal-install-0.8.2.i386.pkg.gz">cabal install</a>
+    <a href="$downloads_url$/lee/OPTSFWcabal-install-0.8.2.i386.pkg.gz">cabal install</a>
     package.
   </p>
 
@@ -377,7 +377,7 @@ date: 9 April 2014
 
   <ul>
     <li><a
-          href="dist/6.4.2/ghc-6.4.2-i386-unknown-openbsd.tar.bz2">ghc-6.4.2-i386-unknown-openbsd.tar.bz2</a>
+          href="$downloads_url$/ghc-6.4.2-i386-unknown-openbsd.tar.bz2">ghc-6.4.2-i386-unknown-openbsd.tar.bz2</a>
       (21MB)</li>
   </ul>
 
@@ -393,7 +393,7 @@ date: 9 April 2014
   </p>
 
   <ul>
-    <li><a href="dist/7.0.4/krabby/GHC-7.0.4-powerpc.pkg">GHC-7.0.4-powerpc.pkg</a>
+    <li><a href="$downloads_url$/krabby/GHC-7.0.4-powerpc.pkg">GHC-7.0.4-powerpc.pkg</a>
     </li>
   </ul>
 
@@ -403,7 +403,7 @@ date: 9 April 2014
   </p>
 
   <ul>
-    <li><a href="dist/6.8.1/scsibug/ghc-6.8.1-powerpc-apple-darwin.tar.bz2">ghc-6.8.1-powerpc-apple-darwin.tar.bz2</a>
+    <li><a href="$downloads_url$/scsibug/ghc-6.8.1-powerpc-apple-darwin.tar.bz2">ghc-6.8.1-powerpc-apple-darwin.tar.bz2</a>
     </li>
   </ul>
 
@@ -419,7 +419,7 @@ date: 9 April 2014
       <h3><a name="powerpcaix"></a>AIX 5.1L (PowerPC)</h3>
 
       <ul>
-        <li><a href="dist/6.8.3/tang/ghc-6.8.3-powerpc-ibm-aix.tar.bz2">ghc-6.8.3-powerpc-ibm-aix.tar.bz2</a></li>
+        <li><a href="$downloads_url$/tang/ghc-6.8.3-powerpc-ibm-aix.tar.bz2">ghc-6.8.3-powerpc-ibm-aix.tar.bz2</a></li>
       </ul>
 
   <p>
@@ -435,7 +435,7 @@ date: 9 April 2014
 
       <ul>
         <li><a
-              href="dist/6.4.2/ghc-6.4.2-mips64-sgi-irix.tar.bz2">ghc-6.4.2-mips64-sgi-irix.tar.bz2</a></li>
+              href="$downloads_url$/ghc-6.4.2-mips64-sgi-irix.tar.bz2">ghc-6.4.2-mips64-sgi-irix.tar.bz2</a></li>
       </ul>
 
   <p>This is an unregisterised build, with profiling libs, but no
@@ -459,7 +459,7 @@ date: 9 April 2014
 
       <ul>
         <li><a
-              href="dist/6.4.2/ghc-6.4.2-ia64-unknown-linux.tar.bz2">ghc-6.4.2-ia64-unknown-linux.tar.bz2</a></li>
+              href="$downloads_url$/ghc-6.4.2-ia64-unknown-linux.tar.bz2">ghc-6.4.2-ia64-unknown-linux.tar.bz2</a></li>
       </ul>
 
   <p>This is a full build, with profiling libs and GHCi, but no docs.  The
@@ -476,24 +476,24 @@ date: 9 April 2014
 
     <ul>
       <li>
-        <a href="dist/7.8.1/ghc-7.8.1-src.tar.bz2">ghc-7.8.1-src.tar.bz2</a>
+        <a href="$downloads_url$/ghc-7.8.1-src.tar.bz2">ghc-7.8.1-src.tar.bz2</a>
         (10 MB)
-        or <a href="dist/7.8.1/ghc-7.8.1-src.tar.xz">ghc-7.8.1-src.tar.xz</a>
+        or <a href="$downloads_url$/ghc-7.8.1-src.tar.xz">ghc-7.8.1-src.tar.xz</a>
         (8.7 MB). This provides the compiler and a minimal set of libraries.  For
         more information on building, see the
         <a href="http://hackage.haskell.org/trac/ghc/wiki/Building">building guide</a>.
       </li>
       <li>
-        <a href="dist/7.8.1/ghc-7.8.1-testsuite.tar.bz2">ghc-7.8.1-testsuite.tar.bz2</a>
+        <a href="$downloads_url$/ghc-7.8.1-testsuite.tar.bz2">ghc-7.8.1-testsuite.tar.bz2</a>
         (1.5 MB)
-        or <a href="dist/7.8.1/ghc-7.8.1-testsuite.tar.xz">ghc-7.8.1-testsuite.tar.xz</a>
+        or <a href="$downloads_url$/ghc-7.8.1-testsuite.tar.xz">ghc-7.8.1-testsuite.tar.xz</a>
         (1.3 MB). If you unpack this tarball on top of the above then you
         will be able to run the testsuite.
       </li>
       <li>
-        <a href="dist/7.8.1/ghc-7.8.1-windows-extra-src.tar.bz2">ghc-7.8.1-windows-extra-src.tar.bz2</a>
+        <a href="$downloads_url$/ghc-7.8.1-windows-extra-src.tar.bz2">ghc-7.8.1-windows-extra-src.tar.bz2</a>
         (96 MB)
-        or <a href="dist/7.8.1/ghc-7.8.1-windows-extra-src.tar.xz">ghc-7.8.1-windows-extra-src.tar.xz</a>
+        or <a href="$downloads_url$/ghc-7.8.1-windows-extra-src.tar.xz">ghc-7.8.1-windows-extra-src.tar.xz</a>
         (96 MB). This provides extra build tools which are a requirement
         for building on Windows. Simply unpack this tarball on top of the
         regular source distribution.

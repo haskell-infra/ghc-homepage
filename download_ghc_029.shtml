@@ -18,9 +18,9 @@ binary release.</font> </p>
 <h3><font face="Arial">Distributions</font></h3>
 
 <ul>
-  <li><a HREF="dist/0.29/ghc-0.29-src.tar.gz">Source
+  <li><a href="$downloads_url$/ghc-0.29-src.tar.gz">Source
     Distribution</a></li>
-  <li><a HREF="dist/0.29/ghc-0.29-hc-files.tar.gz">HC
+  <li><a href="$downloads_url$/ghc-0.29-hc-files.tar.gz">HC
     Files</a></li>
   <li>Binary Distributions</li>
   <table BORDER="1" CELLSPACING="10" CELLPADDING="0">
@@ -35,67 +35,67 @@ binary release.</font> </p>
     <tr>
       <td>sparc-sun-sunos4</td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-sparc-sun-sunos4.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-sparc-sun-sunos4.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-prof-sparc-sun-sunos4.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-prof-sparc-sun-sunos4.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-conc-sparc-sun-sunos4.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-conc-sparc-sun-sunos4.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-par-sparc-sun-sunos4.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-par-sparc-sun-sunos4.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-gran-sparc-sun-sunos4.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-gran-sparc-sun-sunos4.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
     </tr>
     <tr>
       <td>sparc-sun-solaris2</td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-sparc-sun-solaris2.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-sparc-sun-solaris2.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-prof-sparc-sun-solaris2.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-prof-sparc-sun-solaris2.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-conc-sparc-sun-solaris2.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-conc-sparc-sun-solaris2.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-par-sparc-sun-solaris2.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-par-sparc-sun-solaris2.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-gran-sparc-sun-solaris2.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-gran-sparc-sun-solaris2.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
     </tr>
     <tr>
       <td>alpha-dec-osf</td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-alpha-dec-osf1.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-alpha-dec-osf1.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-prof-alpha-dec-osf1.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-prof-alpha-dec-osf1.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-conc-alpha-dec-osf1.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-conc-alpha-dec-osf1.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-par-alpha-dec-osf1.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-par-alpha-dec-osf1.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-gran-alpha-dec-osf1.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-gran-alpha-dec-osf1.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
     </tr>
     <tr>
       <td>i386-unknown-linux</td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-i386-unknown-linux.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-i386-unknown-linux.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-prof-i386-unknown-linux.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-prof-i386-unknown-linux.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-conc-i386-unknown-linux.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-conc-i386-unknown-linux.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><img SRC="a41.gif" ALT="X" BORDER="0" HEIGHT="20" WIDTH="20"></td>
       <td align="center"><img SRC="a41.gif" ALT="X" BORDER="0" HEIGHT="20" WIDTH="20"></td>
@@ -103,11 +103,11 @@ binary release.</font> </p>
     <tr>
       <td>i386-unknown-solaris2</td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-i386-unknown-solaris2.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-i386-unknown-solaris2.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><img SRC="a41.gif" ALT="X" BORDER="0" HEIGHT="20" WIDTH="20"></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-conc-i386-unknown-solaris2.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-conc-i386-unknown-solaris2.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><img SRC="a41.gif" ALT="X" BORDER="0" HEIGHT="20" WIDTH="20"></td>
       <td align="center"><img SRC="a41.gif" ALT="X" BORDER="0" HEIGHT="20" WIDTH="20"></td>
@@ -115,13 +115,13 @@ binary release.</font> </p>
     <tr>
       <td>hppa1.1-hp-hpux</td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-hppa1.1-hp-hpux.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-hppa1.1-hp-hpux.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-prof-0.29-hppa1.1-hp-hpux.tar.gz"><img
+      href="$downloads_url$/ghc-prof-0.29-hppa1.1-hp-hpux.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><a
-      HREF="dist/0.29/ghc-0.29-conc-hppa1.1-hp-hpux.tar.gz"><img
+      href="$downloads_url$/ghc-0.29-conc-hppa1.1-hp-hpux.tar.gz"><img
       SRC="a33.gif" ALT="O" BORDER="0" HEIGHT="20" WIDTH="20"></a></td>
       <td align="center"><img SRC="a41.gif" ALT="X" BORDER="0" HEIGHT="20" WIDTH="20"></td>
       <td align="center"><img SRC="a41.gif" ALT="X" BORDER="0" HEIGHT="20" WIDTH="20"></td>

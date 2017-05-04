@@ -50,7 +50,7 @@ package of 5.04.1 for your system above, there may be a package of
   <ul>
 
   <li>
-    Source: <a HREF="dist/5.04/ghc-5.04-src.tar.bz2">.tar.bz2</a>
+    Source: <a href="$downloads_url$/ghc-5.04-src.tar.bz2">.tar.bz2</a>
     (4.5 Mb).
   </li>
 
@@ -60,10 +60,10 @@ package of 5.04.1 for your system above, there may be a package of
     8.0; for RedHat 7.2 RPMs see below) from 
     <a HREF="mailto:chak@cse.unsw.edu.au">Manuel Chakravarty</a>: 
     <ul>
-     <li><a HREF="dist/5.04/RedHat7.3/ghc-5.04-1.src.rpm">source RPM</a></li>
-     <li><a HREF="dist/5.04/RedHat7.3/ghc-5.04-1.i386.rpm">base RPM</a></li>
-     <li><a HREF="dist/5.04/RedHat7.3/ghc-prof-5.04-1.i386.rpm">profiling libraries RPM</a></li>
-     <li><a href="dist/5.04/RedHat7.3/ghc-doc-5.04-1.i386.rpm">documentation RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.3/ghc-5.04-1.src.rpm">source RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.3/ghc-5.04-1.i386.rpm">base RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.3/ghc-prof-5.04-1.i386.rpm">profiling libraries RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.3/ghc-doc-5.04-1.i386.rpm">documentation RPM</a></li>
      </ul>
   </li>
 
@@ -72,10 +72,10 @@ package of 5.04.1 for your system above, there may be a package of
     RPMs for RedHat Linux/x86 7.2 from 
     <a HREF="mailto:jlewis@galois.com">Jeff Lewis</a>: 
     <ul>
-     <li><a HREF="dist/5.04/RedHat7.2/ghc-5.04-rh72-2.src.rpm">source RPM</a></li>
-     <li><a HREF="dist/5.04/RedHat7.2/ghc-5.04-rh72-2.i386.rpm">base RPM</a></li>
-     <li><a HREF="dist/5.04/RedHat7.2/ghc-prof-5.04-rh72-2.i386.rpm">profiling libraries RPM</a></li>
-     <li><a href="dist/5.04/RedHat7.2/ghc-doc-5.04-rh72-2.i386.rpm">documentation RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.2/ghc-5.04-rh72-2.src.rpm">source RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.2/ghc-5.04-rh72-2.i386.rpm">base RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.2/ghc-prof-5.04-rh72-2.i386.rpm">profiling libraries RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.2/ghc-doc-5.04-rh72-2.i386.rpm">documentation RPM</a></li>
      </ul>
   </li>
 
@@ -84,9 +84,9 @@ package of 5.04.1 for your system above, there may be a package of
     RPMs for SuSE Linux/x86 8.0 from 
     <a HREF="mailto:ralf@informatik.uni-bonn.de">Ralf Hinze</a>:
     <ul>
-    <li><a HREF="dist/5.04/SuSE/ghc-5.04-1.src.rpm">source RPM</a></li>
-    <li><a HREF="dist/5.04/SuSE/ghc-5.04-1.i386.rpm">base and docs RPM</a></li>
-    <li><a HREF="dist/5.04/SuSE/ghc-prof-5.04-1.i386.rpm">profiling
+    <li><a href="$downloads_url$/SuSE/ghc-5.04-1.src.rpm">source RPM</a></li>
+    <li><a href="$downloads_url$/SuSE/ghc-5.04-1.i386.rpm">base and docs RPM</a></li>
+    <li><a href="$downloads_url$/SuSE/ghc-prof-5.04-1.i386.rpm">profiling
     libraries RPM</a></li>
     </ul>
   </li>
@@ -111,7 +111,7 @@ package of 5.04.1 for your system above, there may be a package of
     Binary tar for Linux/x86 with glibc 2.2 (a complete build,
     including interactive system, profiling libraries and
     documentation): <a
-    HREF="dist/5.04/ghc-5.04-i386-unknown-linux.tar.bz2">.tar.bz2</a>
+    href="$downloads_url$/ghc-5.04-i386-unknown-linux.tar.bz2">.tar.bz2</a>
     (15.9 Mb).  This build was done on a RedHat 7.2 box.
 
     <p>NOTE: you need the following libraries to use this
@@ -123,7 +123,7 @@ package of 5.04.1 for your system above, there may be a package of
   <li>
     Binary tar for SPARC Solaris 2.7 (complete build, with profiling
     libraries and docs): <a
-    HREF="dist/5.04/ghc-5.04-sparc-sun-solaris2.tar.bz2">.tar.bz2</a>
+    href="$downloads_url$/ghc-5.04-sparc-sun-solaris2.tar.bz2">.tar.bz2</a>
     (21.7 Mb).
 
     <p>On Solaris, you'll need <tt>libcurses.so.1</tt>, which resolves to
@@ -141,7 +141,7 @@ package of 5.04.1 for your system above, there may be a package of
      Windows Installer for Microsoft Windows 95, 98, ME, NT, 2000 and
      XP, prepared by <a href="http://galois.com/~sof/">Sigbjorn
      Finne</a> (complete build, as above): 
-     <a HREF="dist/5.04/ghc-5-04-1.msi">ghc-5-04-1.msi</a> (~32 Mb).
+     <a href="$downloads_url$/ghc-5-04-1.msi">ghc-5-04-1.msi</a> (~32 Mb).
      <p>
      This installer relies on the Windows Installer runtime to
      operate. If, after having downloaded the above file,
@@ -192,10 +192,10 @@ package of 5.04.1 for your system above, there may be a package of
     href="mailto:dons@cse.unsw.edu.au">Don Stewart:</a>
     <ul>
 
-    <li><a href="dist/5.04/OpenBSD/ghc-5.04.tgz">binary package</a>
+    <li><a href="$downloads_url$/OpenBSD/ghc-5.04.tgz">binary package</a>
     (install with <tt>pkg_add ghc-5.04</tt>),</li>
 
-    <li>the <a href="dist/5.04/OpenBSD/ghc-5.04-port.tgz"> port</a>
+    <li>the <a href="$downloads_url$/OpenBSD/ghc-5.04-port.tgz"> port</a>
     that was used to build it.</li>
 
     </ul>
@@ -209,7 +209,7 @@ package of 5.04.1 for your system above, there may be a package of
 
   <p>
   <li>
-    MacOS X <a href="dist/5.04/GHC.dmg">package</a>, prepared by <a
+    MacOS X <a href="$downloads_url$/GHC.dmg">package</a>, prepared by <a
     href="mailto:wolfgang.thaller@gmx.net">Wolfgang Thaller</a>.
 
     <p>It's a double-clickable disk image containing an Apple

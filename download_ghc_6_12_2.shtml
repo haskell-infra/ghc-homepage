@@ -131,7 +131,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
     interactive system, profiling libraries and documentation.
     </p>
     <ul>
-      <li><a href="dist/6.12.2/ghc-6.12.2-i386-unknown-linux-n.tar.bz2">ghc-6.12.2-i386-unknown-linux-n.tar.bz2</a> (105 MB)</li>
+      <li><a href="$downloads_url$/ghc-6.12.2-i386-unknown-linux-n.tar.bz2">ghc-6.12.2-i386-unknown-linux-n.tar.bz2</a> (105 MB)</li>
     </ul>
   </li>
   <li>
@@ -139,7 +139,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
     to use this bindist. This is a complete build, including
     interactive system, profiling libraries and documentation.
     <ul>
-      <li><a href="dist/6.12.2/ghc-6.12.2-i386-unknown-linux-t.tar.bz2">ghc-6.12.2-i386-unknown-linux-t.tar.bz2</a> (105 MB)</li>
+      <li><a href="$downloads_url$/ghc-6.12.2-i386-unknown-linux-t.tar.bz2">ghc-6.12.2-i386-unknown-linux-t.tar.bz2</a> (105 MB)</li>
     </ul>
   </li>
 </ul>
@@ -160,7 +160,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
     Generic amd64 Linux. This is a complete build, including
     interactive system, profiling libraries and documentation.
     <ul>
-      <li><a href="dist/6.12.2/ghc-6.12.2-x86_64-unknown-linux-n.tar.bz2">ghc-6.12.2-x86_64-unknown-linux-n.tar.bz2</a> (106 MB)</li>
+      <li><a href="$downloads_url$/ghc-6.12.2-x86_64-unknown-linux-n.tar.bz2">ghc-6.12.2-x86_64-unknown-linux-n.tar.bz2</a> (106 MB)</li>
     </ul>
   </li>
   <li>
@@ -168,7 +168,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
     to use this bindist. This is a complete build, including
     interactive system, profiling libraries and documentation.
     <ul>
-      <li><a href="dist/6.12.2/ghc-6.12.2-x86_64-unknown-linux-t.tar.bz2">ghc-6.12.2-x86_64-unknown-linux-t.tar.bz2</a> (105 MB)</li>
+      <li><a href="$downloads_url$/ghc-6.12.2-x86_64-unknown-linux-t.tar.bz2">ghc-6.12.2-x86_64-unknown-linux-t.tar.bz2</a> (105 MB)</li>
     </ul>
   </li>
 </ul>
@@ -186,7 +186,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 
 <ul>
   <li>
-    <a href="dist/6.12.2/ghc-6.12.2-i386-windows.exe">ghc-6.12.2-i386-windows.exe</a> (64 MB); a Windows Installer for GHC 6.12.2.
+    <a href="$downloads_url$/ghc-6.12.2-i386-windows.exe">ghc-6.12.2-i386-windows.exe</a> (64 MB); a Windows Installer for GHC 6.12.2.
   </li>
 </ul>
 
@@ -206,7 +206,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 <h3><a name="macosxintel"></a>MacOS X (Intel)</h3>
 
 <ul>
-    <li><a href="dist/6.12.2/GHC-6.12.2-i386.pkg">GHC-6.12.2-i386.pkg</a> (117 MB)</li>
+    <li><a href="$downloads_url$/GHC-6.12.2-i386.pkg">GHC-6.12.2-i386.pkg</a> (117 MB)</li>
 </ul>
 
 <p>
@@ -220,7 +220,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 
 <!--
 <ul>
-    <li><a href="dist/6.10.4/maeder/ghc-6.10.4-i386-apple-darwin.tar.bz2">ghc-6.10.4-i386-apple-darwin.tar.bz2</a>
+    <li><a href="$downloads_url$/maeder/ghc-6.10.4-i386-apple-darwin.tar.bz2">ghc-6.10.4-i386-apple-darwin.tar.bz2</a>
     </li>
 </ul>
 
@@ -231,7 +231,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 </p>
 
 <ul>
-    <li><a href="dist/6.8.1/scsibug/ghc-6.8.1-i386-apple-darwin.tar.bz2">ghc-6.8.1-i386-apple-darwin.tar.bz2</a>
+    <li><a href="$downloads_url$/scsibug/ghc-6.8.1-i386-apple-darwin.tar.bz2">ghc-6.8.1-i386-apple-darwin.tar.bz2</a>
     </li>
 </ul>
 
@@ -244,7 +244,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 
 <!--
 <ul>
-    <li><a href="dist/6.8.3/maeder/ghc-6.8.3-i386-apple-darwin.tar.bz2">ghc-6.8.3-i386-apple-darwin.tar.bz2</a></li>
+    <li><a href="$downloads_url$/maeder/ghc-6.8.3-i386-apple-darwin.tar.bz2">ghc-6.8.3-i386-apple-darwin.tar.bz2</a></li>
 </ul>
 
 <p>
@@ -260,7 +260,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 
 <!--
 <ul>
-    <li><a href="dist/6.8.1/maeder/ghc-6.8.1-i386-apple-darwin-tiger-optlibs.tar.bz2">ghc-6.8.1-i386-apple-darwin-tiger-optlibs.tar.bz2</a></li>
+    <li><a href="$downloads_url$/maeder/ghc-6.8.1-i386-apple-darwin-tiger-optlibs.tar.bz2">ghc-6.8.1-i386-apple-darwin-tiger-optlibs.tar.bz2</a></li>
 </ul>
 
 <p>
@@ -283,8 +283,8 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 </p>
 
 <ul>
-    <li><a href="dist/6.12.2/ghc-6.12.2-i386-freebsd-8.tar.bz2">ghc-6.12.2-i386-freebsd-8.tar.bz2</a> (103 MB)</li>
-    <li><a href="dist/6.12.2/ghc-6.12.2-i386-freebsd-7.tar.bz2">ghc-6.12.2-i386-freebsd-7.tar.bz2</a> (103 MB)</li>
+    <li><a href="$downloads_url$/ghc-6.12.2-i386-freebsd-8.tar.bz2">ghc-6.12.2-i386-freebsd-8.tar.bz2</a> (103 MB)</li>
+    <li><a href="$downloads_url$/ghc-6.12.2-i386-freebsd-7.tar.bz2">ghc-6.12.2-i386-freebsd-7.tar.bz2</a> (103 MB)</li>
 </ul>
 
 <p>
@@ -313,8 +313,8 @@ math/gmp port will solve this problem.
     libraries and documentation.
 </p>
 <ul>
-    <li><a href="dist/6.12.2/ghc-6.12.2-amd64-freebsd-8.tar.bz2">ghc-6.12.2-amd64-freebsd-8.tar.bz2</a> (85 MB)</li>
-    <li><a href="dist/6.12.2/ghc-6.12.2-amd64-freebsd-7.tar.bz2">ghc-6.12.2-amd64-freebsd-7.tar.bz2</a> (85 MB)</li>
+    <li><a href="$downloads_url$/ghc-6.12.2-amd64-freebsd-8.tar.bz2">ghc-6.12.2-amd64-freebsd-8.tar.bz2</a> (85 MB)</li>
+    <li><a href="$downloads_url$/ghc-6.12.2-amd64-freebsd-7.tar.bz2">ghc-6.12.2-amd64-freebsd-7.tar.bz2</a> (85 MB)</li>
 </ul>
 
 <p>
@@ -345,7 +345,7 @@ math/gmp port will solve this problem.
 
 <ul>
   <li><a
-    href="dist/6.12.1/benl/ghc-6.12.1-sparc-sun-solaris2-fixed.tar.bz2">ghc-6.12.1-sparc-sun-solaris2-fixed.tar.bz2</a></li>
+    href="$downloads_url$/benl/ghc-6.12.1-sparc-sun-solaris2-fixed.tar.bz2">ghc-6.12.1-sparc-sun-solaris2-fixed.tar.bz2</a></li>
 </ul>
 
 <p>
@@ -378,7 +378,7 @@ math/gmp port will solve this problem.
 
 <ul>
   <li><a
-    href="dist/6.10.4/maeder/ghc-6.10.4-i386-unknown-solaris2.tar.bz2">ghc-6.10.4-i386-unknown-solaris2.tar.bz2</a></li>
+    href="$downloads_url$/maeder/ghc-6.10.4-i386-unknown-solaris2.tar.bz2">ghc-6.10.4-i386-unknown-solaris2.tar.bz2</a></li>
 </ul>
 
 <p>
@@ -398,9 +398,9 @@ math/gmp port will solve this problem.
 <!--
 <p>If just want the files, you have the choice of:</p>
 <ul>
-<li>a .zip bundle: <a href="dist/6.8.3/ghc-6-8-3.zip">ghc-6-8-3.zip</a>(~72 MB)</li>
-<li>a tarball: <a href="dist/6.8.3/ghc-6.8.3-i386-unknown-mingw32.tar.bz2">ghc-6.8.3-i386-unknown-mingw32.tar.bz2</a> (~54 MB)</li>
-<li> a 7-zip bundle <a href="dist/6.8.3/ghc-6-8-3.7z">ghc-6-8-3.7z</a> (~39 MB)</li>
+<li>a .zip bundle: <a href="$downloads_url$/ghc-6-8-3.zip">ghc-6-8-3.zip</a>(~72 MB)</li>
+<li>a tarball: <a href="$downloads_url$/ghc-6.8.3-i386-unknown-mingw32.tar.bz2">ghc-6.8.3-i386-unknown-mingw32.tar.bz2</a> (~54 MB)</li>
+<li> a 7-zip bundle <a href="$downloads_url$/ghc-6-8-3.7z">ghc-6-8-3.7z</a> (~39 MB)</li>
 </ul>
 
 <hr />
@@ -409,7 +409,7 @@ math/gmp port will solve this problem.
 <p>
 
 <ul>
-  <li><a href="dist/6.12.1/lee/OPTSFWghc-6.12.1.i386.pkg.gz">OPTSFWghc-6.12.1.i386.pkg.gz</a></li>
+  <li><a href="$downloads_url$/lee/OPTSFWghc-6.12.1.i386.pkg.gz">OPTSFWghc-6.12.1.i386.pkg.gz</a></li>
 </ul>
 
 <p>
@@ -434,7 +434,7 @@ work under Windows Vista.
 
 <ul>
 <li><a
-href="dist/6.4.2/ghc-6.4.2-i386-unknown-openbsd.tar.bz2">ghc-6.4.2-i386-unknown-openbsd.tar.bz2</a>
+href="$downloads_url$/ghc-6.4.2-i386-unknown-openbsd.tar.bz2">ghc-6.4.2-i386-unknown-openbsd.tar.bz2</a>
 	(21MB)</li>
       </ul>
 
@@ -452,7 +452,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></p>.
 </p>
 
 <ul>
-    <li><a href="dist/6.10.4/maeder/ghc-6.10.4-powerpc-apple-darwin.tar.bz2">ghc-6.10.4-powerpc-apple-darwin.tar.bz2</a>
+    <li><a href="$downloads_url$/maeder/ghc-6.10.4-powerpc-apple-darwin.tar.bz2">ghc-6.10.4-powerpc-apple-darwin.tar.bz2</a>
     </li>
 </ul>
 
@@ -466,7 +466,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></p>.
 
 <!--
 <ul>
-    <li><a href="dist/6.10.1/witten/ghc-6.10.1-powerpc-apple-darwin.tar.bz2">ghc-6.10.1-powerpc-apple-darwin.tar.bz2</a>
+    <li><a href="$downloads_url$/witten/ghc-6.10.1-powerpc-apple-darwin.tar.bz2">ghc-6.10.1-powerpc-apple-darwin.tar.bz2</a>
     </li>
 </ul>
 
@@ -478,7 +478,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></p>.
 
 <!--
 <ul>
-    <li><a href="dist/6.8.1/scsibug/ghc-6.8.1-powerpc-apple-darwin.tar.bz2">ghc-6.8.1-powerpc-apple-darwin.tar.bz2</a>
+    <li><a href="$downloads_url$/scsibug/ghc-6.8.1-powerpc-apple-darwin.tar.bz2">ghc-6.8.1-powerpc-apple-darwin.tar.bz2</a>
     </li>
 </ul>
 
@@ -494,7 +494,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></p>.
 <h3><a name="powerpcaix"></a>AIX 5.1L (PowerPC)</h3>
 
 <ul>
-  <li><a href="dist/6.8.3/tang/ghc-6.8.3-powerpc-ibm-aix.tar.bz2">ghc-6.8.3-powerpc-ibm-aix.tar.bz2</a></li>
+  <li><a href="$downloads_url$/tang/ghc-6.8.3-powerpc-ibm-aix.tar.bz2">ghc-6.8.3-powerpc-ibm-aix.tar.bz2</a></li>
 </ul>
 
 <p>
@@ -510,7 +510,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a></p>.
 
 <ul>
   <li><a
-  href="dist/6.4.2/ghc-6.4.2-mips64-sgi-irix.tar.bz2">ghc-6.4.2-mips64-sgi-irix.tar.bz2</a></li>
+  href="$downloads_url$/ghc-6.4.2-mips64-sgi-irix.tar.bz2">ghc-6.4.2-mips64-sgi-irix.tar.bz2</a></li>
 </ul>
 
 <p>This is an unregisterised build, with profiling libs, but no
@@ -534,7 +534,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a>.
 
 <ul>
   <li><a
-  href="dist/6.4.2/ghc-6.4.2-ia64-unknown-linux.tar.bz2">ghc-6.4.2-ia64-unknown-linux.tar.bz2</a></li>
+  href="$downloads_url$/ghc-6.4.2-ia64-unknown-linux.tar.bz2">ghc-6.4.2-ia64-unknown-linux.tar.bz2</a></li>
 </ul>
 
 <p>This is a full build, with profiling libs and GHCi, but no docs.  The
@@ -551,14 +551,14 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a>.</p>
 
 <ul>
   <li>
-    <a href="dist/6.12.2/ghc-6.12.2-src.tar.bz2">ghc-6.12.2-src.tar.bz2</a>
+    <a href="$downloads_url$/ghc-6.12.2-src.tar.bz2">ghc-6.12.2-src.tar.bz2</a>
     (33 MB). This provides the compiler and a minimal set of libraries.
     For more information on building, see the
     <a href="http://hackage.haskell.org/trac/ghc/wiki/Building">building guide</a>.
   </li>
   <li>
     <a
-    href="dist/6.12.2/testsuite-6.12.2.tar.bz2">testsuite-6.12.2.tar.bz2</a>
+    href="$downloads_url$/testsuite-6.12.2.tar.bz2">testsuite-6.12.2.tar.bz2</a>
     (2.5 MB). If you unpack this tarball on top of the above then you
     will be able to run the testsuite.
   </li>

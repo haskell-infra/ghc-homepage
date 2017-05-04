@@ -51,9 +51,9 @@ date: 18 Februrary 1999
 <h3>Distributions</h3>
 
 <ul>
-  <li><a HREF="dist/4.02/ghc-4.02-src.tar.gz">Source
+  <li><a href="$downloads_url$/ghc-4.02-src.tar.gz">Source
     Distribution</a></li>
-  <li><a href="dist/4.02/ghc-4.02-x86-hc.tar.gz">HC files</a> (for booting from source without
+  <li><a href="$downloads_url$/ghc-4.02-x86-hc.tar.gz">HC files</a> (for booting from source without
     GHC installed on x86 boxes)</li>
   <li><a href="ftp://greyarea.is.tsukuba.ac.jp/pub/jibunmaki/src/ghc-4.02-4.src.rpm">Source</a>
     and <a href="ftp://greyarea.is.tsukuba.ac.jp/pub/jibunmaki/i386/ghc-4.02-4.i386.rpm">Binary</a>
@@ -61,12 +61,12 @@ date: 18 Februrary 1999
     Chakravarty</a>)</li>
   <li><a href="http://www.dcs.gla.ac.uk/~sof/ghc-win32.html">Windows 9x/NT</a></li>
   <li><a
-    HREF="dist/4.02/ghc-4.02-i386-unknown-linux.tar.gz">i386-unknown-linux</a>
+    href="$downloads_url$/ghc-4.02-i386-unknown-linux.tar.gz">i386-unknown-linux</a>
     (glibc 2.0/2.1) binaries. </li>
   <li><a
-    href="dist/4.02/ghc-4.02-i386-unknown-freebsd2.tar.gz">i386-unknown-freebsd2</a>
+    href="$downloads_url$/ghc-4.02-i386-unknown-freebsd2.tar.gz">i386-unknown-freebsd2</a>
     binaries.</li>
   <li><a
-    href="dist/4.02/ghc-4.02-i386-unknown-freebsd3.tar.gz">i386-unknown-freebsd3</a>
+    href="$downloads_url$/ghc-4.02-i386-unknown-freebsd3.tar.gz">i386-unknown-freebsd3</a>
     binaries.</li>
 </ul>

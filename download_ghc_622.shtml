@@ -19,7 +19,7 @@ date: 15 October 2004
 
 <ul>
   <li>
-    <a HREF="dist/6.2.2/ghc-6.2.2-src.tar.bz2">ghc-6.2.2-src.tar.bz2</a>
+    <a href="$downloads_url$/ghc-6.2.2-src.tar.bz2">ghc-6.2.2-src.tar.bz2</a>
     (5 Mb).
   </li>
 </ul>
@@ -67,10 +67,10 @@ use a <tt>.tar.bz2</tt> binary bundle.
   <li>
     <b>RedHat Linux/x86 9.0</b>.  RPMs (may work on any system with glibc 2.3).
     <ul>
-     <li><a HREF="dist/6.2.2/RedHat9.0/ghc-6.2.2-1.i386.rpm">base RPM</a></li>
-     <li><a HREF="dist/6.2.2/RedHat9.0/ghc-prof-6.2.2-1.i386.rpm">profiling libraries RPM</a></li>
-     <li><a href="dist/6.2.2/RedHat9.0/ghc-doc-6.2.2-1.i386.rpm">documentation RPM</a></li>
-     <li><a HREF="dist/6.2.2/RedHat9.0/ghc-6.2.2-1.src.rpm">src RPM</a></li>
+     <li><a href="$downloads_url$/RedHat9.0/ghc-6.2.2-1.i386.rpm">base RPM</a></li>
+     <li><a href="$downloads_url$/RedHat9.0/ghc-prof-6.2.2-1.i386.rpm">profiling libraries RPM</a></li>
+     <li><a href="$downloads_url$/RedHat9.0/ghc-doc-6.2.2-1.i386.rpm">documentation RPM</a></li>
+     <li><a href="$downloads_url$/RedHat9.0/ghc-6.2.2-1.src.rpm">src RPM</a></li>
      </ul>
   </li>
 
@@ -81,10 +81,10 @@ use a <tt>.tar.bz2</tt> binary bundle.
     7.3) from <a
     HREF="mailto:chak@cse.unsw.edu.au">Manuel Chakravarty</a>:
     <ul>
-     <li><a HREF="dist/6.2.2/RedHat8.0/ghc-6.2.2-1.src.rpm">source RPM</a></li>
-     <li><a HREF="dist/6.2.2/RedHat8.0/ghc-6.2.2-1.i386.rpm">base RPM</a></li>
-     <li><a HREF="dist/6.2.2/RedHat8.0/ghc-prof-6.2.2-1.i386.rpm">profiling libraries RPM</a></li>
-     <li><a href="dist/6.2.2/RedHat8.0/ghc-doc-6.2.2-1.i386.rpm">documentation RPM</a></li>
+     <li><a href="$downloads_url$/RedHat8.0/ghc-6.2.2-1.src.rpm">source RPM</a></li>
+     <li><a href="$downloads_url$/RedHat8.0/ghc-6.2.2-1.i386.rpm">base RPM</a></li>
+     <li><a href="$downloads_url$/RedHat8.0/ghc-prof-6.2.2-1.i386.rpm">profiling libraries RPM</a></li>
+     <li><a href="$downloads_url$/RedHat8.0/ghc-doc-6.2.2-1.i386.rpm">documentation RPM</a></li>
      </ul>
   </li>
 -->
@@ -95,10 +95,10 @@ use a <tt>.tar.bz2</tt> binary bundle.
     RPMs for RedHat Linux/x86 7.2 from 
     <a HREF="mailto:jlewis@galois.com">Jeff Lewis</a>: 
     <ul>
-     <li><a HREF="dist/6.2.2/RedHat7.2/ghc-6.2.2-1.src.rpm">source RPM</a></li>
-     <li><a HREF="dist/6.2.2/RedHat7.2/ghc-6.2.2-rh72-1.i386.rpm">base RPM</a></li>
-     <li><a HREF="dist/6.2.2/RedHat7.2/ghc-prof-6.2.2-rh72-1.i386.rpm">profiling libraries RPM</a></li>
-     <li><a href="dist/6.2.2/RedHat7.2/ghc-doc-6.2.2-rh72-1.i386.rpm">documentation RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.2/ghc-6.2.2-1.src.rpm">source RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.2/ghc-6.2.2-rh72-1.i386.rpm">base RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.2/ghc-prof-6.2.2-rh72-1.i386.rpm">profiling libraries RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.2/ghc-doc-6.2.2-rh72-1.i386.rpm">documentation RPM</a></li>
      </ul>
   </li>
 -->
@@ -109,9 +109,9 @@ use a <tt>.tar.bz2</tt> binary bundle.
     RPMs for SuSE Linux/x86 8.0 from 
     <a HREF="mailto:ralf@informatik.uni-bonn.de">Ralf Hinze</a>:
     <ul>
-    <li><a HREF="dist/6.2.2/SuSE/ghc-6.2.2-1.src.rpm">source RPM</a></li>
-    <li><a HREF="dist/6.2.2/SuSE/ghc-6.2.2-1.i386.rpm">base and docs RPM</a></li>
-    <li><a HREF="dist/6.2.2/SuSE/ghc-prof-6.2.2-1.i386.rpm">profiling
+    <li><a href="$downloads_url$/SuSE/ghc-6.2.2-1.src.rpm">source RPM</a></li>
+    <li><a href="$downloads_url$/SuSE/ghc-6.2.2-1.i386.rpm">base and docs RPM</a></li>
+    <li><a href="$downloads_url$/SuSE/ghc-prof-6.2.2-1.i386.rpm">profiling
     libraries RPM</a></li>
     </ul>
   </li>
@@ -130,7 +130,7 @@ use a <tt>.tar.bz2</tt> binary bundle.
     <b>Generic Linux with glibc 2.3</b> (eg. RedHat 9).
     This is a complete build, including interactive system, profiling
     libraries and documentation:
-    <a HREF="dist/6.2.2/ghc-6.2.2-i386-unknown-linux.tar.bz2">.tar.bz2</a>
+    <a href="$downloads_url$/ghc-6.2.2-i386-unknown-linux.tar.bz2">.tar.bz2</a>
     (12.7 Mb).
 
     <p>NOTE: you need the following libraries to use this
@@ -142,7 +142,7 @@ use a <tt>.tar.bz2</tt> binary bundle.
     glibc 2.3 systems.
     This is a complete build, including interactive system, profiling
     libraries and (some) documentation:
-    <a HREF="dist/6.2.2/ghc-6.2.2-i386-linux-glibc2.2.tar.bz2">.tar.bz2</a>
+    <a href="$downloads_url$/ghc-6.2.2-i386-linux-glibc2.2.tar.bz2">.tar.bz2</a>
     (14.4 Mb).
   </li>
 </ul>
@@ -155,7 +155,7 @@ generated.
 
 <ul>
   <li><a
-    HREF="dist/6.2.2/ghc-6.2.2-sparc-sun-solaris2.tar.bz2">ghc-6.2.2-sparc-sun-solaris2.tar.bz2</a> (19.5 Mb)</li>
+    href="$downloads_url$/ghc-6.2.2-sparc-sun-solaris2.tar.bz2">ghc-6.2.2-sparc-sun-solaris2.tar.bz2</a> (19.5 Mb)</li>
 </ul>
 
 <p>This is a complete build, with profiling libraries and docs.  The build was
@@ -168,7 +168,7 @@ sources from GNU and build them if you don't have them.
 
 <h3><a name="windows"></a>Windows</h3>
 <ul>
-  <li><a HREF="dist/6.2.2/ghc-6-2-2.msi">ghc-6-2-2.msi</a> (~40.9 Mb)
+  <li><a href="$downloads_url$/ghc-6-2-2.msi">ghc-6-2-2.msi</a> (~40.9 Mb)
   </li>
 </ul>
 
@@ -240,7 +240,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a>.
 
 <h3><a name="macosx"></a>MacOS X 10.3 (Panther)</h3>
     <ul>
-	<li><a href="dist/6.2.2/MacOSX/GHC.6.2.2.dmg">GHC.6.2.2.dmg</a>
+	<li><a href="$downloads_url$/MacOSX/GHC.6.2.2.dmg">GHC.6.2.2.dmg</a>
 	</li>
     </ul>
 
@@ -262,7 +262,7 @@ See <a href="http://www.haskell.org//pipermail/glasgow-haskell-users/2004-Octobe
 <h3>PowerPC/AIX 5.1L</h3>
 
 <ul>
-  <li><a href="dist/6.2.2/ghc-6.2.2-powerpc-ibm-aix-bindist.tar.gz">ghc-6.2.2-powerpc-ibm-aix-bindist.tar.gz</a></li>
+  <li><a href="$downloads_url$/ghc-6.2.2-powerpc-ibm-aix-bindist.tar.gz">ghc-6.2.2-powerpc-ibm-aix-bindist.tar.gz</a></li>
 </ul>
 
 <p>This is an unregisterised build, with no GHCi support.</p>
@@ -273,7 +273,7 @@ See <a href="http://www.haskell.org//pipermail/glasgow-haskell-users/2004-Octobe
 
 <ul>
     <li><a
-    href="dist/6.2.2/ghc-6.2.2-powerpc-unknown-linux.tar.bz2">ghc-6.2.2-powerpc-unknown-linux.tar.bz2</a></li>
+    href="$downloads_url$/ghc-6.2.2-powerpc-unknown-linux.tar.bz2">ghc-6.2.2-powerpc-unknown-linux.tar.bz2</a></li>
 </ul>
 
 <p>PowerPC/Linux support is by <a href="mailto:desrt@desrt.ca">Ryan Lortie</a>.
@@ -282,7 +282,7 @@ See <a href="http://www.haskell.org//pipermail/glasgow-haskell-users/2004-Octobe
 
 <ul>
     <li><a
-    href="dist/6.2.2/ghc-6.2.2-powerpc64-unknown-linux.tar.bz2">ghc-6.2.2-powerpc-unknown-linux.tar.bz2</a></li>
+    href="$downloads_url$/ghc-6.2.2-powerpc64-unknown-linux.tar.bz2">ghc-6.2.2-powerpc-unknown-linux.tar.bz2</a></li>
 </ul>
 
 <p>This build is unregisterised, has no GHCi support, and no NCG.
@@ -294,7 +294,7 @@ See <a href="http://www.haskell.org//pipermail/glasgow-haskell-users/2004-Octobe
 
 <ul>
   <li><a
-  href="dist/6.2.2/ghc-6.2.2-mips64-sgi-irix.tar.bz2">ghc-6.2.2-mips64-sgi-irix.tar.bz2</a></li>
+  href="$downloads_url$/ghc-6.2.2-mips64-sgi-irix.tar.bz2">ghc-6.2.2-mips64-sgi-irix.tar.bz2</a></li>
 </ul>
 
 <p>This is an unregisterised build, with profiling libs, but no
@@ -317,7 +317,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart</a>.
 
 <ul>
   <li><a
-  href="dist/6.2.2/ghc-6.2.2-ia64-unknown-linux.tar.bz2">ghc-6.2.2-ia64-unknown-linux.tar.bz2</a></li>
+  href="$downloads_url$/ghc-6.2.2-ia64-unknown-linux.tar.bz2">ghc-6.2.2-ia64-unknown-linux.tar.bz2</a></li>
 </ul>
 
 <p>This is a full build, with profiling libs and GHCi, but no docs.  The

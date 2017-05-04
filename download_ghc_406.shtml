@@ -32,11 +32,11 @@ structures library. </p>
 <h3>Distributions</h3>
 
 <ul>
-  <li><a HREF="dist/4.06/ghc-4.06-src.tar.gz">Source
+  <li><a href="$downloads_url$/ghc-4.06-src.tar.gz">Source
     Distribution</a></li>
   <li><a href="http://www.dcs.gla.ac.uk/~sof/ghc-win32.html">Windows 9x/NT</a></li>
   <li><a
-    HREF="dist/4.06/ghc-4.06-i386-unknown-linux.tar.gz">i386-unknown-linux</a>
+    href="$downloads_url$/ghc-4.06-i386-unknown-linux.tar.gz">i386-unknown-linux</a>
     (glibc 2.1) binaries. </li>
   <li>Linux <a href="ftp://ftp.cse.unsw.edu.au/pub/users/chak/jibunmaki/src/ghc-4.06-1.src.rpm">source</a>
     and <a href="ftp://ftp.cse.unsw.edu.au/pub/users/chak/jibunmaki/i386/ghc-4.06-1.i386.rpm">binary</a>
@@ -44,7 +44,7 @@ structures library. </p>
     Chakravarty</a>).</li>
     <li><a href="http://www-i2.informatik.rwth-aachen.de/Software/Haskell/"
     target="_top">Debian Linux packages</a> (courtesy of <a href="mailto:michael.weber@post.rwth-aachen.de">Michael Weber</a>).</li>
-  <li><a href="dist/4.06/ghc-4.06-sparc-sun-solaris2.tar.gz">sparc-sun-solaris2</a> binaries.</li>
+  <li><a href="$downloads_url$/ghc-4.06-sparc-sun-solaris2.tar.gz">sparc-sun-solaris2</a> binaries.</li>
 
   <li><a href = "http://www.freebsd.org/ports/lang.html#ghc-4.06"
   target="_top">FreeBSD</a> binaries.</li>
@@ -55,10 +55,10 @@ structures library. </p>
       (Try <a href="download_ghc_404.html">version 4.04</a> for now.)
       </li>
   <li><a
-  href="dist/4.06/ghc-4.06-hppa1.1-hp-hpux.tar.gz">hppa1.1-hp-hpux</a>
+  href="$downloads_url$/ghc-4.06-hppa1.1-hp-hpux.tar.gz">hppa1.1-hp-hpux</a>
   binaries.
 </li>
-  <li><a href="dist/4.06/ghc-4.06-x86-hc.tar.gz">HC files</a> (for booting from source without GHC installed on x86 boxes)</li>
+  <li><a href="$downloads_url$/ghc-4.06-x86-hc.tar.gz">HC files</a> (for booting from source without GHC installed on x86 boxes)</li>
 </ul>
 
 <!--#include file="ghc-footer.shtml"-->

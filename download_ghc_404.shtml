@@ -58,21 +58,21 @@ below have all been updated.  Patchlevel 1 includes the following changes:
 <h3>Distributions</h3>
 
 <ul>
-  <li><a HREF="dist/4.04/ghc-4.04-src.tar.gz">Source
+  <li><a href="$downloads_url$/ghc-4.04-src.tar.gz">Source
     Distribution</a></li>
   <li><a href="http://www.dcs.gla.ac.uk/~sof/ghc-win32.html">Windows 9x/NT</a></li>
   <li><a
-    HREF="dist/4.04/ghc-4.04-i386-unknown-linux.tar.gz">i386-unknown-linux</a>
+    href="$downloads_url$/ghc-4.04-i386-unknown-linux.tar.gz">i386-unknown-linux</a>
     (glibc 2.0) binaries. </li>
   <li><a
-    HREF="dist/4.04/ghc-4.04-i386-unknown-linux-glibc2.1.tar.gz">i386-unknown-linux</a>
+    href="$downloads_url$/ghc-4.04-i386-unknown-linux-glibc2.1.tar.gz">i386-unknown-linux</a>
     (glibc 2.1) binaries. </li>
   <li>Linux <a href="ftp://greyarea.is.tsukuba.ac.jp/pub/jibunmaki/src/ghc-4.04-3.src.rpm">source</a>
     and <a href="ftp://greyarea.is.tsukuba.ac.jp/pub/jibunmaki/i386/ghc-4.04-3.i386.rpm">binary</a>
     RPMs (courtesy of <a href="mailto:chak@is.tsukuba.ac.jp">Manuel Chakravarty</a>).</li>
     <li><a href="http://www-i2.informatik.rwth-aachen.de/Software/Haskell/">Debian Linux packages</a> (courtesy of <a href="mailto:michael.weber@post.rwth-aachen.de">Michael Weber</a>).</li>
-  <li><a href="dist/4.04/ghc-4.04-sparc-sun-solaris2.tar.gz">sparc-sun-solaris2</a> binaries.</li>
-  <li><a href="dist/4.04/ghc-4.04-hppa1.1-hp-hpux.tar.gz">hppa1.1-hp-hpux</a>
+  <li><a href="$downloads_url$/ghc-4.04-sparc-sun-solaris2.tar.gz">sparc-sun-solaris2</a> binaries.</li>
+  <li><a href="$downloads_url$/ghc-4.04-hppa1.1-hp-hpux.tar.gz">hppa1.1-hp-hpux</a>
     binaries.</li>
 
   <li>FreeBSD binaries are available in the form of a FreeBSD package
@@ -85,6 +85,6 @@ below have all been updated.  Patchlevel 1 includes the following changes:
       <a href="ftp://ftp.netbsd.org/pub/NetBSD/packages/pkgsrc/lang/ghc/README.html">here</a>.
       </li>
 
-  <li><a href="dist/4.04/ghc-4.04-x86-hc.tar.gz">HC files</a> (for booting from source without GHC installed on x86 boxes)</li>
-  <li><a href="dist/4.04/ghc-4.04-sparc-hc.tar.gz">HC files</a> (for booting from source without GHC installed on Sparc boxes)</li>
+  <li><a href="$downloads_url$/ghc-4.04-x86-hc.tar.gz">HC files</a> (for booting from source without GHC installed on x86 boxes)</li>
+  <li><a href="$downloads_url$/ghc-4.04-sparc-hc.tar.gz">HC files</a> (for booting from source without GHC installed on Sparc boxes)</li>
 </ul>

@@ -51,7 +51,7 @@ member of this series.
 
 <ul>
   <li>
-    <a HREF="dist/5.04.2/ghc-5.04.2-src.tar.bz2">ghc-5.04.2-src.tar.bz2</a>
+    <a href="$downloads_url$/ghc-5.04.2-src.tar.bz2">ghc-5.04.2-src.tar.bz2</a>
     (4.5 Mb).
   </li>
 </ul>
@@ -65,10 +65,10 @@ member of this series.
     7.3) from <a
     HREF="mailto:chak@cse.unsw.edu.au">Manuel Chakravarty</a>:
     <ul>
-     <li><a HREF="dist/5.04.2/RedHat8.0/ghc-5.04.2-1.src.rpm">source RPM</a></li>
-     <li><a HREF="dist/5.04.2/RedHat8.0/ghc-5.04.2-1.i386.rpm">base RPM</a></li>
-     <li><a HREF="dist/5.04.2/RedHat8.0/ghc-prof-5.04.2-1.i386.rpm">profiling libraries RPM</a></li>
-     <li><a href="dist/5.04.2/RedHat8.0/ghc-doc-5.04.2-1.i386.rpm">documentation RPM</a></li>
+     <li><a href="$downloads_url$/RedHat8.0/ghc-5.04.2-1.src.rpm">source RPM</a></li>
+     <li><a href="$downloads_url$/RedHat8.0/ghc-5.04.2-1.i386.rpm">base RPM</a></li>
+     <li><a href="$downloads_url$/RedHat8.0/ghc-prof-5.04.2-1.i386.rpm">profiling libraries RPM</a></li>
+     <li><a href="$downloads_url$/RedHat8.0/ghc-doc-5.04.2-1.i386.rpm">documentation RPM</a></li>
      </ul>
   </li>
 
@@ -77,10 +77,10 @@ member of this series.
     RPMs for RedHat Linux/x86 7.2 from 
     <a HREF="mailto:jlewis@galois.com">Jeff Lewis</a>: 
     <ul>
-     <li><a HREF="dist/5.04.2/RedHat7.2/ghc-5.04.2-1.src.rpm">source RPM</a></li>
-     <li><a HREF="dist/5.04.2/RedHat7.2/ghc-5.04.2-rh72-1.i386.rpm">base RPM</a></li>
-     <li><a HREF="dist/5.04.2/RedHat7.2/ghc-prof-5.04.2-rh72-1.i386.rpm">profiling libraries RPM</a></li>
-     <li><a href="dist/5.04.2/RedHat7.2/ghc-doc-5.04.2-rh72-1.i386.rpm">documentation RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.2/ghc-5.04.2-1.src.rpm">source RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.2/ghc-5.04.2-rh72-1.i386.rpm">base RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.2/ghc-prof-5.04.2-rh72-1.i386.rpm">profiling libraries RPM</a></li>
+     <li><a href="$downloads_url$/RedHat7.2/ghc-doc-5.04.2-rh72-1.i386.rpm">documentation RPM</a></li>
      </ul>
   </li>
 
@@ -90,9 +90,9 @@ member of this series.
     RPMs for SuSE Linux/x86 8.0 from 
     <a HREF="mailto:ralf@informatik.uni-bonn.de">Ralf Hinze</a>:
     <ul>
-    <li><a HREF="dist/5.04.2/SuSE/ghc-5.04.2-1.src.rpm">source RPM</a></li>
-    <li><a HREF="dist/5.04.2/SuSE/ghc-5.04.2-1.i386.rpm">base and docs RPM</a></li>
-    <li><a HREF="dist/5.04.2/SuSE/ghc-prof-5.04.2-1.i386.rpm">profiling
+    <li><a href="$downloads_url$/SuSE/ghc-5.04.2-1.src.rpm">source RPM</a></li>
+    <li><a href="$downloads_url$/SuSE/ghc-5.04.2-1.i386.rpm">base and docs RPM</a></li>
+    <li><a href="$downloads_url$/SuSE/ghc-prof-5.04.2-1.i386.rpm">profiling
     libraries RPM</a></li>
     </ul>
   </li>
@@ -120,7 +120,7 @@ member of this series.
     Binary tar for Linux/x86 with glibc 2.2 (a complete build,
     including interactive system, profiling libraries and
     documentation): <a
-    HREF="dist/5.04.2/ghc-5.04.2-i386-unknown-linux.tar.bz2">.tar.bz2</a>
+    href="$downloads_url$/ghc-5.04.2-i386-unknown-linux.tar.bz2">.tar.bz2</a>
     (15.9 Mb).  This build was done on a RedHat 7.2 box.
 
     <p>NOTE: you need the following libraries to use this
@@ -137,7 +137,7 @@ generated.
 
 <ul>
   <li><a
-    HREF="dist/5.04.2/ghc-5.04.2-sparc-sun-solaris2.tar.bz2">ghc-5.04.2-sparc-sun-solaris2.tar.bz2</a> (21.7 Mb)</li>
+    href="$downloads_url$/ghc-5.04.2-sparc-sun-solaris2.tar.bz2">ghc-5.04.2-sparc-sun-solaris2.tar.bz2</a> (21.7 Mb)</li>
 </ul>
 
 <p>This is a complete build, with profiling libraries and docs.
@@ -149,7 +149,7 @@ at all.
 
 <h3>Windows</h3>
 <ul>
-  <li><a HREF="dist/5.04.2/ghc-5-04-2.msi">ghc-5-04-2.msi</a> (~35 Mb)</li>
+  <li><a href="$downloads_url$/ghc-5-04-2.msi">ghc-5-04-2.msi</a> (~35 Mb)</li>
 </ul>
 
 This is a Windows Installer for Microsoft Windows 95, 98, ME, NT, 2000
@@ -190,19 +190,19 @@ is set up to use.</p>
 
 <ul>
     <li><a
-    href="dist/5.04.2/OpenBSD/ghc-5.04.2.tgz">ghc-5.04.2.tgz</a>
+    href="$downloads_url$/OpenBSD/ghc-5.04.2.tgz">ghc-5.04.2.tgz</a>
     (binary package, install with <tt>pkg_add ghc-5.04.2.tgz</tt>).</li>
 
     <li><a
-    href="dist/5.04.2/OpenBSD/ghc-5.04.2-port.tar.bz2">ghc-5.04.2-port.tar.bz2</a>
+    href="$downloads_url$/OpenBSD/ghc-5.04.2-port.tar.bz2">ghc-5.04.2-port.tar.bz2</a>
     (the port that was used to build it).</li>
 
     <li><a
-    href="dist/5.04.2/OpenBSD/ghc-doc-5.04.2.tgz">ghc-doc-5.04.2.tgz</a>
+    href="$downloads_url$/OpenBSD/ghc-doc-5.04.2.tgz">ghc-doc-5.04.2.tgz</a>
     (the documentation package, install with <tt>pkg_add ghc-doc-5.04.2</tt>).
 
     <li><a
-    href="dist/5.04.2/OpenBSD/ghc-5.04.2-i386-unknown-openbsd.tar.bz2">ghc-5.04.2-i386-unknown-openbsd.tar.bz2</a>
+    href="$downloads_url$/OpenBSD/ghc-5.04.2-i386-unknown-openbsd.tar.bz2">ghc-5.04.2-i386-unknown-openbsd.tar.bz2</a>
     (.tar.bz2 binary package, use instead of the binary package above
     if you're a non-root user or need to install somewhere other than
     /usr/local).</li>
@@ -215,7 +215,7 @@ href="mailto:dons@cse.unsw.edu.au">Don Stewart:</a>
 <h3>MacOS X 10.2 (Jaguar)</h3>
 
     <ul>
-	<li><a href="dist/5.04.2/MacOSX/GHC.5.04.2.dmg">GHC.5.04.2.dmg</a>
+	<li><a href="$downloads_url$/MacOSX/GHC.5.04.2.dmg">GHC.5.04.2.dmg</a>
 	</li>
     </ul>
 
