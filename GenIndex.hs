@@ -17,9 +17,9 @@ collectFiles root = do
                   || ".tar.xz"  `isSuffixOf` name
     toDownloadFile path
       | isTarball path = do
-        let sigPath = root </> path <.> "sig"
+        let sigPath = path <.> "sig"
 
-        sig <- doesFileExist sigPath
+        sig <- doesFileExist (root </> sigPath)
         size <- getFileSize (root </> path)
         return $ Just $ DownloadFile { filePath = path
                                      , fileSize = size
