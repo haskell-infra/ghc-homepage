@@ -9,8 +9,9 @@ import Types
 
 collectFiles :: FilePath -> IO [DownloadFile]
 collectFiles root = do
-    getRecursiveContents (const $ return False) root >>= fmap catMaybes . mapM toDownloadFile
+    getRecursiveContents (return . isHidden) root >>= fmap catMaybes . mapM toDownloadFile
   where
+    isHidden path = "." `isPrefixOf` takeFileName path
     isTarball name = ".tar.gz"  `isSuffixOf` name
                   || ".tar.bz2" `isSuffixOf` name
                   || ".tar.xz"  `isSuffixOf` name
