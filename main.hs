@@ -1,31 +1,31 @@
 {-# LANGUAGE OverloadedStrings #-}
 
+import Data.List
 import Data.Maybe
 import Data.Monoid
+import Numeric
+
+import System.Directory
+import System.FilePath
 
 import Text.Pandoc
 import Hakyll
 import Hakyll.Core.Metadata
 import Hakyll.Web.Template.Context
-import qualified Text.Blaze.Html5 as B
+import qualified Text.Blaze.Html5 as H
+import qualified Text.Blaze.Html5.Attributes as HA
+import qualified Text.Blaze.Html.Renderer.String as H
 
-data DownloadFile = DownloadFile { filePath :: FilePath
-                                 , fileSize :: Int
-                                 , fileSignature :: Maybe FilePath
-                                 }
-
-collectFiles :: FilePath -> IO [DownloadFile]
-collectFiles root = do
-    return []
+import Types
 
 main :: IO ()
 main = do
-    files <- collectFiles "."
-    let templates = [ compileTemplate  ]
-    hakyll rules
+    files <- read <$> readFile "files.index"
+    print files
+    hakyll $ rules files
 
-rules :: Rules ()
-rules = do
+rules :: [DownloadFile] -> Rules ()
+rules files = do
     match "ghc.css" $ do
         route     idRoute
         compile   copyFileCompiler
@@ -35,7 +35,7 @@ rules = do
         compile   copyFileCompiler
 
     match "download_*.shtml" $ do
-        let ctx' = titleField <> ctx
+        let ctx' = titleField <> tarballsField files <> ctx
             titleField = functionField "title" $ \_ item -> do
                 version <- fromMaybe "???" <$> getMetadataField (itemIdentifier item) "version"
                 return $ "GHC "++version++" download"
@@ -64,10 +64,36 @@ rules = do
   where
       ctx = snippetField <> defaultContext
 
-bindistContext :: [DownloadFile] -> Context a
-bindistContext files =
-    functionField "bindist"
-    $ \fields item -> do
-        ident <- getUnderlying
-        root <- fromMaybe "" <$> getMetadataField ident "bindist-root"
-        return root
+tarballsField :: [DownloadFile] -> Context a
+tarballsField files = functionField "tarballs" $ \args item -> do
+    let ident = itemIdentifier item
+        uhOh err = do
+            unsafeCompiler $ putStrLn $ "Warning: " <> show ident <> ": " <> err
+            return $ H.renderHtml $ H.toHtml err
+    root <- fromMaybe "" <$> getMetadataField ident "bindist-root"
+    filename <- case args of
+                  [filename] -> return filename
+                  _          -> uhOh "Invalid argument list for $file"
+
+    mversion <- getMetadataField ident "version"
+    case mversion of
+      Nothing -> uhOh $ "No file for " <> filename
+      Just version ->
+        let isMyFile f = (version </> "ghc-" <> version <> "-" <> filename) `isPrefixOf` filePath f
+            toFileContent f = H.li $ do
+                downloadLink (filePath f) $ H.toHtml (takeFileName $ filePath f)
+                " (" <> H.toHtml (showFFloat (Just 1) (realToFrac (fileSize f) / 1024 / 1024) "") <> " MB"
+                case fileSignature f of
+                  Just sig -> ", " >> downloadLink sig "sig"
+                  Nothing  -> mempty
+                ")"
+        in case filter isMyFile files of
+             [] -> uhOh "No files"
+             files' -> return $ H.renderHtml $ H.ul $ foldMap toFileContent files'
+
+downloadLink :: FilePath -> H.Html -> H.Html
+downloadLink path body = H.a H.! HA.href (H.stringValue $ downloadUrl path) $ body
+
+downloadUrl path = rootUrl <> "/" <> path
+
+rootUrl = "https://downloads.haskell.org/~ghc"
