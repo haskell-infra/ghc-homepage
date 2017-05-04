@@ -43,8 +43,8 @@ date: 21 May 2016
 <h2>Contents</h2>
 
 <ul>
-  <li><a href="http://downloads.haskell.org/~ghc/8.0.1/docs/html/users_guide/8.0.1-notes.html">Release Notes</a></li>
-	<li><a href="http://downloads.haskell.org/~ghc/8.0.1/docs/html/">Documentation</a></li>
+  <li><a href="$downloads_url$/docs/html/users_guide/8.0.1-notes.html">Release Notes</a></li>
+	<li><a href="$downloads_url$/docs/html/">Documentation</a></li>
   <li><a href="#distros">Distribution packages</a></li>
   <li><a href="#binaries">Binary packages</a></li>
   <li><a href="#sources">Source distribution</a></li>
@@ -83,7 +83,7 @@ date: 21 May 2016
 
     <p>
       SHA-256 hashes for all of these binary distributions are
-      available <a href="http://downloads.haskell.org/~ghc/8.0.1/SHA256SUMS">here</a>.
+      available <a href="$downloads_url$/SHA256SUMS">here</a>.
     </p>
 
     <div style="border:1px solid; background:#ffffc6; padding: 10px">
@@ -94,7 +94,9 @@ date: 21 May 2016
         <li><a href="#linux_x86_64">Linux (x86_64)</a></li>
         <li><a href="#linux_ppc64">Linux (PowerPC, 64-bit)</a></li>
         <li><a href="#linux_armv7">Linux (ARMv7)</a></li>
-        <li><a href="#windows">Windows 2000 or later (x86)</a></li>
+        <li><a href="#windows10">Windows 10 (x86)</a></li>
+        <li><a href="#windows">Windows (x86)</a></li>
+        <li><a href="#windows10-64">Windows 10 (x86_64)</a></li>
         <li><a href="#windows64">Windows 64-bit (x86_64)</a></li>
         <li><a href="#macosx_x86_64">Mac OS X (x86_64)</a></li>
         <li><a href="#freebsd_x86_64">FreeBSD (x86_64)</a></li>
@@ -120,12 +122,7 @@ date: 21 May 2016
             made on a Debian 8 "Jessie" system and requires
             <code>libgmp.so.10</code> (typically GMP 5.x).
             </p>
-            <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-deb8-linux.tar.xz">ghc-8.0.1-i386-deb8-linux.tar.xz</a>
-              (108 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-deb8-linux.tar.xz.sig">sig</a>)
-            </li></ul>
-
+            $tarballs("i386-deb8-linux")$
         </div>
 
         <div>
@@ -136,12 +133,7 @@ date: 21 May 2016
             made on a Debian 7 "Wheezy" system and requires
             <code>libgmp.so.10</code> (typically GMP 5.x).
             </p>
-            <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-deb7-linux.tar.xz">ghc-8.0.1-i386-deb7-linux.tar.xz</a>
-              (108 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-deb7-linux.tar.xz.sig">sig</a>)
-            </li></ul>
-
+            $tarballs("i386-deb7-linux")$
         </div>
 
         <div>
@@ -152,12 +144,7 @@ date: 21 May 2016
             made on a CentOS 6.7 system and requires
             <code>libgmp.so.3</code> (typically GMP 4.x).
             </p>
-            <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-centos67-linux.tar.xz">ghc-8.0.1-i386-centos67-linux.tar.xz</a>
-              (107 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-centos67-linux.tar.xz.sig">sig</a>)
-            </li></ul>
-
+            $tarballs("i386-centos67-linux")$
         </div>
 
         <p>
@@ -179,12 +166,7 @@ date: 21 May 2016
             interactive system, profiling libraries and documentation. It was
             made on a Debian 8 "Jessie" system and requires
             <code>libgmp.so.10</code> (typically GMP 5.x).
-            <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-deb8-linux.tar.xz">ghc-8.0.1-x86_64-deb8-linux.tar.xz</a>
-              (107 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-deb8-linux.tar.xz.sig">sig</a>)
-            </li></ul>
-
+            $tarballs("x86_64-deb8-linux")$
           </p>
         </div>
 
@@ -195,12 +177,7 @@ date: 21 May 2016
             interactive system, profiling libraries and documentation. It was
             made on a Debian 7 "Wheezy" system and requires
             <code>libgmp.so.10</code> (typically GMP 5.x).
-            <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-deb7-linux.tar.xz">ghc-8.0.1-x86_64-deb7-linux.tar.xz</a>
-              (108 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-deb7-linux.tar.xz.sig">sig</a>)
-            </li></ul>
-
+            $tarballs("x86_64-deb7-linux")$
           </p>
         </div>
 
@@ -211,12 +188,7 @@ date: 21 May 2016
             system, profiling libraries and documentation. It was made on a CentOS
             6.7 system and requires
             <code>libgmp.so.3</code> (typically GMP 4.x).
-            <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-centos67-linux.tar.xz">ghc-8.0.1-x86_64-centos67-linux.tar.xz</a>
-              (107 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-centos67-linux.tar.xz.sig">sig</a>)
-            </li></ul>
-
+            $tarballs("x86_64-centos67-linux")$
         </div>
 
         <p>
@@ -230,12 +202,7 @@ date: 21 May 2016
 
     <div class="section" id="linux_ppc64">
         <h3>Linux (PowerPC, 64-bit)</h3>
-        <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-powerpc64-unknown-linux.tar.xz">ghc-8.0.1-powerpc64-unknown-linux.tar.xz</a>
-              (137 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-powerpc64-unknown-linux.tar.xz.sig">sig</a>)
-            </li></ul>
-
+        $tarballs("powerpc64-unknown-linux")$
         <p>
           Note: Linux/PPC64 binary distribution supports big-endian PPC64 Linux
           hosts. The distribution was built on Fedora 20 with system provided GMP
@@ -246,12 +213,7 @@ date: 21 May 2016
 
     <div class="section" id="linux_armv7">
         <h3>Linux (ARMv7)</h3>
-        <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-armv7-deb8-linux.tar.xz">ghc-8.0.1-armv7-deb8-linux.tar.xz</a>
-              (137 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-armv7-deb8-linux.tar.xz.sig">sig</a>)
-            </li></ul>
-
+        $tarballs("armv7-deb8-linux")$
         <p>
           Generic 32-bit ARM Linux.
         </p>
@@ -266,41 +228,49 @@ date: 21 May 2016
         </p>
     </div>
 
+    <div class="section" id="windows10">
+        <h3>Windows 10 Creator's Update (x86)</h3>
+        $tarballs("i386-unknown-mingw32-win10")$
+        <p>
+          This is compatible with Microsoft Windows Vista and later, including
+          the Windows 10 Creator's Update. It also includes support for
+          compiling C++ files.
+        </p>
+    </div>
+
     <div class="section" id="windows">
         <h3>Windows (x86)</h3>
-        <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-unknown-mingw32.tar.xz">ghc-8.0.1-i386-unknown-mingw32.tar.xz</a>
-              (145 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-unknown-mingw32.tar.xz.sig">sig</a>)
-            </li></ul>
-
+        $tarballs("i386-unknown-mingw32")$
         <p>
-          This is a complete build, and should work for Microsoft Windows XP
-          or later. It also includes support for compiling C++ files.
+          This is compatible with Microsoft Windows Vista and later, excluding
+          the Windows 10 Creator's Update. It also includes support for
+          compiling C++ files.
+        </p>
+    </div>
+
+    <div class="section" id="windows10-64">
+        <h3>Windows 10 Creator's Update (x86_64)</h3>
+        $tarballs("x86_64-unknown-mingw32-win10")$
+        <p>
+          This is compatible with Microsoft Windows Vista and later, including
+          the Windows 10 Creator's Update. It also includes support for
+          compiling C++ files.
         </p>
     </div>
 
     <div class="section" id="windows64">
         <h3>Windows 64-bit (x86_64)</h3>
-        <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-unknown-mingw32.tar.xz">ghc-8.0.1-x86_64-unknown-mingw32.tar.xz</a>
-              (147 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-unknown-mingw32.tar.xz.sig">sig</a>)
-            </li></ul>
-
+        $tarballs("x86_64-unknown-mingw32")$
         <p>
-          This is a complete build. It also includes support for compiling C++ files.
+          This is compatible with Microsoft Windows Vista and later, excluding
+          the Windows 10 Creator's Update. It also includes support for
+          compiling C++ files.
         </p>
     </div>
 
     <div class="section" id="macosx_x86_64">
         <h3>Mac OS X (x86_64)</h3>
-        <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-apple-darwin.tar.xz">ghc-8.0.1-x86_64-apple-darwin.tar.xz</a>
-              (113 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-apple-darwin.tar.xz.sig">sig</a>)
-            </li></ul>
-
+        $tarballs("x86_64-apple-darwin")$
         <p>
             This is a distribution for Mac OS X, 10.7 or later. The package
             requires the command line tools package of Xcode 4 or XCode 5 to be installed.
@@ -311,40 +281,25 @@ date: 21 May 2016
 
     <div class="section" id="freebsd_x86_64">
         <h3>FreeBSD (x86_64)</h3>
-        <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-portbld-freebsd.tar.xz">ghc-8.0.1-x86_64-portbld-freebsd.tar.xz</a>
-              (106 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-portbld-freebsd.tar.xz.sig">sig</a>)
-            </li></ul>
-
+        $tarballs("x86_64-portbld-freebsd")$
         <p>
           Produced by Páli Gábor János.
-          See the <a href="http://downloads.haskell.org/~ghc/8.0.1/README.freebsd.html">FreeBSD readme</a> for details.
+          See the <a href="$downloads_url$/README.freebsd.html">FreeBSD readme</a> for details.
         </p>
     </div>
 
     <div class="section" id="freebsd_i386">
         <h3>FreeBSD (i386)</h3>
-        <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-portbld-freebsd.tar.xz">ghc-8.0.1-i386-portbld-freebsd.tar.xz</a>
-              (107 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-portbld-freebsd.tar.xz.sig">sig</a>)
-            </li></ul>
-
+        $tarballs("i386-portbld-freebsd")$
         <p>
           Produced by Páli Gábor János.
-          See the <a href="http://downloads.haskell.org/~ghc/8.0.1/README.freebsd.html">FreeBSD readme</a> for details.
+          See the <a href="$downloads_url$/README.freebsd.html">FreeBSD readme</a> for details.
         </p>
     </div>
 
     <div class="section" id="openbsd_x86_64">
         <h3>OpenBSD 5.9 (x86_64)</h3>
-        <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-unknown-openbsd5.9.tar.xz">ghc-8.0.1-x86_64-unknown-openbsd5.9.tar.xz</a>
-              (95 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-unknown-openbsd5.9.tar.xz.sig">sig</a>)
-            </li></ul>
-
+        $tarballs("x86_64-unknown-openbsd5.9")$
         <p>
           Note: OpenBSD 5.9/x86_64 binary distribution supports shared libraries
           and uses system (ports) provided GMP, ICONV and FFI libraries. If you do
@@ -356,23 +311,13 @@ date: 21 May 2016
 
     <div class="section" id="aix_ppc">
         <h3>AIX 7.1 (PowerPC)</h3>
-        <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-powerpc-ibm-aix7.1.0.0.tar.xz">ghc-8.0.1-powerpc-ibm-aix7.1.0.0.tar.xz</a>
-              (91 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-powerpc-ibm-aix7.1.0.0.tar.xz.sig">sig</a>)
-            </li></ul>
-
+        $tarballs("powerpc-ibm-aix7.1.0.0")$
         <p>Produced by Herbert Valerio Riedel.</p>
     </div>
 
     <div class="section" id="solaris_i386">
         <h3>Solaris 2.11 (i386)</h3>
-        <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-unknown-solaris2.11.tar.xz">ghc-8.0.1-i386-unknown-solaris2.11.tar.xz</a>
-              (105 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-i386-unknown-solaris2.11.tar.xz.sig">sig</a>)
-            </li></ul>
-
+        $tarballs("i386-unknown-solaris2.11")$
         <p>
           Note: Solaris 2.11/i386/x86_64/SPARC binary distribution supports shared
           libraries and uses system provided GMP library. If you do not have it
@@ -383,12 +328,7 @@ date: 21 May 2016
 
     <div class="section" id="solaris_x86_64">
         <h3>Solaris 2.11 (x86_64)</h3>
-        <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-unknown-solaris2.11.tar.xz">ghc-8.0.1-x86_64-unknown-solaris2.11.tar.xz</a>
-              (104 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-x86_64-unknown-solaris2.11.tar.xz.sig">sig</a>)
-            </li></ul>
-
+        $tarballs("x86_64-unknown-solaris2.11")$
         <p>
           Note: Solaris 2.11/i386/x86_64/SPARC binary distribution supports shared
           libraries and uses system provided GMP library. If you do not have it
@@ -399,12 +339,7 @@ date: 21 May 2016
 
     <div class="section" id="solaris_sparc">
         <h3>Solaris 2.11 (SPARC)</h3>
-        <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-sparc-sun-solaris2.11.tar.xz">ghc-8.0.1-sparc-sun-solaris2.11.tar.xz</a>
-              (148 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-sparc-sun-solaris2.11.tar.xz.sig">sig</a>)
-            </li></ul>
-
+        $tarballs("sparc-sun-solaris2.11")$
         <p>
           Note: Solaris 2.11/i386/x86_64/SPARC binary distribution supports shared
           libraries and uses system provided GMP library. If you do not have it
@@ -423,12 +358,7 @@ date: 21 May 2016
       the <a href="http://hackage.haskell.org/trac/ghc/wiki/Building">building
       guide</a>.
     </p>
-    <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-src.tar.xz">ghc-8.0.1-src.tar.xz</a>
-              (10 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-src.tar.xz.sig">sig</a>)
-            </li></ul>
-
+    $tarballs("src")$
 
     <p>
       The testsuite provides a thorough set of tests for validating your build.
@@ -437,23 +367,13 @@ date: 21 May 2016
       the <a href="https://ghc.haskell.org/trac/ghc/wiki/Building/RunningTests">testing
       guide</a> for details).
     </p>
-    <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-testsuite.tar.xz">ghc-8.0.1-testsuite.tar.xz</a>
-              (1 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-testsuite.tar.xz.sig">sig</a>)
-            </li></ul>
-
+    $tarballs("testsuite")$
 
     <p>
       Building on Windows requires a set of additional tools. Extract this tarball on
       top of the regular source distribution,
     </p>
-    <ul>
-<li>
-              <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-windows-extra-src.tar.xz">ghc-8.0.1-windows-extra-src.tar.xz</a>
-              (91 MB, <a href="http://downloads.haskell.org/~ghc/8.0.1/ghc-8.0.1-windows-extra-src.tar.xz.sig">sig</a>)
-            </li></ul>
-
+    $tarballs("windows-extra-src")$
 
     <p>
       The source distribution needs an installed GHC (version 7.8 at least). If
@@ -462,6 +382,4 @@ date: 21 May 2016
       on <a href="http://hackage.haskell.org/trac/ghc/wiki/Building/Porting">Porting
       GHC</a> in the Building Guide.
     </p>
-</div>
-
 </div>
