@@ -1,10 +1,6 @@
-<html>
-
-<head>
-<title>GHC 4.04 Mini-FAQ</title>
-</head>
-
-<body>
+---
+title: GHC 4.04 Mini-FAQ
+---
 
 <h2>GHC 4.04 Mini-FAQ</h2>
 
@@ -39,6 +35,3 @@ This page lists known problems for the 4.04 release with workarounds.
   tracing while writing to stderr will still cause a deadlock.
   </li>
 </ul>
-
-</body>
-</html>

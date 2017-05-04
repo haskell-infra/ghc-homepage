@@ -60,8 +60,3 @@ structures library. </p>
 </li>
   <li><a href="$downloads_url$/ghc-4.06-x86-hc.tar.gz">HC files</a> (for booting from source without GHC installed on x86 boxes)</li>
 </ul>
-
-<!--#include file="ghc-footer.shtml"-->
-
-</body>
-</html>

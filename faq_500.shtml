@@ -1,10 +1,6 @@
-<html>
-
-<head>
-<title>GHC 5.00.2 Mini-FAQ</title>
-</head>
-
-<body bgcolor="white">
+---
+title: GHC 5.00.2 Mini-FAQ
+---
 
 <h2>GHC 5.00.2 Mini-FAQ</h2>
 
@@ -116,5 +112,3 @@ This page lists known problems for the 5.00.2 release, with workarounds.
   but apparently shows up with g++ and gcc 3.0.
   </li>
 </ul>
-</body>
-</html>

@@ -491,5 +491,3 @@ EXTRA_CABAL_CONFIGURE_FLAGS = --extra-include-dirs=/usr/local/include \
                               --extra-lib-dirs=/usr/local/lib
 </pre>
 </div>
-
-    </div>
