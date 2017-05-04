@@ -19,13 +19,10 @@ import qualified Text.Blaze.Html.Renderer.String as H
 import Types
 
 main :: IO ()
-main = do
-    files <- read <$> readFile "files.index"
-    print files
-    hakyll $ rules files
+main = hakyll $ rules
 
-rules :: [DownloadFile] -> Rules ()
-rules files = do
+rules :: Rules ()
+rules = do
     match "ghc.css" $ do
         route     idRoute
         compile   copyFileCompiler
@@ -35,7 +32,7 @@ rules files = do
         compile   copyFileCompiler
 
     match "download_*.shtml" $ do
-        let ctx' = titleField <> tarballsField files <> ctx
+        let ctx' = titleField <> tarballsField <> downloadsUrlField <> ctx
             titleField = functionField "title" $ \_ item -> do
                 version <- fromMaybe "???" <$> getMetadataField (itemIdentifier item) "version"
                 return $ "GHC "++version++" download"
@@ -61,11 +58,20 @@ rules files = do
 
     match "templates/*" $ compile templateCompiler
     match "partials/*" $ compile getResourceString
+    match "files.index" $ compile getResourceString
   where
       ctx = snippetField <> defaultContext
 
-tarballsField :: [DownloadFile] -> Context a
-tarballsField files = functionField "tarballs" $ \args item -> do
+downloadsUrlField :: Context a
+downloadsUrlField = functionField "downloads_url" $ \_ item -> do
+    mversion <- getMetadataField (itemIdentifier item) "version"
+    case mversion of
+      Nothing -> fail $ "downloadsUrlField: No version"
+      Just version -> return $ rootUrl </> version
+
+tarballsField :: Context a
+tarballsField = functionField "tarballs" $ \args item -> do
+    files <- fmap read $ loadBody "files.index" :: Compiler [DownloadFile]
     let ident = itemIdentifier item
         uhOh err = do
             unsafeCompiler $ putStrLn $ "Warning: " <> show ident <> ": " <> err
@@ -79,7 +85,7 @@ tarballsField files = functionField "tarballs" $ \args item -> do
     case mversion of
       Nothing -> uhOh $ "No file for " <> filename
       Just version ->
-        let isMyFile f = (version </> "ghc-" <> version <> "-" <> filename) `isPrefixOf` filePath f
+        let isMyFile f = (version </> "ghc-" <> version <> "-" <> filename <> ".") `isPrefixOf` filePath f
             toFileContent f = H.li $ do
                 downloadLink (filePath f) $ H.toHtml (takeFileName $ filePath f)
                 " (" <> H.toHtml (showFFloat (Just 1) (realToFrac (fileSize f) / 1024 / 1024) "") <> " MB"
@@ -88,7 +94,7 @@ tarballsField files = functionField "tarballs" $ \args item -> do
                   Nothing  -> mempty
                 ")"
         in case filter isMyFile files of
-             [] -> uhOh "No files"
+             [] -> uhOh $ "No files for " <> filename
              files' -> return $ H.renderHtml $ H.ul $ foldMap toFileContent files'
 
 downloadLink :: FilePath -> H.Html -> H.Html
