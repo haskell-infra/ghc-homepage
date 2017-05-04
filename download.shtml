@@ -16,14 +16,14 @@ title: Download
 
 <ul>
     <li>
-        <a href="distribution_packages.html.html">Distribution packages</a>
+        <a href="distribution_packages.html">Distribution packages</a>
     </li>
 </ul>
 
 <h1>Current Stable Release (8.0.2)</h2>
 
 <ul>
-    <li><a href="download_ghc_8_0_2">8.0.2</a></li>
+    <li><a href="download_ghc_8_0_2.html">8.0.2</a></li>
 </ul>
 
 <h1><a name="snapshots">Development snapshots</a></h1>
@@ -88,55 +88,55 @@ going here.</a>
 
 <div class="body">
     <ul>
-        <li><a href="download_ghc_8_0_1">8.0.1</a></li>
-        <li><a href="download_ghc_7_10_3">7.10.3</a></li>
-        <li><a href="download_ghc_7_10_2">7.10.2</a></li>
-        <li><a href="download_ghc_7_10_1">7.10.1</a></li>
-        <li><a href="download_ghc_7_8_4">7.8.4</a></li>
-        <li><a href="download_ghc_7_8_3">7.8.3</a></li>
-        <li><a href="download_ghc_7_8_2">7.8.2</a></li>
-        <li><a href="download_ghc_7_8_1">7.8.1</a></li>
-        <li><a href="download_ghc_7_6_3">7.6.3</a></li>
-        <li><a href="download_ghc_7_6_2">7.6.2</a></li>
-        <li><a href="download_ghc_7_6_1">7.6.1</a></li>
-        <li><a href="download_ghc_7_4_2">7.4.2</a></li>
-        <li><a href="download_ghc_7_4_1">7.4.1</a></li>
-        <li><a href="download_ghc_7_2_2">7.2.2</a></li>
-        <li><a href="download_ghc_7_2_1">7.2.1</a></li>
-        <li><a href="download_ghc_7_0_4">7.0.4</a></li>
-        <li><a href="download_ghc_7_0_3">7.0.3</a></li>
-        <li><a href="download_ghc_7_0_2">7.0.2</a></li>
-        <li><a href="download_ghc_7_0_1">7.0.1</a></li>
-        <li><a href="download_ghc_6_12_3">6.12.3</a></li>
-        <li><a href="download_ghc_6_12_2">6.12.2</a></li>
-        <li><a href="download_ghc_6_12_1">6.12.1</a></li>
-        <li><a href="download_ghc_6_10_4">6.10.4</a></li>
-        <li><a href="download_ghc_6_10_3">6.10.3</a></li>
-        <li><a href="download_ghc_6_10_2">6.10.2</a></li>
-        <li><a href="download_ghc_6_10_1">6.10.1</a></li>
-        <li><a href="download_ghc_683">6.8.3</a></li>
-        <li><a href="download_ghc_682">6.8.2</a></li>
-        <li><a href="download_ghc_681">6.8.1</a></li>
-        <li><a href="download_ghc_661">6.6.1</a></li>
-        <li><a href="download_ghc_66">6.6</a></li>
-        <li><a href="download_ghc_642">6.4.2</a></li>
-        <li><a href="download_ghc_641">6.4.1</a></li>
-        <li><a href="download_ghc_64">6.4</a></li>
-        <li><a href="download_ghc_622">6.2.2</a></li>
-        <li><a href="download_ghc_621">6.2.1</a></li>
-        <li><a href="download_ghc_62">6.2</a></li>
-        <li><a href="download_ghc_601">6.0.1</a></li>
-        <li><a href="download_ghc_600">6.0</a></li>
-        <li><a href="download_ghc_5043">5.04.3</a></li>
-        <li><a href="download_ghc_5042">5.04.2</a></li>
-        <li><a href="download_ghc_5041">5.04.1</a></li>
-        <li><a href="download_ghc_504">5.04</a></li>
-        <li><a href="download_ghc_502">5.02.x</a></li>
-        <li><a href="download_ghc_500">5.00.x</a></li>
-        <li><a href="download_ghc_408">4.08.x</a></li>
-        <li><a href="download_ghc_406">4.06</a></li>
-        <li><a href="download_ghc_302">3.02</a></li>
-        <li><a href="download_ghc_210">2.10</a></li>
-        <li><a href="download_ghc_029">0.29</a></li>
+        <li><a href="download_ghc_8_0_1.html">8.0.1</a></li>
+        <li><a href="download_ghc_7_10_3.html">7.10.3</a></li>
+        <li><a href="download_ghc_7_10_2.html">7.10.2</a></li>
+        <li><a href="download_ghc_7_10_1.html">7.10.1</a></li>
+        <li><a href="download_ghc_7_8_4.html">7.8.4</a></li>
+        <li><a href="download_ghc_7_8_3.html">7.8.3</a></li>
+        <li><a href="download_ghc_7_8_2.html">7.8.2</a></li>
+        <li><a href="download_ghc_7_8_1.html">7.8.1</a></li>
+        <li><a href="download_ghc_7_6_3.html">7.6.3</a></li>
+        <li><a href="download_ghc_7_6_2.html">7.6.2</a></li>
+        <li><a href="download_ghc_7_6_1.html">7.6.1</a></li>
+        <li><a href="download_ghc_7_4_2.html">7.4.2</a></li>
+        <li><a href="download_ghc_7_4_1.html">7.4.1</a></li>
+        <li><a href="download_ghc_7_2_2.html">7.2.2</a></li>
+        <li><a href="download_ghc_7_2_1.html">7.2.1</a></li>
+        <li><a href="download_ghc_7_0_4.html">7.0.4</a></li>
+        <li><a href="download_ghc_7_0_3.html">7.0.3</a></li>
+        <li><a href="download_ghc_7_0_2.html">7.0.2</a></li>
+        <li><a href="download_ghc_7_0_1.html">7.0.1</a></li>
+        <li><a href="download_ghc_6_12_3.html">6.12.3</a></li>
+        <li><a href="download_ghc_6_12_2.html">6.12.2</a></li>
+        <li><a href="download_ghc_6_12_1.html">6.12.1</a></li>
+        <li><a href="download_ghc_6_10_4.html">6.10.4</a></li>
+        <li><a href="download_ghc_6_10_3.html">6.10.3</a></li>
+        <li><a href="download_ghc_6_10_2.html">6.10.2</a></li>
+        <li><a href="download_ghc_6_10_1.html">6.10.1</a></li>
+        <li><a href="download_ghc_683.html">6.8.3</a></li>
+        <li><a href="download_ghc_682.html">6.8.2</a></li>
+        <li><a href="download_ghc_681.html">6.8.1</a></li>
+        <li><a href="download_ghc_661.html">6.6.1</a></li>
+        <li><a href="download_ghc_66.html">6.6</a></li>
+        <li><a href="download_ghc_642.html">6.4.2</a></li>
+        <li><a href="download_ghc_641.html">6.4.1</a></li>
+        <li><a href="download_ghc_64.html">6.4</a></li>
+        <li><a href="download_ghc_622.html">6.2.2</a></li>
+        <li><a href="download_ghc_621.html">6.2.1</a></li>
+        <li><a href="download_ghc_62.html">6.2</a></li>
+        <li><a href="download_ghc_601.html">6.0.1</a></li>
+        <li><a href="download_ghc_600.html">6.0</a></li>
+        <li><a href="download_ghc_5043.html">5.04.3</a></li>
+        <li><a href="download_ghc_5042.html">5.04.2</a></li>
+        <li><a href="download_ghc_5041.html">5.04.1</a></li>
+        <li><a href="download_ghc_504.html">5.04</a></li>
+        <li><a href="download_ghc_502.html">5.02.x</a></li>
+        <li><a href="download_ghc_500.html">5.00.x</a></li>
+        <li><a href="download_ghc_408.html">4.08.x</a></li>
+        <li><a href="download_ghc_406.html">4.06</a></li>
+        <li><a href="download_ghc_302.html">3.02</a></li>
+        <li><a href="download_ghc_210.html">2.10</a></li>
+        <li><a href="download_ghc_029.html">0.29</a></li>
     </ul>
 </div>

@@ -177,7 +177,7 @@ use a <tt>.tar.bz2</tt> binary bundle.</p>
 <p>NOTE: You need the libreadline.so.4 and libncurses.so.5 libraries
 to use the distributions above. Newer Linux distributions come with
 libreadline.so.5 only (e.g.  SuSE 9.2), so we have provided a
-<a href="dist/6.4/readline-compat-4.3-307.i586.rpm ">readline4 compatiblity RPM</a>
+<a href="dist/6.4/readline-compat-4.3-307.i586.rpm">readline4 compatiblity RPM</a>
 for this case.</p>
 
 <h3><a name="x86_64linux"></a>Linux (x86_64)</h3>

@@ -9,7 +9,7 @@ date: 14 September 1999
 href="docs/4.04/ANNOUNCE">announcement</a>), for which a source distribution and selected
 binary distributions are available.&nbsp; </font></p>
 
-<p><font face="Arial">GHC 4.04 now has a BSD-style <a href="license">license</a>.</font></p>
+<p><font face="Arial">GHC 4.04 now has a BSD-style <a href="license.html">license</a>.</font></p>
 
 <p><font face="Arial">We rewrote large chunks of the compiler and the
 whole runtime system for GHC 4.xx, improving the overall architecture
@@ -48,7 +48,7 @@ below have all been updated.  Patchlevel 1 includes the following changes:
 <ul>
   <li><font face="Arial"><a href="docs/4.04/users_guide/users_guide-1.html#ss1.4">Release
     Notes</a> </font></li>
-  <li><font face="Arial"><a href="faq_404">Mini-FAQ (Known Bugs)</a></font></li>
+  <li><font face="Arial"><a href="faq_404.html">Mini-FAQ (Known Bugs)</a></font></li>
   <li><font face="Arial"><a href="docs/4.04/installation_guide/installing.html">Installation
     Guide</a> </font></li>
   <li><a href="docs/4.04/users_guide/users_guide.html"><font face="Arial">User Manual</font></a></li>

@@ -27,6 +27,14 @@ rules = do
         route     idRoute
         compile   copyFileCompiler
 
+    match "a33.gif" $ do
+        route     idRoute
+        compile   copyFileCompiler
+
+    match "a41.gif" $ do
+        route     idRoute
+        compile   copyFileCompiler
+
     match "images/*" $ do
         route     idRoute
         compile   copyFileCompiler

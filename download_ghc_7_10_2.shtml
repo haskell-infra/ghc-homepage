@@ -28,8 +28,8 @@ date: 29 July 2015
 <h2>Contents</h2>
 
 <ul>
-	<li><a href="{{download_url}}/docs/html/users_guide/release-7-10-2.html">Release Notes</a></li>
-	<li><a href="{{download_url}}/docs/html/">Documentation</a></li>
+	<li><a href="$downloads_url$/docs/html/users_guide/release-7-10-2.html">Release Notes</a></li>
+	<li><a href="$downloads_url$/docs/html/">Documentation</a></li>
   <li><a href="#distros">Distribution packages</a></li>
   <li><a href="#binaries">Binary packages</a></li>
   <li><a href="#sources">Source distribution</a></li>
@@ -63,7 +63,7 @@ date: 29 July 2015
     need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 
     <p>SHA-256 hashes for all of these binary distributions are
-    available <a href="{{download_url}}/SHA256SUMS">here</a>.</p>
+    available <a href="$downloads_url$/SHA256SUMS">here</a>.</p>
 
     <div style="border:1px solid; background:#ffffc6; padding: 10px">
         <p>Supported platforms:</p>
@@ -224,7 +224,7 @@ date: 29 July 2015
         $tarballs("i386-portbld-freebsd")$
         <p>
         Note: These are not the same as the <code>lang/ghc</code> port. See the
-        <a href="{{download_url}}/README.freebsd.html">README</a> for more information.
+        <a href="$downloads_url$/README.freebsd.html">README</a> for more information.
         </p>
     </div>
 
@@ -239,7 +239,7 @@ date: 29 July 2015
         $tarballs("x86_64-portbld-freebsd")$
         <p>
         Note: These are not the same as the <code>lang/ghc</code> port. See the
-        <a href="{{download_url}}/README.freebsd.html">README</a> for more
+        <a href="$downloads_url$/README.freebsd.html">README</a> for more
         information.
         </p>
     </div>

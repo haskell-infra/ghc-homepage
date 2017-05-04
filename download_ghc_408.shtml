@@ -19,7 +19,7 @@ Much expansion, reorganisation, optimisation and bug fixing has gone on in
 <ul>
   <li><a href="docs/4.08.2/set/release-4-08.html">Release
     Notes</a> </li>
-  <li><a href="faq_408">Mini-FAQ (Known Bugs)</a></li>
+  <li><a href="faq_408.html">Mini-FAQ (Known Bugs)</a></li>
   <li><a href="docs/4.08.2/building/building-guide.html">Building
     Guide</a> </li>
   <li><a href="docs/4.08.2/set/book-users-guide.html">User Manual</a></li>
@@ -69,7 +69,7 @@ quite happily.</strong>
   <li>NetBSD/x86 users will also be able to get GHC as a package (lang/ghc-4.08),
       from your local NetBSD mirror site.  The port template source is
       <a target="_top" href="ftp://ftp.netbsd.org/pub/NetBSD/packages/pkgsrc/lang/ghc">here</a>.
-      (Try <a href="download_ghc_404">version 4.04</a> for now.)
+      (Try <a href="download_ghc_404.html">version 4.04</a> for now.)
       </li>
   <li><a href="dist/4.08.1/ghc-4.08.1-hppa1.1-hp-hpux.tar.gz">hppa1.1-hp-hpux</a>
     binaries.

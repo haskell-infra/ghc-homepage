@@ -174,7 +174,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
     including interactive system, profiling libraries and documentation.
     <em>Note:</em> You need the libreadline.so.4 and libncurses.so.5 libraries
     to use this. Newer Linux distributions come with libreadline.so.5 only (e.g.
-    SuSE 9.2), so we have provided a <a href="dist/6.4/readline-compat-4.3-307.i586.rpm ">readline4 compatiblity RPM</a>
+    SuSE 9.2), so we have provided a <a href="dist/6.4/readline-compat-4.3-307.i586.rpm">readline4 compatiblity RPM</a>
     for this case.
     <ul>
       <li><a href="dist/6.8.1/ghc-6.8.1-i386-unknown-linux.tar.bz2">.tar.bz2</a> (47 MB)</li>
