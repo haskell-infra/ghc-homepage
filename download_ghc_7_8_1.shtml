@@ -44,8 +44,7 @@ date: 9 April 2014
 
 <ul>
   <li><a href="docs/7.8.1/html/users_guide/release-7-8-1.html">Release Notes (vs. 7.6.3)</a></li>
-  <li><a
-        href="docs/7.8.1/html/">Documentation</a></li>
+  <li><a href="docs/7.8.1/html/">Documentation</a></li>
   <li><a href="#distros">Distribution packages</a></li>
   <li><a href="#binaries">Binaries</a></li>
   <li><a href="#sources">Sources</a></li>
@@ -90,6 +89,7 @@ date: 9 April 2014
     <ul>
       <li><a href="#x86linux">Linux (x86)</a></li>
       <li><a href="#x86_64linux">Linux (x86_64)</a></li>
+      <li><a href="#windows10">Windows 10 (x86)</a></li>
       <li><a href="#windows">Windows 2000 or later (x86)</a></li>
       <li><a href="#windows64">Windows 64bit (x86_64)</a></li>
       <li><a href="#macosx_x86_64">MacOS X (x86_64)</a></li>
@@ -189,6 +189,10 @@ date: 9 April 2014
     what the minimum version required is), or use a binary package built
     for your distribution instead.
   </p>
+
+  <hr />
+  <h3><a name="windows"></a>Windows 10 (x86)</h3>
+  $tarballs("i386-unknown-mingw32-win10")$
 
   <hr />
   <h3><a name="windows"></a>Windows (x86)</h3>

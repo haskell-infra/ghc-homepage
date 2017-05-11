@@ -91,7 +91,6 @@ available <a href="$downloads_url$/SHA256SUMS">here</a>.</p>
 <li><a href="#x86_64linux">Linux (x86_64)</a></li>
 <li><a href="#windows10">Windows 10 (x86)</a></li>
 <li><a href="#windows">Windows (x86)</a></li>
-<li><a href="#windows10-64">Windows 10 (x86_64)</a></li>
 <li><a href="#windows64">Windows (x86_64)</a></li>
 <li><a href="#macosx_x86_64">MacOS X (x86_64)</a></li>
 <li><a href="#freebsd">FreeBSD (x86)</a></li>
@@ -200,6 +199,9 @@ available <a href="$downloads_url$/SHA256SUMS">here</a>.</p>
     for your distribution instead.
 </p>
 
+<hr />
+<h3><a name="windows10"></a>Windows 10 (x86)</h3>
+$tarballs("i386-unknown-mingw32-win10")$
 
 <hr />
 <h3><a name="windows"></a>Windows (x86)</h3>

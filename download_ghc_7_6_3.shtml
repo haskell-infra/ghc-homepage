@@ -90,6 +90,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 <ul>
 <li><a href="#x86linux">Linux (x86)</a></li>
 <li><a href="#x86_64linux">Linux (x86_64)</a></li>
+<li><a href="#windows10">Windows 10 (x86)</a></li>
 <li><a href="#windows">Windows 2000 or later (x86)</a></li>
 <li><a href="#windows64">Windows 64bit (x86_64)</a></li>
 <li><a href="#macosxintel">MacOS X (x86)</a></li>
@@ -166,6 +167,10 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
     what the minimum version required is), or use a binary package built
     for your distribution instead.
 </p>
+
+<hr />
+<h3><a name="windows"></a>Windows 10 (x86)</h3>
+$tarballs("i386-unknown-mingw32-win10")$
 
 <hr />
 <h3><a name="windows"></a>Windows (x86)</h3>
