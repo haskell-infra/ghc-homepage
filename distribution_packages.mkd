@@ -1,0 +1,169 @@
+---
+title: Distribution packages
+---
+
+Distribution Packages
+=====================
+
+The OS-specific packages (eg. RPMs on Linux) are generally a better bet
+than the vanilla `.tar.bz2` binary bundles, because they will check for
+dependencies and allow the package to be uninstalled at a later date.
+
+While they may lag behind the latest GHC release, we recommend using
+them anyway for the above reasons, unless you have a particular need for
+new features or bug fixes.
+
+Available Packages
+------------------
+
+Packages are available for the following systems:
+
+-   [Arch Linux](#archlinux) (i386, amd64)
+-   [Debian](#debian) (alpha, amd64, arm, hppa, i386, ia64, mips, mipsel, powerpc, s390, sparc)
+-   [Fedora](#fedora) (i386, ppc, x86\_64)
+-   [FreeBSD](#freebsd) (x86)
+-   [Gentoo](#gentoo) (alpha, amd64, hppa, ia64, ppc, ppc64, sparc, x86, x86 fbsd)
+-   [MacOS X](#macosx) (Intel, PowerPC)
+-   [NetBSD](#netbsd) (x86)
+-   [Nix/NixOS](#nixos) (amd64, x86)
+-   [OpenBSD](#openbsd) (x86)
+-   [openSUSE](#opensuse) (i586, x86\_64)
+-   [Ubuntu](#ubuntu) (amd64, i386, powerpc)
+
+------------------------------------------------------------------------
+
+### [Arch Linux]{#archlinux} (i386, amd64)
+
+GHC packages are in the Arch Linux "extra" repository.
+
+The packages are maintained by [Vesa Kaihlavirta and Don
+Stewart](mailto:arch-haskell@haskell.org). For more information on Arch
+Haskell packaging, see the [Haskell package
+guidelines](http://wiki.archlinux.org/index.php/Haskell_package_guidelines).
+
+------------------------------------------------------------------------
+
+### [Debian]{#debian} (alpha, amd64, arm, hppa, i386, ia64, mips, mipsel, powerpc, s390, sparc)
+
+All Debian platforms have ghc6 packages in the main Debian archive. Use
+`apt-get update && apt-get install ghc6 ghc6-prof ghc6-doc` to install
+them as normal; you can also get the library sources in the
+`ghc6-libsrc` package.
+
+The extralibs, as well as various other libraries, are available as
+`libghc6-library-dev`. You may also want `libghc6-library-prof` and
+`libghc6-library-doc` for the profiling libraries and documentation
+respectively, but sometimes this will be included in the main package.
+
+The packages are maintained by [Kari Pahula](mailto:kaol@debian.org).
+Debian Haskell packaging is coordinated on the [Debian Haskell mailing
+list](http://lists.debian.org/debian-haskell/).
+
+------------------------------------------------------------------------
+
+### [Fedora]{#fedora} (i386, ppc, x86\_64)
+
+[Fedora](http://fedoraproject.org/) users can install with
+`yum install ghc`.
+
+The packages are maintained by the [Fedora Haskell
+SIG](https://fedoraproject.org/wiki/SIGs/Haskell).
+
+------------------------------------------------------------------------
+
+### [FreeBSD]{#freebsd} (x86)
+
+GHC is in the FreeBSD ports tree as
+[`lang/ghc`](http://www.freshports.org/lang/ghc/).
+
+To install a binary package, try `pkg_add -r ghc` provided the package
+exists on whatever mirror site your system is set up to use.
+
+To install from source instead, make sure your copy of `/usr/ports` is
+up to date, and say `cd /usr/ports/lang/ghc && make install`.
+
+The packages are maintained by <haskell@FreeBSD.org>. For more
+information on FreeBSD Haskell packaging, see the [Haskell FreeBSD
+Effort](http://freebsd.haskell.org/).
+
+------------------------------------------------------------------------
+
+### [Gentoo]{#gentoo} (alpha, amd64, hppa, ia64, ppc, ppc64, sparc, x86, x86 fbsd)
+
+GHC is available as an ebuild. Run `emerge dev-lang/ghc` to get the
+latest version Gentoo considers stable; later versions may be available
+but [masked](http://gentoo-wiki.com/Masked).
+
+The packages are maintained by [the Gentoo Haskell
+team](http://www.gentoo.org/proj/en/prog_lang/haskell/).
+
+------------------------------------------------------------------------
+
+### [macOS]{#macosx} (amd64)
+
+For macOS we provide binary tarballs, available on
+the [download page](download.html) for each release. We recommend using these
+installers rather than using the alternatives below.
+
+GHC is also available via the [MacPorts](http://www.macports.org/) and [Homebrew](http://www.homebrew.org/) systems.
+
+------------------------------------------------------------------------
+
+### [NetBSD]{#netbsd} (x86)
+
+GHC 7.6 is in the NetBSD package tree as `lang/ghc7`. No newer releases are
+available.
+
+To install a binary package, try `pkg_add -r ghc` provided the package
+exists on whatever mirror site your system is set up to use. To install
+from source instead, make sure your copy of `/usr/pkgsrc` is up to date,
+and say `cd /usr/pkgsrc/lang/ghc && make install`.
+
+------------------------------------------------------------------------
+
+### [Nix/NixOS]{#nixos} (i386, amd64)
+
+GHC is included in `nixpkgs` as the `ghc` derivation.
+
+------------------------------------------------------------------------
+
+### [OpenBSD]{#openbsd} (i386)
+
+GHC is included in the OpenBSD ports tree as `lang/ghc`. Make sure your ports
+tree is up to date, and say `cd /usr/ports/lang/ghc && make install`.
+
+The packages are maintained by [Don
+Stewart](mailto:dons@cse.unsw.edu.au).
+
+------------------------------------------------------------------------
+
+### [openSUSE]{#opensuse} (i386, amd64)
+
+RPMs are available from
+[openSUSE](https://software.opensuse.org/package/ghc?search_term=%22ghc%22).
+
+------------------------------------------------------------------------
+
+### [Ubuntu]{#ubuntu} (amd64, i386, powerpc)
+
+Ubuntu has GHV [packages](http://packages.ubuntu.com/yakkety/ghc) in its
+*universe* repository. Enable the universe repository in Synaptics, and
+then install the `ghc`, `ghc-prof` and `ghc-doc` packages.
+
+The extralibs, as well as various other libraries, are available as
+`libghc-library-dev`. You may also want `libghc-library-prof` and
+`libghc-library-doc` for the profiling libraries and documentation
+respectively. You can also get the library sources in the `ghc-libsrc`
+package.
+
+Alternatively, you can install from the command line: use
+`apt-get update && apt-get install ghc ghc-prof ghc-doc` to install GHC.
+
+Finally, a variety of older and newer releases are available in [`hvr`'s
+PPA](https://launchpad.net/~hvr/+archive/ubuntu/ghc). This can be
+enabled with,
+
+Ubuntu generally gets its Haskell packages from [Debian](#debian). See
+also the [Ubuntu
+Haskell](https://wiki.ubuntu.com/MOTU/Teams/UncommonProgrammingLanguages/Haskell)
+page.
