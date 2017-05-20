@@ -5,13 +5,9 @@ import Data.Maybe
 import Data.Monoid
 import Numeric
 
-import System.Directory
 import System.FilePath
 
-import Text.Pandoc
 import Hakyll
-import Hakyll.Core.Metadata
-import Hakyll.Web.Template.Context
 import qualified Text.Blaze.Html5 as H
 import qualified Text.Blaze.Html5.Attributes as HA
 import qualified Text.Blaze.Html.Renderer.String as H
@@ -19,7 +15,7 @@ import qualified Text.Blaze.Html.Renderer.String as H
 import Types
 
 main :: IO ()
-main = hakyll $ rules
+main = hakyll rules
 
 rules :: Rules ()
 rules = do
