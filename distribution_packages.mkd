@@ -64,10 +64,12 @@ list](http://lists.debian.org/debian-haskell/).
 ### [Fedora]{#fedora} (i386, ppc, x86\_64)
 
 [Fedora](http://fedoraproject.org/) users can install with
-`yum install ghc`.
-
-The packages are maintained by the [Fedora Haskell
+`yum install ghc`. The packages are maintained by the [Fedora Haskell
 SIG](https://fedoraproject.org/wiki/SIGs/Haskell).
+
+Jens Petersen also maintains a set of [COPR
+packages](https://copr.fedorainfracloud.org/coprs/petersen/), which are
+typically more up-to-date than the official repository paackages.
 
 ------------------------------------------------------------------------
 
