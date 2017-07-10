@@ -294,7 +294,7 @@ need to use a <tt>.tar.bz2</tt> binary bundle.</p>
 Note: These are not the same as the lang/ghc port.  The packages require
 ports math/gmp, converters/libiconv, devel/gmake, lang/perl5.10,
 devel/autoconf262 to be already installed.  For installation, set your
-prefix by "./configure --prefix=${PREFIX}" and install the binaries by
+prefix by "./configure --prefix=$${PREFIX}" and install the binaries by
 "gmake install".  For running the testsuite you will need the
 lang/python26 port as well.
 </p>
@@ -324,7 +324,7 @@ math/gmp port will solve this problem.
 Note: These are not the same as the lang/ghc port.  The packages require
 ports math/gmp, converters/libiconv, devel/gmake, lang/perl5.10,
 devel/autoconf262 to be already installed.  For installation, set your
-prefix by "./configure --prefix=${PREFIX}" and install the binaries by
+prefix by "./configure --prefix=$${PREFIX}" and install the binaries by
 "gmake install".  For running the testsuite you will need the
 lang/python26 port as well.
 </p>

@@ -245,7 +245,7 @@ $tarballs("i386-unknown-mingw32-win10")$
 Note: These are not the same as the lang/ghc port.  The packages require
 ports math/gmp, converters/libiconv, devel/gmake, lang/perl5.12,
 devel/autoconf to be already installed.  For installation, set your
-prefix by "./configure &#45;&#45;prefix=${PREFIX}" and install the binaries by
+prefix by "./configure &#45;&#45;prefix=$${PREFIX}" and install the binaries by
 "gmake install".  For running the testsuite you will need the
 lang/python port as well.
 </p>
@@ -267,7 +267,7 @@ lang/python port as well.
 Note: These are not the same as the lang/ghc port.  The packages require
 ports math/gmp, converters/libiconv, devel/gmake, lang/perl5.12,
 devel/autoconf to be already installed.  For installation, set your
-prefix by "./configure &#45;&#45;prefix=${PREFIX}" and install the binaries by
+prefix by "./configure &#45;&#45;prefix=$${PREFIX}" and install the binaries by
 "gmake install".  For running the testsuite you will need the
 lang/python port as well.
 </p>
