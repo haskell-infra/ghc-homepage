@@ -560,7 +560,7 @@ installed with the "freeware" packages for Irix.  You also need to set
 the <tt>LD_LIBRARY_PATH</tt> variable as follows:
 
 <pre>
-   export LD_LIBRARY_PATH=/usr/freeware/lib64:$LD_LIBRARY_PATH
+   export LD_LIBRARY_PATH=/usr/freeware/lib64:$$LD_LIBRARY_PATH
 </pre>
 
 The mips64 port is contributed by <a
