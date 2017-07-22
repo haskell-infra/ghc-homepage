@@ -245,7 +245,7 @@ date: 22 July 2017
 
     <div class="section" id="openbsd_x86_64">
         <h3>OpenBSD 6.0 (x86_64)</h3>
-        $tarballs("x86_64-unknown-openbsd")$
+        $tarballs("x86_64-openbsd60-openbsd")$
         <p>
           Note: OpenBSD binary distribution supports shared libraries
           and uses system (ports) provided GMP, ICONV and FFI libraries. If you do
