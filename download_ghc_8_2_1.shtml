@@ -147,6 +147,19 @@ date: 22 July 2017
         </div>
 
         <div>
+          <h4>Debian 8 (with DWARF support)</h4>
+          <p>
+            Generic amd64 Linux with stack unwinding support and debug symbols
+            for core libraries. This is a complete build, including interactive
+            system, profiling libraries and documentation. It was made on a
+            Debian 8 "Jessie" system and requires
+            <code>libgmp.so.10</code> (typically GMP 5.x) as well
+            as <code>libdw</code>.
+          </p>
+          $tarballs("x86_64-deb8-linux-dwarf")$
+        </div>
+
+        <div>
           <h4>Debian 7</h4>
           <p>
             Generic amd64 Linux. This is a complete build, including
