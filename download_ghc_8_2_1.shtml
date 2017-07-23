@@ -86,6 +86,13 @@ date: 22 July 2017
       available <a href="$downloads_url$/SHA256SUMS">here</a>.
     </p>
 
+    <p>
+      All of these tarballs are have associated GPG signatures. Unless otherwise
+      noted the signature should be from <code>Benjamin Gamari
+      &lt;ben@well-typed.com&gt;</code> (key
+      ID <a href="http://pgp.mit.edu/pks/lookup?op=vindex&search=0x2DE04D4E97DB64AD">97DB64AD</a>).
+    </p>
+
     <div style="border:1px solid; background:#ffffc6; padding: 10px">
         <p>Supported platforms:</p>
 
