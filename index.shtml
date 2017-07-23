@@ -5,6 +5,8 @@ title: Home
 <h2>Latest News</h2>
 
 <dl>
+  <dt><strong>22 Jul 2017</strong></dt>
+  <dd>GHC 8.2.1 Released! [<a href="download_ghc_8_2_1.html">download</a>]</dd>
   <dt><strong>11 Jan 2017</strong></dt>
   <dd>GHC 8.0.2 Released! [<a href="download_ghc_8_0_2.html">download</a>]</dd>
   <dt><strong>21 May 2016</strong></dt>
