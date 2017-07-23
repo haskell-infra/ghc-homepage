@@ -69,7 +69,7 @@ date: 22 July 2017
 
     <p>
       The operating system-specific packages (e.g. RPM or <tt>.deb</tt> packages
-      on Linux) are generally a better bet than the vanilla <tt>.tar.bz2</tt>
+      on Linux) are generally a better bet than the vanilla <tt>.tar.xz</tt>
       binary bundles, because they will check for dependencies and allow the
       package to be uninstalled at a later date.
     </p>
@@ -78,7 +78,7 @@ date: 22 July 2017
       However, if you don't have permission to install binaries on your system,
       or you want to install somewhere other than the default place
       (<tt>/usr</tt> or <tt>/usr/local</tt> on a Unix system), then you'll need
-      to use a <tt>.tar.bz2</tt> binary bundle.
+      to use a <tt>.tar.xz</tt> binary bundle.
     </p>
 
     <p>
