@@ -107,7 +107,8 @@ date: 22 July 2017
         <li><a href="#freebsd_x86_64">FreeBSD (x86_64)</a></li>
         <li><a href="#freebsd_11_i386">FreeBSD 11 (x86)</a></li>
         <li><a href="#freebsd_10_i386">FreeBSD 10.3 (x86)</a></li>
-        <li><a href="#openbsd_x86_64">OpenBSD 6.0 (x86_64)</a></li>
+        <li><a href="#openbsd_61_x86_64">OpenBSD 6.1 (x86_64)</a></li>
+        <li><a href="#openbsd_60_x86_64">OpenBSD 6.0 (x86_64)</a></li>
         </ul>
     </div>
 
@@ -263,7 +264,22 @@ date: 22 July 2017
         </p>
     </div>
 
-    <div class="section" id="openbsd_x86_64">
+    <div class="section" id="openbsd_61_x86_64">
+        <h3>OpenBSD 6.1 (x86_64)</h3>
+        $tarballs("x86_64-openbsd61-openbsd")$
+        <p>
+          Note: OpenBSD binary distribution supports shared libraries
+          and uses system (ports) provided GMP, ICONV and FFI libraries. If you do
+          not have them installed you need to do this by using the <tt>pkg_add gmp
+          libiconv libffi</tt> command.
+        </p>
+        <p>
+          Note: This build was buile from a
+          slightly <a href="$downloads_url$/openbsd-ffi.patch">patched</a> source tree.
+        </p>
+    </div>
+
+    <div class="section" id="openbsd_60_x86_64">
         <h3>OpenBSD 6.0 (x86_64)</h3>
         $tarballs("x86_64-openbsd60-openbsd")$
         <p>
