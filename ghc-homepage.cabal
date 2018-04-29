@@ -11,10 +11,10 @@ cabal-version:       >=1.10
 executable ghc-homepage
   main-is:             main.hs
   other-modules:       Types
-  build-depends:       base >=4.8 && <4.10,
+  build-depends:       base >=4.8 && <4.11,
                        directory >= 1.3,
                        filepath >= 1.4,
-                       hakyll == 4.9.*,
+                       hakyll >= 4.9 && < 4.13,
                        pandoc,
                        blaze-html == 0.9.*
   default-language:    Haskell2010
@@ -22,8 +22,8 @@ executable ghc-homepage
 executable gen-index
   main-is:             GenIndex.hs
   other-modules:       Types
-  build-depends:       base >=4.8 && <4.10,
+  build-depends:       base >=4.8 && <4.11,
                        directory >= 1.3,
                        filepath >= 1.4,
-                       hakyll == 4.9.*
+                       hakyll >= 4.9 && < 4.13
   default-language:    Haskell2010
