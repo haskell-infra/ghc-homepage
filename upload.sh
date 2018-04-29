@@ -1,4 +1,6 @@
-#!/bin/bash -e
+#!/usr/bin/env bash
+
+set -e
 
 mkdir -p mnt
 sshfs webhost.haskell.org:ghc mnt
