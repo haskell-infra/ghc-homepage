@@ -77,15 +77,11 @@ title: Home
 
   </p><ul>
     <li>GHC supports the entire <b><a href="http://www.haskell.org/haskellwiki/Definition">Haskell 2010 language</a></b> plus a wide
-      variety of <b><a href="docs/latest/html/users_guide/ghc-language-features.html">extensions</a></b>.
+      variety of <b><a href="https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html">extensions</a></b>.
 
-    </li><li>GHC has particularly good support for <b><a
-                                                        href="https://downloads.haskell.org/~ghc/latest/docs/html/libraries/base/Control-Concurrent.html">concurrency</a></b>
-      and <b><a
-               href="https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/using-concurrent.html">parallelism</a></b>,
-      including support for <b><a
-                                 href="http://hackage.haskell.org/package/stm">Software
-          Transactional Memory (STM)</a></b>.
+    </li><li>GHC has particularly good support for <b><a href="https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/Control-Concurrent.html">concurrency</a></b>
+      and <b><a href="https://downloads.haskell.org/~ghc/8.4.2/docs/html/users_guide/using-concurrent.html#using-smp-parallelism">parallelism</a></b>,
+      including support for <b><a href="http://hackage.haskell.org/package/stm">Software Transactional Memory (STM)</a></b>.
 
     </li><li>GHC generates fast code, particularly for concurrent
       programs.  Take a look at GHC's performance on
@@ -93,10 +89,10 @@ title: Home
           The Computer Language Benchmarks Game</a></b>.
 
     </li><li>GHC works on
-      several <b><a href="http://hackage.haskell.org/trac/ghc/wiki/Platforms">platforms</a></b>
+      several <b><a href="https://ghc.haskell.org/trac/ghc/wiki/Platforms">platforms</a></b>
       including Windows, Mac, Linux, most
       varieties of Unix, and several different processor
-      architectures.  There are detailed <b><a href="http://hackage.haskell.org/trac/ghc/wiki/Building/Porting">instructions</a></b>
+      architectures.  There are detailed <b><a href="https://ghc.haskell.org/trac/ghc/wiki/Building/Porting">instructions</a></b>
       for porting GHC to a new platform.
 
     </li><li>GHC has extensive <b><a href="https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/using-optimisation.html">optimisation</a></b> capabilities, including
@@ -106,8 +102,7 @@ title: Home
       code or using <a href="http://llvm.org/">LLVM</a> as a
       back-end.  GHC can also generate C code as an intermediate
       target for porting to new platforms.
-      The <b><a href="https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html">interactive
-          environment</a></b> compiles Haskell to bytecode, and supports
+      The <b><a href="https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html">interactive environment</a></b> compiles Haskell to bytecode, and supports
       execution of mixed bytecode/compiled programs.
 
     </li><li><b><a href="https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/profiling.html">Profiling</a></b>
@@ -117,7 +112,7 @@ title: Home
     </li><li>GHC comes with several
       <b><a href="https://downloads.haskell.org/~ghc/latest/docs/html/libraries/index.html">libraries</a></b>,
       and thousands more are available
-      on <a href="http://hackage.haskell.org/">Hackage</a>.
+      on <a href="https://hackage.haskell.org/">Hackage</a>.
   </li></ul>
 
   <p>GHC is heavily dependent on its users and <a href="https://ghc.haskell.org/trac/ghc/wiki/TeamGHC">contributors</a>.
