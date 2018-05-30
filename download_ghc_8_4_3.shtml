@@ -139,7 +139,7 @@ date: 29 May 2018
             interactive system, profiling libraries and documentation. It was
             made on a Debian 9 "Stretch" system and requires GMP 6.0.
           </p>
-          $tarballs("x86_64-deb8-linux")$
+          $tarballs("x86_64-deb9-linux")$
         </div>
         <div>
           <h4>Debian 8</h4>
