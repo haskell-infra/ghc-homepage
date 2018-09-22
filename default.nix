@@ -12,7 +12,7 @@ let
       mkdir -p $out/bin
       substitute upload.sh $out/bin/upload.sh --replace sshfs ${sshfs}/bin/sshfs
       substitute check.sh $out/bin/check.sh --replace linkchecker ${linkchecker}/bin/linkchecker
-      chmod ugo+rx $out/bin/upload.sh
+      chmod ugo+rx $out/bin/upload.sh $out/bin/check.sh
     '';
   };
 
