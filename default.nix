@@ -16,4 +16,4 @@ let
     '';
   };
 
-in buildEnv { name = "ghc-homepage-utils"; paths = [ hs scripts sshfs ]; }
+in buildEnv { name = "ghc-homepage-utils"; paths = [ hs scripts ]; }
