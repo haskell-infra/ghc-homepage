@@ -20,10 +20,10 @@ title: Download
     </li>
 </ul>
 
-<h1>Current Stable Release (8.6.1)</h2>
+<h1>Current Stable Release</h2>
 
 <ul>
-    <li><a href="download_ghc_8_6_1.html">8.6.1</a></li>
+    <li><a href="download_ghc_8_6_3.html">8.6.2</a></li>
 </ul>
 
 <h1><a name="snapshots">Development snapshots</a></h1>
@@ -88,6 +88,8 @@ going here.</a>
 
 <div class="body">
     <ul>
+        <li><a href="download_ghc_8_6_2.html">8.6.2</a></li>
+        <li><a href="download_ghc_8_6_1.html">8.6.1</a></li>
         <li><a href="download_ghc_8_4_4.html">8.4.4</a></li>
         <li><a href="download_ghc_8_4_3.html">8.4.3</a></li>
         <li><a href="download_ghc_8_4_2.html">8.4.2</a></li>
